@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+myenv/
+
+# Environment variables
+.env
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Generated files
+ideas_summary.md
+ideas_summary.pdf
+
