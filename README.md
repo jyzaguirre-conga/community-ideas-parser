@@ -16,6 +16,9 @@ This project scrapes ideas from the Conga community website, analyzes them using
    pip install -r requirements.txt
    ```
 
+-  Install ChromeDriver compatible with your OS
+
+
 3. Create a `.env` file in the root directory of the project and add the following variables:
 
    ```
