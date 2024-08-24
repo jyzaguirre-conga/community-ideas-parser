@@ -1,0 +1,1629 @@
+[
+  {
+    "title": "Administrative Controls for Contract Profiles",
+    "author": "Joe Farrell",
+    "product": "Conga_Contracts",
+    "content": "It would be useful to be able to restrict links and fields within the links from view from a systemwide control standpoint. For example, if the work log history was desired to be hidden from view from general users, there should be an option to hide this section of the history.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expand Date Field to Date/Timestamp",
+    "author": "Suzanne Barrickman",
+    "product": "Conga_Contracts",
+    "content": "We are losing the Conga BI Tool due to the tool being decommissioned and will be losing the ability to measure how long a request takes to complete as the Tools>Reports does not provide date/timestamp details for all fields. Is it possible to update the following fields to include the timestamp:\n\u00a0\nContract Request Fields>Contract Request Processing Started OnContract Request Fields>Contract Request Completed On",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Edit Default Language on Esignature Message",
+    "author": "Emma Christensen",
+    "product": "Conga_Contracts",
+    "content": "I would like to be able to change the default language listed as the \"Email Message\" in Conga eSign. I'm aware the sender can change it currently when sending but I would like to change what auto populates as \"You have been invited.....\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Sending a Message for a Workflow Step",
+    "author": "Kirsty Montgomery",
+    "product": "Conga_Contracts",
+    "content": "Currently, only a workflow owner can send messages from a communication step in a workflow. Our team works so that anyone can pick up a workflow step and send it on. We'd started building in communication steps into our workflows but have discovered that our team is not able to do this unless they are the workflow owner. We can change the workflow owner each time, but this is a nuisance when you are dealing with multiple agreements.\n\u00a0\nWhat would make a huge difference to how we work is if a message from a communication workflow step could be sent by anyone who has the correct access in the system.\n\u00a0\nRegards, Kirsty",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change CongaSign stamp on documents in Conga Contracts",
+    "author": "Christiane Bourgoine",
+    "product": "Conga_Contracts",
+    "content": "It would be very helpful if we could have the date and time next to the signature stamp instead of being only able to access the data through the \"c\" hyperlink in the signature. We have companies that require the eSignature to show date and time on the stamp.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Christiane, thank you for submitting this idea! We will be taking it on for future consideration. It should also be noted that this feature is available with our Sign for Web offering as an alternative."
+      }
+    ]
+  },
+  {
+    "title": "Dark Mode",
+    "author": "Andrea Corbett",
+    "product": "Conga_Contracts",
+    "content": "Hello! We are adding the idea of a \"Dark Mode\" option for Conga Contracts. This would be a helpful option to reduce eye strain in low light. Thank you!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Bulk Data Upload - Company People",
+    "author": "Kirsty Montgomery",
+    "product": "Conga_Contracts",
+    "content": "It would be great to be able to do a bulk upload of people within a company profile - this would be so useful when setting up a new large company, or multiple companies.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Geoblocking Cpability",
+    "author": "Christine Hawkins",
+    "product": "Conga_Contracts",
+    "content": "Would like to suggest having Geoblocking capability with in the system. Thanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent sending of documents for signing if no signature tag in document",
+    "author": "Vinod Nair",
+    "product": "Conga_Contracts",
+    "content": "Can we alert or stop users from sending documents with Conga sign if there are no signature tags present on the document.\nCurrently If document sent for signature with no tags, recipient is still able to click on Accept and document is considered fully signed without any signature on it.\n\u00a0\nThis is important for 3rd party papers for non standard documents.\n\u00a0\nReference: Cepheid's Conga Contract implementation (jira story CLM-380)",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Vinod - we will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Please add Manager, org-chart department and department fields to API",
+    "author": "Aruna Madabhushi",
+    "product": "Conga_Contracts",
+    "content": "We recently implemented Conga and I am surprised that we cannot update manager, department and org-chart department data on the user profiles using APIs . Our approval workflows are driven by that data and it is important to keep that data current.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability To Disable the 'Copy Request' Feature",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Company: Horizon Therapeutics USA, Inc.\nContact: Brian Strohman, bstrohman@horizontherapeutics.com\n\u00a0\nEnhancement Request: Ability to disable the 'Copy Request' feature.\n\u00a0\nCustomer's Comment:\nWe also would like to prevent these users from copying a prior request to resubmit. We have tried to remove the role and function that was created for users to submit requests but this still allows the users to copy prior requests and submit.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need/create API endpoint to extract messaging from Conga Contracts",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Enhancement Request:\nUSANA Health Sciences requesting for API endpoint to extract messaging from Conga Contracts.\n\u00a0\nContact Information:\nAccount: USANA Health Sciences\nContact: Jonathan Morrison, jonathan.morrison@usanainc.com, 385-302-9564",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Default Screen/persistent memory for Document packages screen",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "In the toolbar Documents>Document Packages, the screen defaults to 'Current' but I've gotten requests for having a persistent memory/defaulting to the 'Submitted' tab so that the users can immediately see the eSignature packages that they are a part of, rather than seeing all the packages under the 'Current' tab.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Default Screen/persistent memory for Document packages screen",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "In the toolbar Documents>Document Packages, the screen defaults to 'Current' but I've gotten requests for having a persistent memory/defaulting to the 'Submitted' tab so that the users can immediately see the eSignature packages that they are a part of, rather than seeing all the packages under the 'Current' tab.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Menu Link to Legal Entities",
+    "author": "Noah Kaplan",
+    "product": "Conga_Contracts",
+    "content": "Currently any companies that are designated as \"Legal Entities\" just sit in the same list of companies as all of the outside parties that have added to the system. There should be an option to go to \"Legal Entities\" via the Companies drop-down. Companies that are categorized as Legal Entities are going to be accessed more frequently and for different reasons than other company records, and it should be easier to access them quickly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change Search Behaviors for Elastic Search",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Currently, certain words will not show results when typed in partially, ex: Arcteryx. If Arctery is searched, no results will return. This can cause issues if a partial company name is known or the spelling is not known. This will enhance search accuracy if the search can be broadened to include more results within the criteria provided.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Terminate button visibility & functionality should be available at all times, next to the activate button",
+    "author": "Anika Pinnell",
+    "product": "Conga_Contracts",
+    "content": "The terminate button should be available at all times, next to the activate button. This way we not necessarily have to activate the record first, when we anyway want to terminate it.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "Need more information. Is it related to CFS particularly or some other Conga product?"
+      },
+      {
+        "commenter": "Vivek Mishra",
+        "content": "Anika Pinnell, For which product you have raised this enhancement request? Conga Contracts and Conga Contracts for Salesforce are two different products."
+      }
+    ]
+  },
+  {
+    "title": "Marking a Contract as Original",
+    "author": "Matthew Manatrizio",
+    "product": "Conga_Contracts",
+    "content": "For dealings with financial institutions, it would be helpful to have a feature that allows for marking the first copy of a fully executed contract as \"original\" and any copies/duplicates are copies.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Matthew! We will take this on for future consideration along with marking the executed document as \"final\"."
+      }
+    ]
+  },
+  {
+    "title": "Email Form - Allow Duplicate Contacts to be included in the Search results",
+    "author": "Bill Davis",
+    "product": "Conga_Contracts",
+    "content": "When searching from within the Conga Email form, we find 4 contacts when searching for a specific user.\nWhen searching from within the Salesforce Search box we find 6 contacts when searching for the same user, there are 2 missing, which are the ones we want to select.\n\u00a0\nIt was identified via Case #00861900\u00a0 that this was due to a filter that prevents duplicate contacts from appearing. This is preventing our users from selecting a contact to send the Conga document to. The support agent handling this case let us know that this is just how the form works and it's a data issue. \nWe have some duplicate to clean up, but why would this form hide both of the contacts and not just one of them. This is causing our users to go off-system to email documents to contacts, when they could very easily send from within the system.\n\u00a0\nI'm not sure why the search would not match the search results that are returned in a generic SF search, can we alter this search to display all contacts? There should not be a automatic filter in place that hides contacts.\nIf there is no desire to change this, then at least provide a tool tip icon that explains the filters that are in place today. We were not expecting any filtering on this email form and it's causing end-user confusion when they cannot find their contacts in this search.\n\u00a0\nCan the filter be removed?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need to ability to report off when a contract was submitted and recevied",
+    "author": "Nydia Anders",
+    "product": "Conga_Contracts",
+    "content": "Our company works with Medicaid Contracts and there are regulatory requirements that we need to meet. Of these requirements Medicaid is requested we submit reports of when a Contract was created, submitted, received, and executed. \n\u00a0\nCurrent state we are able to report off of create date and executed date but not submitted and received date (this makes us out of compliance). We are requesting an enhancement to the system to have these two items to be reportable.\u00a0\u00a0\n\u00a0\nThanks,\nNydia",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Company and Contract Profiles Description Field added in Advance Edit",
+    "author": "Kendall Matthews",
+    "product": "Conga_Contracts",
+    "content": "The Description field from the Company and Contract profiles does not appear as a value in the Data Filter drop-down menu of Advanced Edit. We would like to have this added as an ehancement.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Subfolders in Creation Templates",
+    "author": "Sophie Tiesler",
+    "product": "Conga_Contracts",
+    "content": "We use many templates across our two departments. It would be nice to be able to create folders so that each department can keep track of its own templates, rather than an extensive list.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Role Profile - Ability to Add a new Filter options for A - Agreement Type  or. B - Contract Type",
+    "author": "Mary Powers",
+    "product": "Conga_Contracts",
+    "content": "Current 'Role Profile' options only for the following options = 1. Company Groups, 2. Contract Groups, 3.\u00a0Project groups, 4. Additional Forms, 5. Document Types, 6. Clause Groups.\n\u00a0\nWe are seeking the customizable option to also include the filter options for A - Agreement Type\u00a0or. B - Contract Type to Profile Rule. We would like to have User setup to view a contract type across all our Contract Groups (Departments).",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Have a workflow triggered for any contracts renewed through the Renewal Wizard",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Currently a contract can be renewed using the Renew Contract wizard without any workflow review or notification that it was renewed.\u00a0This creates a lack on control around contract renewals and also lack of transparency for a contracts team to be aware that a contract was renewed. Having a process that cannot be controlled or receive a notification when used creates a lack of controls that a workflow would control and mitigate with proper authorization. It will prevent a contract from being renewed without proper approval to do so.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Report for Signature Packages by Creator",
+    "author": "Bhushan Borse",
+    "product": "Conga_Contracts",
+    "content": "I would like a daily report generated to each contract specialist based on who creates the package. the package status, who it is pending with for signature, when the document package is created. We are trying to run reports based on the date the package is sent so that we can follow up before they expire in the system.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Email Correspondence Tab",
+    "author": "Erin Godtfredsen",
+    "product": "Conga_Contracts",
+    "content": "Under Contract Profile, in documents, add an \"Email Correspondence\" option to the Document Type. This will be used to save emails versus adding them to Miscellaneous.\nThank you.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to view a list of archived contracts",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "The ability to view a list of archived contracts, similar to a report would allow customers to be able to see which contracts have been archived, in case there is an audit or a different situation where needing to know all the data that has passed through is relevant.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Increase the file size limitation for documents being attached to emails sent using the messenger function",
+    "author": "Carol Stewart",
+    "product": "Conga_Contracts",
+    "content": "Hi,\nWe commonly encounter difficulties with sending slightly larger files as attachments to messages sent using the messenger function in Conga Contracts as there is currently a file size restriction of 10MB on any attachments sent using the messenger function so it would be great if this could be increased. If the file size is exceeded no warning message is generated to alert the user prior to sending and the files are automatically converted in to .txt. files.\nThanks\nCarol",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Carol Stewart",
+        "content": "Hi,Can you please provide an update on this idea?ThanksCarol"
+      }
+    ]
+  },
+  {
+    "title": "Add email tracking when Send for Negotiation",
+    "author": "Justin Schmida",
+    "product": "Conga_Contracts",
+    "content": "when sending a document for negotiation / review, there should be a tracking mechanism similar to when running an email log, where you can prove that an email has left the Salesforce system, via the conga email messaging, and been delivered or received at the destination mail server.\nCurrently, doing a Send for Negotiation, then running the email log in salesforce provides no proof that the mail was sent to the recipients.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like the ability to add multi-media clips to the dashboard.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Frequently in our work, our users utilize multimedia clips such as .mpeg video files to assist with their day to day activities. It would be beneficial for our company overall if we had the ability to add multi-media clips such as videos to the dashboard for our users to view. This functionality will allow me to resolve our problem of viewing videos on third party sites by hosting them locally right on the dashboard of Conga Contracts.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like the ability to add multi-media clips to the dashboard.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Frequently in our work, our users utilize multimedia clips such as .mpeg video files to assist with their day to day activities. It would be beneficial for our company overall if we had the ability to add multi-media clips such as videos to the dashboard for our users to view. This functionality will allow me to resolve our problem of viewing videos on third party sites by hosting them locally right on the dashboard of Conga Contracts.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Users Ability to Search for Company/Document",
+    "author": "Ashley M",
+    "product": "Conga_Contracts",
+    "content": "Would like to see the ability \u00a0for users to be able to Search for a company / document, and everything related to it come up in the search. For example:\n\u00a0\nThe EntityThe companies associated.DocumentsProjectsReports",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Messaging Templates",
+    "author": "Brooke Testerman",
+    "product": "Conga_Contracts",
+    "content": "Develop the option to have specific messaging templates that can be inserted easily or set to send with specific workflow steps.\n\u00a0\nAlso, make it so it is not double-spaced in messaging.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Option to copy from existing record when approving a contract request",
+    "author": "Noah Kaplan",
+    "product": "Conga_Contracts",
+    "content": "A substantial number of our contracts are with repeat vendors and many of the fields/info are the same from one to the next, with only some details changing. Currently, if I request comes in via Conga request form, we have to manually add responsibilities and other info that isn't on the request form. For items that don't originate in Conga, I can often copy a previous record as a starting point and have less to enter. It would be great to have a step in the request approval process where you could pick fields, documents, responsibilities, etc. to copy from another record so that when adding to a contract family you don't have to re-enter common info.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Contracts: Need ability to search the users by Login Name",
+    "author": "Yash Parikh",
+    "product": "Conga_Contracts",
+    "content": "We have a customer who has a requirement to search the user by the Login Name.\nThey are using the Unique Employee Code or Alpha Numeric Characters in the Login Name, and they want to search the user by this Login Name.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "List projects when doing a search",
+    "author": "Joel Martin",
+    "product": "Conga_Contracts",
+    "content": "When using the search bar, being able to access a Projects Module. Same as we do with \"Company\", \"Contract\" and \"Document.\nThis will help users looks for project names but also, companies, contracts, and documents within a project.\n\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Filter Search Query to only most recent Document revision",
+    "author": "Noah Kaplan",
+    "product": "Conga_Contracts",
+    "content": "The Search Query function needs an option to only return the most current revision of documents. Currently, it treats revisions as separate documents, which both returns too many results and often defeats the purpose of the search. For example, if I am searching for documents with an upcoming expiring date requiring follow-up, I don't want to see prior versions of documents that have already been updated. I want to be able to limit my search to only current revisions so I can see just the ones that need my attention.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to hide picklist values from the \"Contract Term Types\" field",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Contracts",
+    "content": "The customer has a use case where they won't hide some option values from the \"Contract Term Types\" field. Currently, we don't have the ability to do so. \n\u00a0\nAlternatively, if we can't hide these fields then at least we should be able to create a new Custom field with our desired values and replace it with the Standard OOTB field.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Report Tool Not as expected.",
+    "author": "Yash Parikh",
+    "product": "Conga_Contracts",
+    "content": "We have a customer query where they want to filter the report based on the \"Event Notification People\" Field.\n\u00a0\nCurrently, in the Product \"Event Notification People\" lists all the active users of the account/system including the users of the current companies along with DocuSign users. However, The Customer requirement is to display the users who are related to the company only, not including the DocuSign users. So, our request is to consider this as a future enhancement if it's Possible and then take the next action accordingly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Email attachment converted into TXT file",
+    "author": "Rohit Bavaliya",
+    "product": "Conga_Contracts",
+    "content": "Hi Team,\n\u00a0\nWhen the customer sends an email with around 7.5 MB size PDF attachments using Conga Contract's messenger function then on the received email, the recipient can see TXT files attached instead of PDFs. As per internal discussion with the product team, When the user sends an email, Conga sends the information to the email server and if the total size of the email exceeds 10MB it makes the TXT file.\n\u00a0\nDOC: https://documentation.conga.com/contracts/february-23/conga-contracts-email-attachment-limit-143890526.html\n\u00a0\nThe customer has raised an enhancement request to show a notification/warning from the system when their email may exceed the file size limitation. So that their users will be notified about the system's email-sending behavior.\n\u00a0\nThis enhancement is Requested by Viasat, Inc.\n\u00a0\nThank you,\nConga Technical Support",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add new report filter called: \u201cEqual to today + (x) days\u201d",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Account: University of Minnesota PhysiciansContact: Shawn O'NeillEmail: soneill@umn.eduEnhancement RequestI would like to see a new report filter added called: \u201cEqual to today + (x) days\u201dExpanded QuoteI discovered with the help of your support team that the \u201cGreater than Today + (x) days\u201d does not work as advertised in the help documentation.\u00a0It returns data AFTER the number of days I key in, not WITHIN the number of day I key in.\u00a0The workaround support told me to use was to use \u201cLess than today + (x) days\u201d AND then key in a date after xx/xx/2023, so previous events will not be included.\u00a0Having to key in a hard date each time goes against the automated nature of the report we want to build.\u00a0See case # 00836242Another workaround was to set two filters, a \"Greater Than Today + (x) | 0\" and a \"Less Than Today + (x) | 365\" filter so that it would include any records between the start date from the Greater filter and the end date from the Lesser filter. A new filter called \"Equal to today + (x) days\" would be simpler for users to use in their reports.What problem do you intend to resolve with the requested functionality? \u00a0As an admin, I have created a report to track our Event dates and want to return Event dates in my report within x number of days.\u00a0I want to create an automatic monthly report without keying in an event start date in the filter each time.\u00a0It seems unreasonable that \u201cGreater than Today + (x) days\u201d doesn\u2019t work as advertised.\u00a0The work around in case # 00836242 doesn\u2019t work for an automated report.How do you feel the requested functionality will allow you to resolve your issue?As noted above, when I use the \u201cGreater than Today + (x) days\u201d, it should return the results with dates with those (x) number of days.\u00a0Since it does not work this way, building a new filter titled \u201cEqual to today + (x) days\u201d is a solution that will work as greater than today was intended to work.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Change Conga Sign web notifications",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Currently, if a Conga Sign request is reassigned, then the original email is sent to the reassignee, they click the link and it says 'you have already completed signing' instead of saying the link is invalid or reassigned etc... and this is confusing to customers. If there could be a differentiation between reassignment and sign, or invalidate the link once action has been taken (ex. This Link has Expired) that would be helpful.",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hey Corey, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Update \"Completed By\" column in the Flow Activity Grid and Audit Logs to show the name of the Approver based on the Relationship",
+    "author": "Timothy Pittard",
+    "product": "Conga_Contracts",
+    "content": "Bread Financial Payments has requested that the Flow Activity Grid, the History, and the Audit logs have the values in the \"Completed By\" changed from the User's name to the name listed on the Responsibility. Currently if a Company Person or an External Person is assigned an Approval Responsibility on a Contract, when they approve it the \"Completed By\" column only lists System Account. Please update this column so that when an Approval is done the \"Completed By\" column pulls the name from the Contract Responsibility associated with the Approval. This will ensure an individual's name will display in the Audit logs.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Contracts Request Button",
+    "author": "Micala Merino",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to be able to add the Request Button to the home page so it is easily accessible.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Duplicate Users for Conga Contracts",
+    "author": "Ashley M",
+    "product": "Conga_Contracts",
+    "content": "Hello Team, I am submitting on behalf of the Customer, Sage Therapeutics for Duplicate Users for Conga Contracts Use case:When a user is creating the workflow for approving a contract/document package, they are supposed to select the Contacts from the list.Issue:\u00a0Your development team informed us that the issue we were seeing with duplicate contacts is likely occurring at this point.\u00a0Instead of selecting the Contact, the user is typing ahead and not waiting long enough for Conga to display existing contacts, which then a duplicate contact is being created from this step.\u00a0The Conga dev team informs us that we are responsible\u00a0for the clean up of the duplicates, without any tools to determine the number of duplicates.\u00a0\u00a0\u00a0Requested Change:We are requesting that the system validates if a contact exists (with the same email address already existing in Conga) before creating a new contact at this step.\u00a0If there is a matching contact, or potential match, the system displays the choices for the selection. If it's not a match, then the system should allow for creation of a contact at this step.\u00a0\u00a0\u00a0In the email field, if users do not fully type out the user's email slowly and type too fast it may prevent the dropdown list from appearing.\u00a0If not selected from the dropdown list, the System will automatically create whoever you put into this field, which accidentally creates duplicates.\u00a0When in doubt- select from the dropdown list.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "When creating new user accounts, it would be an efficiency improvement to be able to customize the default choice for user type.",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Name: Sarah IsonBusiness Name: The J. M. Smucker CompanyEmail: sarah.ison@jmsmucker.comPhone Number: 330-684-3671Enhancement RequestWhen creating new user accounts, it would be an efficiency improvement to be able to customize the default choice for user type.Expanded QuoteWhen you create a new User Account, on the right side of the screen is a User Type menu choice. The default is currently \u201cFull\u201d which is the most robust and expensive What problem do you intend to resolve with the requested functionality? As a <casual user / admin>, I would like to resolve <your problem>. Errors in User Type \u2013 creating too many Full users. Speed of making user accounts since the majority of our accounts are casual users.user type. If customers could customize which choice to have as default that would be more efficient in reducing errors on types of user types, and faster account creation. Or, as an alternative, move it to one of the most used types \u2013 perhaps Casual.What problem do you intend to resolve with the requested functionality?As a <casual user / admin>, I would like to resolve <your problem>. Errors in User Type \u2013 creating too many Full users. Speed of making user accounts since the majority of our accounts are casual users.How do you feel the requested functionality will allow you to resolve your issue? We would default our choice to Casual User which would speed up our account creations, and eliminate errors of too many Full user accounts.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enhancement Request - Conga Sign",
+    "author": "John Dazer Gatchalian",
+    "product": "Conga_Contracts",
+    "content": "Hi team,\n\u00a0\nSpoke yesterday with Noah Kaplan from Denver Zoo and he wants to provide some feedback to help us improve Conga Sign better. Hoping that these features can be added in the future:\n\u00a0\n-Being able to configure signature order\n-Being able to configure email text\n-Being able to set visibility settings\n-Being able to select and arrange order of documents\n\u00a0\nI have acknowledged all of his inputs and didn't guarantee anything but assured that this will be all looked into and hopefully gets added in future updates.\n\u00a0\nThank you.\n\u00a0\nRegards,\nJohn G.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Noah Kaplan",
+        "content": "If I could clarify a bit, what I would like to see is more of these things configurable as a template/default, rather than needing to be manually configured each time. For example, I would like to be able to create a template that automatically applies a signing order by responsibility, a document package order based on types, a default email message other than \"you have been invited...\". Currently all of that is reconfigured manually on each envelope when sending through Conga Sign via the Conga Contracts API. For visibility settings, our organization uses a cover sheet that I would like to be able to make visible to internal parties only. We came over from DocuSign for e-signature and these are features that would move toward parity with that platform. Thank you."
+      }
+    ]
+  },
+  {
+    "title": "Scorecard rounding instead of Integer",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Conga Contracts scorecards currently display an integer for the total score, which can produce incorrect results for the client's scorecards when the value displays as one lower than what it should be, due to the decimals from the scorecard calculation are being taken off. Rounding up/down based on the scorecard total would be helpful for customers to have more accurate scorecard totals.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "a new permission where someone can go into a contract record and create and/or edit events but are not able to change anything else within the contract record.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "We would like to request a new permission type.a new permission where someone can go into a contract record and create and/or edit events but are not able to change anything else within the contract record.What problem do you intend to resolve with the requested functionality? With multi-year contracts that require yearly POs, we would like our finance team to be able to go in and create/edit yearly reminders for requesting the yearly PO without being able to change anything else in the contract record. How do you feel the requested functionality will allow you to resolve your issue? This will avoid money being left on the table when we are missing receiving required yearly POs and will take a pretty large scale task off of our Contract\u2019s departments plate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "A new permission where someone can go into a contract record and create and/or edit events but are not able to change anything else within the contract record.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "We would like to request a new permission type.We are looking for a new permission where someone can go into a contract record and create and/or edit events but are not able to change anything else within the contract record.What problem do you intend to resolve with the requested functionality? With multi-year contracts that require yearly POs, we would like our finance team to be able to go in and create/edit yearly reminders for requesting the yearly PO without being able to change anything else in the contract record. How do you feel the requested functionality will allow you to resolve your issue? This will avoid money being left on the table when we are missing receiving required yearly POs and will take a pretty large scale task off of our Contract\u2019s departments plate.\ufeff",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Vivek Mishra",
+        "content": "Duplicate of\u00a0https://apttus2.my.salesforce.com/ideas/viewIdea.apexp?id=087Dm0000008PJ6"
+      }
+    ]
+  },
+  {
+    "title": "Ability to generate user report in Conga Contracts",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Company: Viasat, IncContact: Carol Stewart, carol.stewart@viasat.comEnhancement Request: Requesting ability to generate user report on Conga Contracts.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Requesting to have the functionality to disable the cc sender feature in Messaging",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "AcccountAdventist Health System/WestContactGinger Newsom, newsomge@ah.org / Marshall True, truem@ah.orgEnhancement RequestRequesting to have the functionality to disable the cc sender feature in MessagingEnhancement Reasoning/other detailsOur email boxes are already flooded with notifications from Conga. We do not need to have a copy of a message sent to our email. Even email systems give you the option of whether you want a copy of all sent messages or not. You can still have it as a default if you wish, but please give us the option to turn it off.\ufeff",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Assign a Company to Multiple Company Groups",
+    "author": "Timothy Pittard",
+    "product": "Conga_Contracts",
+    "content": "Please consider allowing a company to be assigned to multiple company groups. This would allow users to be granted access and permissions to companies that have overlapping groups. Example: Group A has companies 1 and 3, Group B has companies 2 and 4. User W only needs access to Group A, User X only needs access to Group B, User Y only needs access to companies 2 and 3, and User Z only needs access to companies 1 and 4. With the current setup all four companies would need to be in different groups, which greatly reduces the user's value of groups.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add flow steps to API Call Flow",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "Dexcel Ltd are requesting for flow steps to be added to the existing API Call Flow. The API Call Flow currently only has the call flow activities, not the slow steps. User needs the flow steps so they can capture and get better insight into reporting / metrics.\nAccount: Dexcel Ltd\nCase#: 00818885",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Ability to reference an SF field for Business Unit in Conga Sign",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Contracts",
+    "content": "Ability to reference an SF field for Business Unit in Conga Sign to make it dynamic\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\nCase# 00821217",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Docusign blank Document issue",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "With the current integration for Docusign and Conga Contracts, when an edit is made in docusign, the package will still complete, but an unsigned version of the document will be uploaded. This is typically due to changes that happen within the Docusign UI, or changing the documents themselves/changing the order of the documents. If the signed document could be uploaded regardless of the changes made, that would alleviate issues that arise when changes to document packages are needed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add flow steps to API Call Flow",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Dexcel Ltd is requesting for flow steps to be added to the existing API Call Flow. The API Call Flow currently only has the call flow activities, not the flow steps. User needs the flow steps so they can capture and get better insight into reporting/metrics.\n\u00a0\nAccount: Dexcel Ltd\nContact: Adi Almog, adi.almog@dexcel.com, +972526650655\nCase#: 00818885",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add flow steps to API Call Flow",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Dexcel Ltd is requesting for flow steps to be added to the existing API Call Flow. The API Call Flow currently only has the call flow activities, not the flow steps. User needs the flow steps so they can capture and get better insight into reporting/metrics.\n\u00a0\nAccount: Dexcel Ltd\nContact: Adi Almog, adi.almog@dexcel.com, +972526650655\nCase#: 00818885",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": ": Current flow action does not have a go back button. When there are many stakeholders, small mistakes are very likely to happen. A go back button would be helpful.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "For example, is this a pre-executed contract? 'Yes', but clicks 'no' by accident. Instead of doing the entire thing again by invalidating the flow action, we could have a 'go back' button here.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "increase search query UI timeout (message to keep waiting?)",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "When certain environments have very large and complex data environments, specific search queries will fail to load in the UI with a 504 error in the browser console. I think having either an increased timeout, or a message asking if the user would like to wait, or download the file would be beneficial, as the search query timeout was not something that the customer liked.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Have the document tab show on the request preview screen",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "A customer would like the ability to have the request preview (prior to acceptance/processing) show the documents. A client that I have has self-service requests that get locked, but would like to have them processed manually after locking, but documents added to the request do not appear, and since the request is locked, it can not be viewed or accepted. This would mitigate the customer's issue of the requests not being able to be processed at all but having the admin able to view the document would allow them to maintain things without too much change too much of their business process.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Increase File Size Limit for Conga Sign integration",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Certain customers use a mix of esignature and scanned in wet signatures. Currently, 10mb is the file size limit, and is currently a little limiting to certain files. Raising this limit would allow for larger contracts, as well as scanned documents.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enable Sorting on 'Action Actors' column in Creation Templates Questions Config",
+    "author": "Andrew Shriver",
+    "product": "Conga_Contracts",
+    "content": "Customer requesting the functionality of sorting the column Action Actors when configuration Actions stemming from Creation Template questions. Customer has quite a few and they aren't ordered in any helpful manner. Being able to sort them would allow them to manage them easier.\n\n\nRequested by Vistra Corp.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "greater threshold of character/file name similarity so as to avoid having documents with different file names/topics being recognized by Conga as previous revisions of a document and added to one document line rather than as separate documents",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Issue identified with Conga merging documents attached to an email sent using the messenger function as being previous revisions of an earlier document when the documents had different file names and subject matter. Issue raised with Conga Support Team via case number 00804743 who advised that currently Conga only requires a 60% similarity in file name for documents to be recognized by Conga as being revisions. Request for this threshold to be increased.\n\n\nAvoiding Conga recognizing documents with different file names and subject matter as being previous revisions of a document and therefore reduce issues with documents not showing at high level in the Documents section or being properly attached to the contract flow",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change the format of Conga Contracts eSignature email",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "When a client receives a Conga Sign eSignature request, the Sign/Reassign button and the Log in to Sign links are not very differentiated. A customer would like some more differentiation or a size increase of the 'Sign or Reassign' button so that external clients get less confused when trying to sign in to view a Conga Sign package.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "When sending messages or inputting an email in the system for notifications the system should not create new email addresses for if the email is already in the system.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "We have our users list and email addresses in the system.\n\nIn case a user is sends an email using the messaging tool and get reply from that person, and the person add the email address in addition to the email address of the system it creates a new \"user\".\n\nThat user can't be \"found\" or deleted without the developers team assistance.\n\nThe problem is \u2013 it is added to our user list and if it is selected and the system can't use the address because it is written with capital letters.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Partly signed document",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "When generating the e-signature wizard we are setting 2 parties \u2013 the counterparty and us, but sometimes there is a need to stop the process, so we want to be able to get the partly signed document. Can it be done?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Attachment viewing",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "Can there be a possibility to view the document I'm attaching to the messaging tool? It causes issues that a user can accidently select the wrong document and it is not possible to click on it and review before sending.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "One Click Report",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "We would like to be able to edit the contract summary report - \"One click report \" currently we have empty attributes we don't need, not very effective. Can there at least be a way to automatically delete the fields with no attribute?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Document saving options",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "We have a suggestion to work with \"check out\" to edit and \"check in\" to indicate the editing work was done \u2013 and it will be saved as a version.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Can there be different permissions for handling the events",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts",
+    "content": "Can I give users a way to add notification alert (for example expiration date) without the ability to edit the contract profile? This functionality separation exists when adding documents, without the need to edit the contract profile.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CC Query Binary Branch Logic Steps",
+    "author": "Travers Wortley",
+    "product": "Conga_Contracts",
+    "content": "A partner wants to be able to do exactly what we have listed in our article here: https://documentation.conga.com/contracts/latest/types-of-flow-steps-143890430.html\n\nBut we have found/been told it is not actually possible.\n\n\nThe ask is this (again this is listed in the article on our site as well)\n\n\"Query Binary Branch - used to create alternative pathways for a step, depending on whether the action defined in the step proves to be true or false. For example, if you send a contract for eSignature and the contract is not signed within a specified time frame, you can link the False option to a Generic step that requires a user to contact the counter-party via telephone. Alternatively, you can link the False option back to the eSignature Package Wizard step, which will cause the wizard to be rerun so that a second email request is sent to the counter-party. However, if the contract is signed in the time frame specified, the True option is fulfilled, and the flow simply moves to the next step.\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "In Esignature Wizard, If we select the template then the package name should not change as \"Please Docusign this document: Daymon Docusign Signature template -2 Signers.pdf\"",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "1. Previously, If we select the template name in ESignature Wizard, the package name would be as same as Contract name which is expected\n2. Now we are getting inappropriate name when we select the template name which is a bug\n3. The work around solution was, After selecting the template, the user should manually enter the package name.\n4. But our business team would like to auto populate the package name, as we select the template name which is old behavior.\n\nAs a admin. I would like to resolve the issue and wants to auto populate the package name, as we select the template name.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make documents on Contract Profile automatically attach to flow notifications",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "It would improve workflows greatly if all documents added on a contract are automatically added as \"Flow documents\" so that they are attached in Flow Step notification emails.\n\nI understand that documents can be selected under \"Manage Flow Documents\" on the gear icon located in the Contract Flow ribbon; however, with our flow, such documents should always be included. Thus, I want to add an \"enhancement\" that automatically adds documents to the \"Flow documents\" when they are entered on a Contract Profile, such that the documents will automatically be attached to Flow Step Notification emails.\n\n\nDocuments being attached to Flow Step Notifications will greatly increase productivity. While Contract Managers can manually select documents on each profile this sometimes gets overlooked/forgotten, and since we always want the documents to be attached it seems like it should be an option.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Noah Kaplan",
+        "content": "I disagree somewhat with this one. I could see it being useful to have a checkbox or something similar on the document record to attach it to the flow, or rules to determine what gets attached to the flow. The UX for attaching documents could definitely be more intuitive. But if all documents automatically get attached to the flow, you would end up sending people irrelevant documents or prior versions etc. I think automatically attaching documents would get messy."
+      }
+    ]
+  },
+  {
+    "title": "Duration reports should automatically be reported in Conga as a numeric value",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "EXPANDED QUOTE\n\nMy concerns are: (1) the format of the duration reports, are being reported only as mixed text (e.g., 6 days, 23 hours, 45 minutes, 13 seconds) rather than numbers only (e.g., 06:23:45:13 [Days:Hours:Minutes:Seconds]), which is preventing me from building any meaningful reports in Excel based on time because Excel cannot filter time based on the mixed text format that re being produced from Conga; and (2) the duration report being produced is based on \"Business Day\" as opposed to 24 hour period, which seems odd (what is a \"Business Day\" (e.g. US Federal Holidays excluded, State holidays excluded (which State), weekends excluded)\n\n\nWHAT PROBLEM DO YOU INTEND TO RESOLVE WITH THE REQUESTED FUNCTIONALITY?\n\n(1) Duration reports simply do NOT work in Conga because of the mixed text (e.g., 6 days, 23 hours, 45 minutes, 13 seconds). \"Yes\" mixed text is fine if you are only looking at a handful of agreements but if one is trying to run any type of metric reports and filter that data in Excel then the mixed text is useless. (2) Also, the use of \"Business Days\" is problematic for the following reasons: what exactly is a Business Day \u2014 US Federal Holidays excluded (why US and not Canada, Mexico, or some other country), State holidays excluded (which State), weekends excluded, does a business day start at 9am and en at 5pm and what time zone, what happens when a contract is submitted in Conga at 5:01pm on Friday and all work flow steps are completed and agreement executed at 5:03pm on Friday - if we are going by Business Day then how is that reported in the duration report?\n\n\nHOW DO YOU FEEL THE REQUESTED FUNCTIONALITY WILL ALLOW YOU TO RESOLVE YOUR ISSUE?\n\nDuration reports should automatically be reported in Conga as a numeric value only that can be filtered by Excel so that true metric reports on how long a particular \"Flow Step\" took can be reported. Also, there are way too many variables with \"Business Days\" as a time period - get rid of business days and just use a 24 hour period.\n\n\nCall me to discuss if I was unclear or if further information is needed. From my position, this is not really an \"enhancement\" but correcting an error in that is preventing true and useful metric duration reports from being created.\n\n\nRevance Therapeutics, Inc\n\nPaco Armijo\n\nparmijo@revance.com\n\n510-588-7062",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "We would like for the system to be setup for all the workflow steps to be actioned from a single email",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Right now, every step is associated to its own email. This is a burden for our executives who are involved with a big amount of contracts per day. They do not necessarily sign into Conga, so the workflows portlet is not helpful to them. We would like this considered ASAP. The system needs to be setup for all the workflow steps to be actioned from a single email.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": ": Replace generic AWS address in Envelope-From\\MailFrom\\Sender email header field with something specific to Conga or something customizable by the customer",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "We are experiencing challenges with Conga emails getting blocked by various email filters. We have a strict policy against whitelisting servers so our only option is to allow emails to bypass certain filters using the MailFrom or Envelope-From field. We cannot use the From field which does have the customized address. This field currently shows random generic AWS email addresses which we cannot filter on without allowing all AWS email to bypass our email filters.\n\n\nThis change would allow us to pass these emails around our email filters and prevent them from being quarantined.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to change colour of banner in emails from Conga",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "We would like to be able to change the colour of the background banner that shows at the top of emails sent from within the Conga messenger function from the dark blue that it is currently as we are unable to properly see our company logo\n\nWhat problem do you intend to resolve with the requested functionality?\nThe inability to view our company logo\n\nHow do you feel the requested functionality will allow you to resolve your issue?\n\nWe will be able to clearly see our company logo as we can within the platform itself",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like to request the Unarchiving functionality to be available to Conga users (system administrator(s) with full access)",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "I would like to request the Unarchiving functionality to be available to Conga users (system administrator(s) with full access) instead of having to submit a ticket for Conga Development team to do so.\n\nExpand efficiency of the Conga account management. Available functionality instead of waiting for 5-7 business days to have the task fulfilled.\n\nArchiving option can be misused easily and should be available to administrators to unarchive.\n\nExpand efficiency of the Conga account management.\n\nsee attachment",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Fix it so users sending Messages through Conga that bounce will receive an \u2018undeliverable\u2019 notice.",
+    "author": "Kim Teck",
+    "product": "Conga_Contracts",
+    "content": "Without an undeliverable notice, the users 'assume' the recipient is ignoring them, they don't know the Message bounced, and that it needs to be redirected. Caliber does not use Events or Conga Sign for this same reason. Our company uses Messaging for contract negotiations, notices for expiring contracts, questions to/from Business Units, and more.\n\nExample: Three expiring notices are sent via Messaging to the contract owner by Vendor Management. If no response, policy is to terminate the agreement. Hundreds of expiring notices are sent monthly by two people. If receipients have left the company, it is critical that we know the Message wasn't delivered.\n\nWith thousands of contracts and hundreds of people handling contracts, this is a major obstacle.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Noah Kaplan",
+        "content": "I would add to this that there is no way to receive an out-of-office reply to a Conga email. I will frequently send a follow up email after a couple of days and intentionally will reply all to the thread from Outlook instead of Conga so that if there is an auto-reply I will get it."
+      }
+    ]
+  },
+  {
+    "title": "Italian Language for Conga Contracts",
+    "author": "Micala Merino",
+    "product": "Conga_Contracts",
+    "content": "Friedkin Companies, Inc has a branch in Italy that is interested in using CC, but would need Italian to be a supported language in order to utilize it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevention of addition of duplicate users within Conga",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "As discussed with members of the Conga Support team and our Conga Customer Rep we would like to request Conga consider implementing a process whereby a warning is produced when users try to add a duplicate person to Conga specifically within the DocuSign and messagning functions. I have been advised that previously it was not possible to send a message within Conga to an external person without that person being added as a user in Conga first however it appears that this is no longer the case?\n\nWe have a number of duplicate people in our Conga system and while we can clean up our existing data we would like to have some way of preventing this becoming an issue again in the future.\n\nWe hope that implementing such a warning system will assist us with reducing the number of duplicate people in our system",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to embed images(stored in multiple file formats like Bitmap, JPEG, PNG, etc.)within the body of messages sent to and from Conga\u2019s Messaging Sys. Messages sent from both internal and external sources should be able to view and embed images",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Western would like the ability to embed images (stored in multiple file formats like Bitmap, JPEG, PNG, etc.) within the body of messages sent to and from Conga's Messaging System. Messages sent from both internal and external sources should be able to view and embed images. If the image were to fail to load within the message they would instead be attached so that all files are preserved and maintained consistently in the message chain.\n\nFrequently in our work, our users utilize image/screenshot files to assist with their day to day activities, ordinary course business tasks, workflows and reviews. It would be beneficial for Western overall if we had the ability to embed image/screenshot files within Conga email messages as noted above.\n\nAs Western Admin, we would like to resolve the image/screenshot files problem so our users can have a more productive, efficient and streamlined review and messaging communication experience. Currently, screenshots are not being embedded in Conga Messaging emails and are thus converted to broken URLs when processed through the API. This add functionality is integral to our day to day business and record keeping.\n\nThis functionality will allow Western users to more quickly and efficiently view image/screenshot files within Conga messages which will assist substantially in enhancing the review experience and productivity for users, and will reduce/eliminate the need to reference third party platforms for image/screenshot files.\n\n-Please see attached-",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Western would like to add the \"preview\" function in Conga Documents to allow for seeing Outlook emails too (currently it only allows for Word and PDF files to be previewed).",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Frequently in our work, our users are looking through the Conga Documents repository and need to be able to look at the files without having to download each one. It would be beneficial for Western (and other clients I imagine) to have the types of files allowed to be previewed expanded. We would like to be able to preview: .msg (Outlook Items), .xlsx, and .docx.\n\nAs an avid user, I would like to resolve the preview problem in Conga Documents by expanding the file types accepted for preview. Currently, it seems that only PDFs and Word documents are acceptable file types for the preview function.\n\nThis functionality will allow Western users to more quickly and efficient work within the system. They will not have to continually download and preview files, which cut down on wasted time and data storage.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Restrict the user\u2019s ability to put an effective date after expiration date",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "The system doesn't allow any restriction for a user to input and expiration date that is prior to an effective date. The system should restrict the user from doing so logically and issue a warning that the entry is not allowed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We would like to turn off notifications/reminders for flow steps in contracts that have a status of \u201cOn Hold\u201d.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Currently, notifications/reminders for contracts that have a status of \"On Hold\" can create confusion and productivity delays. If a contract is on hold, receiving flow step notifications on such a contract can cause delays in working on contracts that actually need to be processed. We believe that having the ability to turn these select notifications off would be a great benefit to work efficiency.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add a column for Contract Manager in \u201cActive Workflow Items\u201d portlet",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "We often use Conga to allow someone to approve a contract before it can move to the next flow step. The head of my department requested a Column be added within the \"My Flow Steps\" tab of the \"Active Workflow Items\" Portlet that shows \"Contract Manager\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "'Archive' button rename to 'Delete' or add a hover description saying that the contract will not be retrievable",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "I've got a customer that archived contracts, with the impression that they would be able to retrieve them at a later date. I believe that a hover description or the confirmation window saying that the contracts will essentially be deleted, and that retrieving the contract would require a support ticket, as the current method of contract retrieval from archive seems to confuse customers. Either that or a way to un-archive a contract would be more aligned with what this customer and likely more are hoping to be able to do.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Ability to Require A Document Attachment on Requests",
+    "author": "Andrew Shriver",
+    "product": "Conga_Contracts",
+    "content": "The customer is requesting the ability to require a document be attached when a user is filling out and submitting a Request. Currently you have the ability to prevent the attachment of a document but it would be helpful to have the ability to require the user to attach one.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Overall Reporting Formatting",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "The current reporting doesn't allow for simple KPI's related to process management from an operations standpoint. A dashboard KPI portlet that's exportable/reportable through scheduled reports would be very useful (average days to complete processing; completed in the last week, month, etc.) The PDF reporting is extremely limited and the formatting limitations make the reports unreadable and useless overall. The reports currently do not allow for hyperlinks directly back to contracts, which would make it easier for the users of the report to easily go back to a contract in the system if needed. The excel reports extracts do not auto fit the column widths to the data and the width changes in the report creation, do not adjust the excel column widths and are also very limited. The inability to format the reports (i.e. color, font, width, logo) makes them undesired by the users and does not interface/feel like the data they are used to viewing.\n\nIt would allow for reporting without data manipulation and time wasted, and give the individual user the power to report for themselves and engage with the system in a more holistic way.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like for the ability for information in a Parent contract stored as Contract Additional Information to be auto-populated when a child contract is created underneath it.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Most often this would occur in data that exists in Master Agreements that apply to SOWs to when you use the Add Incorporated feature. For example, if we had a Contract Additional Field in a Master Agreement labeled \"Payment Term\", I would like the information from the Parent agreement Payment terms to pre-populate in the child. If payment terms were Net 30 in the Parent, when you create the child the field would be created with the same data so I do not have to re-populate it every time. Please see attached",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Docusign Summery",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Since the enhancement made in December 2021 to pull in the summary document during the DocuSign Integration, both the summary document and the fully executed document appear with the same name. Users have to open both documents to figure out which is which.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to save specific bespoke flow steps in order to pull them into a new flow rather than having to recreate from scratch each time",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "I would like to request an enhancement to be able to create a library of bespoke Flow Steps, and possibly Flow Stages, similar to the design of the Clause Library. It would be incredibly helpful to be able to save certain flow steps that have a lot of restrictions and/or text in the notifications to a library in order to select these when creating new flow steps, and thus avoid having to redesign each flow step from scratch. The same functionality would be amazing to be able to save entire Flow Stages as well, and be able to add in a whole, previously designed and saved Flow Stage into a new Flow.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We would like a differentiation from automatic system communication from  donotreply@app1.congacontracts.com to external recipients versus internal recipients.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "When external parties are sent e-mail communication from Conga automatically, there are links present that are essentially useless (links to the contract, to the company, to the message) because the external recipients are rightfully not provisioned for our Conga instance. External recipients of e-mail communication should not have links to Conga included in the e-mail. It would be even better to have Conga Contracts check against who is an enabled user in our Org to determine whether or not they receive the links.\n\nWe would like therefore, 1 kind of e-mail to be sent to internal users so that they can visit the contract/company/out Conga site, and 1 kind of e-mail to be to sent external users without those links.\n\n\nThis fix intends to reduce the confusion and delay in communication between external parties. It also intends to remove a 'dead-end' from the potential path of the end user. The idea is to encourage the proper path forward rather than obfuscate it with links that seem like they are viable when they're not.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to delete additional forms",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Within [the top right cog] -> Additional Forms, you can neither delete obsolete forms nor change the fields contained therein.\n\nI also tried going through [the top right cog] -> Lists to see if the fields or forms were editable there, and they are not. Why this is annoying is listed in the business impact section.\n\n\nI would like to be able to delete additional forms or modify their fields without having to just hide the field and make a new one. If a form becomes to obfuscated, are we expected to just scrap it and make a brand new one and either 1.) have our users remember now to use the 'old' one or 2.) place restrictions on every single request that restrict the use of that form? That would be absurd, and I can't seem to find any way around it.\n\n\nProskauer Rose LLP also requested this functionality from 00800752",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Create a KB Article or Document regarding formatting conflicts in Filenames",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "I have come across two filename conflicts in the past week which has affected how my coworkers and I preview contracts in Conga. The latest issue regarded a HTTP 400 error noting invalid character found. I created a case and was told from the Development team the issue was a known limitation of Conga Contracts. After receiving that comment, I wished to know if there are any further known conflicts I should be aware of. I asked for a list and was informed no such list existed.\n\nAs an Admin, I would like to resolve any known filename formatting/character conflicts, so users do not encounter difficulty trying to view documents\n\nSee attached",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Supplier registration change and email notifications",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "We were not notified of changes made by a supplier to their supplier registration. Is there a way to be notified by email and/or supplier portlet, and require acceptance of changes made by the supplier on the supplier registration portal? Please see attached",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To have a generic  from email address in Smart search feature that can belong to a customer domain?",
+    "author": "Mounika Yerragudi",
+    "product": "Conga_Contracts",
+    "content": "In the Smart search feature, there is an option available for us to send the result of Keyword search documents to users, to whom you wanted to share.\n\nThere is an email Icon on the smart search page click on it, all the documents will be converted into a Zip file.\n\n->From and To addresses are manually given by the user, but the customer wants it to be defined as the owner of the product/ or a specific user to be populated by default in the from address.\n\n->Also, the customer wanted to know how the emails are getting encrypted. As per Venky, our emails are being encrypted by HTTPS. Whereas customer is using DKIM encryption over their emails.\n\n\nRelated JIRA, sharing here for your reference:\n\nhttps://apttusdev.atlassian.net/browse/MAX-7652",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We would like to have notifications from Conga originate from a customized email address, as opposed to noreply@contracts.com.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Right now, email notifications from the Conga system come from the email address noreply@contracts.com. This can be confusing for our users, as they may not immediately know that a communication from that address is from the Conga system. We believe that a customized email address would be more effective in getting users to respond and take needed action on contracts.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Request to enhance speed so that large quantities of quires can be loaded on the Dashboard without decreased functionality in other spaces..",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "As the System Administrator and a Power User monitor all aspect of the departments activity, I need to be able to have many portlets loaded at one time. I have some other Power Users on the team monitoring large volumes of information and constantly adding and removing Portlets isn't as helpful as having them along with the ability to use Charting to track the work is very efficient and one of the things we like about Conga. The real time visibility. please see attached",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "System settings doesn't allow me to change the users\u2019 ability to change their own passwords when they forget.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "It would allow the user to change their password without the need of administrative intervention, and give the user clear direction as to whom to contact to resolve an issue. Please see attached request",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "\"My Contract\" Query - Run Automatically for users",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "To be able to see the and use the \"My Contracts\" query and build from it. So, we have a My Contracts view, but I want to take that and add a secondary filter. I do not want it for one user, I want it for all users, like the My Contracts, just with an additional filter, which is not current functionality. I want it to function exactly like \"My Contracts\" but add additional filters, like \"My Contracts that expired last month\", \"My contracts with the Navy\", etc.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like to have the ability to run a report on the Duration field without every step of the flow being pulled into the report.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "Would like to have the ability to run a report on the Duration field without every step of the flow being pulled into the report. We would like visiability of the last final step performed on the flow for each contract number.\n\nRight now we get certain flow steps with the exact same time stamps so when time stamps are duplicated it doesn't necessarily leave us with the current stage/step name.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to add a personal message on Document Packages with Adobe Sign Integration",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Currently, when sending a document package out, you cannot add a personal message. You can add this when using docusign or conga sign. We would like the ability to add a personal message rather than just the generic message: \"You have been invited to become a member of this document package...\" or at least have the ability to modify this generic message.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "More Column availability in Reporting",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "I have a customer that is trying to write a report that has all contracts shown, and wants to know if there is a document or not. Currently, the customer has a report that either has multiple contract entries showing each document, which gives 'duplicate' entries. This would help customers to know which contracts have documents, while showing all contracts in one place.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Company Field profile rules on requests",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Some customers put company profile fields on their request types, and they are looking to hide those fields conditionally using profile rules. This is currently not available and users will always see the company fields. They would like to hide these fields for certain contract types so that users might be less confused for contract requests that do not apply.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change Document type for Docusign Certificate of Completion",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Currently, the Docusign certificate of completion is uploaded as the same document type as the signed document. Some customers are having issues differentiating the documents that are uploaded, or it is interrupting the user's workflows. Having a secondary checkbox to allow users to change the specific document type for just the summary, or defaulting the summary to a different document type (like Summary) would be beneficial for users to know if there was other documents uploaded, and to avoid confusion.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We need to pull reports including \"Contract Request Submitted On\" date",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Please see attachment",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Provide system admins the option of disabling copy contract feature. Or perhaps make that an assignable option under Permission Type for Roles",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "We have a complex set of profile rules that hide, disable, force, default various values depending on Agreement Type, Contract Type, as well as other contract fields. Copy Contract feature interferes with this. We also migrated contracts from our previous CLMs, two fields were added during this process to help identify in the future the origin of the contract. Migrated, and Contract Import ID. When a user copies one of those contracts, the values in those fields get copied causing the data to be dirty.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "remove missing parent checkbox",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": ".Please see the attachment.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Requestors to delete their own requests",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Requestors should be able to delete their own requests before processing for the contract request begins. Currently, only users with the Request Admin permission can delete requests, and regular requestors can only pull the request back as a draft, and it will stay in the users screen until they request someone with the request admin permission to delete the request.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Creation template UUID Order",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "The creation template merges the fields by the UUID order, not the actual value from the merge fields.\n\n\nThe user would like it to match the merge field.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Users to reset the password securely themselves",
+    "author": "Darren Plant",
+    "product": "Conga_Contracts",
+    "content": "Panda Health would like a way for users to reset their passwords securely rather than use the forgot password link to send them an email",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to turn off the DocuSign Certificate of Completion",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "E-signature packages all now come with a second document that is a certification of completion. We would like the ability to turn this off and not receive the certificate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow a profile rule to add a condition for \u201cparent Contract\u201d or \u201cAgreement Link\u201d",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "I am trying to trigger an additional field based on the agreement link \u2013 contract record beginning with a specific term. Granted this is a work around, but key functionality for insure we are capturing full data requirements for a particular type of contract.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Create a filter for address book for People linked to a specific contract that a message is being created for.",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "When within a contract record and you are creating a \"Message\", then click the carrot on the To or CC line to get into the address book, you are provided the entire list of users within the instance. Then you can filter by several options on the left, like ALL PEOPLE, COMPANY PEOPLE, EXTERNAL PEOPLE, or just USERS. All of these options are too vague. Could a filter be created, like \"CURRENT CONTRACT PEOPLE\" or \"CONTRACT PEOPLE\", that would just provide those users linked under responsibility/people within the contract record? They could then pick and choose from those people, but at least they could see who is involved. They would also need to be able to add others, but I believe that functionality already exists.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "When creating a message and adding an attachment, have a button for \u201cCurrent\u201d Contract Documents, which would filter the documents only uploaded to the contract where the message is being linked.",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "When in a contract record, there are linked messages. When a new linked message thread is created, and \"attach document\" is clicked, it seems like ALL DOCUMENTS tied to any contract are available. There are buttons along the top: It would be helpful if the \"contract document\" button filtered to just those documents tied to the contract record the message is link. OR have a button for \"Current Contract Documents\". The goal being a faster mechanism to get to and add the related documents to the contract to the message thread for that contract record.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Create a filter for contract group for contract family grid view, and be able to save your grid filter views.",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "When viewing the contract family of a particular contract, you can currently filter by Status and Agreement Type, however you cannot save those filters like you can when you add columns to the same view. An enhancement would be two fold. One to add a filter for Contracts Group. Two be able to save your filtered view, so every time you view a contract family your preferences are preserved. You could add a button to \"clear all filters\" that would return the grid to the most expanded filter.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability for system admins to add a custom field to the External People profile and to disable/inactivate, not delete, External People.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "It would be helpful if there was a way that a custom field could be added to the Person Profile, specifically the External People profile, and if so, is this something that can be done by a System Admin? Currently, custom fields can be added to the User Profile, but not the Person Profile. Additionally, it would be helpful to be able to disable, not delete, an External People profile.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like the ability to change the fields displayed on esignature email notifications",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like the ability to modify the fields shown and their values on the esignature notification emails.\n\n\nThey also want the ability to change the Company name to be the company name or legal entity of the contract profile that the esignature package is being sent from rather than the DB name of the environment",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Multiple Company Logos in CC",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Multiple logos is a supported feature of Conga Sign for Salesforce. However, it is not currently available in Sign for CC because CC uses its own (CC generated) email templates when sending a Sign transaction. CC does not integrate into the Conga Sign email templates and email features.\n\n\nCustomer would like to be able to have multiple customer logos available for selection when sending email notifications.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to create draft requests as another user through the API so that when I use the API to fill out a request, that request is shown under that users request list.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "The typical way this is achieved is by logging in as the user who we want the request to be under but that requires that user to have a local account. Our users are all logging in through Okta Single Sign On and they do not have a username and password we can use to get a session. We would like the ability for another one of our systems to use the API to open requests as draft on behalf of another user so that they can go into conga contract, find the request, finish it, and submit it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Drag multiple additional fields at once",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "I have a customer that would like the ability to drag multiple fields at once in the additional fields area. This would allow a user to speed up the process of rearranging the forms, as well as organizing forms when several new ones are created, for example during implementation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like the ability to pull flow data through the API",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to be able to pull all flow metadata from through the API which is currently not available",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to put in line breaks when editing messages in Esignature packages without using HTML.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "Users need to use HTML to enter line breaks in Esignature packages messages. The customer would like to be able to edit this message and input line breaks without using HTML.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Opt Out Option for DocuSign Summary Document",
+    "author": "Andrew Shriver",
+    "product": "Conga_Contracts",
+    "content": "Customer was requesting the ability to opt out of having the summary document automatically uploaded when a eSignature Package sent via the DocuSign integration is completed. Possibly a checkbox in the eSignature section of System Settings\n\nThey said it cluttered their Documents section on contract profile and would like the ability to have that not included.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need the ability to add myself as an administrator to document packages/DocuSign envelopes that I did not originate",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "It will help avoid delays if an envelope needs to be revised, deleted, updated, etc. for any reason.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Contracts to publish SPF record",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Conga Contracts currently uses Amazon SES' SPF record, but certain customers are wanting to use our SPF record, as some customers are having the emails from the system being quarantined due to the SPF record not matching. This helps business processes by specifying the emails that are supposed to pass through a quarantine, rather than potentially opening up to other people utilizing AWS SES.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I\u2019d like the Assign Contract wizard to update the Company Name in both the title of the contract AND the Original Company field on the contract profile.",
+    "author": "Angel Guma",
+    "product": "Conga_Contracts",
+    "content": "Enhancement Request form is attached",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like the ability to include bounce back emails in the messaging thread",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Currently, if a bounce back email is received from the server to the conga contracts application, it does not pass that message into the messaging thread on the contract profile.\n\n\nCustomer would like to add a setting that can enable those emails to be included in the messaging thread if they are received.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like the search dropdown list to be displayed in alphabetical order",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "When you click the dropdown arrow next to the search button when on the All Contracts page or the \"All Companies\" page, the fields listed are not in alphabetical order and are in a different order depending on the user. Customer would like to see them displayed alphabetically for all users.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like for date fields to be included in the search filters dropdown on the All Contracts page",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to include \"Effective Date\" and \"Current Expiration date\" as fields that can be selected to include in the search bar on the Contracts page",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "All Columns available on the document packages page to be selected for search",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "The search bar would be great if you could search within all available columns. The created date and the created by columns are not searchable. In fact, only these are:\n\n\nBut these are all the available columns:\n\n\nYou cannot search any of the people or dates.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Contract tree navigation",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "When you're in a contract tree, after looking at a particular contract, there is no function to take you back to the contract tree or contract family tree you were viewing and so you have to redo the search, ie you have to click on the company hyperlink again to bring up the Contract Tree view and then you have to repeat the process of scrolling through the contract tree to get back to that contract family or using the 'Agreement' filter to get back to that contract family tree. A back function would be great. (In the Users List, there is a \"Back to Browse\" command.)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Filtering columns in Contract List view",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "Adding a filter menu to the various fields/display columns of the Contract List view, especially the Agreement Type field \u2013 akin to the data filtering function in Excel which allows you to filter on multiple values. In the Contract Tree view it is possible to filter on the Contract Status and Agreement Type metadata fields. Currently the metadata fields (in the Contract List view) can only be displayed in ascending or descending order and you can only select one metadata field on which to perform that filter function. (Some companies have over a 1,000 contract profiles, so it can take a while to scroll through all the records to find the one you want.)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Uploading documents once to multiple places",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "Are there plans to add a facility so that a particular document only needs to be uploaded once to multiple yet connected contract profiles? Eg I was asked just the other day to add the same agreement as a child document to three different contracts (in different contract family trees) in the same contract tree/of the same company. This required creating three new contract profiles and inputting the same metadata.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Link Contracts",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "Being able to link contracts - 'sister contracts' ('spider' relationships), ie where one contract does not have the same parties as another contract but is nonetheless linked. For example: 1) A lease is between the lessor company and the lessee company. The lessor company, or a different company within the lessor group, then has a contract with a government body. This contract is intrinsically linked to the lease but the lessee is not a party to this contract, so technically/legally the 'Additional Parties' feature isn't the appropriate feature. 2) Or the lessor may have a parent company guarantee from the lessee's parent but the lessee is not party to this document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Notification control",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "Frequency of notifications to Event Owner cannot be amended (status 9 June 2020); currently the frequency is weekly. This can be irritating and unworkable if someone has a number of Events to manage.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Bulk edit metadata fields",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "Being able to bulk edit the metadata fields in the contracts listed in 'My Contracts' (ie so you don't have to open the contract profile to access the edit function).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Favourites tab",
+    "author": "Chloe Bevan",
+    "product": "Conga_Contracts",
+    "content": "| 345900 | Favourites tab, ie like in a browser being able to bookmark contracts. (This feature is available in Salesforce.) |",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Have 'Required' forms on requests need at least one field filled out prior to submission",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "If a customer has additional forms that are required, but they are unsure of which fields need to be required, it may be beneficial to have have forms that are marked as 'Required' on a request need at least one field filled out prior to submission. Currently, if a form is marked as required, but not fields are required, the form can be submitted. This can help a business process by potentially not needing as many request forms, so that end users might not get confused if there are numerous choices.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to add the \u2018Missing Parent\u2019 tickbox to a request form.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "I understand that by design, the 'Missing Parent' tickbox (which relates to the field Agreement Type/Agreement Link) cannot appear on a request form. It only appears on editing the contract profile. I would like to request the ability to add the tickbox to a request form (much like you would add a field to the request form if you need it there). It seems odd that you can allow Agreement Link field to be on the request form as a field, but then not the related functionality of the tickbox.\n\nThe ability for me as an admin to simply add the 'Missing Parent' tickbox to the request forms would mean that all requestors could then use it to express when the parent is not actually in the system. The current workaround is that once it reaches our Legal Contract Managers in the workflow (who have Full Access) they have to edit the contract profile and need to have heard from the Contract Owner (requestor) what they should update regarding the parent contract. Our Contract Owners are casual users are do not have edit permissions on contract profiles \u2013 otherwise after submitting the request they could be changing critical fields without Legal team's knowledge.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Contracts-  Docusign Template Utilization",
+    "author": "Shefa S.",
+    "product": "Conga_Contracts",
+    "content": "The ability to have Email, First Name, Last Name, and Action populated via a DocuSign template when they choose a template during the eSignature Wizard process",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "New language requests",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "I have a customer with Subsidiaries in Japan and Korea, and would like the system to support Japanese and Korean, so that employees in those companies are able to use the system more fluently. Currently, neither language is available.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Naming conventions of Document Version object and its child object",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Why is it useful?\n\n* Changing the naming convention of fields in Docuemnt version object and Document version detail object will help in better describing the actual content that the filed displays and overall instill more clarity to the end user while using our solutions\n\nWho is benefited from this change?\n\n* Every user benefits from this change. The business users (usually laymen) benefit the most from this change as the added change will add more clarity to the constituents of the document version and its child object making it self-explanatory for the users and becomes easier to understand and deal with.\n\nHow the change will be implemented?\n\n* There could be multiple ways in which the naming convention of fields can be altered to make it more accessible.\n* For instance, the name filed in Document Version can be more descriptive of the actual content and the content/text could be more clearer.\n* Please see attached to get an idea of the expectations/suggestions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add a new Location options in Company Profiles",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Caliber Home Loans is requesting the following enhancement:\n\n\nThere is a Location in the Company Profile for remittances, but it doesn't have required fields for ACH, such as bank name/city/state, bank routing number, bank account name/number, email for payment notification. We are needing a Location option to capture these details.\n\n\nPayment of vendor invoices are less by check today and more by ACH/electronic payments. The vendors give us their ACH information as part of due diligence before they are onboarded, and this added Location will give us a place to capture the details. It would also allow us to run reports showing vendors with/without ACH information.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "User Creation Date Report",
+    "author": "Cristina P.",
+    "product": "Conga_Contracts",
+    "content": "Would be nice to have the option to add the creation date to the user report since it's a field on the user already.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Parallel Review: Ability to add business heads and legal in copy as an FYI to the mail through CC/BCC",
+    "author": "Ranjeet Mahajan",
+    "product": "Conga_Contracts",
+    "content": "Hi Team,\n\nFor Parallel Review: Contract requesters when sending an email to external parties would want to keep business heads and legal in copy as an FYI to the mail hence system should have abiltiy to add CC/BCC.\n\nCurrently the option to add multiple email address in 'User or email' section is available but that will send the email as \"To\" (Attached screenshot)\n\nWe have this use case for Project/Customer - Nayara CLM and business users, and legal is not keen on using the approach to add multiple User or email\n\nThank you!\n\nRegards\n\nRanjeet",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expose Contract Responsibility/Person Fields in ALL Request Profile Rule Actions",
+    "author": "Sandra Green",
+    "product": "Conga_Contracts",
+    "content": "In order to dynamically assign Contract Responsibilities within Self-Service Requests that will pass through to a triggered Flow, Profile Rules that Force Values to Null and conditionally Hide Contract Responsibility/Person fields on the Request Form, Contract Responsibility fields must be exposed (only currently available in Request Default Profile Rule Action).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Receive email once request is canceled",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Users would like to be able to receive an email once a contract request has been canceled.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to create sub folders on the Contract>Documents link section.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "For example, I have several engineers working on a contract and I want to upload their timesheets; would like to set up \"folders\" labeled 'Timesheets - Engineer One', 'Timesheets - Engineer Two', etc. and upload their timesheets under the respective sub folder.\n\nThis will allow us to manage all documentation associated to a contract and easy access to view the documents.\n\nUse of sub folders will allow our users to group like documents and easy view of what is available.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Suzanne Barrickman",
+        "content": "Has this issue been discussed as a possible enhancement for a future release?  What do we need to do as a company to see this request escalated for consideration?"
+      }
+    ]
+  },
+  {
+    "title": "enhanced formatting functionality within Conga Messaging",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Western would like enhanced formatting functionality within Conga Messaging. This would include the ability to strike and highlight text within Conga Messaging for both outgoing Conga messages and incoming external emails responding from outside the system. Additionally, these strikes and formatting edits should be preserved consistently in email chains so that no continuity is lost between external and internal applications.\n\nFrequently in our work, our users utilize strike through text and highlighting in emails when editing legal language to assist with their day to day activities, ordinary course business tasks, workflows and reviews. It would be beneficial for Western overall if we had enhanced editing functionality within Conga email messages as noted above.\n\nAs Western Admin, we would like to add this capability for striking/highlighting text so our users can have a more productive, efficient and streamlined review and messaging communication experience.\n\nThis functionality will allow Western users to more quickly and efficiently provide edits and strike through formatting within Conga messages which will assist substantially in enhancing the review experience and productivity for users, and will reduce/eliminate the need to reference third party platforms for formatting/strike through of text.\n\n- See screenshot of current issue \u2013 the Conga generated message should have a strike through 'test' similar to the external message (Screenshot in attached document)\n\n- It would be ideal if the strike through/ highlight features in Conga messaging in both a) directly system-generated messages and b) the emails from outlook/other platforms which respond to the Conga messages are preserved and maintained consistently in these email chains.\n\n-",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Type ahead in Hebrew",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Currently the type ahead feature works in english on contract requests user would like for it to also work in hebrew.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Upload existing contracts portal",
+    "author": "Tracy Cannon",
+    "product": "Conga_Contracts",
+    "content": "We need to create a systematic way to upload legacy agreements in Conga. Ideally, when a customer buys CLM, they should be abe to upload details in a grid to create records and then run a process to attach the signed contracts. Kudos to Jake Vaughan for brainstorming!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "API to populate the Manager or Department fields when creating or updating a User.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "Update or add to the API the ability populate the Manager or Department feilds when creating or updating a user.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Contracts request for an option to export additional forms in a readable format",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Currently, the export format for additional forms in Conga Contracts is a .EXPORT file (XML) and it is not really readable in any other way other than for importing to another Contracts environment. Maxim Integrated is looking for the option to have the information be able to be exported, for their own reasons, but the system currently does not let them. This enhancement would assist admins with having their information saved in a second place for a backup, for loading into a different program, or in the event that they do not renew their contract.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like to see Company Name on Elastic Search Results within the Documents Tab",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "When you perform an elastic search and you view the results within the documents tab, it will only show you the company name if that document was uploaded to a company profile, but it will be blank if that document is on a contract profile, even though that company name information can be pulled into the results.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use a field on a main contract request form as a condition for a profile rule on an additional form.",
+    "author": "Joshua Van Tassel",
+    "product": "Conga_Contracts",
+    "content": "Currently, it is only possible to create profile rules on additional forms if the 'condition' field is also on the additional form. In my example, I have an additional form that appears due to a profile rule on a contract request form, when the contract group is any of 4 contract groups for Affiliate Sales. On the additional form, I would like to have the ability to control which fields appear depending on which contract group was selected on the main request form. Currently, to do this, I would have to duplicate the contract group field and add it to the additional form, meaning the user would need to complete that field twice \u2013 once on the main request form and once on the additional form.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Flow Update Steps to Update Contract Responsibilities",
+    "author": "Sandra Green",
+    "product": "Conga_Contracts",
+    "content": "The current Update Step in the Conga Contracts Flow filter includes Contract Profile fields, but not Contract Resposniblities. Adding this ability would allow for assignment of the Contract Responbility based on given criteria rather that having to assign them manually or via Profile Rules.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Clause references on the section",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "This is in regards to an existing customer - Google, that has requested this feature as part of the contract negotiation whether it is on OCC or XAC.\nIn case we have a fallback that inserts a new section in an agreement (let's say section 10), but then in prior places in the agreement there were previous references to the old section 10 (which is now section 11). Is there a feature that automatically keeps track of references like that and would update them to reflect the current layout of the document in question?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "effective date staying the same on coterminous child agreements",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Effective date of coterminous child agreements changing when parent effective date is changed\n\n\nWhen updates are made to the effective date of a parent agreement all child agreements effective dates are being changed to match that date, which is inaccurate. The system does not auto-populate the effective date when you add an incorporated, coterminous agreement, so I do not believe that it should change the effective date of the child agreement when the effective date of the parent is changed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make Smart Search smarter by allowing a user to determine whether or not \"fuzzy\" match in search results",
+    "author": "Brian Gertsch",
+    "product": "Conga_Contracts",
+    "content": "As of Summer '21 release, Conga supports a new Smart Search which allows us to do full-text search of documents and include agreement meta data in the search results. This works pretty well. However, the search results always include fuzzy search matches of similar keywords. When we know the exact term that we are looking for, we need to be able to disable the fuzzy match option and instead only include exact search hits.\n\nThe Smart Search seems to know which search hits are from the fuzzy match because there is red text on some search results with this text, \"The document was found based on keyword relevance / fuzzy type search. Unable to find exact match of the search text within the document.\"\n\nWe would like the ability to exclude any results from the search that have this red text. This would make the \"Smart Search\" much smarter.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to send out reminder emails on requests waiting approval",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customers would like to be able to either manually send out email reminders to approvers to approve a request or they would like to be able to automatically configure those reminder emails to go out after a certain number of days.\n\n\n*These reminder emails are currently set up on the system settings page for flow reminder emails. It would be the same setup for requests waiting on approval.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "bulk upload executed contracts into Apttus in PDF format without having to go through setting up an excel spreadsheet",
+    "author": "Craig William",
+    "product": "Conga_Contracts",
+    "content": "\"As an Apttus adopter it will be great to have the functionality to bulk upload executed contracts into Apttus in PDF format without having to go through setting up an excel spreadsheet and upload through X Author. Ideally the bulk upload capability would be independent from the Artificial Intelligent Import powered by Kira but rather be a stand alone functionality of the Apttus CLM system.\" from Cummins",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Business holidays taken into account within flow duration",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like for Conga Contracts to account for EU and US holidays when showing durations for flow stage/steps.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Contract Inactivity Reminder",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "I have a customer that would like an inactivity reminder on certain contract statuses, for example if a contract is in 'In process' for a certain amount of days, a notification would be sent out to a role on the contract that they are still needing to progress the contract. This would resolve a contract from sitting in a status for too long. I have looked into this, but to have the notification send out regardless of flow step, I am not sure how that could be implemented.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change duration times to single format",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Currently the Duration meta data displays in Days, Hours and Minutes.\n\n\nCustomer would like to be able to convert all of the duration times into a single format (i.e. everything in minutes)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "\"Request submitted on\" field to be added to normal reporting selection",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to be able to report on when certain requests were submitted in the reporting feature of the application. Currently, you can only report on Request created on, but that is not always accurate for when the request is actually submitted for approval.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Improve column search functionality in elastic search results",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "When searching within the column headers on the elastic search results, the results return anything with the keyword searched even if it is located on any field in the profile. Needs to be modified to refine the searches more.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add \"GET\" for requests using the API",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to be able to use \"GET\" in the API to receive data back from contract requests.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Would like to be able to send attachments through messaging feature larger than 10mb",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "Customer would like to be able to send files larger than 10MB when using the messaging feature. Currently, files that are larger than 10mb are sent as a \".txt\" file with a link to download the file, but the customer is unhappy with that method.\n\n\nThey would like to expand the file size to be at least 25mb.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Flow - Events Creation",
+    "author": "Tracey Parks",
+    "product": "Conga_Contracts",
+    "content": "In the flow process have a step that will automatically create 'events'",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "USERS Reporting",
+    "author": "Tracey Parks",
+    "product": "Conga_Contracts",
+    "content": "Be able to build reports based on 'users' information such as when created, history of the user, etc",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Query Selection function",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like for the function to change.\n\nHow it works now:\n\nuser have to click the row, and not just the check box. Clicking the check box just makes the query global.\n\n\n\nThe whole row will highlight blue. Otherwise they should get that error\n\n\n\nUser would like the ability to just click the check box.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "ability to add people contact within a contract request",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like to have the ability to add a new contact in the Contract Request form. They would want this contact to show up under \"People\" in the contract.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Company  Category",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like to have the ability add multiple \"company categories\" to the company profile.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Term Type within list admin",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like to have the ability to edit Term Type's within list admin view. She would like to deactivate certain term types but she is unable to from the front end.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enhance Ability to Update Responsibilities on a Contract",
+    "author": "Emma Galvin",
+    "product": "Conga_Contracts",
+    "content": "There is a question as to how the application should behave in the case of a contract reassignment. Currently when a contract is reassigned from one company to another the responsibilities are kept as they are, in particular an assignment to a company person is now assigned to a person at a company that is no longer a party to the contract and who is therefore ineligible to be reselected as fulfilling that responsibility.\n\nThis issue could be resolved in multiple ways, either by removing responsible persons from the contract who are not eligible after reassignment or by moving those persons to the new company. However, both of those options present problems - in the first case, the contract cannot be resaved in the case of required responsibilities now being unfilled, and in the second case it may not be correct that the person has moved to the new company along with the contract. Both of these options also are a breaking change in the application.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show User and Date history for Flow Templates",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts",
+    "content": "We have had a number of cases where customers would like to know when a flow was last updated, not just see the revision number. We have also had cases where a flow is modified or inactivated and there is no way to tell when or who changed it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Mass Selection of Contracts to Start a Workflow on Multiple Profiles",
+    "author": "Emma Galvin",
+    "product": "Conga_Contracts",
+    "content": "Adventist Health is interested in being able to do a mass selection of their contracts to start a workflow on multiple profiles, specifically for their Annual Contract Reviews. Ideally, they would like to bulk-select contract profiles to start an annual review. They thought about using Projects but found that they have to manually add every contract but can't expand the menu to 'see more'. For example, they have 400 Blue Cross Contracts but can't expand the view to see the associated contracts.\n\nLink to screen share recording: https://liveshare.seismic.com/i/yxDjoA3OGx30K5rjCeIMW___cPLUSSIGNTHQhEJSxyIiTqSjeVTRnaaCy6vKQl9pupOx61LBKq9M5qfUPLUSSIGNPXs8L7Am9___aIgSawbfHQ___G16___quPgX0sH8tYkYRYnXOWV8xvWQJCq9Xy Please listen to: minutes 3:45 - 6:45",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign to have the ability to reassign signatories",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "The person who sent the document out for signatures should have the ability to change/edit signatories after the document package has been sent.\n\n\nThis would eliminate the need for the outside party to have to reassign on their end as well as the need to void the envelope.\n\n\nThis allows us to resolve our ow problems rather than relying on the external vendor. It also reduces work all around, because currently the only way to solve this problem is to void the envelope and send a new one.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Visual Summary of CLM/CPQ lifecycle on a timeline.",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "I would start this idea with a quote from Mark Twain \"There is no such thing as a new idea. It is impossible. We simply take a lot of old ideas and put them into a sort of mental kaleidoscope. We give them a turn and they make new and curious combinations. We keep on turning and making new combinations indefinitely; but they are the same old pieces of colored glass that have been in use through all the ages.\"\n\n\nThis idea is inspired from this \"Time Warp\" app on appexchange - https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000ONnm7EAD\n\n\nIt gives you an interactive timeline with an ability to slide over the timeline and check the records created. The UI is not too intuitive and I am sure our UX/design experts can improvise this and do better.\n\n\nFor any of our CLM or CPQ implementation, we have full visibility into how much time is spent at each step i.e. to create a agreement/quote, time spent on cart in configuration of products, document generation, approvals, esign, order placement etc.\n\n\nUsing these data points we should be able to generate a visual summary of end to end process along with link to artifacts.\n\n\nValue add: Deal Desk / Legal team can compare two timelines and evaluate where the most time is being spent/delayed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like to be able to have a copy of the executed agreements automatically forwarded to the requestor once the executed document is uploaded and the contract is active.",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "Requestors currently receive a notification email that the agreement has been approved and executed, but the notification email does not include the attachment of the final document. Our requestors do not have full access to Conga (they are disabled users) and therefore cannot retrieve the document themselves and have to request the legal reviewers and admins to go into Conga to forward fully executed documents to them.\n\n\nAs an admin, I would like to resolve the problem of our admins and legal reviewers having to email signed contracts to requestors.\n\n\nThis functionality will allow me to resolve our problem of going back into the system to email signed contracts to requestors for each individual contract.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change design of flow step headings",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User has to zoom out to 80% in order to see full flow step headings. They would like the design of flow step headings to be changed so that it is not wrapped text.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turn off Contract Flow emails and have active/inactive Creation Templates",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts",
+    "content": "1. When you have a contract flow step, there is an automatic notification email that is sent for every step. The ability to turn these off (selectively would be best) would help to remove so much of the inbox clutter. You can manage this with outlook rules but it is all or none doing it that way.\n2. The contract template browse screen would be easier to read if you could sort by Active or not; or have the actives at the top\n\n\nWhat problem do you intend to resolve with the requested functionality?\n\n1. Reduce emails and only send notifications at the start of a step to reduce email overload\n\n2. Enable the admin to quickly look at the list of active creation templates",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Requester have the ability to edit documents",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like for requesters to have the ability to edit documents within the submitted request.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Hide contract fields for certain users",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User would like to have the ability to hide certain fields for some users within the contract/company profile.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Dynamic template layout",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Layouts (colors) are different depending on BV entities.\nIs it possible to easily and dynamically manage different layouts in the template depending on those entities without duplicating the content of template ?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Email protection software prevents  user authentification",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "User sends the document to customer from Conga.\nIf the customer is using a security email software (ex: Mail in Black) : an authentification email is sent to the user. The user needs to click in it to authentify s/he is a real person and not spam. Then the email is allowed to be delivered to the customer.\nProblem is, this authentification email is sent by default to Conga's email not the user's email. The user does not receive the email and is not able to validate --> so the customer never receives the quote.\nCan't be quantified because it is declarative : customers tell users they did not receive the email.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Appendix merge",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "In word output, User needs to merge Appendix (word, pdf, excel) in the quote document generated. Currently zip document is generated gathering the document and the appendix.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Appendix numerotation",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Appendix added to document needs to have :\n- page number and header/footer page\n- ability to display the page number or the appendix in the Table Content\n- ability to display total Appendix pages number\nWhen appendix type is word, excel or PDF",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prebuilt Auto Renew functionality in Conga CLM",
+    "author": "Michael Smith",
+    "product": "Conga_Contracts",
+    "content": "If the Auto Renew box is checked on an agreement, the system should automatically create an new agreement record in the future based on the terms defined within the agreement. In addition, it should send notifications to the owner of the agreement using the Renewal Notice Days and Renewal Notice Date.\n\nIf the customer would like to override this functionality it can be disabled and use their own auto renewal process.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CC UI request/Partner admin trainer request for vertical resizing of portlets in Conga Contracts",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "Partner administrative trainer would like this capability. Committed to relay the feature request. Thank you!\n\n\"We also talked about the resizing issue of the portlets on the Dashboard, and whether that could be an enhancement in the next version.\" -Sheryl Christie akaCRM",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Proposed clause library enhancements Export, Copy clauses, Notes Field, Clause Owner, Review Date",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "1. Ability to export the clause library (current revisions only)- when you do a search query all the revisions show up and some of the clauses are missing\n2. Ability to copy clauses to add; an example is our MSA with vendors needed Vendor to be changed to Counsel in our MSA with attorneys- I had to manually re-create all the clauses for attorneys\n3. Addition of a notes field for each clause, since the clause description shows up in the plug in screen.\n4. Ability to assign a Clause Owner so that we can identify an owner for revisions and periodic reviews\n5. Ability to add a \"last reviewed\" date (different from a revision date)- to have the clause owner review their clauses on a periodic basis (this would be for clauses that are regulatory in nature, for us).\n\nWhat problem do you intend to resolve with the requested functionality?\nAs an Admin, I would like to be able to do a comprehensive review of the clauses, assign an owner (from the business) and create a periodic review (especially for the regulatory clauses)\n\n\nHow do you feel the requested functionality will allow you to resolve your issue?\n\nExport- see the clauses side by side for comparison\n\nCopy clauses- saves work\n\nNotes field- removes clutter in the plug in screen\n\nClause Owner and Reviewed date would help manage the clause for current application- focusing on the clauses that have not been reviewed in more than a year.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Elastic search filter",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts",
+    "content": "if I'm searching for a Company Name, I have to type in the 1st word of the Company Name in order to have results returned. An example is I may know the Company Name contains 'Manufacturing', but have forgotten the first part of the name (say it is ABC Manufacturing, Inc.) I have to type ABC in order to find this company. If I type in Manufacturing, it would not find that contract request.\n\n\nWould also like the ability to search by Requestor name, to isolate requests by a certain person.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow System-Generated Email Footnote Messaging to be Updated in the CC UI",
+    "author": "Sandra Green",
+    "product": "Conga_Contracts",
+    "content": "Dexcel Pharmaceuticals would like to be adle to edit or delete the verbiage that is currenlty added by the system in outgoing messages. Currently, \"Disclamer\" logic is editable under System Settings>Email>Flow (or other outgoing system email) and displays separately from the system language. Dexcel would like to be able to delete and/or edit both.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

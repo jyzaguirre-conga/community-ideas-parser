@@ -1,0 +1,92 @@
+[
+  {
+    "title": "PowerShop - Favorite Name is not displayed completely",
+    "author": "Akshay Vaibhav",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Current Functionality:\nUser is having an issue related to the display of the Favorite Name in the DC. \nCurre\nCurrently there is a character limit, post which .... is added after the name, and the user has to hover over the name to get the complete name.\nCustomer has pointed out that there is white space which is not utilised, due to which there is empty space which can be seen in the image.\n\u00a0\nTo be functionality:\nThe character limit to be increased, so that user has less whitespace and can see increased number of characters when they go to favorites.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Digital Commerce: When deleting a list of favorite, please make sure to have a warning message before deleting the entry",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Hello, currently in digital commerce when we try to delete a favorite, there is no warning message/question asked to user before deleting the entry. Can we add this enhancement such that there should a confirmation dialog box displayed before deletion?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Devdatta Bhattacharya",
+        "content": "Bulk actions like these are achievable via slight tweaks to the frontend templates. We have noted this requirement and will slot this in our upcoming releases on Conga Platform."
+      }
+    ]
+  },
+  {
+    "title": "Ability to retain the Search Text in Digital Commerce",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Hi team,\n\u00a0\nCurrently on Digital Commerce, on Product Catalog page we have a search bar where we can type the search text (pls see image 1).Here, when we search with some text I see the suggestions of product in the dropdown (image 2).When we click enter with some search text in search box, it takes the user to new url ( for example in Hitachi Energy, this is the url https://hitachienergy--sfdcstage.sandbox.my.site.com/MVP#/search/test).Here, if there are any products they would appear in the filtered list, if there are not product matching the searched text criteria then we see \u2018No records found\u2019.However, in both cases the search text is not preserved in the search box. (Image 3 and 4)Hence, there is no way for the user to go back to unfiltered product list so as to see all the products from the catalog.Hence, can we please get an enhancement for\u00a0\n\tPreserving the search text after enter is pressedBringing back user to entire product catalog (unfiltered product list), on clearing the search text.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Devdatta Bhattacharya",
+        "content": "This is achievable via slight tweaks on the frontend template. In our out of the box example templates the search is in a popup modal which does not affect the page. However we have noted the requirement regarding retaining the searched for text in the search input area and will keep that in mind in our future enhancements on Conga Platform."
+      }
+    ]
+  },
+  {
+    "title": "Ability to create order header first and then order line items in DC",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Ask from the customers is the ability to create order header first, and then have an async call which creates the order line items. Reason is when they are creating orders in DC, they don\u2019t want the user to be blocked till the entire processing is done, which is currently happening.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Chatter is not supported by Digital Commerce SDK package",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Chatter is not supported by Digital Commerce SDK package, Can you please integrate chatter with DC package?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to sort line items",
+    "author": "Ben Racine",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Not having the ability to sort line items is a usability/adoption issue. The AX is not able to validate the customer configuration without sorting capabilities. In addition, the customer is asking to see the contract config sorted a certain way which the AX is unable to provide",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto Swap of option based on attribute and Asset option",
+    "author": "Jiten Chandaria",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Customer has use case to swap particular option if that option is already in asset and if customer selects particular attribute during Change (ABO operation) process. At present 'Match In Asset' doesn't work for auto exclusion, and SWAP doesn't work for Options, hence customer can not automate this usecase",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "API to create Ramps",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "As of today, there is no API available to create Ramp lines. The only way to automate ramp creation is via Pricing callback. In SAAS industries, ramp is a common use case ex: Workday.\n\n\nInstead of creating ramp lines in PCB it will be helpful if we can get an API to create ramp lines",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "In Constraint Rule Action  - Action Criteria for Client side rule",
+    "author": "Jiten Chandaria",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "At present, Constraint rule allows to define Action Criteria in Action as 'Scope', where scope can be defined dynamically based on Product2 object fields. This feature works only on 'server' execution model and not 'Client'. Our client (Intuitive) is using client side execution mode and this feature is very much needed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Buy X Get Y promotion support - support for multiple lines",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Digital_E_Commerce",
+    "content": "Scenario: Buy X Get Y promotions. Multiple X and Y Products. Get a one-to-one mapping. When one X product is bought, one Y product should be the benefit. For two X products, two Y products must receive the benefit.\n\nSteps to Reproduce\n\n1. Create a quote.\n2. Add/ Configure 795231\n3. Select the product and click on Apply Promotions\n4. Select E6MESP_CVX_3D and click on Apply.\n5. Configure one more 795231.\n6. Select E6MESP_CVX_3D and click on Apply.\n\nExpected Result: For every instance of source product, corresponding benefit product should be selected.\n\nActual Result: Only the first match of the Y product is recognized.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

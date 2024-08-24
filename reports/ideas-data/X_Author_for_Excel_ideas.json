@@ -1,0 +1,72 @@
+[
+  {
+    "title": "X-Author Excel - App to load files 1 by 1 not in bulk as it can lead to timeouts with large / many files",
+    "author": "Sandra Wicha",
+    "product": "X_Author_for_Excel",
+    "content": "When trying to load large / many files into e.g. CLM via an X-Author Excel app we got timeout errors (\"System.OutOfMemoryException\") as it appears that the files are not loaded one after another but rather all simultaneously.\nWhile this error seems to be theoretically fixable by having a better processor or more RAM assigned to Excel this is not a feasible solution.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Sandra Wicha",
+        "content": "Hi Brian, currently there are 50 to 500 files with maximum 25MB to be loaded. Usually, ca. 300 files with on average 5MB thus in total ca 1.5 GB."
+      },
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello Sandra - Thank you for the idea submission. Can you provide additional details regarding the number of files or size of files you typically load into XAE as part of your business process."
+      }
+    ]
+  },
+  {
+    "title": "XAE App support for Google Sheet",
+    "author": "Narendra Reddy Challa",
+    "product": "X_Author_for_Excel",
+    "content": "The Customer is using Google suite of products instead of MS office. As part of XAE designer 2018, there was an option to open XAE App with Google Sheet. This was done as a customization for one customer.\n\u00a0\nWe would need Google Sheet support for XAE App as most of the customers in Europe/EMEA tend to use Google Office Suite.\n\u00a0\nGoogle Sheet should be supported for both App Design and Data upload(Higher Priority)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Update \"Save Attachment\" action to save to Files instead of Notes & Attachments.",
+    "author": "John Hammons",
+    "product": "X_Author_for_Excel",
+    "content": "Currently, X-Author for Excel has a \"Save Attachment\" action (https://documentation.conga.com/xaewin18/designing-apps/customizing-the-app-experience/save-attachment-action). It saves the attachments to Notes & Attachments of the related Salesforce object. For most Salesforce orgs that have updated to lightning they're instead using the Files related list instead of Notes & Attachments. The majority of our products have also updated with a toggle option to use Files instead of Notes & Attachments; X-Author for Excel should be updated in line with them.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Ludovic Collet",
+        "content": "We are facing the same issue. This is definitely needed in order to follow the Salesforce guidelines regarding usage of files instead of notes & attachments feature."
+      }
+    ]
+  },
+  {
+    "title": "X-Author Excel for Mac",
+    "author": "Ram Gopal T",
+    "product": "X_Author_for_Excel",
+    "content": "Hi Team,\nCould you kindly provide X-Author Excel for Mac OS?\nThank you!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Excel - When Process is Stopped Due to Error, Allow the Process to Restart from Where the Error Occurred",
+    "author": "Jeff Ercolani",
+    "product": "X_Author_for_Excel",
+    "content": "For customers that run large batch processes within X-Author Excel, the process will stop the moment an error is encountered. This forces the user to go back, fix the error, and run the entire process over again. This enhancement request is to allow the user to fix the error then when re-initiating the process, it picks up from the spot where the error occurred and moves forward from there.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "X-Author Excel - Run Entire Process to Completion and Display All Errors Once Complete",
+    "author": "Jeff Ercolani",
+    "product": "X_Author_for_Excel",
+    "content": "For customers that run large batch processes within X-Author Excel, the process will stop the moment an error is encountered. This forces the user to go back, fix the error, and run the entire process over again. This enhancement request is to have XAE run through the entire process, log all the errors, and display them to the user upon completion.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Excel - allow user input for timeout period",
+    "author": "Jeff Ercolani",
+    "product": "X_Author_for_Excel",
+    "content": "For customers who are processing a large amount of data in X-Author for Excel, they can and do run into issues with the processes timing out. We set a specific timeout period with XAE that the user cannot change. This enhancement request is to give the user the ability to configure XAE to modify the timeout period.",
+    "votes": "2 Votes",
+    "comments": []
+  }
+]

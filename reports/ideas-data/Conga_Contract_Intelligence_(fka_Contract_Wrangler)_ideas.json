@@ -1,0 +1,268 @@
+[
+  {
+    "title": "CCI Portal should have different roles so that users cannot see other record type agreements which are not assigned to that role.",
+    "author": "Xavier George Manayil Joseph",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI Portal should have different roles so that users cannot see other record type agreements which are not assigned to that role.\n\u00a0\nCurrently once we setup different document types/record types in CCI portal, user can see all the different agreements. And we don't want different roles see each other agreements as they are confidential.\nPlease find the screenshot of the current behavior.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "CCI (Conga Contract Intelligence) needs to be enabled for EMEA Country Languages",
+    "author": "Sridhar Pasumarthy",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Currently CCI doesnt have the ability to not to do other than English. As Cepheid is very heavy in contracting in EMEA, we need the CCI to support EMEA languages. This is one of the critical requirement for Cepheid",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CCI Product Improvement Suggestion",
+    "author": "Stephanie Abugharbieh",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "During amendment, allow the user to pick and choose what documents are pulled into the new record. Users often only want the final version, not all the doc versions too.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Include LInk to CCI in the CCI Email Template",
+    "author": "Matt Penrod",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Users currently receive e-mail once CCI completed processing a document that has been imported. The link in the e-mail takes users to the Agreement that was created, but this should really take users to the CCI results page instead where they can do their review of what CCI pulled. Process wise, it doesn\u2019t make sense to take users to the Agreement record after CCI is done processing, since the next step in the process is for users to review the results in CCI and update as needed before accepting. There\u2019s no way to get to that from the Agreement record. Is there a way to change the link that is used in the CCI email template so that it takes you to the CCI results page (instead of the Agreement record)?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CCI showing Doc Clauses in X-Author 2.0 after extraction/review within CCI UI",
+    "author": "Leah Migacz",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Current behaviour: When opening a Contract in X-Author 2.0, we can only view the Doc Clauses from the CCI extracted document through Review Import Result before it is reviewed in CCI. If a user opens a document which was already reviewed in CCI UI, it will throw a red notification that data has already been extracted if the user attempts to Review Import Result in X-Author.\nReview Import Result is the only way to currently have the Doc Clauses populate as Clause metadata within the X-Author panel.\u00a0\n\u00a0\nDesired behaviour: We would like the ability to be able to open a Contract in X-Author 2.0 (which has already been extracted and reviewed) and be able to view the Doc Clauses by default. There has been a suggestion to have the ability to do this without having to take any precursor step i.e. Review Import Result.\u00a0Once the document has been reviewed in CCI UI, we would like the Clauses to automatically populate in the X-Author document if possible.\n\u00a0\nThis has been suggested to make a more seamless integration with CCI and X-Author as we have within CLM and X-Author, as it would help their users to be able to redline and monitor the Clauses and Fields.",
+    "votes": "8 Votes",
+    "comments": [
+      {
+        "commenter": "Xavier George Manayil Joseph",
+        "content": "Thanks for raising this idea."
+      },
+      {
+        "commenter": "Matt Penrod",
+        "content": "We really need this!"
+      }
+    ]
+  },
+  {
+    "title": "Support Importing Bulk Legacy Documents w/Existing Metadata Use Case",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS Instance\nCCI is ostensibly (and is most definitely sold by Sales as) a great tool for moving a legacy contract repository into a better, more modern, reportable repo using CFS + Salesforce. In practice, this use case is barely supported with current product functionality.\nParticularly if the legacy contract repo contains metadata associated with the contracts, it is a very difficult, error-prone, time-consuming process to get this done.\nIssues and difficulties:\nCCI only supports uploading 100 documents at a timeCCI doesn't support uploading a document while also including metadata from a third party source to map to fields on the created Contract Agreement recordBecause of #2, users are required to manually enter an external doc ID during review so that we can find and dataload external metadata once the CCI review process is complete. Does this work? Yes. Is it reliable, scalable, and easy to use for end users? Absolutely notCCI does not allow users other than the one who uploaded it to review a document, making it hard to gang tackle a migration project. Exception: this is possible if the extraction template is configured as Level 2 and additional users are added as approvers. However, users must now both review and then approve the same data. It is redundant, time-consuming, and a frustrating UXAgain because of #2, admins must follow behind the review process by end users and dataload all the created CA records with their external metadata\nUser Stories\nAs an admin managing the migration of contracts into CFS + SF using CCI, I need a way for CCI to consume documents using automated extraction while also sending external metadata into mapped fields on the CA recordAs an end user reviewing documents during migration, I need a way to allow a team of reviewers to see the documents I upload without having to both review + approve the same document in a redundant fashion\n\u00a0\nI'm sure there is more we can talk about here but this is all I can think of for now haha. Thanks!",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Jagadish Revanna",
+        "content": "Hi,1.\u00a0CCI on RLC allows upload of up to 1000 documents from a folder.2. need more information on the metadata third-party source being referred to here.3. linked to 2.4. currently CCI allows the Owner of the document can assign the document to another user to complete the review. Select the document by clicking the checkbox on the left, and under bulk action below the search text box, a user icon will appear. click on this icon and selecting the user to assign to, the owner will be able to assign the document for review to another user."
+      }
+    ]
+  },
+  {
+    "title": "Allow Admins/End Users to View the Connected Contract Agreement before Review/Approval is Complete",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS Instance\nWhen uploading a document into CCI, a Contract Agreement record is created as soon as the processing is complete. i.e. as soon as Status changes to Ready for Review, there is a CA record connected to the CCI record. However, admins and end users have no way of discerning this connection outside of doing a global search on the file name in the SF org.\nWhy does this matter?\nIf any part of the review/approval fails, or the CCI record needs to be deleted, or anything happens other than a happy path use case, it is very difficult and time consuming to find the connected CA record and keep that in sync with the CCI record (i.e. mark as junk data, delete, make manual updates, etc). During our testing and attempted UAT with FactSet, this created lots of junk CA records that we couldn't determine if they were junk or not without time consuming, manual text matches on files names.\n\u00a0\nPersona scope:\nThis is a must-have for admins, a nice to have for end users\n\u00a0\nUser story:\nAs an admin, I need a way to easily find the Contract Agreement record connected to the CCI record as soon as that connection is established so that I can easily manage my Salesforce data should any issues arise during the CCI review processAs an end user, I need a way to easily find the Contract Agreement record connected to the CCI record as soon as that connection is established so that I can easily update my Contract Agreement should I need to bypass the CCI review process for any reason",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Jagadish Revanna",
+        "content": "Hi, Currently CCI provides a link to the agreement record after the document Review is complete. We will look into including the agreement record link when the document is in \"Ready for Review\" status as well."
+      }
+    ]
+  },
+  {
+    "title": "Improve Error Handling for Data Sync with Salesforce",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS Instance\nWhen completing the review of a document uploaded in CCI, there are no error handling controls in CCI to help users with ensuring that the data to be synced to Salesforce matches the mapped fields' datatypes.\nEx: The CCI Notice Date provision is mapped to a Date type field in SF. Depending on the contract, CCI might pull out something like \"90 days before the termination of this contract\", which is a text value and not a date value. Currently, unless the user fixes the CCI extraction to be an actual Date, when they complete the review on the document:\nthe sync will failthe document status will go to \"Error - Error in Review\"the user will see an unhelpful message about the data type not being valid (Note: it is helpful for admins, but end users will not understand it at all)the document must be re-submitted and the entire review process starts from scrach\nThis is a very poor UX for end users who know nothing about Salesforce architecture and can't be expected to know and match every data type on their mapped provisions during CCI review. The worst part of it is that there is no way to resolve the errors and the user must start over. This frankly makes the product borderline unusable and must be rectified ASAP. Note that the solution of only mapping CCI provisions to text fields will more or less ensure this issue doesn't happen, but it also ruins reporting capabilities by not using native SF field data types as designed\n\u00a0\nUser Story:\nAs an end user reviewing documents uploaded into CCI, I should not have to know the data types of the fields that my provisions are being mapped into. CCI should provide a way for me to easily rectify the data types that don't match instead of forcing me to start over from scratch with an error message that I don't understand",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Jagadish Revanna",
+        "content": "Hi,for every field/clause that is mapped to a provision, user have an option to edit the extracted values to match the underlying salesforce datatype. Since CCI creates an agreement record on salesforce, the values sent back to salesforce must match the datatype it is mapped to, failing which salesforce will throw an error. Thereforce, during document review, datatype check against the value assigned is done to make sure there is no mismatch.\u00a0Regarding the error message, CCI now displays an error message with following information: field/clause where the data mismatch has occured, the value assigned and the datatype expected."
+      }
+    ]
+  },
+  {
+    "title": "Allow the \"Database Record\" of an Extraction Template to be Changed",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS Instance\nWhen an exctraction template is created, you must select a \"Database Record\" type to associate that mapping with. Once the template is created, you cannot update this field. This causes headaches down the road when you realize that you made a mistake or that you need to switch the Type to something else due to changing business reqs, etc. In conjunction with inability to clone templates (idea here: https://community.conga.com/s/ideadetail?id=087Ub00000002oDIAQ), this creates a very difficult admin UX\n\u00a0\nIf we are currently using that Type value as some sort of unique Id, (which we seem to be since you can't map multiple extraction templates to the same type value, see idea here: https://community.conga.com/s/ideadetail?id=087Ub00000002rRIAQ) we need to change that model anyways.\n\u00a0\nUser story:\nAs an admin configuring extraction templates, I need to be able to change the Database Record type value associated with my existing template so that I can easily correct mistakes and/or make adjustments to my config based on business requirements",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow Multiple Extraction Templates to use the Same Database Record Value",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS Instance\nWhen configuring extraction templates, only one template can be mapped to a Database Record value. This creates problems when you have business requirements that dictate using CCI to pull different extractions for the same document type, i.e. two sets of MSA mappings based on Legal Entity or something like that. Not allowing this forces admins to create unnecessary, duplicative Type values on the Contract Agreement object and creates a messy org that doesn't follow best-practice, clean-data practices.\n\u00a0\nUser Story:\nAs an admin configuring my Salesforce org and my extraction templates, I need to have the flexibility to create multiple extraction templates on a single Database Record value so that I can easily meet business requirements while not having to create bad data on my Salesforce objects",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add Information to Approver Selection Screen so that Users can be Differentiated",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "CCI -> CFS instance\nWhen configuring a Level 2 extraction template, one of the tasks is to add approvers. Currently, this is a searchable field that only returns the user's first/last name. This is fine in small orgs, but in large orgs with lots of users, there are often multiple users with the same name. Current functionality gives no way to differentiate these users other than guess and check.\nBenefits:\nImproved admin usabilityDecreased time to value\n\u00a0\nUser story:\nAs an admin configuring extraction templates, I need a way to differentiate users with the same name so that I don't have to guess and check and can more quickly configure my CCI instance with less headache and frustration\nPossible solutions:\nDisplay the first/last name along with one or more of the following pieces of information:\nusernameemailetc",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to Clone Extraction Templates",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Oftentimes, it is useful to build out an extraction mapping for one document type and then clone it to a different document type so that you don't have to build each mapping template from scratch. In the CCI -> CFS instance, this is currently not possible.\nLots of benefits here: admin usability and decreased time to value come top of mind, among others.\n\u00a0\nUser story:\nAs an admin configuring extraction mappings for my users, I need to ability to clone an existing mapping template so that I can quickly and efficiently support additional document types",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Improve Dashboard Stats' Flexibility to Provide More Useful Information to User",
+    "author": "Chris Shelor",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "In the CCI -> CFS instance of CCI, there is a dashboard that allows users to see how many documents have been uploaded into the system. This is a great idea in practice until you realize that documents you didn't upload are not actually available for you to see. It creates a confusing experience because the numbers in the dashboard don't line up with the numbers of documents you can see and therefore that doesn't line up with your permissions.\n\u00a0\nSome user stories I think we should pursue:\nAs a CCI user looking to pull useful insights from my document data, I need to be able to filter my dashboard to only show documents that I have access to review/approveAs a CCI user looking to pull useful insights from my document data, I need my dashboard to only show documents that I have access to review/approveAs a CCI user looking to pull useful insights from my document data, I need my dashboard to clearly indicate the number of total documents vs the number of documents that I have access to\nNote that it's important to delineate \"review\" vs \"approve\" in the dashboard. Thanks!",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "CCI Import Document Page - Remove or Hide OCR and Verified Extraction Verification Options",
+    "author": "Alexandra Roberts",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "On the CCI import document page, our customer requested for removing/Hiding the OCR and Verified Extraction Verification options. We would like Configuration Options to control these. thanks!",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Chris Shelor",
+        "content": "+FactSet +EnvitaSimilar to the flexibility of Composer UI, admin controls and feature flexibility will create a vastly improved UX and ability for enterprise users to adopt with more success"
+      }
+    ]
+  },
+  {
+    "title": "Edit retrieved clauses",
+    "author": "Brandon Clay",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Sending on behalf of a customer. \" A feature that would be beneficial for us to move forward with CCI would be the ability to edit retrieved clauses.\" Right now this is a limitation for using Conga AI.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enabling DMARC for Smart Search email delivery",
+    "author": "Minhui Huang",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Is it possible to enable/configure DMARC\u00a0for a specific domain for smart search email delivery? Currently, users are not able to receive smart search email if DKIM and DMARC verification is enabled for their own domain.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Sanket Dable",
+        "content": "Almost all of corporations and organizations have DKIM, SPF and DMARC verifications enabled to prevent Email Spoofing/Spamming. In our case, the emails are getting quarantined since it's failing DMARC verification. These are important emails that may affect business functions. Please prioritize this feature. Thanks"
+      }
+    ]
+  },
+  {
+    "title": "Auto OCR uploaded PDF documents",
+    "author": "Stephan Becker",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Full text search is a major requirement for all kinds of documents. Also if the source document is only an image or PDF scanned as image.\n\u00a0\n2 main use cases:\n- Data migration of existing contracts. Source may be paper documents or already digitalized documents that are not yet OCR'ed.\n- Paperwork originating from the customer and provided to Roche in either paper form or as a scanned document\n\u00a0\nWhen uploading a PDF document to Conga CLM, the document needs to get OCR'ed. Asking the users to OCR the document upfront is an additional manual step that may be missed and not state of the art.\n\u00a0\nRequired for all major languages. The tool doesn't need to do anything with the information that is gathered while doing the OCR but just make the content available for global seach.",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Setting the Event Trigger \"Eye Icon\" in Bulk",
+    "author": "Matt Penrod",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Customer has a lot of documents that they would like to receive event notifications for, and they would like a way for them to select the \"Eye Icon\" in bulk so that they don't have to select each one individually. The customer says this will take them a long time to complete, and think it would be useful to be able to select as many of them as they want in a shorter period of time.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Contract Intelligent Consumption Dashboard",
+    "author": "Tracy Cannon",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Since Conga Contract Intelligence is a consumption model solution, we need a mechanism to show how many units are available versus consumed. An example would be a Dashboard with a report view that shows documents and how many Conga units were used per document. We could also have a chart that shows total Conga units consumed versus how many are available. Other charts woud show consumption by record type, by time period, by division, etc.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Deletion of Files by User",
+    "author": "Leah Migacz",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "\"It would be nice if we could designate only admins of Conga to permanently delete files. I understand the point that it can't be recovered once you open up that feature, but perhaps there could be some kind of \"lock\" or password feature. Maybe if a document is \"locked\" it can only be viewed by the person it is \"assigned\" to or an admin user.\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Hybrid of SSO & portal user creation",
+    "author": "Nirnay Patel",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Allow users to be added from the CCI customer portal without SSO as well as from SSO/SCIM",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow hierarchical/folder-level permission setting",
+    "author": "Nirnay Patel",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "Km2 Solutions need to be able to assign the whole files of the account to the owner of the account. Parent-level files are not showing who the owners are unless you click inside the file in the order itself. They would like for each agent to have their own master files assigned to them so if anyone leaves the projects, it can be reassigned easily.\n\nFor the file ownership tree, the idea is an admin can assign an owner to a folder and all sub folders and files that fall under the parent folder. This can then be displayed on the home page.\n\n\nAssociated Jira Ticket: https://conga.atlassian.net/browse/CCI2X-1648",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "[Copy] Pull historic docs from SFDC into CCI",
+    "author": "Nirnay Patel",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "\"Just on the phone with Nasdaq - they have 7k contracts in SFDC that have zero data that they would love to use CCI to extract data on - this would be the business case we discussed about CCI being able to pull any document from SFDC not just new contracts\" - Chris Ching",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Pull historic docs from SFDC into CCI",
+    "author": "Nirnay Patel",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "\"Just on the phone with Nasdaq - they have 7k contracts in SFDC that have zero data that they would love to use CCI to extract data on - this would be the business case we discussed about CCI being able to pull any document from SFDC not just new contracts\" - Chris Ching",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add searchable provision definitions to CCI Provision Mapping in CCI for CLM Admin Dashboard",
+    "author": "Kirk Wessman",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "A client/prospect would have no idea what some of the provisions mean, and would have trouble choosing without this. see screenshot here: https://www.screencast.com/t/piJeg9PZL",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto Map contact status to SFDC Integration.",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "[Imported from Contract Wrangler]\n\nMonett from Lucid asked if we can automap\nContract Status from CW into SFDC for the integration. If possible if not a heavy lift: can it be taken a step further and have only active contracts map into SFDC\n\n\nCustomer:\n\nLucid",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "AI Enhancement to the Docusign Integration",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "[Imported from Contract Wrangler]\n\nIdea:\nKlinton requested that the Docusign folder that is getting Docs automatically have an enhancement that they can set rules to that folder to auto wrangle certain Docs.\n\nThus they can set it and forget and check occasionally.\n\n\nCustomer:\n\nHuman Interest.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "AI to Scan and flag nontypical Docs before wrangling begins",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "[Imported from Contract Wrangler]\n\n\nIdea:\n\nThey would like for us to build via our AI to scan docs that are requested to be wrangled against a list of document types from Industry Standards.\n\nIf the Doc is not a typical Doc, the system will flag and hold that doc for 24hrs (then auto wrangles) unless the Customer gives final approval before the wrangling process begins.\n\nThus an ancillary Doc that is hidden in a folder does not get wrangled by mistake. This, in theory, is mutually beneficial to CW and our clients.\n\nCustomer:\n\nHuman Interest.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Mass Ignore notifications for upload",
+    "author": "Desiree Hanlon",
+    "product": "Conga_Contract_Intelligence_(fka_Contract_Wrangler)",
+    "content": "[Imported from Contract Wrangler]\n\nCustomer is trying to download 2500 docs with 700+ that are the wrong file type. The customer has to hit \"ignore\" every time there is an error or incorrect folder type.\n\nCustomer:\nSymphony- $12,500",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

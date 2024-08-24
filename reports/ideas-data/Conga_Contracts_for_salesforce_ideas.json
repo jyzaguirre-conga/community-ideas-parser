@@ -1,0 +1,557 @@
+[
+  {
+    "title": "Need Composer in a Lightning Package with Instrumentation Unlocked",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "A customer is working with a third party vendor, Quantum Metrics, to explore user session replays and KPI tracking. In order to do so, they need a version of the Composer package that can have instrumentation enabled. This would allow them to better track their users' processes, patterns, and identify pain points that could be revamped and optimized.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expose Conga Sign Audit Trail on another Object",
+    "author": "Dawn DeBolt",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "It would be very helpful/useful to be able to expose the Conga Sign \"audit trail\" history for each Conga Sign document by allowing it to be added as a related list to the Contract Agreement Object or Account object or Conga Sign Transaction object. Right now the only way to be able to see this is to click the View Audit button on each individual Conga Sign document which is labor intensive. We need this to be accessible at a glance. We would like more direct visibility of this information. Thank you!",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dawn! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Show changes made by Open in Word or Send for Negotiation as the running user instead of the integration user",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Currently, when a change is made to a document via Open in Word or received after being sent for negotiation, those new content versions are associated with the Integration User (in Salesforce). We'd like for those versions to be associated with the running user or the sending user to avoid confusion.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to add a table in the Managed Clause Text",
+    "author": "Rocky S Radhakrishnan Thazhepurakal",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Pasting a table that was copied from Word loses formatting and is also not recommended. It would be great if we could add a table directly into the clause text",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea. I have moved to \"Future Consideration\""
+      }
+    ]
+  },
+  {
+    "title": "Clause Library functionality limitations \u2013 Integration of Clause Library with Word",
+    "author": "Sridhar Pasumarthy",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The Clause Library is accessible only through the \u201cNegotiate\u201d function, which does not allow users to insert new sections/clauses to generated contracts.\u00a0Users will retrieve language from the Clause Library on a daily basis, so it is cumbersome if the user has to maintain a copy of the Clause Library clauses separately.\u00a0There should be some form of integration (or plug-in) that can tie the Clause Library from CfS to the \u201cOpen in Word\u201d function, so users can leverage the Clause Library when inserting new clauses.\n\u00a0\nCepheid internal reference : CLM JIRA Project story CLM-225",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Clause Library functionality limitations \u2013 Adding new clauses through \u201cNegotiate\u201d",
+    "author": "Sridhar Pasumarthy",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The user should have the ability to add additional clauses (outside of those configured with the existing templates) using the Clause Library to a generated contract.\u00a0\nBala mentioned during the redlining demo that the \u201cNegotiate\u201d function is limited to only\u00a0replacing\u00a0the configured template clauses and does not provide the functionality to add clauses from the Clause Library as new sections to the generated contract.\u00a0If a user needs to add a new section/clause/language to the contract, they\u00a0cannot\u00a0use the Clause Library and \u201cNegotiate\u201d function.\u00a0The user must open the generated contract in Word and manually insert the necessary language.\u00a0\nHowever, through this method, CfS (or Conga Composer) cannot recognize the inserted clause/language as a clause already existing in the Clause Library and will not provide the user with alternate clauses.\u00a0\n\u00a0\nscreenshot attached\n\u00a0\nCepheid Reference : CLM Project story CLM-224",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Clause Library functionality limitations \u2013 Adding new clauses through \u201cNegotiate\u201d",
+    "author": "Sridhar Pasumarthy",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The user should have the ability to add additional clauses (outside of those configured with the existing templates) using the Clause Library to a generated contract.\u00a0\nBala mentioned during the redlining demo that the \u201cNegotiate\u201d function is limited to only\u00a0replacing\u00a0the configured template clauses and does not provide the functionality to add clauses from the Clause Library as new sections to the generated contract.\u00a0If a user needs to add a new section/clause/language to the contract, they\u00a0cannot\u00a0use the Clause Library and \u201cNegotiate\u201d function.\u00a0The user must open the generated contract in Word and manually insert the necessary language.\u00a0\nHowever, through this method, CfS (or Conga Composer) cannot recognize the inserted clause/language as a clause already existing in the Clause Library and will not provide the user with alternate clauses.\u00a0\n\u00a0\nCepheid Reference - CLM-224 in CLM JIRA Project",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Migrate Images within a Clause, between SF Environments",
+    "author": "David Vernall",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Hey Team,\n\u00a0\nCherisse Taylor from Apptio is looking for a new feature that would allow Images within a Clause to be Migrated between Environments. Similar to a Conga Keys type of functionality, perhaps. Currently this has to be done manually so some automation would be a big time saver.\n\u00a0\nThanks,",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "Need more information. Is it related to CFS specifically?"
+      }
+    ]
+  },
+  {
+    "title": "Add \"Signing Order\" as a configurable Conga Sign Parameter",
+    "author": "Andrea Korte",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "We enforce signing order for every single Conga Sign transaction we send from Salesforce. Our sales reps have to toggle this feature manually, and it is often forgotten, causing customer confusion.\n\u00a0\nIt would be valuable to be able to pass through this parameter through the \"Send with Conga Sign\" button on the Contract Agreement.\n\u00a0\nFor example,the button could look something like this if the parameter existed:\n\u00a0\n{!URLFOR($Site.Prefix)}/apex/APXT_CongaSign__apxt_sendForSignature?id={!APXT_Redlining__Contract_Agreement__c.Id}&signingOrder=True\n\u00a0\nThanks!",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andrea, thank you for submitting this idea!Just to clarify, are you wanting a parameter outside of what we have with the routing type option which allows you to set either SERIAL or PARALLEL?https://documentation.conga.com/sign/latest/salesforce/conga-sign-parameters-222432029.html#id-.CongaSignParametersvOctober23-routingType"
+      }
+    ]
+  },
+  {
+    "title": "Add Sub Clauses to Bundle Clauses View in Clause Library",
+    "author": "Chris Shelor",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "User Story: As a user managing the clause library and clause bundles, I need the ability to see which clauses have sub clauses assigned while either viewing or editing the clauses in the clause bundle\n\u00a0\nCurrent Functionality: Only parent clauses are shown and you have to guess/know which ones have sub clauses",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hi,\u00a0\nThis is a great idea. We need to look at what this will take for us to implement and then update back when we get an idea of time frame. We will slot this in for a future release."
+      }
+    ]
+  },
+  {
+    "title": "Email From Display Name Includes More Than Just User Object Merge Fields",
+    "author": "Carrie Bellio",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Hello,\n\u00a0\nWe currently have a customer who would like to use the OwnerID from a custom object to display on the 'Send for Negotiation' From email.\n\u00a0\nCurrent State: The merge fields that are available on the 'Email From Display Name' are limited to the User object.\nFuture State: Please include the option to include other objects",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "This was released in version Oct23.11.08 2.103"
+      }
+    ]
+  },
+  {
+    "title": "Add custom fields to CFS Clause Library Clause UI page",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When adding any custom fields to the Clause object, those fields are only accessible through the Salesforce Clause record page. Customer would like the ability to add custom fields to the Clause Library Clause record layout. This currently isn't possible because the page is part of the CFS managed package and not editable.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hi! Great news. This is planned for Oct '24 release. If that shifts we will update the community. Thank you!"
+      }
+    ]
+  },
+  {
+    "title": "Make CFS True-up be compatible with JAWS",
+    "author": "Chris Shelor",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "As a company with visually impaired employees, I want to have all my software be accessible to anyone who is visually impaired so that they can do their jobs effectively.\n\u00a0\nIssue:\nCFS True-up does is not compatible with JAWS (see below). It does not read the screen when the True-Up interface is open, specifically the left-hand column that lists out fields and clauses and then the pop-up modal for pushing changes back into SF.\n\u00a0\nJAWS Description:\nJobs Access with Speech (JAWS) is a screen reader for visually impaired folks. FactSet uses JAWS and discovered this compatibility issue during testing\nJAWS Product page: https://www.freedomscientific.com/products/software/jaws/\nThe FactSet team is more than willing to chat and help y'all figure things out\n\u00a0\nVideo link is coming soon! Will upload once I have it",
+    "votes": "11 Votes",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hi Sheep,\nYes, absolutely. This is something we are very happy to incorporate. Need to have some help with the research and then figure out what it will take. I would be happy to talk to FactSet about this."
+      }
+    ]
+  },
+  {
+    "title": "Ability to update the clause title in managed clause when the user selects an alternate clause during negotiate process",
+    "author": "Minhui Huang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When using Negotiate>Clause Playbook, the selected Clause text is replaced but the Managed Clause still references the initial Clause that was generated not the newly selected Clause. It would better if we can have an option to update the clause title to avoid confusion.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "I think I understand. You are asking \"If I replace a clause in Negotiate mode that has a different master clause than the one replaced, it should replace the lookup to the clause\"\nWe won't make that change. We actually want this. Customers desire to run reports based on clauses and the delta of the clause language across their contracts. If a clause is being replaced by something else, it's something we want to keep track of."
+      },
+      {
+        "commenter": "Minhui Huang",
+        "content": "To be more specific, it would be nice to have the Clause lookup update even if the name text field remains unchanged."
+      }
+    ]
+  },
+  {
+    "title": "Format Currency for Recursive Merge Field",
+    "author": "Minhui Huang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Currently, the recursive merge Currency field appears without comma in the generated document. For example, 555000.00. It'd be great if we can keep the same currency format when using Recursive Merge for the currency field.\n\u00a0\nThanks!",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea! I've moved to \"future consideration\""
+      }
+    ]
+  },
+  {
+    "title": "Send for Negotiation email related to incorrect Contact when duplicate emails exist",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When using Send for Negotiation, the email gets related to a contact, usually the recipient contact. When there are multiple contacts in Salesforce with the same email address, the email activity can be related to the wrong contact. So it's looking at the email address instead of the contact record associated with the Contract Agreement. Would like for those activities to relate to the correct contacts regardless of duplicate email addresses.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hi, This sounds like something that is a behavior we want to tell users not to do rather than control for it. Why do multiple contacts have the same email address?"
+      }
+    ]
+  },
+  {
+    "title": "Contracts for Salesforce - Enable Rich-Text Formatting on Send for Negotiation Email Template",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Currently, when using Send for Negotiation action, any color formatting on the Classic Email Template being used gets stripped both in the user interface and in the email sent. We'd like for that formatting to remain.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Are there similar problems using lightning templates?"
+      }
+    ]
+  },
+  {
+    "title": "True-Up displays added/changed text as highlighted",
+    "author": "Matt Penrod",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When users click on true up, a pop gets opens up and displays two separate sections: \"Document value\" and \" salesforce value\". The changes don't highlight in the document value section, though, and all text is displayed in black. Displaying the change as highlighted (or in a different color) in the true up- document value section will make it easier for users to track changes.\n\u00a0\nScreenshot: https://app.screencast.com/89FA9UvXxcHqj?conversation=SZkxZLNVIzXBBKmDFXHKsq",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hi, this has been requested a few times so we are looking into the feasibility in a future release, tbd on priority."
+      }
+    ]
+  },
+  {
+    "title": "File Name Changing in Send for Negotiation",
+    "author": "Minhui Huang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "After we update the File Name in Salesforce and use the \"Send for Negotiation\" button to send out the document, the email attachment still shows the old file name.\n\u00a0\nAs a workaround, we need to update the filename locally, and upload a new content version to Salesforce to revise the file name. Is it possible to have the new file name show up in the \"Send for Negotiation\" email attachment without uploading a new file?\n\u00a0\nRequest by: CJ Affiliate",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "This is possible in the standard salesforce files interface. Edit the file name in the files related list before sending."
+      }
+    ]
+  },
+  {
+    "title": "Ability to allow Recursive Merge to work when swapping clauses in Negotiate mode",
+    "author": "Mark Turner",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "A use case has been raised wherein a customer needs to be able to swap clauses in View Redlines --> Negotiate - at present, when clauses are swapped the mergefields are appearing instead of final values. They would like to be able to amend clauses once a document has been generated",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hey Mark,\nWe like this idea, the problem is the underlying technology needs a large update to make this change. We are going to partner with our other stakeholders internally to see if this can be accelerated."
+      }
+    ]
+  },
+  {
+    "title": "Ability to Mass Update Sort Order on Create Managed Clause Definition Step",
+    "author": "Nicole Lang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Please store the Sort Order field from the Managed Clause page layout from the Create Managed Clause Definition Step so that is is accessible for the ability to mass update when Sort Order needs to be changed on all Managed Clause Steps. Right now, I have to go into each individual Managed Clause Definition step to update the Sort Order that would generate when the Managed Clause is created on the Contract record. The use case is having Managed Clauses with a Sort Order to dictate their order in between Bundle Clauses, however, when a new Clause is added to the bundle then the Sort Order of each dynamic Managed Clause needs to be updated. We have 40 Managed Clause Steps in one Definition.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Engineering is going to investigate this as part of the Octoberr review of customer requests. It does not mean we are going to do this work, we are going to look into the feasibility. Thanks for submitting, makes sense."
+      }
+    ]
+  },
+  {
+    "title": "Customize Send for Negotiation page",
+    "author": "Michael Overman TS",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "While it's possible to create a Send for Negotiation button with a different Label (e.g. Send for Review), it's not currently possible to make any changes to the actual Send for Negotiation user interface page. Users would like ability to customize that interface page with different language",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "Custom labels are used on the page, so language translation can be used."
+      },
+      {
+        "commenter": "Josh Sangster",
+        "content": "MIchael we need some clarification here - does the customer want to update the text on the page, or translate the text to a different language?"
+      }
+    ]
+  },
+  {
+    "title": "Ability to customize the name of the Contract Agreement name field in CFS",
+    "author": "Abhishek Kamalia",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "In CFS, We have a Managed Object \"Contract Agreements\" in which we have a managed field \"Contract Agreement Name\".\nWe need the ability to change or modify the value of the Contract Agreement Name.\nE.g. - CON-0001 to [RecordType]-0001",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "This is not possible. Customers can create their own naming field and design a naming convention with automation. Or, customers can use a different object. We are locked into an 80 character auto-number field for the Contract Agreement object."
+      }
+    ]
+  },
+  {
+    "title": "Remove Cover Page from Generated PDF from Redlining",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When we are generating a PDF by Redlining Save as PDF button, a cover page is getting added to the document. The cover letter includes the date and time of the file generation, the user who generated the file, the file name, and both document versions being compared. There should be a way to remove that cover page.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Revamp Autonumbering/Formatting with Unordered Lists",
+    "author": "Matt Penrod",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Following is our detailed description to our Conga Partner Manager and the Client. We have been asked to log a ticket with Support/Product Team, as this is a known issue with the Composer product and affects 90% of our builds. We can usually design around it, but it was a blocker with no solution on this particular project. Colton mentioned a possible solution that had recently been developed, but wasn't able to find documentation on it. From what he described, that solution would fix this bug.\n\u00a0\n\"Upon further investigation into the document generation issue with Tevora\u2019s SOWs (Fixed/Hybrid), we\u2019ve discovered that a problem we thought might be a relatively easy fix in the templates themselves is actually due to an inherent flaw in the Conga Composer product. We encounter this flaw fairly often while building and are sometimes able to design around it. However, in a project like this one where templates and clauses are so heavily dependent on unordered (bullet-pointed) lists, it is nearly impossible to circumvent.\n\u00a0\nThe issue lies with the addition of extra paragraph <p> tags following unordered lists. This causes each new paragraph in a given clause following an unordered list to generate as a new, separate clause. This causes Word\u2019s auto-numbering to recognize each paragraph following a </ul> tag in a clause as a new number, throwing off the auto-numbering and formatting in the document.\n\u00a0\nUsually, this is a problem we can solve by going into Custom Settings and enabling \u201cclean p tags\u201d and \u201cclean ul tags.\u201d However, in this project, \u201cclean p tags\u201d does not resolve the issue. \u201cClean ul tags\u201d cannot be utilized due to the reliance on bulleted lists in the templates. We believe it\u2019s possible that restructuring the clause configuration in the library to include any extra paragraph after a <ul> in a clause as a subclause and adding a subclause merge tag in the template may circumvent the product flaw in Composer. However, there are a few major pain points with this solution:\n\u00a0\nThere are over 90 separate clauses of this clause type currently in the clause library- one for each product available to SOWs. Some of these clauses contain only one paragraph following the unordered list, but many of them contain two paragraphs. Each of these paragraphs would have to be re-added into the library as new clauses and associated to the originals as subclauses for this to operate correctly.\n\u00a0\nThe manner in which the implementation was originally designed would operate correctly for any type of clause except those containing unordered lists. It is only the presence of unordered lists in each clause that causes the document to generate incorrectly. With adoption and ease of use in mind, creating an overly-complicated design to circumvent a known flaw in the product may hamper the ability of future Tevora admins to add new products/clauses to their system. This could lead to a decrease in use and adoption, and an eventual deprecation of product use altogether.\n\u00a0\nThe only other solution to this issue would be to ask the client to fundamentally change the look/feel of their templates to remove bullet-pointed lists altogether. Tevora is understandably unwilling to do this, and we feel they shouldn\u2019t have to. If they chose this option in the end nonetheless, this would also necessitate a retooling of the clause library and clause library for over 90 clauses.\"",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Matt,\nWe believe this issue is a combo of CFS + Composer. We need to see the tickets related to this to help. Please put together an email with the tickets and make sure engineering can access the customer environment to review. REach out to @ed Carrion to schedule the review with the CFS team. Thank you."
+      }
+    ]
+  },
+  {
+    "title": "Allow multiple users to edit the same document at the same time like in SharePoint",
+    "author": "Marija Mockute",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Sometimes there is a group/team of people that need to make changes/edits to the same document at the same time. Today, only one user can edit the document at a time. This feature would save time and allow a few users work on the same document together.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "We would recommend you to use O365 for this.  We did a feasibility check and will consider this in the future."
+      },
+      {
+        "commenter": "Josh Sangster",
+        "content": "Marija, and others invested in this, Office 365 is arriving in June :)"
+      }
+    ]
+  },
+  {
+    "title": "Add 'Section Title' field On Clause Library > New Clause record",
+    "author": "Carrie Bellio",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Customer has a query where the criteria is searching for LIKE words in the 'Section Title' field, the only way the customer is able to see this field is if they go to the Clause record itself. It would he helpful if the 'Section Title' field would be visible on the New Clause record UI",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Part of the work we are doing in October will enable us to make some changes in the future for clauses. This is under future consideration."
+      }
+    ]
+  },
+  {
+    "title": "When Clause is Approved in CFS, True-Up the Clause",
+    "author": "Jeff Ercolani",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When sending for approval from the View Redlines interface in CFS, once the clause is approved, have that clause automatically true up to the record. Today, after the clause is approved and you go to the true up interface, you still need to accept the changes to that approved clause which might be confusing to a prospect.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Jeff there is a button in the true up that creates an approved version. we save true-up for the end of the negotiation process. Will not implement out of fear of overwriting something."
+      }
+    ]
+  },
+  {
+    "title": "Contracts for Salesforce Version Update",
+    "author": "Minhui Huang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The customer (Bacardi-Martini B.V.) noticed that a new version of CFS was pushed to the sandbox and production environment at the same time (14.09.2022). Their management team didn't have time to investigate the impact of release to their custom projects. After the new release, one user raised an issue. They are still in investigation on impact. They were wondering if we can consider pushing the future release to sandbox environment first, so that they can have sometime to check the new version with their development team. Thanks!",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Setting output filename when using Save As PDF in View Redlines",
+    "author": "Mark Turner",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Related to case 00806326 When going to View Redlines and clicking on the \"Save As PDF\" button, the final document generates extra text to the filename - it has been confirmed that this is part of the managed package and cannot be amended. Customer would like the ability to set the name of the final PDF",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "Hey mark we think that it is best to use Composer to do the final document - but we can look into this."
+      }
+    ]
+  },
+  {
+    "title": "Allow Headers and Footers when using View Redlines --> Save As PDF",
+    "author": "Mark Turner",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Related to case 00806326 When a customer is in View Redlines and clicks the \"Save As PDF\" button to convert the final contract(s), all headers and footers are removed from the final document. They need this detail and would like headers and footers to be created in the final PDF",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "We shipped this, there is a custom setting related to headers and footers."
+      }
+    ]
+  },
+  {
+    "title": "Smart Search (Aka Content Search) in CFS.",
+    "author": "dhananjay Joshi",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "We recently got a requirement to implement Content search in the AXA POC. AXA wants to search based on the keyword exist in the document and find out the list of contract with the such keyword in the Doc. Currently we are showing custom content search functionality built by the SE team. This is becoming frequent ask in the demo.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Josh Sangster",
+        "content": "We are investigating bringing this to CFS."
+      }
+    ]
+  },
+  {
+    "title": "Risk Score and Risk Analysis  for Clauses  in CFS",
+    "author": "dhananjay Joshi",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "We need a risk score functionality in CLM. We should have a risk score defined at the clause & their indicator. It can be rolled up to the overall Agreement. The risk score gets updated if we make any change in the existing clause or add a new clause. We should have a risk indicator on an agreement to show the overall risk.\n\nWe are frequently getting this request in demos. We need this functionality OOB. Currently, we are showing custom Risk scoring functionality built by the SE team.\n\nA possible way to speed up the negotiating process for companies that are highly transactional with limited legal resource",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cycle Time Reporting for CFS",
+    "author": "Alejandra Tarrell",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "It seems that internal reporting requires customization in CFS. It would be great if there could be a dashboard and reports available OOTB.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to see extra texts when selecting Clauses",
+    "author": "Mark Turner",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Related to case 00804074\n\n\nThe customer made a request that when going to Clause Library --> Clause Bundles --> Related and then clicking on \"Select Clauses\", when in the window to select clauses, they would like an option to be display (or customise the window) custom texts like guidance text or the actual clause's texts to help the user decide which clauses to pick",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show file details when sending out emails - CFS",
+    "author": "Namrata Kusmude",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "In the activity component of an agreement record, when there's an activity stating that an email has been sent/ received, it does not show which file was sent or received. It would be helpful as they can keep a track of the file sent and the also receive any changes made.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Contract Agreement Stage Duration",
+    "author": "Minhui Huang",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The customer wants to track the duration between different status of the agreement. They understand that they can create a History report to view the edit time for each status. However, they hope to have an OOTB feature to let them track the duration more easily.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "This can be achieved through Cycle time reporting."
+      }
+    ]
+  },
+  {
+    "title": "Ability to merge multiple separate agreements in a single document when sending for negotiation",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Customers Sales \u200b\u200b\u200b\u200b\u200b\u200b\u200bteam is not able to combine separate agreements (MSA / LOF / SOW*) into a consolidated bundle for a single negotiation experience. Currently, all agreements are required to be sent & negotiated separately for a single deal, which causes delays and confusion so combining all agreements for the negotiation phase would be helpful.\n\n\nRequested by Sprinklr Inc on case 00800941",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "the ability to have alpha and roman ordering capability on RichText Field of the Clause Library, Clause and Managed Clauses",
+    "author": "Corey Purdy",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "We have Word Documents that has alpha/roman ordered list and when you copy and paste to create a Clause, all the formatting has been stripped and reverts to numbered ordering. As a Conga Contract CLM, this should be very useful for all legal document requirements.\n\nIdeally, straight copy/paste from a word doc into a new clause without re-formatting. Also when editing a Managed Clause record, all formatting is retained, leading to less editing after generating the document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show section changes in the negotiate button",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Show the document changes in the true-up page (the section on the left with the alarm signs when something is changed in the doc) n the negotiate section as well. This will demonstrate better visibility of the changes when working in the clause playbook swapping clauses and what not.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer would like the Clause Text(Rich Text Editor) Formatting to match exactly what is inside the Merge Clause",
+    "author": "Rene Rodriguez",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Snap Business Intelligence(Partner) Case #00783228\n\n\nThe user wanted the spacing between paragraphs(within one Clause on the Rich Text Editor) to match exactly with the output on a generated template\n\n\n* HTML configuration was seen as a workaround(Recommended)\n* Line Spacing in the Base Template did not work because the request was is solutioning within the Merged Clause",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make Contracts for Salesforce do my job for me.",
+    "author": "Josh Sangster",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Yadda yadda make my life easier.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CFS Mobile Compatibility",
+    "author": "Jimmy Wenham",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Can the CFS approvalinfo component please be mobile enabled. For that matter, any components used by CFS should be mobile enabled, given that Salesforce is a mobile first platform.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove Send for Negotiation sender email from CC",
+    "author": "Kevin Singleton",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "A customer FlixMobility has a team who wish to use Send for Negotiation but do not want to expose the Flix employee details to the recipient. Send for Neg automatically adds the Sender's email to CC, and this cannot be prevented by setting the emailCC parameter to blank.\n\nCan we have the ability to override this behaviour?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Please update Contract Agreement statuses sequence  in activties related section",
+    "author": "Happy Kumari",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Initially Contract Agreement is in 'Draft' Status. Once the user clicked on submit for approval button its changing status from 'Pending Approval' to 'Approved'. But in activities related list firstly it is showing from 'Pending Approval' to 'Approved and secondly from 'Draft' to 'Pending Approval'.\n\nThe sequence needs to be updated.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show which users made changes in the View Redlines Screen",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Customer would like to be able to see who has made each change to the document on the view redlines screen.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow the Contract Agreement  Name field Display Format to be changed",
+    "author": "Kevin Singleton",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "The prefix CON- is offensive in French but the Name (managed package) field cannot be edited and so the Display Format cannot be changed. Allow the Contract Agreement Name field Display Format to be changed.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Anish Krishnan P",
+        "content": "We are using auto number feature for the Contract Agreement name. This is a Salesforce restriction, so this cant be customised for individual org. unfortunately."
+      }
+    ]
+  },
+  {
+    "title": "Allow a new value to be trued-up to a picklist field",
+    "author": "Chris Shelor",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When using an unrestricted picklist as a recursive merge field, I'd like to be able to true-up new values back to that field. Today, I can only true-up values that already exist in the picklist regardless of whether it's restricted or not",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Clause Playbook- Insert when 'replace' is clicked, not 'save.'",
+    "author": "Colton Lederer",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "Use case is a contracts reviewer would change at least 5 clauses on the Negotiate screen. Ultimately, this would get sent back to the client. When making those changes, the contract reviewer wants to see the clauses change in real time when 'Replace' is clicked. Today, for a user to see the fall back clause go into the document, 'Save' needs to be pushed. That also creates a new version. Ideally, they would like these 5 clause changes be in 1 version.... which they can do if they hit replace, but then the 'fall back language' isn't in the document so reviewing their work is a challenge. Outreach.io - DocGen + CFS https://getconga.lightning.force.com/lightning/r/Opportunity/0061T00000qejVEQAY/view",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show redlines in True-Up of a clause",
+    "author": "Kevin Singleton",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "When truing-up a clause it is sometimes difficult to see what has changed. Including redline markup will easily indicate what has been added or removed. This is a customer request from FlixBus.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Include Cardtext Fields in True-Up",
+    "author": "Jake Teixeira",
+    "product": "Conga_Contracts_for_salesforce",
+    "content": "As of now, if you have a card text merge field in your document, true up will associate it to the correct record field but it will associate it with the original format (i.e. original field is numerical and the cardtext field is spelled out) and it will not be able to true it up. Customer would like to be able to use the cardtext field and true up the field in the cardtext form or at least have redlines ignore the cardtext field.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

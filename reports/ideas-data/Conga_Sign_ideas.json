@@ -1,0 +1,3005 @@
+[
+  {
+    "title": "Using Merge Fields with Conga Sign Write-Back Tags in a PDF Template",
+    "author": "Dan John",
+    "product": "Conga_Sign",
+    "content": "Description: The customer would like to display the actual value of the write-back (wb) tag field in a PDF template, rather than the merge tag itself, when signing a document.\n\u00a0\nIssue: Currently, the merge tag for write-back fields is shown in the PDF template, but the customer prefers that the PDF display the actual value of the wb tag field after the document is signed.\n\u00a0\nUse Case: When a document is signed using Conga Sign, the customer wants the signed PDF to reflect the value of the wb tag field, instead of showing the merge tag placeholder. This enhancement would improve clarity and usability by ensuring that the signed document accurately reflects the data inputted during the signing process.\n\u00a0\nRequest: Implement functionality to replace the merge tag with the actual value of the wb tag field in the PDF template upon document signing.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dan! Would you be able to provide some images to illustrate what is currently happening so we can better address this request?"
+      }
+    ]
+  },
+  {
+    "title": "Clickable Hyperlinks in Conga Sign Documents",
+    "author": "Flownie Nunez",
+    "product": "Conga_Sign",
+    "content": "When a signer receives the file to sign, the hyperlinks within the document are not clickable. To make the hyperlinks functional, the file needs to be downloaded first. For added convenience, enabling link-clicking without requiring a download would be ideal for the signer.\n\u00a0\nPlease refer to the attached documents for more details.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Flownie! This is something that has been requested in the past, so I will be merging this idea with the parent request which is still in the status of Future Consideration."
+      }
+    ]
+  },
+  {
+    "title": "Using Merge Fields with Conga Sign Write-Back Tags in a PDF Template",
+    "author": "Dan John",
+    "product": "Conga_Sign",
+    "content": "Description: The customer would like to display the actual value of the write-back (wb) tag field in a PDF template, rather than the merge tag itself, when signing a document.\n\u00a0\nIssue: Currently, the merge tag for write-back fields is shown in the PDF template, but the customer prefers that the PDF display the actual value of the wb tag field after the document is signed.\n\u00a0\nUse Case: When a document is signed using Conga Sign, the customer wants the signed PDF to reflect the value of the wb tag field, instead of showing the merge tag placeholder. This enhancement would improve clarity and usability by ensuring that the signed document accurately reflects the data inputted during the signing process.\n\u00a0\nRequest: Implement functionality to replace the merge tag with the actual value of the wb tag field in the PDF template upon document signing.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dan! Would you be able to provide some images to illustrate what is currently happening so we can better address this request?"
+      }
+    ]
+  },
+  {
+    "title": "Clickable Hyperlinks in Conga Sign Documents",
+    "author": "Flownie Nunez",
+    "product": "Conga_Sign",
+    "content": "When a signer receives the file to sign, the hyperlinks within the document are not clickable. To make the hyperlinks functional, the file needs to be downloaded first. For added convenience, enabling link-clicking without requiring a download would be ideal for the signer.\n\u00a0\nPlease refer to the attached documents for more details.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Flownie! This is something that has been requested in the past, so I will be merging this idea with the parent request which is still in the status of Future Consideration."
+      }
+    ]
+  },
+  {
+    "title": "Version Selection Feature for Downloading Documents in Conga Sign",
+    "author": "Flownie Nunez",
+    "product": "Conga_Sign",
+    "content": "In Conga Sign, when creating a transaction, documents are saved as two separate files: the Original and the Final version. I would like a feature that allows me to choose to save or download only the Final version. This would help reduce the number of downloaded files, even if multiple files are involved.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Flownie, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Allow Midway Signing to download a 1 way signed document",
+    "author": "Dan John",
+    "product": "Conga_Sign",
+    "content": "Allow a way or feature where when there's a 2 way signer, the 2nd signer from outside the organization can download the document with the signed copy from the 1st signer before finishing the transaction.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Abby Petersen",
+        "content": "We use CongaSign in our CLM tool and this is my #1 pain point. We often have it happen where the supplier is fine with me sending for signatures. Then, after my company has signed, they decide they want to sign in their own system. So, i have to void and completely start over"
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dan! We will be taking it on for future consideration.\u00a0One thing of note, a document can be downloaded while partially signed using the Conga Sign for Web solution, however, there is not a way to finish out the transaction after the second signer has signed."
+      }
+    ]
+  },
+  {
+    "title": "Changing System Generated Fonts",
+    "author": "Kevin Watt",
+    "product": "Conga_Sign",
+    "content": "Allow for changing system generated fonts. Our dev had a call with conga support to discuss how to change the Address line and Emails in Arial font as our branding team requested. During the discussion with Conga Support team they confirmed that\u00a0 \"address line and Conga emails are in Arial font are not possible to be changed as this is standard for all conga sign emails.\" For your reference, the Conga Support Case number is #00901494.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Kevin! We will be taking it on for future consideration. Please note that email customization (which includes font selection) is already available with our Conga Sign for Web offering."
+      }
+    ]
+  },
+  {
+    "title": "Feature similar to DocuSign's Certificate of Completion\ufeff",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer is looking for something similar to the DocuSign's Certificate of Completion. They were informed about the Audit Trail but they mentioned that this feature is a nice to have.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhanie! This feature is available with Sign for Web, but will take it on for future consideration for Sign Professional."
+      }
+    ]
+  },
+  {
+    "title": "Ability to use two or more string values for CSFirst/CSLast and CSName parameters",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "When using two string values for CSFirst1 (e.g., &CSFirst1=Teddy Lee), Conga Sign will only read the first string in the Sign UI. The same behavior occurs with CSLast1. For CSName, it can only return two-word values in the Sign UI regardless of what is hardcoded on the button.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea Dhanie! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Optimize API Permissions for Enhanced Security",
+    "author": "Dan John",
+    "product": "Conga_Sign",
+    "content": "Insight: Initially, the button functioned correctly until the API was enabled, leading to issues with contract generation. The resolution required two permission sets, one of which poses security risks if shared broadly.\n\u00a0\nAHA Moment: Instead of assigning the high-risk permission set (\"BUS1 Use Any API Client\") to every user, explore modifying the connected app settings to grant necessary API permissions without compromising security. This approach can streamline user access while safeguarding sensitive data.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dan, thank you for submitting this idea! We will be taking this on for future consideration and will review with the team."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - hide/remove 'send now' button",
+    "author": "Simran Singh",
+    "product": "Conga_Sign",
+    "content": "We need to hide/remove the Send Now button from the Conga Sign create transaction screen. We would prefer if we could hide the function in case we ever need to use it in the future.\n\u00a0\nWe have had incidents where the button was used on an untagged agreement and the contract was not signed because it went out without signature tags.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Simran, thank you for submitting this idea! Since it has already been requested, I will be merging this idea with the existing one."
+      },
+      {
+        "commenter": "Prasenjit Banerjee",
+        "content": "Similar type of request has been seen from other customers too. If we have some custom settings which we have facility to achieve it. Please consider, if it's feasible."
+      }
+    ]
+  },
+  {
+    "title": "Ability to attach fully Signed documents in another object's record",
+    "author": "Chaitanya Taneja",
+    "product": "Conga_Sign",
+    "content": "It would be great if we had the ability to attach the fully signed documents from Conga Sign into a different object.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Chaitanya, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "\"Approve\" Tag not available in \"Preview and Tag\" Page",
+    "author": "Pradeep V",
+    "product": "Conga_Sign",
+    "content": "Assuming, The signer's tag in the template starts from the 3rd and 4th recipients. So the 1st and 2nd signers will only approve the document by clicking \"Complete Document\". However, If I want to add one more ad-hoc signer to follow the same signing method as 1st and 2nd signer, I should have the option in the \"Preview and tag\" page where a tag can be added or something. So, ad-hoc signers can only sign (Approve) the document just by button click called \"Complete Signing\".\n\u00a0\nDetailed screenshot attached for easy reference -",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Pradeep, thank you for submitting this idea! To be clear, you would like a tag to indicate approval rather than having no tags for the ad hoc user and having them click Complete Signing?"
+      }
+    ]
+  },
+  {
+    "title": "Ability to retrieve a direct link to being a Signing process as opposed to distributing email directly from conga",
+    "author": "Rocky S Radhakrishnan Thazhepurakal",
+    "product": "Conga_Sign",
+    "content": "In cases where the Conga Sign email is not delivered due to any issues on Users's end, it would be great to have an ability to retrieve a direct link that could be shared with the users so they can Sign the documents without the use of any emails.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Rocky, thank you for submitting your idea! Unfortunately, we cannot add this feature to Conga Sign Professional as we are in the process of beginning end of sale for the product.However, we will consider it for the future development of the upcoming Conga Sign for Web Salesforce connector!"
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Display Signed Date Plus 5 Days on Document",
+    "author": "Dan John",
+    "product": "Conga_Sign",
+    "content": "Use Case: They have highlighted the necessity to display the signed date plus 5 days on the document once it has been signed.\n\u00a0\nPurpose: This feature is crucial for residential in-home sales. In many states, there exists a legal three-day right to rescind for in-home sales, allowing consumers the right to cancel a sale. To comply with this regulation, a date must be displayed indicating the deadline for cancellation. The formula required for this is the customer\u2019s signed date plus 5 days, accounting for weekends.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dan, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Custom tags become mandatory in review and Tag screen.",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Custom tags, even when set as optional in Conga Sign Setup and on the tag syntax itself becomes required on the Preview and Tag screen. This seems to be because it is inheriting the tag property there rather than what is in the pre-tag itself.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhanie! Thank you for submitting this idea. When you're talking about custom tags, do you mean the custom text tag or are you referring to custom write back tags?"
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Allow Reporting on \"Re-Send\" action",
+    "author": "Jonathan Verret",
+    "product": "Conga_Sign",
+    "content": "When using the \"Resend Document\" action on a Conga Sign Transaction, currently there is no way to report on whether the transaction was re-sent or not.\n\u00a0\nIt would be useful to be able to report on Conga Sign Transactions, to know when they were last re-sent. The only way to check this information now is to look at the Audit History for each Transaction.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Jonthan! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Writeback Tag required when using DefaultValue",
+    "author": "Brandon Cole",
+    "product": "Conga_Sign",
+    "content": "The customer wants to use Conga Sign Writeback tags and set them to optional. This user is using a DefaultValue to merge in an email address WHEN the record has an email.\n\u00a0\nShe's also using this syntax on records where there IS NOT an email on the record. So when merging a default value into a Writeback tag with no data, the Tag becomes required at signing. \n\u00a0\nIdea: Allow default values in Writebag tags without switching them to Required upon signing.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Brandon, thank you for submitting this idea! This behavior is happening because of the merge that's taking place, but we will take accomidation of null values into consideration when it comes to email fields."
+      }
+    ]
+  },
+  {
+    "title": "Resync Button for Conga Sign Transactions",
+    "author": "Alex Casey",
+    "product": "Conga_Sign",
+    "content": "As Conga continues to make improvements and updates there is always going to be the possibility that something does not go quite right during the signing process. Sometimes there are even just brief connection issues or other random things that will cause our Salesforce Environment from not being 100% inline with what Conga has on their end. A Resync button on individual Conga Sign Transactions would be the perfect solution to this issue.\n\u00a0\nCurrently I am specifically experiencing this when a user reassigns a recipient, but the new recipient record is not created, and the new recipient does not receive an email. The audit trail says the recipient was reassigned and the user can't reassign to a new person again as the record thinks it has already been reassigned.\u00a0\n\u00a0\nThe Conga Production Team is currently the only team who can kick off a \"redrive\" to fix this issue. I think creating a Resync Button would be a quick and easy way to always ensure that nothing went wrong before having to reach out to Conga Support. Since Conga Sign is only half native to Salesforce, there will always be issues where things do not line up all the way. This button would allow for much quicker fixes to records that may have just stumbled along the way to completion. This would also tremendously help the Conga Support team as a useful DIY tool for Admins to use before having to create a ticket for them.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Alex, and for the level of detail! We will be taking this idea on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Dynamic Date in Conga Sign",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Be able to adjust Conga Date Sign tags, whether that be to a specific time zone. \u00a0\nSigners would see their own time instead of the sender's time zone.\n\u00a0\nEx. The Conga Sign account's default time zone is HST. The date tags need to show in CST.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "&sendonbehalfofname and &sendonbehalfofemail",
+    "author": "Mourad Bounajra",
+    "product": "Conga_Sign",
+    "content": "Business Unit is overriding the &sendonbehalfofname and &sendonbehalfofemail parameters\nWe need to have the possibility to use &sendonbehalfofname and &sendonbehalfofemail\u00a0parameters on Conga Sign without deleting the Business Unit",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Great, thank you for your input here, Mourad!"
+      },
+      {
+        "commenter": "Mourad Bounajra",
+        "content": "I think to be more flexible another parameter can be used to decide which one takes priority"
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Mourad! We will be taking this on for future consideration.\u00a0Out of curiosity, would you prefer that the parameters automatically override the business unit settings, or would you prefer that a setting of some sort decide which one takes priority?"
+      }
+    ]
+  },
+  {
+    "title": "\"Send on Behalf of Name\" and \"Send on Behalf of Reply-To Email\" fields in Conga Sign Setup (Business Unit)",
+    "author": "Mourad Bounajra",
+    "product": "Conga_Sign",
+    "content": "We need to have the possibility to add dynamic values in the \"Send on Behalf of Name\" and \"Send on Behalf of Reply-To Email\" fields in Conga Sign Setup (Business Unit)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Mourad! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Email message",
+    "author": "Mourad Bounajra",
+    "product": "Conga_Sign",
+    "content": "We must have the possibility to add line break when using &emailMessage parameter",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Mourad Bounajra",
+        "content": "I understand, so here the best is to allow to add dynamic value direclty in the email message in the business unit."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Mourad. For some context, the reason we're unable to support line breaks currently is because Salesforce strips out the breaks when processing the URL which elminates them from the value being returned to Sign. However, we will be taking this on for future consideration so we can continue to monitor if there is a way to address this in the future.\u00a0Additionally, line breaks are supported when the email message is populated in the business unit, so that may be a possible workaround."
+      }
+    ]
+  },
+  {
+    "title": "Allow to add dynamic values on Email Message on Conga Sign",
+    "author": "Mourad Bounajra",
+    "product": "Conga_Sign",
+    "content": "We must have the possibility to add dynamic field, and customize de emaill message on Business Unit (Conga Sign)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Mourad! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Time Stamp",
+    "author": "Joel Jimenez",
+    "product": "Conga_Sign",
+    "content": "Is it possible to stamp the time on a date tag or at all in Conga Sign?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Joel! We will take this on for future consideration, though, it should be noted that in Conga Sign for Web, a time stamp is automatically added to signature tags once they're placed on the document."
+      }
+    ]
+  },
+  {
+    "title": "Ability to adjust Sign preview and tag Document preview size",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Conga Sign preview tag UI has a default document size preview, it would be beneficial if we could zoom it, for the customer who doesn't want to utilize pre tagging function.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll! We will be taking it on for future consideration.\u00a0In the meantime, a possible workaround would be to use ctrl +\u00a0 to zoom in on the page while tagging."
+      }
+    ]
+  },
+  {
+    "title": "Translate write backs in Conga",
+    "author": "Danny Ross",
+    "product": "Conga_Sign",
+    "content": "I have noticed that when i try to translate picklists wwhen using write backs on a contract\nI tried to add this parameter but this does not translate the words required",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "This appears to be a duplicate, so I will be merging it with the other idea submitted today."
+      }
+    ]
+  },
+  {
+    "title": "Translate write backs in Conga",
+    "author": "Danny Ross",
+    "product": "Conga_Sign",
+    "content": "I have noticed that when i try to translate picklists wwhen using write backs on a contract\nI tried to add this parameter but this does not translate the words required",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Danny, thank youf ro submitting this idea! When your picklists are translated, are they using translations from the Salesforce Translation workbench, or somewhere else?\u00a0I'd like to make sure we're considering the right translation soucre when evaluating this idea."
+      }
+    ]
+  },
+  {
+    "title": "Ability to download Audit Trail",
+    "author": "Wura Eniola-O",
+    "product": "Conga_Sign",
+    "content": "Customer is requesting the ability to download a Signature Certificate, the equivalent of an Audit Trail on Conga Sign.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Wura! We will be taking it on for future consideration for Sign Professional, however, it is worth noting that our Sign for Web offering allows the download of the Audit Trail today."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign email notification does not support Finnish, Swedish and Danish as language option",
+    "author": "Vinod Nair",
+    "product": "Conga_Sign",
+    "content": "Finnish, Swedish, and Danish currently aren't available as options when sending a document with Conga Sign.\u00a0\u00a0\nThe email that gets sent out via the \"Send with Conga Sign\" button has parts that cannot be changed.\u00a0We need them to add these countries/Languages for this reason,\nCurrently we can only customize the BU setup for these countries with Subject and Message but we need the conga specific message to also be available in these languages otherwise will have a combination of English/Swedish\u00a0or we will need to use English which is not an option\n(Ref: Cepheid Implementation CLM-213)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Vinod! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Change default selected tab when user first enters the Salesforce Conga Sign page",
+    "author": "Jeff DeSilvey",
+    "product": "Conga_Sign",
+    "content": "Today, when users open the Salesforce Conga Sign page from the CLM agreement, the Preview & Tag button is highlighted. Can we change this to default to the Send Now button?",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Jeff, thank you for submitting this idea, we will be taking it on for future consideration as a configuration option."
+      }
+    ]
+  },
+  {
+    "title": "Customize message in Conga Sign Email",
+    "author": "Roger Calma",
+    "product": "Conga_Sign",
+    "content": "Customize messages in Conga Sign Email\n\u00a0\n\nreference: Case Number 00880507",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Predefine Recipients CongaSign CLM Integration",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Please provide a way to predefine what recipient contacts get added to a transaction.\n\u00a0\nCurrently, the solution automatically pulls in the Primary Contact, but cannot pull in other contacts as well.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "We will be taking this idea on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Recipient Email Failure Notification",
+    "author": "Carlo Sanchez",
+    "product": "Conga_Sign",
+    "content": "Ability for conga sign to notify transaction senders if the recipient email bounces back.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Carlo, thank you for submitting this idea! We will be taking this on for future consideration in regard to our Sign Professional product, but I would also like it known that we can currently support this with our Sign for Web and Sign API solutions."
+      }
+    ]
+  },
+  {
+    "title": "Possibility of editing a Disclaimer message and Email sent to customer after signed contract",
+    "author": "Baptiste Courcier",
+    "product": "Conga_Sign",
+    "content": "Hi Team,\n\u00a0\nOur customer Engie Italia would like to know if that's possible to edit the content and the subject of the email they send to a customer after they sign a contract or after they decline it.\nThe subject will be:\u00a0\n\tInvio documentazione contrattuale\nThe content of email will be:\nInvio documentazione contrattuale.\nTi stiamo inviando il documento di richiesta di attivazione della fornitura che puoi visionare al link sotto, dove troverai le tue condizioni contrattuali.\nFai click sul pulsante sottostante per visualizzare e scaricare copia del contratto sottoscritto.\nVisualizza e scarica il contratto sottoscritto.\n\u00a0\nAditionally they would like to know if that's possible to hide or change the translation of the blue ribbon related to the E-Signing regulation. Please see attached image.\n\u00a0\nThanks in advance",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Baptiste,\u00a0At this time it is not possible to change the email templates within Sign Professional, though that is something that we have planned for the future so I will take this request on for future consideration.\u00a0It is also not possible to change the blue ribbon at this time, but we can consider that as well."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Email Notification",
+    "author": "Mourad Bounajra",
+    "product": "Conga_Sign",
+    "content": "Its important to have the possibility to customize the notification email for Conga Sign\nhaving the possibility to change color, font, header footer logo, ...having the possibility to include data from Salesforce easily in the Conga Sign email (Contact Name, Account Name, Date, Owner name...)having the possibility to have different email for each recipienthaving the possibility to customize all other notification email (Document Signed, Completed, Viewed, Expired.....)",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Mourad, thank you for submitting this idea! We will be taking it on for future consideration.\u00a0One thing of note is that our Sign for Web offering does in fact allow for some of the email customization you've described here, and we have plans to bring it into our Salesforce offering as well. However, we would need to work to expand it to be able to take data the way you've described."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Approvers",
+    "author": "Joe Brock",
+    "product": "Conga_Sign",
+    "content": "Sometimes the other party wants the document to be routed first to their attorney to review the document before it is sent to the signer. (Sometimes the attorney want to be sure that the document was not changed after it was negotiated.) If you could select an \"Approver\" role as an option to \"Signer\" or \"cc\" and then put the approver first in the order of recipients, this would allow the approver to review or download the document, then \"approve\" it without signing it. They should see an \"Approve for signature\" button instead of \"Accept and complete signing\" button. In addition, there should be a field to explain the process to the approver so they don't wonder whether they are unintentionally signing the agreement instead of approving for signature.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Joe, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to delete a Layout in Conga Sign for Web powered by OneSpan",
+    "author": "Colton Lederer",
+    "product": "Conga_Sign",
+    "content": "Customer: Cision\n\u00a0\nThis is circa 1800 that customers cannot delete their own layouts through the web app. This is for the Conga Sign for Web powered by OneSpan. This customer creates layouts for their Sales reps so their sales reps do not have to manually add 5+ sign fields everytime. The original quote is created through another homegrown system and it's not possible to add Signing tags to the quotes prior to creation. Hence the layout option is being used.\n\u00a0\nThis one of many items that the customer should be able to edit on the web app. Let's make this thing self service!\n\u00a0\nCurrent Workarounds:\n1. To modify an existing layout through WEB UI - when you create a transaction and applies the existing layout. In the same page, you can modify the layout and then press save layout. When the option for Save Layout appears, you can search for the existing layout name and apply the changes which will overwrite the existing layout.\n\u00a0\n2. To delete a saved layout, you have two options:\n\u00a0\na) Download the tool available from our developers which will allow you to delete layouts under your accounts. It will require your login credentials for the tool to work successfully.\nb) It can be deleted via API: https://community.onespan.com/documentation/onespan-sign/guides/feature-guides/developer/managing-document-layouts",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hey Colton,Thank you for submitting this idea! We will work with the OneSpan team to make sure that this is accepted as a feature request as well.\u00a0In the meantime, I would recommend using Templates rather than Layouts to pretag documents when using Conga Sign powered by OneSpan."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Tags within the header and footer",
+    "author": "Yeshwanth Jonnalagadda",
+    "product": "Conga_Sign",
+    "content": "Enabling the conga sign tags within the header and footer will be a big relief for the administrators, present administrator needs to add the 'initials' tag on each page of the word template manually.\nThis is not a feasible option when the template has a large number of pages and also there is a high chance that the tags move across the page when we merge them.\n\u00a0\nAdding tags to the header and footer will be a great advantage and no to worry about misplacing them and no need to add them on each page manually.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Yeshwanth! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Capability to include the View Document button on their website",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer is looking for an option to include the 'View Document' button from the Sign email to their custom templates.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhanie, thank you for submitting this idea! We do have the ability to include the \"View Document\" button using our Conga Sign API solution today, but for those using the Conga Sign in Salesforce, I will mark this idea as \"Future Consideration\"."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - CC's Recipient Not Showing in Audit Trail When Using CSRouting Parameter.",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Description: The customer is using the CSRouting parameter but wants to see the CC recipient in the Audit trail.\nBenefit: This will allow tracking when the CC recipient receives the completed document.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thanks, Brandon! Please make sure to promote this idea if you haven't already so we can keep track of your endorsement."
+      },
+      {
+        "commenter": "Brandon Cole",
+        "content": "I'd like to endorse this Idea. One of our Partners, Ad Victoriam (Partner), requested similar functionality"
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Email notification",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Details\nThe customer requested a function in Conga Sign that allows users to choose which notifications the signers receive.\n\u00a0\nBenefits\nThis will provide an advantage for the customer to filter the notifications that their client receives. It will also filter the important notifications that the customer's client receives. Additionally, it will minimize the emails received on a daily basis.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Emeryll, we provide options for which emails a signer will and will not receive within the business unit. Is the customer asking for options outside of what is already provided?"
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Custom Tag Date",
+    "author": "Conor Vernall",
+    "product": "Conga_Sign",
+    "content": "We need customers to enter a date on the Conga Sign Transaction Page, and need to limit the Custom Tag to only be a date format that we choose.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Conor, thank you for submitting this idea! We have similar requests, so this will be taken on for future consideration, but merged with the parent request for date tags."
+      }
+    ]
+  },
+  {
+    "title": "Upload larger logo in Business Unit",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer would like to maximize the upper space of the Conga Sign email to add their logo. This is necessary as their logo is rectangular in shape. They also want to be able to upload higher definition image/logo.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhaine! Did the customer specify the dimensions and file size that they're looking to be able to upload?"
+      }
+    ]
+  },
+  {
+    "title": "Add Columns to Available Documents Table When Creating Transaction",
+    "author": "Adam Gittin",
+    "product": "Conga_Sign",
+    "content": "It would be great if fields could be added as columns to the Available Documents table when a user goes to create a Conga Sign Transaction. This would help users better differentiate between similarly (or identically) named files.\n\u00a0\n\nThank you!",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Adam! We will take it on for future consideration, however, would you be able to provide some of the columns which you would like to see?\u00a0Created Date and Last Modified are two that I think would fit well, but is there anything else which you would find helpful?"
+      }
+    ]
+  },
+  {
+    "title": "Downloading Partially Signed Conga Sign Document",
+    "author": "Brandon Cole",
+    "product": "Conga_Sign",
+    "content": "-Request by customer-\n\u00a0\nThe ability to download a partially signed Conga Sign document. For example, if a transaction included two signers with a signing order and signer 1 signed the documents but signer 2 had not. Is there any way we could download the documents with the completed signatures and signing tags from signer 1?",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Brandon! We get this request somewhat frequently, so I will be merging this idea with our main request.\u00a0For reference, we do plan to implement this as part of the work we are doing with bringing our new esignature product to all conga offerings."
+      }
+    ]
+  },
+  {
+    "title": "Option to report the data from Conga Sign Audit Trail",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer is looking for a way to add the data from the Audit trail on their Conga Sign Transaction list view and/or create a report with data from Audit trail.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhanie! We will be taking it on for future consideration.\u00a0To help us fully understand the scope, does the customer want all of the data from the Audit trail in Salesforce, or select pieces from the audit trail in Salesforce?"
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Extending the expiring date for the Documentation Link",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Description: The customer has requested an extension for the expiration of the Conga Sign documentation link.\n\u00a0\nBenefit: This will allow the clients of our customers to have an extended period of time to think before signing the document.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll! We will be taking it on for future consideration.\u00a0Is there a particular threshold that the customer is looking to see for the time extension? 10 days? 20?\u00a0Also, just so everyone knows, the link itself will expire, but a new one can be sent at any time so signing can continue."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Extending the expiring date for the Documentation Link",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Description: The customer has requested an extension for the expiration of the Conga Sign documentation link.\n\u00a0\nBenefit: This will allow the clients of our customers to have an extended period of time to think before signing the document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use Percentage and Currency fields with write back tags",
+    "author": "Austin Miller",
+    "product": "Conga_Sign",
+    "content": "Our documentation states that Percentage and Currency fields are no available to be used with Conga Sign write back tags. Could these fields be added to the available fields for write back tags in the future?\n\u00a0\nhttps://documentation.conga.com/sign/latest/salesforce/write-back-tags-225248734.html#id-.WriteBacktagsvFebruary23-FieldTypesavailableforWriteBack",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Austin! We will be taking it on for future consideration along with our other requests for write back field types."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Ability to access partially signed document from Salesforce",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "The ability to access partially signed documents from Salesforce will provide them with at least something to print on, if the other signer was not able to sign the agreement/document.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll! I will be merging this with an existing idea, but do know that we will be taking this on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Tag for signatory using same email address more than once",
+    "author": "Zarko Prelic",
+    "product": "Conga_Sign",
+    "content": "Currently in our organization we have situations where Customer is requesting that for example two signatories sign from our side or that one signatory and one witness sign from our side sign the contract. When creating a conga sign request our user (usually sales) is required to tag as our company signatory so called \"Agreements team\" email address . Behind Agreements team mailing group there is a group of people who at each time knows which of our directors are available to sign the document and reassign such requests to appropriate directors for signature.\n\u00a0\nThe issue we are facing is when the customer is requesting that for example two of our directors sign the contract our sales is unable to create conga sign request and create two tags (for two directors) and use the same email address (agreements team email address) where agreements team would then reassign one tag to one director ( one unique email address) and other tag to other director ( other unique email address).\n\u00a0\nOur idea is that you allow that same email address can be used for multiple signatory tags on same conga sign request where warning would be given that same email address was used however it was still be allowed to create and send such conga sign request.\n\u00a0\nPlease find screenshot 1 on error we receive when using same email address currently on Conga sign\n\u00a0\n\n\u00a0\nThis is how this functionality works on your competitor Docusign where you can create multiple tags with same email address and send such transaction normally.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Zarko, thank you for submitting this idea and thank you especially for all the detail included! We will take this on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Signed documents labeled is signed",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "User would like all signed documents to be labeled as signed after completed",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andy, thank you for submitting this idea! This was requested previously, so I will be merging this idea with the already existing one."
+      }
+    ]
+  },
+  {
+    "title": "create a parameter for signer to be locked in",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "create a parameter for signer to be locked in so a signer cannot be removed from the Conga sign UI",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andy, thank you for submitting this ticket! We will be taking this idea on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga sign Column signing Order.",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "User would like to have a functionality during the signing process to have the document be signed in the Order of Left to right. For example if one user has to sign a document but there are multiple tags on the left and right side of the document. They would like to have the left side be completed then the right instead of the order in which the tags are presented please view screenshot:https://app.screencast.com/7hbFv2Wmj5F1k",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Andy! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "city, state and zip all in one line",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "Customer would like an out of the box tag for city, state and zip all in one line and would like to be able to change the font of the writeback tag as well.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Andy! We will be taking this on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Naming convention for signed documents",
+    "author": "Minhui Huang",
+    "product": "Conga_Sign",
+    "content": "Customer is using a custom flow to update the signed document's name, however, the signed document's name in the Signing Complete email is still showing the original document name. Customer would like to have an option to keep the document name consistent between Salesforce and the Conga Sign email notifications.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Minhui! We will be taking it on for future consideration,"
+      }
+    ]
+  },
+  {
+    "title": "Changing the View Document button color",
+    "author": "Joel Jimenez",
+    "product": "Conga_Sign",
+    "content": "The ability to customize the \"View Document\" button color.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea Joel! We will be taking it on for future consideration in relation to Conga Sign for Salesforce.\u00a0In the meantime, please note that the View Document button color can be changed within the new Conga Sign offering."
+      }
+    ]
+  },
+  {
+    "title": "reassign signer 2",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "be able to reassign signer 2 even though signer 2 hasn't signed",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andy, thank you for submitting this idea! Is this particular request intended to address when there is a signing order set for a transaction?"
+      },
+      {
+        "commenter": "Andy Quach",
+        "content": "Also, even if that feature request isn't accepted, please consider changing the error message when trying to reassign that would indicate you can't reassign the signer until after the previous signer has completed their part."
+      }
+    ]
+  },
+  {
+    "title": "Ability to set the size of the signature tags when using Preview and Tag drag/drop option",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer want the option to set the size of their tags from the Preview and Tag screen.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for the added detail! We will be taking this on for future consideration.\u00a0In the meantime, please consider the use of signature tags with your documents if your use case is applicable. These tags can be sized ahead of time and can also prevent your users from having to drag and ddorp any tags into the document before sending.\u00a0https://documentation.conga.com/sign/latest/salesforce/list-of-conga-sign-signature-tags-213450924.html"
+      },
+      {
+        "commenter": "Manny Grembo",
+        "content": "Thanks for submitting this Dhanie. We have a use case where users drag and drop tags in the Preview and Tag screen of Conga Sign. The default size of the tag is very large. I don't think most users would need a tag that big. It becomes time consuming when users drag and drop several tags, and have to manually resize each of them for several documents every day. It would be a huge time saver if Conga had a feature to change the default size for the tags that are dragged and dropped."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhaine, thank you for submitting this idea! We currently allow for tagging resizing via click and drag while in the Preview and Tag screen. Are you wanting another method to set the size of the tag while in that screen?"
+      }
+    ]
+  },
+  {
+    "title": "Salesforce Custom Console (Made in Lightning app builder) auto-close a sub-tab after execution",
+    "author": "Peter Carolino",
+    "product": "Conga_Sign",
+    "content": "Issue: Customer is in console (Helpline & Redress...) and initiating a button in background mode - when the button is pushed it opens a new sub-tab.\n\u00a0\nWhen the merge is done the customer has to click to close the sub-tab.\nCustomer does not want to click to close the sub-tab\n\u00a0\n\n\u00a0\n- This is expected behavior if the button is executed in a Salesforce console and there is no known parameter from Conga to close it.\nUnfortunately, the composer cannot tell Salesforce to close the sub-tab after the merge is done.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Peter! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Make a Conga Sign checkbox signature tag required as part of a group",
+    "author": "Tim Nasr",
+    "product": "Conga_Sign",
+    "content": "In a Conga Sign form, we have multiple checkboxes (as part of a group). Currently we can make each checkbox signature tag required or optional. However, we would like the signer to select a single checkbox in that group of options (and not multiple). Can you set up that flexibility so that only one is required and not more can be selected?",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Tim, thank you for submitting this idea! We will be taking this on for future consideration.\u00a0In the meantime, please note that we do have radio button groups will be available in our new Conga Sign offerings and we will be working to make this available in Conga Sign for Salesforce as well."
+      }
+    ]
+  },
+  {
+    "title": "have a way to bulk import write back tags from one org to another",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "have a way to bulk import write back tags from one org to another",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andy! Thank you for submitting this idea. We will be taking this on for future consideration!"
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign - Ability to remove cc option under Role in Conga Sign",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Ability to remove cc option under Role in Conga Sign",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Emeryll, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "validation rules in conga sign write back tags",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer is using conga sign writeback tags on two fields which are both required but there are times that the signer can only provide one of the two requested information so they are looking for apply a validation rule on these 2 fields that will allow the signer to provide only one information and still be able to complete the transaction.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhaine, thank you for submitting this idea. We will be taking it on for future consideration.\u00a0Also, please note that this is currently avaiable with Conga Sign for Salesforce Powered by OneSpan, but we have plans to integrate it into Conga Sign for Salesforce directly in the future."
+      }
+    ]
+  },
+  {
+    "title": "Update the Parent ID with writeback tags when transaction is reassigned",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "When reassigning a transaction and the new Signer fills out the writeback tags, the field update happens on the parent Contact information. Customer is looking for a for the writeback tags to update the new Signer's contact information when the writeback tags are filled out.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhaine! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Remove the drafts from the master record when using multiple templates in Conga Sign.",
+    "author": "Austin Miller",
+    "product": "Conga_Sign",
+    "content": "When using multiple templates at once for Conga Sign, the drafts of each template are automatically saved to the master record. They are later replaced by the signed versions but we would like a way to only save the signed version and not the drafts.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Austin! We will be taking it on for future considration as a parameter option."
+      }
+    ]
+  },
+  {
+    "title": "Add individual users to business units",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "As far as a feature request, it would be great if we could add users to business units (one user - to many business units) and use the Business Unit to define who can see the transaction/associated records and final documents, as well where those documents are stored (kind of like the SC0). It would make it much easier/simpler for end users and admins to have control over security.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this request, Andy! Just to be sure we're understanding this correctly:You would like to control view access as well as final document storage from a business unit, correct?"
+      }
+    ]
+  },
+  {
+    "title": "Authenticator before opening an envelope/file",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Ability to authenticate documents before opening a file through a passcode.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Emeryll!\u00a0We do have the ability to authenticate with an SMS one time passcode - are you requesting the option to authenticate with an authenticator app such as Google Authenticator?"
+      }
+    ]
+  },
+  {
+    "title": "Ability to review files (Attachment) during Counter Signature - Conga Sign (SF)",
+    "author": "Hardik Shah",
+    "product": "Conga_Sign",
+    "content": "BSC has a use-case where Signer-1 (Customer) signs the document & attaches the PO (using attachment custom-tag)\n\u00a0\nSigner-2 (Counter-Signer from BSC internal team) needs to\u00a0re-view the attachment-PO (during signing) before he/she counter-signs it.\n\u00a0\nThis use-case is supported in DocuSign & AdobeSign.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Hardik, thank you for submitting this idea! We will be taking this on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to Edit Recipients after Navigating Past the Sign Recipient Screen (for SF)",
+    "author": "Colton Lederer",
+    "product": "Conga_Sign",
+    "content": "With Conga Sign once on the tagging screen, if the Sender realizes they forgot a Recipient the only way to add that recipient is by discarding the Signing Transaction and starting over. Ideally, the Sender could navigate backwards once on the tagging screen.\u00a0This functionality is aviable with DS today. It's also available with the new Sign Web UI. \n\u00a0\n-Elavon is requesting.",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Colton! We will be taking it on for future consideration, and will be merging it with our other Ideas which exist to address the draft flow navigation."
+      }
+    ]
+  },
+  {
+    "title": "Creating a parameter for the \"only show selected\" toggle on the Sign UI",
+    "author": "Colton Lederer",
+    "product": "Conga_Sign",
+    "content": "When on the Conga Sign UI, Senders can select any document on the record and templates in the Conga Template library. Ideally, Senders should only be viewing/selecting templates that haven\u2019t been signed.\u00a0If the \u201cOnly Show Selected\u201d toggle could be automatically turned on, that would resolve the issue.\n\u00a0\nCurrent Workaround: Using &SelectTemplates and &SelectAttachments with Composer\n\u00a0\n--> Elavon is requesting this feature.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Myriam Bechet",
+        "content": "I just created a ticket for this, much needed. thank you"
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Colton! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "The option to change the signer part way through the signing process.",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "There are instances that customer will need to change the signers of a transaction. They want to be able to send the transaction to a new signer without having to create a new one.",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Ability to autosave transactions when using In-Person signing",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "When using the In-Person function in Sign to sign documents, sometimes the sales person forgets to click \"Save\" after the document is signed and therefore does not complete the transaction. The requirement is to have an autosave option that once the document is signed, the transaction is then saved without the need to click Save",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Mark! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to customize Conga Sign invitation email header \"Please Sign Documents\"",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Sign",
+    "content": "Request to be able to change the language in the Conga Sign invitation / reminder emails. Clients feel that the wording \"Please Sign Documents\" does not match the tone they'd like to convey, and would like to be able to customize this header / the rest of the email to suit their needs.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Caitlin! We will be taking it on for future consideration with our other email template modification requests.\u00a0In the meantime, it is worth noting that our Sign Web Application and APIs do offer email template modifications and we will be working to make the same email modifications available in Sign for Saleforce as part of our migration efforts."
+      }
+    ]
+  },
+  {
+    "title": "Field calculations  for Conga Sign",
+    "author": "Marija Mockute",
+    "product": "Conga_Sign",
+    "content": "Customer would like Conga Sign web app to support field calculations so that the end user can use an ipad and renew the previous contract on site in front of the customer using in person signing. The contract data is pre-populated but the end user should be able to select extras/add ons from drop downs which are then being calculated to create a total value of the contract.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Marija! Can you help me remember, for this request are the calculations primarily basic calculations (add, subtract, multiply, divide)?"
+      }
+    ]
+  },
+  {
+    "title": "Email From Display Name, Subject & Message - should accept Merge Field",
+    "author": "Kartiknath Kandakatla",
+    "product": "Conga_Sign",
+    "content": "We have a use case while sending the Contract for Signing to the customer. At the moment Conga Sign is taking only the {{Sender.Name}} who ever send teh contract that user name is displayed on the Sender Name to the customer when the Conga Sign Email is received at the customer End.\n\u00a0\nIt would be good if this field (Email Display Name Template) should accept Merge Fields as well not just the Hardcoded value or just the Sender Name.\n\u00a0\nThis also applies to 'Subject' & 'Message' Fields as at the moment we cannot add merge fields to them.",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "create validation rules to what characters and be inserted to writeback tags",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "If the user has a text write back field type they can have the signer only enter numerical values instead",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Andy! We will be taking it on for future consideration.\u00a0To help us plan better, can you please elaborate on the kinds of validation rules you would like for the user to have? I know you mentioned numerical values, but would there be other validation options you'd be looking for?"
+      }
+    ]
+  },
+  {
+    "title": "Number formats on Conga Sign Write Back tags",
+    "author": "Bradley Douglas",
+    "product": "Conga_Sign",
+    "content": "We have explored using write back tags but the numbers we deal in are typically with currencies in excess of 6 digits which are presented as a straight number. It would good to be able to format these to comma separated values.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for this idea, Bradley! Number formatting is a common ask which we are looking at for future consideration.\u00a0For some additional information, would you be looking for us to support the same currency values that Salesforce supports when it comes to number fields?"
+      }
+    ]
+  },
+  {
+    "title": "Some type of visual telling the recipient their transaction has expired",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "The recipients of the transactions customer is sending are usually not seeing these email notifications about transactions getting cancelled so they would like to request for another way of telling the signers that the transaction has expired, that's a great help.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhanie!\u00a0For this request, are you specifically referring to the new request link? In either case, we can take it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign notification to the transaction Sender when a recipient requests  a new link through old transaction",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "There are instances that a transaction has already expired but recipients would still request for a new link without noticing the email notification about the transaction being already expired. This will enable the sender to reach out to the recipient that the action they are taking is no longer possible",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Dhanie! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign Audit link should be optional either fields to be displayed in audit link should be configurable.",
+    "author": "Gaurav Kumar",
+    "product": "Conga_Sign",
+    "content": "Conga Sign Audit link should be optional either fields to be displayed in audit link should be configurable.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for the clarification, Gaurav! We will be taking this idea on for future consideration."
+      },
+      {
+        "commenter": "Gaurav Kumar",
+        "content": "To make the audit trail link optional AND make the fields configurable.\u00a0:-> If we can do this it will be great, otherwise To make the audit trail link optional OR make the fields configurable.\u00a0 This should be a feature."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Gaurav! For clarification, is this request asking:\nTo make the audit trail link optional OR make the fields configurable.\u00a0To make the audit trail link optional AND make the fields configurable.\u00a0\nKnowing this will help provide clarity as this is taken on for consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to check if there's a reminder set in Conga Sign Transaction or View Audit",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "The customer wants to check the reminder set in a Conga Sign Transaction or View Audit.\nNote that the reminder is set manually",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Katherine! We will be taking this on for future consideration and group it with our other requests specific to more details in Salesforce."
+      }
+    ]
+  },
+  {
+    "title": "Generate report for signed documents via email and in-person Signing",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "The customer wants to generate a report for signed documents via email and in-person Signing",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for this idea Katherine! We will be taking it on for future consideration as we look at getting additional transaction details included within Salesforce."
+      }
+    ]
+  },
+  {
+    "title": "Edit or Modify Transaction Cancelled Email Notification in Conga Sign",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "The customer would like to modify or edit the message from the Cancellation Email from Conga Sign",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Lydia Steinkoetter",
+        "content": "We would also like to be able to edit the Transaction Cancelled, Declined and Terminated emails from CongaSign. The way they are today, doesn't inform the recipient, at first glance, what agreement that transaction came from."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Katherine! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Give user ability to insert values manually",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "User would like to insert text and values manually.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Andy, can you please elaborate on what you mean by insert text and values manually? Is this where a sender would be inserting values before sending, or something else?"
+      }
+    ]
+  },
+  {
+    "title": "Allow to cancel conga sign transactions in bulk",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Allow to cancel conga sign transactions in bulk",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Katherine! We will be taking this on for future consideration as a custom feature, but it should be worth noting that bulk cancel can be accomplished with the new Sign APIs today if needed by iterating through packages and updating the status to canceled."
+      }
+    ]
+  },
+  {
+    "title": "Remove signature if document is converted to Word",
+    "author": "Saskia Becker",
+    "product": "Conga_Sign",
+    "content": "If a signed document gets converted to Word, the signature stays in the document currently, which might be a risk if documents get changed again by third party, signed and sent back without marking the changes.\nInitial signatories would not see, that there were any changes made to the document.\nIt would be great to have the signature removed in the step of coversion to Word document, so this cannot happen.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "An ability to return to a sent document back to edit draft status after customer send it",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "An ability to like returning a sent document back to edit draft status after customer send it. Basically, it\u2019s a situation where they can send a doc for signature, no one has signed it yet, and can \u201ccorrect\u201d the document before it is actually signed. Docusign has this capability.\nhttps://support.docusign.com/s/document-item?language=en_US&rsc_301=&bundleId=oeq1643226594604&topicId=dxr1578456334187.html&_LANG=enus",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Hanah!\u00a0This functionality is currently available with our Conga Sign Web Application and Conga Sign API offerings, but we would also like to bring it into Sign for Salesforce as well, so we will be taking this idea on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "DocuSign API Conditional Fields to Dynamically Render Attachment/Tags Based on Field Changes During Doc Signature",
+    "author": "Kaitlin Smith Brendehl",
+    "product": "Conga_Sign",
+    "content": "Issue: Dynamic rendering of the attachment/input tags based on field changes during signing of the document.\n\u00a0\nRoot Cause: No current functionality for conditional changes to the document based on field selection\n\u00a0\nEnd State: wanting to prepopulate the data from quote on order forms when presented for signing. But we were looking for approach where if customer changes a field/dropdown during signing workflow, we want to hide or show tabs, content dynamically.\n\u00a0\nCurrent Model - https://documentation.conga.com/dsign/latest/adding-custom-fields-to-the-envelope-203495850.html",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Kaitlin! However, we do not have control over the model for the DocuSign APIs, so we will be unable to take this on for consideration."
+      }
+    ]
+  },
+  {
+    "title": "Notification on Conga Sign when Oauth status disconnected",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Pop up window or notification when Oauth status getting disconnected",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Katherine, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to log the content of the email which is sent to a customer to the activity tab in Salesforce - Activity Logging",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "The customer would like to log the content of the email which is sent to a customer to their activity tab in Salesforce. In short, they would like to have activity logging using the default Send with Conga Sign button.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Transaction Expiration and Expiration Reminder fields in Conga Sign Transaction object",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "It would help if the fields Transaction Expiration and Expiration Reminder\u00a0are in Conga Sign Transaction for visibility. This way, customer can action out immediately on transactions that are expiring.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Peyton Morris",
+        "content": "it's a must have!!"
+      }
+    ]
+  },
+  {
+    "title": "Template during the signing order has low quality/blurred compared to the actual template",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "It appears that the template shown during the signing process is actually an image of the template making it a bit blurred. Customer wants it to have the same quality as their actual template especially that they are using small fonts which makes it even harder to read even when zooming in the template/image.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Manny Grembo",
+        "content": "An enhancement is much needed. Some signers have poor eyesights and the blurring when zooming in is problematic."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhaine, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "More Options Regarding Custom Tags and Write Back Tags",
+    "author": "Taylor Hall",
+    "product": "Conga_Sign",
+    "content": "I have a client requesting more options in regards to sign custom tags. They would like to see the ability to determine the field type (text, date, picklist, etc.) in a custom field. They would also like to see the ability to make custom tags 'Read Only' with the expectation that the sender can insert text prior to sending that the recipient will not be able to edit.\n\u00a0\nThey would also like to see write back tags that can write back to more types of text field types, specifically Text (Area).",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea, Taylor! We will take this on for future consideration.\u00a0Just to summarize to help us as we review these, the customer would like:\nTo select the data type for custom fields (text, date, picklist, etc.)Would like a way for senders to input information before sending that is read only (outside of merge fields)Would like Text (Area) as an additional write back field type."
+      }
+    ]
+  },
+  {
+    "title": "More Flexibility to Customize Conga Sign Create Transaction UI",
+    "author": "Taylor Hall",
+    "product": "Conga_Sign",
+    "content": "I have a client requesting that the Sign Create Transaction UI be more customizable. They would like to see the following functionality:\n-Ability to default 'Only Show Selected' to True. They do not want to see the entire list of related documents from the record.\n-Ability to hide/show 'Upload Document' and 'Create New Recipient'\n-Other than selecting the documents to send for signature, would want the ability to hide or make all remaining settings/features on this screen to be 'Read Only'",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this Idea, Tyalor! We will be taking it on for future consideration, but I wonder if it's possible to get a bit more insight into the business need the customer has which would require that level of customizeablility? This will help with planning."
+      }
+    ]
+  },
+  {
+    "title": "Remove ability to download the document during the signature process",
+    "author": "Neal Hennessy",
+    "product": "Conga_Sign",
+    "content": "Currently Conga Sign allows signatories to download a copy of the document before they have completed signature. Many customers have complained about their customers downloading the document and exiting their control of the document ie making changes to it or signing it via separate process. Customers should have the ability to prevent the signatory from downloading a copy before they have signed. If we don't want to remove this ability, then Conga Sign should be watermarking the document so that our customer has an indication that it has been downloaded when the signatory sends it back to them.",
+    "votes": "10 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Neal, thank you for submitting this idea. We will take this on for future consideration."
+      },
+      {
+        "commenter": "Neal Hennessy",
+        "content": "Customer Testimonial: \"We are noticing customers downloading the orders we send via Conga Sign, then signing with their own tool.\u00a0That action should result in a watermark on the contract, which we don\u2019t see.\u00a0Copying Dom for visibility so he can troubleshoot.\u00a0If a contract that we send through Conga can be downloaded (and taken out of our process) without generating a watermark, this loses the chain of control that was designed to ensure document integrity, and we have no way of readily identifying that this loss of control has occurred.\""
+      }
+    ]
+  },
+  {
+    "title": "Signing sequence in Conga Sign",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer is looking for an option to sign/fill out sign tags in certain sequence. Their custom tags(say 1-5) are sitting right next to each other and say for example the customer will sign/fill out the first one. If the signer clicks the NEXT button, it will select a random custom tag(say tag #4). They are expecting it to go to customtag2 then customtag3, tag4 then 5.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Dhaine! Thank you for submitting this idea. We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "option to remove the audit trail link in Conga Sign email",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer wants to be able to remove the audit trail link in Conga Sign email. This is to prevent the recipients to see the email address of person who created the transaction.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "No updates at this time, however, it may be worth noting that our Conga Sign for Web offering does have this functionality available as an alternative offering to Conga Sign Professional."
+      },
+      {
+        "commenter": "Pradeep V",
+        "content": "Any updates on this request? This is something we are looking for as well."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea Dhaine! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign populate Document Title field upon competion of a transaction",
+    "author": "Thomas Kirkland",
+    "product": "Conga_Sign",
+    "content": "The request is to add a document name into the Document Title field through upon completion of a Sign transaction.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hey Thomas, thank you for submitting this idea! We do not have a Document Title field, so this idea will be taken on for consideration under the assumption that a new field be created with the title added to it upon completion."
+      }
+    ]
+  },
+  {
+    "title": "Want to store Signed documents in SF files and segregate it to complete and incomplete.",
+    "author": "Peter Carolino",
+    "product": "Conga_Sign",
+    "content": "The Customer wants to store the signed documents in the Files which can be automated to save via completed or incomplete.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Peter, Sign documents are already stored in files and have a version of Origional and Signed which you can find under the Conga Sign Documents object. As such, I'm going to mark this card as \"Already Exists\""
+      }
+    ]
+  },
+  {
+    "title": "Write Back Tags get committed to Salesforce between signers",
+    "author": "Thomas Kirkland",
+    "product": "Conga_Sign",
+    "content": "A conga document is generated on the record. It has merge fields, Conga Sign tags, and Conga Sign Write Back tags\n- It will then use background mode to send it via Conga Sign\n- There will ultimately be two signers on the document\n- The first signer will sign the document\n- The PDF is returned and the first Write Back transaction is committed\n- The user will then send the document to the second signer\nThe user shouldn\u2019t have to add tags to the document\n- The countersigned PDF is returned and more writeback fields are processed",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hey Thomas, thank you for submitting this idea! To make sure I'm clear, the request for this is to have data write back after each signature, rather than all at once when the transaction is complete. Is that correct?"
+      }
+    ]
+  },
+  {
+    "title": "Adding custom fields in the Email Subject Line when using the standard Send with Conga Sign button",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "The customer would like to add a custom field or can add custom text in the email subject line when using the standard Send with Conga Sign button.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Update - I would like to note that the custom Subject is specifically for Signing Invitations. This does not extend to other emails which are sent out. Please let me know if this is a request for an extension to those emails and I can move it to \"Future Consideration\"."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Raenard, thank you for submitting this idea! We do provide a way to customize the subject line when sending using the Send with Conga Sign button.\u00a0This can either be done in the create transaction screen, the business unit page, or using our available parameters.\u00a0https://documentation.conga.com/sign/latest/salesforce/conga-sign-parameters-195696037.html#id-.CongaSignParametersvFebruary23-emailSubjectFor this reason, I will be marking this idea as \"Already Exists\"."
+      }
+    ]
+  },
+  {
+    "title": "Allow users to edit the notification email template for Conga Sign transaction",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "Allow users to edit the notification email template for Conga Sign transaction, allows them to personalize the messages so that it appears there is no third party involved in their transactions. A cleaner B2B communication.",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hey Andy, thank you for submitting this idea! This is something that we would like to bring into Sign for Salesforce and have planned for the future so I will be setting it to the planned status."
+      }
+    ]
+  },
+  {
+    "title": "allow users the ability to create buttons and link on the email template after a transaction has been sent",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "After a transaction has been sent users would like to be able to add buttons and links to this page (https://www.screencast.com/t/VsVcvtricM)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for the color, Andy. That will help as we go through the review process!"
+      },
+      {
+        "commenter": "Andy Quach",
+        "content": "Adding a button will allow our clients to provide users with a button to redirect them to another page and/or download additional/related documents provided by the client."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea! We will be taking it on for future consideration.\u00a0To help us better evaluate, could you please give some details surrounding the use case that requires buttons on the provided page?"
+      }
+    ]
+  },
+  {
+    "title": "Signing order is being thrown off when the signer is removed during sending process",
+    "author": "Marija Mockute",
+    "product": "Conga_Sign",
+    "content": "The signing order is defined in the Parameters on the button, but if the signer is then removed during the sending process, it throws off the tags order \u2013 is there a way to avoid that\u00a0?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello, thank you for submitting this idea! Would you please elaborate on what behavior you'd expect to see should a recipient be removed? For example, if there were three signers, and you removed signer two, would signer three become the new signer two and inherit those tags?"
+      }
+    ]
+  },
+  {
+    "title": "Writeback False value for checkboxes left blank",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "Conga Sign checkbox writebacks only write back TRUE values if checked, or FALSE if they are checked and then unchecked during the signing. This is not intuitive, and it is requested to write back FALSE values to Salesforce if the optional checkbox is left unchecked.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Separate the areas a Signer can see",
+    "author": "Marija Mockute",
+    "product": "Conga_Sign",
+    "content": "Areas that Signers see\u00a0- right now you cannot separate out what areas of the document certain signers see today in Conga Sign for Salesforce. Product said this is functionality that can be accomplished with our recently released Sign APIs. They will be working on bringing the features of the Sign API into Conga Sign for Salesforce within the next few releases so I wanted to document this idea for the tracking purposes.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea! This is currently available through the use of the Conga Sign APIs and Web Application, but is not yet available in Conga Sign for Salesforce. I will be marking this as \"Planned\" as we will be building a migration path for Sign for Salesforce which would include bringing in this functionality."
+      },
+      {
+        "commenter": "Marija Mockute",
+        "content": "Can we separate out what areas of the document certain signers see? For example pages 1 & 4 should only be internal signers and 2 & 3 external customers. Can we dynamically show/hide pages or sections?Alternatively, can we have two separate documents being signed in the same signing flow? With certain signers seeing only one of the documents."
+      }
+    ]
+  },
+  {
+    "title": "'User to send as' field on OBM overrides that CSSendonbehalfofemail parameter",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer using Conga trigger to generate a transaction whenever a Contract record is created. The user who created the contact should be the user to appear on the send on behalf email of field in Conga Sign Transaction, but the 'User to send as' in OBM overrides this functionality.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I've moved to \"future consideration\""
+      }
+    ]
+  },
+  {
+    "title": "Use Conga Sign writeback tags with text wrapping",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "Currently using text wrapping with writeback tags doesn't work as expected (text runs off the word document)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello, thank you for submitting this idea! We will take this text wrapping improvement on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Sign: Sign On Date should also have Date Format Supported ( MMMM, DD YYYY)",
+    "author": "Dushyantkumar Dubey",
+    "product": "Conga_Sign",
+    "content": "Hi Team,\n\u00a0\nCurrently, Conga Sign Supports the below Date Formats :\nhttps://documentation.conga.com/sign/february-23/salesforce/formatting-conga-sign-date-of-recipient-tag-143895336.html\nOne of our customers requested to have a Date Format as MMMM DD, YYYY means the Signed On Date should look like i.e. February 14, 2023 instead of Feb 14, 2023.\nCan we accommodate this Date Format in future release?\n\u00a0\nThanks,\nDushyant.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Thank you for submitting this idea! We will be taking it on for furture consideration."
+      }
+    ]
+  },
+  {
+    "title": "COnga Sign on WHatsAPp",
+    "author": "Jacques Dalmas",
+    "product": "Conga_Sign",
+    "content": "Hi Team,\nA current client, CLub Med (hospitality) is interested we enable COnga SIgn on WhatsApp. They see tremendous growing WhatsApp activity in Brazil, one of their current key markets, where clients no longer use emials but send contracts by WhatsApp.\nI can of course get the client in a call to further discuss the specs.\nit seems to me lie a great feature differentiator on top of our pricing model and embedment in SF.\nOn a related note, the same client is seeing the same happening in their Chinese market with WeChat.\n\u00a0\nRegards\nJacques Dalmas- France AE.\njdalmas@conga.com",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "non-conga salesforce users to see conga sign transaction objects in salesforce",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "The customer would like non-conga salesforce users to see conga sign transaction objects in salesforce. This is needed to help auditors organize by conga sign transaction to see the related completed contract.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga sign Capture time stamp",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "provide users the option to capture the signed date timestamp as: 2/2/2023 02:20:23",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga sign transaction portal for signers",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "A customer wants to have a portal where signers can access to view all the Conga Sign Transactions that need to sign. This will prevent signers/users to miss any transactions for signature and provides easy access as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Automate Conga Sign Process",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "When Composer is integrated with Sign - the customer would like to bypass Conga Sign UI and redirect to Preview and Tag page for a simpler and smooth process",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Acquire to have an option to generate or send the signing links through their own office email.",
+    "author": "Connie Gumacal",
+    "product": "Conga_Sign",
+    "content": "Ability to acquire signer link to send to their Office 365 mail. To have the option to generate or send the signing links through their own email.\n\u00a0\nConga Sign only have the feature of sending the link to the signer. \nUsers would like to be able to go through the Conga Sign process of sending the document, but have Conga Sign give the option to Generate Signer Link(s). Instead of having Conga Sign to send the email to the signer(s) only, they would also want to receive the link that was sent to the signer. This way, users have the option to send the link themselves to their clients, via their email account.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Wants to remove the save to salesforce files feature in Conga Sign",
+    "author": "Josie Panergo",
+    "product": "Conga_Sign",
+    "content": "The customer under this case number 00824983 is requesting if we can remove the save to salesforce file feature of Conga Sign.\nThey only want to see the signed document due to Salesforce Storage concerns.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add note in the Audit when the Signer canceled",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "The customer is requesting an enchantment to have the note show up in the Audit when the signer cancels, in order to see the full note/reason for cancelation",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Append a keyword in the signed document name uploaded to the Agreement record",
+    "author": "Renish Bhimani (comm)",
+    "product": "Conga_Sign",
+    "content": "MARKING THIS IDEA AS \"WILL NOT IMPLEMENT\" AS IT IS A DUPLICATE OF ANOTHER IDEA WHICH CAN BE FOUND HERE:\u00a0https://apttus2.my.salesforce.com/ideas/viewIdea.apexp?id=087Dm0000008PGHTHE OTHER IDEA HAS BEEN TAKEN ON FOR FUTURE CONSIDERATION AND SHOULD BE CHECKED FOR MOST RECENT STATUS.\u00a0When Conga Sign completes all the signatures, it uploads the signed (executed) document to the Files related list on the Agreement or relevant record. However, it becomes difficult to identify which is the signed document in the Files related list if there are multiple with the same name since Conga Sign uses the file name that was used for the signature in the signed document as well.\n\u00a0\nThis requires the user to look at each of the documents to see which is signed.\n\u00a0\nWe propose to append a keyword in the signed document uploaded by the Conga Sign to differentiate the signed documents from the original document sent for signature.",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Append a keyword in the signed document name uploaded to the Agreement record",
+    "author": "Renish Bhimani (comm)",
+    "product": "Conga_Sign",
+    "content": "When Conga Sign completes all the signatures, it uploads the signed (executed) document to the Files related list on the Agreement or relevant record. However, it becomes difficult to identify which is the signed document in the Files related list if there are multiple with the same name since Conga Sign uses the file name that was used for the signature in the signed document as well.\n\u00a0\nThis requires the user to look at each of the documents to see which is signed.\n\u00a0\nWe propose to append a keyword in the signed document uploaded by the Conga Sign to differentiate the signed documents from the original document sent for signature.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Multiple writeback tags per signer",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "Customer needs two picklist writeback tags to be filled out by one signer. As Conga Sign only allows one writeback per signer, customer cannot proceed with their desired solution. They were told that this is available on the product that is why they signed up.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Update CST Sent Email Notification based on Serial vs Parallel Signatures",
+    "author": "Chris Shelor",
+    "product": "Conga_Sign",
+    "content": "As a user creating and sending Conga Sign Transactions, I want my automated notification emails to accurately reflect the type of signature that I sent out. Currently, the email notification for sending out a CST always makes it sound like I sent for parallel signatures, even if I sent for serial signatures. See an example of the email below.\n\u00a0\nThis CST was sent for serial signature, but the wording on the email makes me think I sent for parallel and so is a confusing (and scary) UX.\n\u00a0\n\n\u00a0\nAsk: Make the notification emails clearly indicate the type of signature that was sent out",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to send individual pages to different Signers vs. the entire document",
+    "author": "Thomas Kirkland",
+    "product": "Conga_Sign",
+    "content": "In Conga Sign for SF ideally:\n\u00a0\nExample:\nCustomer Instructions page goes to Signer1\nLegal instructions page goes to Signer2\nExecutive Instructions page goes to Signer3.\n\u00a0\nSteps to Reproduce:\nSend a document with Conga Sign\nOnly send page 2 of the document to Signer 1\nOnly send page 3 of the document to Signer 2",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option for the customer to be able to write notes on the signed document.",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "\ufeffWhen the document is being signed by the customer the client is requesting\nan Option for them to be able to write notes on the document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To remove \"Powered By Conga\" footer in the Email message",
+    "author": "Josie Panergo",
+    "product": "Conga_Sign",
+    "content": "Working on the Conga Sign Sending part.\nNot able to see where we can remove the \" Powered by conga\" Black footer from the email in the Business unit.\n\u00a0\nCase #: 00823208",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conditionally send or show pages/files to different signers",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Sign",
+    "content": "Allow Conga Sign Transactions to send or display certain pages/files of the signing document to recipients based on conditions. For example, internal signers would be able to fill in comments which would write back to Salesforce, while the comment page would not be visible to the external signer. Example 2 - recipients only see the pages they need to sign.\n\u00a0\nThis would be similar to DocuSign's Document Visibility functionality.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to BCC or view sent Messages from Conga Sign",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Customer has a use case where they would like to be able to BCC a recipient on a Conga Sign Transaction - at present, it is only possible to ad a recipient, In-Person signer or a CC\n\u00a0\nIf this is not possible, would it be possible to save the actual message that was sent against the transaction record",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change Output File Name of signed documents",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Customers would want the ability to change of the output file name of the signed document",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Adding logic in Checkbox write back tags",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Customers would want to create checkboxes that can be chosen as neither required nor optional .",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support French Accents in Conga Sign Emails",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "When a user sends a document for signature on behalf of someone else, that person receives an email to let them know some things were sent under their name.\n\u00a0\nThe email received by that user contains sp\u00e9cial characters instead of the accent\u00a0\n\u00a0\n\ufeff",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Modify Conga Sign UI - Recipient side",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Would like to change the Conga Sign UI Recipient side for flexible and interacting interface",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add BCC email to the Conga Sign transactions",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Send notification and transactions with BCC email",
+    "votes": "6 Votes",
+    "comments": []
+  },
+  {
+    "title": "More control over Conga Sign Transaction",
+    "author": "Christina Bergholm",
+    "product": "Conga_Sign",
+    "content": "For Conga sign transactions, Is there a way we could cancel follow up emails on a case by case basis? For example when a customer calls and asks for followups to stop for a week and they would revisit the document in a weeks time. Is it possible for us to accommodate this situation?\n\n\n\nEx: Updating business unit on the Conga Sign Transaction to another business unit with no followup information or any other way where we could handle this issue please.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Have the ability to reformat signed document / final document instead of PDF only",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "This would help out customers that would like to keep their output file default format e.g the template is a word by default, the final document should be in word format too",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "No cancel transaction on Mobile",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "No cancellation option of transaction from Mobile",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "A field in a Conga Sign transaction that will reference the original record were it was created",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "The client would like to have a field added to a Conga Sign transaction record where it references the original record where the transaction was created. (Sample: Contact/ Opportunity/User,etc.)",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "How to determine template ID in a Conga Sign Transaction",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "The client is requesting if there's a way to determine the template ID for every Conga Sign transaction.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "capability to detect receipt of the notification email or to check if the email bounced back",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "The customer is developing a Conga Sign solution and the question has come up about sending Conga Sign agreements to signers with email addresses that bounce. The Conga Sign transaction status just shows \"Sent\" and the Audit page doesn't provide any info. They want an indicator it the email didn't go through to the signer. This would be useful for them to track bounced email.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow Conga Sign documents to be reordered in the UI",
+    "author": "Corey Purdy",
+    "product": "Conga_Sign",
+    "content": "In the Conga Sign integration for Conga Contracts, the documents that are being tagged can not be moved around like they can for Docusign. This feature would be very appreciated when a customer needs to send multiple documents, like a cover sheet, contract, and addendums that need to be in a certain order.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Composer Interface, then skip Conga Sign Interface, and directly send to recipient",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Sign",
+    "content": "Our current background mode DS7=1142 skip composer and conga sign interface.\n\n\nThis will allow customers to just skip the Conga Sign Interface, if they don't need to edit something on preview and tags.\n\n\n- user clicks on a button\n\n- user is presented the Conga Composer Interface\n\n- user selects a template\n\n- user clicks on Merge and Conga Sign\n\n- user skips the Conga Sign Interface, and directly sends to recipient",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow for Sender attachments and preview of attachments through the Conga Sign UI",
+    "author": "Katherine Olivario",
+    "product": "Conga_Sign",
+    "content": "Case 00813968 To review attached files before the document is signed",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use uploaded font in Conga Sign",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Tech support has uploaded our own fonts to be used with Conga.\n\nThis works so far with the composer (Generated documents got our own font \"Graphik\") but if we upload a document to sign with the font it's getting changed to Arial.\n\nIs there any option to change that?",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Sign Custom Tag Number Format",
+    "author": "Johnny Checton",
+    "product": "Conga_Sign",
+    "content": "Date output format can be adjusted\nWhy not add number formats for common number strings.\nFor instance:\nPhone number + XX (XXX) XXX - XXXX or +XX XX XXXXXXXX\nSocial Security Number XXX-XX-XXXX",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow first signer to Complete Sign transaction",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Related to case 00812378\n\n\nCustomer's use case is that they would like for Sign to be able to Complete a transaction when the first person to sign a document does so. To elaborate, if there are two signers on a Transaction (A and B), if signer B signs the document then there is no need for signer A to do so too.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Character Limit Information on Optional Message in Conga Sign Reassignment",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Sign",
+    "content": "When reassigning Conga Sign Transactions as a recipient, the Optional Message textbox has a 255-char limit which when exceeded gives a generic error message.\n\nCustomer (Brian Hendel @ Omatic Software) suggested it would be helpful for the reassignment page to show the character limit on this textbox in some way, ie, with a character countdown underneath. Alternatively the error message could be more descriptive and let the recipient know that the Optional Message was too long.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customize Sign email",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Customer would like to customize the entire Conga Sign email rather than what you can with the current parameters",
+    "votes": "10 Votes",
+    "comments": []
+  },
+  {
+    "title": "Org or customer-wide toggle to allow exclusion of CC recipients from routingType or signing order entirely.",
+    "author": "John Hammons",
+    "product": "Conga_Sign",
+    "content": "Customers can often not rely on their end-users to adhere to routing type or signing order to effectively order their recipients correctly according to our guidelines. Currently, CC recipients in routingType=SERIAL will receive notification the transaction is complete if they are placed after the Signer recipient.\n\nIf we instead place the CC recipients before the Signer in the order the CC recipients will receive a notification that the transaction is taking place.\n\nAn administrator could only force this on the end users per business requirements by creating a custom button with the correct parameters currently, but even then any edit done by an end-user may change the order.\n\nThis would be for a customer that has a business need for any and all CC recipients to not adhere to a signing order; they would still require routingType=SERIAL, and signing order enforced, for all Signers. It would be changing behavior of how CC recipients are sent mail.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow separate date tags for the day, the month and the year",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "My customer would like to have separate date tags for the day, the month and the year, so you can format the date tags with just on element of the date",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Writeback Tags - TS/TE Syntax",
+    "author": "Josie Panergo",
+    "product": "Conga_Sign",
+    "content": "To be able to use the query/report dataset information as writeback tags with TableStart TableEnd Syntax",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to change the \"References Header Value\" so that their transactions are not staying in one thread",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Emails sent through Conga Sign are threaded even if the transaction is cancelled and customer resend another document to sign. Basically, transaction notification emails are being placed into the same conversation and not a new one. Apparently changing the subject doesn't affect this behavior.\n\nCustomer did a research and said that in order for Gmail to start a new email thread, both the subject needs to be changed OR the \"References header value.\" They have no control over the \"References header value\" in the email that gets sent through Conga. That's why they are getting placed into the same Gmail thread. A new Quote to the same contact should not use the same Reference Header Value.--- https://workspaceupdates.googleblog.com/2019/03/threading-changes-in-gmail-conversation-view.html\n\nCase 00807774",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Danish Language Support",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to have Danish supported for both Senders and Signers.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Showing a workable hyperlink on a conga doc during signing",
+    "author": "Austin Miller",
+    "product": "Conga_Sign",
+    "content": "Would it be possible to have clickable hyperlinks on a document during the signing process? These links are currently only available after the document has been downloaded.",
+    "votes": "11 Votes",
+    "comments": [
+      {
+        "commenter": "Sandra Bauer Heinz",
+        "content": "Our use case for this feature, includes the customer signature accepting the policies, terms and conditions that are referenced in other existing pages.  Since the customer must accept them, they should be able to click and read the content within the signing process. Our workaround was to put the external content into the conga document, which makes the document much lengthier and more cumbersome than it needed to be."
+      }
+    ]
+  },
+  {
+    "title": "Customizable Conga Transaction expiry email notification.",
+    "author": "Mark Martinez",
+    "product": "Conga_Sign",
+    "content": "Be able to customize the email notification being sent when the Conga Transaction has expired.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove Sign Transaction ID from email",
+    "author": "Colton Lederer",
+    "product": "Conga_Sign",
+    "content": "That ID serves no purpose for any of the recipients in the email. A better place to keep it is in the audit trail. It may confuse the user (pilots) as they're signing.\n\nUse Case:\n\nExternal users (pilots) will use SF application to apply for a job in United Airlines and SF internal business users (United HRs) will review their submitted application and then use Conga button (which has been added to the SF standard object) to send a pdf to the applicant (External user) to capture their digital signature. Business users doesn't want the applicants to access the audit trail since it reveals their SF user name and email Id\n\n^^Please find above the business requirement and the reason why we want to hide Conga audit trail link and transaction Id from the email.\n\n\n--> Suggesting a Service User as an alternative for hiding the audit trail.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to Disable Decline Button",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like the ability to disable the decline button in the signing experience, as they gather consent from the customer before sending out for signature, so they would not like the option to be available upon signing.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make the final step of \"Complete Signing\" more obvious",
+    "author": "David Vernall",
+    "product": "Conga_Sign",
+    "content": "Customer is asking for the final step in the Signing Process, of clicking on the \"Complete Signing\" button to be made more obvious. As some of their customer are not using that button and just closing browser before completing the process.\nhttps://www.screencast.com/t/koPq0JKg\n\n--John Scerri, Morrows pty ltd",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "write back tags for multiple signer dynamically signed the transaction.",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "They have signer 1 , 2, 3, and 4\n\nIf the Signer 1 choose the accept, the signer 4 will added dynamically and it will become 4 signers\n\nBut if the Signer 1 chooses to decline, then signer 4 will not be added and it will become 3 signers only.\ufeff",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to Hide the Send Now Button on Create Transaction Screen",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "This is an idea to create an option that would allow users to configure if the \"Send Now\" button is shown or not on the Create Transaction Screen.\n\n\nUse Case:\n\nIf there is a workflow where a user needs to review or add tags to a document before sending, there is a need to hide the \"Send Now\" button so they don't send without reviewing by mistake",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Disable the recipientXcurl parameter in the Sign UI (related to case 00805068)",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Customer has a case where they need to disable the recipientXcurl parameter that is applied to a button if the Role is changed to In-Person.\n\n\nAt present, if the signer's role is set to SIGNER, once the recipient signs the document, they are redirected to a website which is perfect. The problem is that if the role is changed to In-Person, the recipient is still being passed to the website instead of passing to the next In Person signer.\n\nCustomer would like the option in Sign UI to disable the redirect if In Person is selected\n\n\nAttached is the current button code and a shot of the Sign UI",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign View Transaction without Conga Sign License",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client is requesting to have a conga sign view transaction even though they do not have any licenses for the User.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add a cancelation reason",
+    "author": "David Vernall",
+    "product": "Conga_Sign",
+    "content": "Conga Sign Transaction - Can we add a cancelation reason on the admin side as an additional function?\n\n\nI know I can add a reason as a recipient or CC however, as an admin I am curious as to why this option isn't available.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Deny/Restrict Access once a transaction has already been signed or completed",
+    "author": "Matt Penrod",
+    "product": "Conga_Sign",
+    "content": "I have a customer that would like the ability to deny or restrict access to a document after it has been signed by their recipient (or being able to remove the 'Send New Link' option.) This would be helpful in the event that the document is sent to the wrong recipient by mistake.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Better Card View for Conga Sign for Salesforce Mobile",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Currently, the card view when sending out transactions on mobile looks and behaves in a clunky manner. The checkbox, document name, and file type are separated out onto different lines, and when there are multiple documents that have been uploaded to a record, it's hard to pick through them.\n\n\nThe request is to make this card view sleeker and easier for senders to use while on mobile.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Dynamically set the Sender of Conga Sign Notification emails",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Customer would like to dynamically set the sender of the Sign Notification emails, specifically so that the come from the sender of the transaction.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Additional languages for Sign UI",
+    "author": "Arvid Gutjahr",
+    "product": "Conga_Sign",
+    "content": "I have a prospect who would need Czech and Slovak as Sign UI languages",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Sign parameter to save to content library",
+    "author": "Ryan Walls",
+    "product": "Conga_Sign",
+    "content": "This is available as an integration parameter with Composer(&ContentWorkspaceId), but this functionality would benefit this customer as a standalone sign parameter",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "hide \"upload documents\" button in Conga Sign",
+    "author": "Jeffrey Allen",
+    "product": "Conga_Sign",
+    "content": "Customer has requested to have the ability to hide \"upload documents\" button from Conga Sign process without needing to skip entire page with DS7. Requested by Coastal Cloud",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Brian Hendel",
+        "content": "Agreed with this - Upload Documents and even Available Documents (where a user could upload to the record and then use that upload) escapes ~all security controls elsewhere. Very critical."
+      }
+    ]
+  },
+  {
+    "title": "Link to Documents from Audit Trail",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like a way to link to the documents that were signed from the audit trail, so they can have quick reference of the documents associated with the events of the trail.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "cancel completed document in Conga Sign",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client requested to cancel the Transaction that is completed. They want to have this request in order to remove if they send the documents incorrectly.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Benjamin Bridgeman",
+        "content": "Do we know when will we get this feature in Conga? This is already being offered with rivals."
+      }
+    ]
+  },
+  {
+    "title": "Each signers should have a status once they complete the signing process if there are multiple signers of the document",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Sign",
+    "content": "Signer status should have its own status for each signer after they completely signed the document.\n\n\nExample: Signer1 completes signing the document and the status should change from Sent to Complete while the Signer2 still not signing the document and should have a status of Sent.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign - Give standing consent to signature",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "Customer requests ability for signers to grant consent for electronic signature once instead of before every transaction",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to create a button to see unsigned transactions in Conga Sign",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "and get back to signature if the original email is missing.\n\nCase: 00803203",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use the same email address on Sign transactions",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Linked to case 00802003\n\n\nCustomer's use case is as follows:\n\n\n\"We have many older customers who don't have their own email address, and use the address of their son/daughter. If the son or daughter are also paying the bill for the customer we need their signature as well. Conga Sign is not allowing us to add 2 recipients with the same email address. Meaning we can't collect the signature electronically and will have to do so on site.\"",
+    "votes": "8 Votes",
+    "comments": []
+  },
+  {
+    "title": "Date field should not count in Guided signing",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Sign",
+    "content": "As the date field is filled out automatically, it would be great if it was removed from the count that appears",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Improvement in guided signing",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Sign",
+    "content": "Currently when using guided signing, if we missed one of the mandatory fields, it does not switch to the Green Mark, however when the user is at the end of the document, it's not easy to spot which one is missing. It would be great to have something like a menu on the left-hand side that would show all the fields and their completion status",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Support Downloading Docs from Invitation Email",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to add another button to the invitation email that allows them to download the document or attach the document as a PDF for download.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use Sign UI in custom VF page",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like the ability to use the Sign UI in a custom VF page so they can have the option of having the browser not open in a new tab which disconnects Omni\n\n\nRequested by GeneDX on case 00800362",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to stop sign UI from opening in new browser tab.",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like the Sign UI to open as a Tab in Salesforce, currently when sending a sign transaction a new browser tab is opened which disconnects Omni and cuts off their customer call mid-call. The Customer sends transactions for signing whilst on calls.\n\n\nRequested by GeneDx\n\nCase 00800362",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to Send CCd Recipients Signer Attachments",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like a way to send copies of the uploaded attachments to recipients who have been CCd on the transaction",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Have all the information in the Audit Trail  readily be available for composer queries",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The customer suggested that \"all of the data\" within the Audit Trail should be available for queries for them to be able to include it in their reports.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Reminder frequency record in transaction history",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client requested to have the reminder frequency record will show up in transaction history or view audit",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Sign - Add parameters that allow users to edit file visibility",
+    "author": "David Vernall",
+    "product": "Conga_Sign",
+    "content": "Currently files are being saved in Salesforce Files with SharingOption \"Allowed\" (should be \"Restricted\") and SharingPrivacy to \"Visible\" (should be \"Private\"). Customer would like the option to change this.\n\n\nAt the moment the sensitive file is visible to users that do not have permission to view this, via the search feature in SF. Despite having the correct perms to restrict them viewing on the object/record.\n\n\nrequested by: John Moura, AB Sciex LLC (https://apttus2.lightning.force.com/lightning/r/0013Z00001lmOMYQA2/view)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to control the range of dates user can select for \"Transaction Expiration\"",
+    "author": "Jai Patel",
+    "product": "Conga_Sign",
+    "content": "As per the current behavior, there is no control over the date user can set for \"Transaction Expiration\". Example, user can set an expiration date 5 yrs from today. GE would like to have a control on the date user can set for \"Transaction Expiration\".\n\n1. They have certain fields on Agreement object and they would like that system should not allow the user to enter an expiration date which is beyond the values in these fields ('Expiration date' and 'Validity date' are the 2 fields on Agreement object based on which GE would like to validate the Transaction Expiration).\n2. User should have flexibility to choose if the upper limit of the Transaction Expiration date is based on 'Expiration date' or 'Validity date' field on the agreement.\n3. User should have the flexibility to enforce this control on the transaction expiration date for each agreement. It should not be an org or business unit level setting.\n4. All dates should be in time zone of the logged in user.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Determine the order of Sign tags using the Tab key",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Related to case 00799091 - customer has requested that it be possible to determine the order tags are selected when pressing the \"Tab\" key when using the Preview & Tag screen in CS.\n\n\nSee the attached screenshot - they have a number of tags used in the template and would like to set the order these are filled out by the signer - at the moment, it seems to be random",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent Duplicate Emails for Sender who is also Signer",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like a setting that prevents getting what are essentially duplicate emails when they are both the sender and the signer for a document.\n\n\nCurrent state, if you are both, you get double emails letting you know that something is sent and double emails letting them know that things are completed.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Change Sign Picklist tag colouring",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Customer (Charles & Dean - see case 00799091) has requested the ability to change the colour of the tag when using picklist values. They feel that when picklist tags are used in conjunction with other standard tags, the picklists stick out too much and looks odd.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign Processing Region based on Business Units",
+    "author": "Matt Penrod",
+    "product": "Conga_Sign",
+    "content": "I have a customer that wants to be able to set up the Conga Sign Processing Region based on business units. For example, if they have users processing conga sign transactions in North America and Europe, can they separate this out so that users in North America have their conga sign transactions processed and stored in North America and users in Europe have their conga sign transactions processed and stored in North America?\n\n\nThe customer explained:\n\nPer international data storage compliance and storage, we need to ensure that data and files are stored in a local region based on our various legal entities (business units). We have offices and customers over the world",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Client wanted to update or customize the email address sent by conga Sign",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client wanted to customize the email address that the conga Sign used to send out emails.\n\nI checked with support and they told me that there is no option since it is a static details.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use Conga sign Link/URL in own emails",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like the ability to add the Sign transaction URL/Link to own email outside of Conga sign emails\n\n\nRequest by Cloud113\n\nCase 00797449",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow Configuration of Sending Domain",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to be able to configure what domain emails are sending from in order to help ease issues with spam and getting caught in firewalls.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent Users from changing the signers order in the UI",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Users currently can change the order of signers meaning tags in the document are no longer in the correct place. Having the option to prevent this would stop this happening. While full background mode is a workaround my customer wants them to have the ability to add additional documents so would still like to see the UI",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Requesting to have hyperlink work in signing UI process in Conga Sign",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client wanted to have hyperlink work while in the signing UI so that the receiver of their email will check the site first.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Support Complex URLs w/ CSCurl Parameter",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like support for complex URLs when using the CSCurl parameter. Today, when a URL is too complex, it becomes truncated due to how Salesforce processes the URL from Sign and hands it to Composer.\n\n\nJira Card w/ more info:\n\nhttps://conga.atlassian.net/browse/CM-4123",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Certify Sign Through ICP-Brasil",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Transactions sent in Brazil can be certified through ICP-Brasil (public key infrastructure for Brazil), which is a digital certificate issuance system for which the law grants a presumption of authenticity.\n\n\nCustomers who send transactions in Brazil would like Conga Sign to be certified through the infrastructure so the transactions they send automatically have the presumption of authenticity in Brazilian law.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To add Conga Sign Parameters as Supported Lightning Component Button",
+    "author": "Josie Panergo",
+    "product": "Conga_Sign",
+    "content": "Created conga solution and added CSEmailSubject and CSEmailMeassage for Conga Sign, the email message will not populate via Lightning Component.\n\nConga Sign is not listed as a Supported Parameter inthis documentation - https://documentation.conga.com/composer/may-22/supported-parameters-for-the-composer-lightning-component-148114364.html\n\n\nCase #: 00796043",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign Writeback to Date Fields",
+    "author": "Carlo Sanchez",
+    "product": "Conga_Sign",
+    "content": "Be able to write back to DATE fields in SFDC",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Hardik Shah",
+        "content": "BSC has been requesting this feature from last 2 yearsUse-caseCustomer (BSC) wants internal counter-signer to enter contract Effective Start and End Dates which are finalized and captured upon customer signing the contract first. They would also want write back option to populate this data automatically back to contract record before activation of contract."
+      }
+    ]
+  },
+  {
+    "title": "extend the 1-hour timeout on CongaSign",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Is there a way to extend the 1-hour timeout on CongaSign? Can we add an alert to notify signers that their session is about to time out? Is there anything we can do to assist our signers or maybe save the spot in the documents when the system times out?\n\n\ncase ID: 00795849",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow first response acceptance for Conga Sign Transactions",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "Right now, recipients can either be signers or CCs. If there's more than one signer, each of them must sign to complete a transaction. Customer would like the ability to allow a first response completion similar with Salesforce' approval process acceptance options.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Return to Conga Sign Screen from \"Preview and Tag\" screen for additional changes",
+    "author": "Valerie Phillips",
+    "product": "Conga_Sign",
+    "content": "It would be extremely helpful to be able to go back to the recipient screen in Conga Sign after hitting \"preview and tag\" in case you need to make further changes. Right now, you have to discard the entire transaction and start over completely, which is time consuming if you have a personal note and you're adding many recipients.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign Draft Transaction Parameter",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "Customer would like to automatically create draft transactions using a Composer/Sign integration button that goes thru the API but doesn't send a transaction",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make the Tags Section Collapsible on Mobile",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to make the Tags Section collapsible while on mobile to make it easer to use and read the document while tagging.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support for Group Signing",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to be able to have the option of Group Signing. Specifically, they would like to be able to designate a group of individuals to have a transaction sent to, and someone from the group of individuals can sign the transaction on behalf of the group.\n\n\nDocusign Documentation - https://developers.docusign.com/docs/esign-rest-api/reference/signinggroups/signinggroups/#:~:text=Signing%20Groups%20allow%20you%20to,not%20directly%20assigned%20to%20them.\n\n\nOneSpan Documentation - https://www.onespan.com/blog/tips-tricks-how-use-group-signing-onespan-sign#:~:text=Group%20Signing%20is%20a%20feature,behalf%20of%20the%20entire%20group.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow for Signer Delegation",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Prospect would like to allow for backup/delegate signers for a period of time while a signer is out of the office/on vacation and a transaction needs signing.\n\nEssentially, have a way for someone to designate someone else as a signer while they are out of the office and need someone to Sign transactions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add multi-select picklists and text areas as writeback fields for Sign",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "customer has fields of this type they want included in their Sign transactions as writebacks for their signees",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add ROLE field to CS Recipient object",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "Add the role field to the CS recipient object so roles can be visible from within salesforce without having to go to the audit trail",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Setting to Only Send One Email When Signing In Person",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like a setting that makes it so only one email is sent out when running an In Person Signing session for themselves. Currently they receive an email both as a Facilitator and as a Signer, and they would like to only receive one email for both since they're the same person. \n\nRequested by:\nNOVENTI Health SE",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Have Write Back Picklists Use Translation Workbench Translations",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "The customer would like to be able to have the translations provided to the Translation work bench translate across in write back picklists, so when they pick a specific language for a recipient, the picklist is translated to that language.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make the reminder stop once the customer signed the document",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "When customer send a Conga Sign and set a reminder; the customer may sign immediately, but the reminder still goes out at its scheduled time.\n\n\nCASE #: 00791912",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Capability to customize \"View Document\"",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "The client want to change the label of \"View Document\" button in Conga Sign.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Being Able to Change the body of Conga Sign Notifications",
+    "author": "Carlo Sanchez",
+    "product": "Conga_Sign",
+    "content": "Change the body of the notifications for Conga Sign",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Capability to edit the disclosure statement",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "Customer business requirement is to have their own disclosure statement in their conga sign.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allowing more than 40 characters in Conga Sign Email Message",
+    "author": "Colton Lederer",
+    "product": "Conga_Sign",
+    "content": "CSEmailMessage is the only way to dynamically reference recipient names and/or other dynamic data from SF. Clients would like more than 40 characters in the email message.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Import/Export Write back tags between orgs",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like the ability to Import/Export Write back tags between orgs. Whenever they spin up a new sandbox, it is taking approximately 2 hours to configure 100+ Write back tags across 3 objects.\n\n\nRequested on case 00790214 & 00789428",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow for Offline Signing",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to be able to Sign Transactions while offline.\n\nThe customer has field reps who go into hospitals where wi-fi is not available and cell phone data is limited, but documents still need to be Signed.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Support for Requiring Drawn Signature or Uploaded Signature in Conga Contracts",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to be able to configure Conga Sign to only allow Signers to either draw their signature or upload an image of their signature similar to the functionality supported in Conga Sign for Salesforce.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support for Business Units in Conga Contracts",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to have support for Business Units in Conga Contracts. They are interested in having more flexibility in changing the Conga Sign logo and message templates.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "TextArea data type not yet supported by  Sign Writeback tags",
+    "author": "Lawrence Dela Cruz",
+    "product": "Conga_Sign",
+    "content": "The street address field is a textarea field which Sign does not yet support.\n\nCase #00789260",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "This is a fake idea for testing",
+    "author": "Mason White",
+    "product": "Conga_Sign",
+    "content": "Just a quick idea from a marketing fluff monkey.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Test Sign Idea 2",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "This is another test idea that can be ignored.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "New layout of CongaSign's e-signature request email",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "DocuSign and other e-signature solutions provide a huge and dominant \"Sign\" button in their e-signature request email. CongaSign on the other hand has a random looking tiny URL link at the bottom of the e-signature request email. Can we change to what's best practice and have a very clear \"Sign\" button?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customized Message in CongaSign's e-signature request envelope",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "Hi,\n\nWhenever we submit a customized message to a recipient of a CongaSign envelope, CongaSign keeps the standard first line and conclusion message which often looks weird and rather unprofessional.\n\nWould it be possible to have the standard blurb only included in the e-signature request email if there's no custom message?",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Write back tags for DS",
+    "author": "Valerie Phillips",
+    "product": "Conga_Sign",
+    "content": "Conga Sign has never supported writeback for DocuSign signatures, but we frequently have sales orders that are signed by customers using DS. In order to execute internal Conga signature, we would either have to upload to AdobeSign or DocuSign.\n\n\nAre we able to support DocuSign tag functionality so it does not give error?\n\n\nAs a note: I understand that this is Digital Signature vs. Electronic Signature; do we have any insight into how AdobeSign is processing DS tags?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "obtain a report of the Status of the transactions",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "How to see the Audit of all records, not by clicking transaction by transaction? Customer is using batch. He want to see the last interaction that the signer had with the transaction.\n\nFor example, If I send a batch of 100 transactions, I would like to know how many have been opened, signed, reassigned, etc.\n\n\nCase 00787869",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "resize the tags (specifically the signature tag) and make it smaller than 8 pts",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Ability to resize the tags (specifically the signature tag) and make it smaller than 8 pts",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Additional Attachment Viewing Options",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Request to preview the images or documents being attached to a transaction during signing. Currently the only part of the attachment that shows is the name with no way to preview.\n\n\nPer NYC Parks:\n\nAttachment Tags display the file name uploaded by the signer - we'd like to explore other options regarding the attachment tag, preferably an image preview of the file itself (miniature version) displayed on a separate page other than the document being signed (the attachment file is an eyesore on the document).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Two Writeback tags merge into 1 SF fields",
+    "author": "Kharl Cultura",
+    "product": "Conga_Sign",
+    "content": "The customer's business requirement was to make 2 WB tags and merge them so they can return to a single SF merge field and make the 2 WB tag either 1 is required and 1 is not\n\nExample:\n\n\nIn conga sign UI 1 checkbox for Yes and 1 checkbox for No\n\nEither of the fields would return to an SF field which is a text field",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customize the subject for the final Signature Completed emails",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "customize the subject for the final Signature Completed emails. Currently, only the transaction invitation is the one we can modify.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign transactions out in an SMS message",
+    "author": "Elmar Arceo",
+    "product": "Conga_Sign",
+    "content": "When a document is ready for Conga Sign in Salesforce, an SMS sent to the recipient with a link to the Conga Sign document.\n\n\nThe motivation for the SMS link is that many of the client's customers are small retailers (\"mom-and-pop shops\") who don't always have access to or check their emails.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Force Read of Sign document before beginning Guided Signing process",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "Before a Sign recipient can select Guided Signing, customer would like to make sure the Signer has read through (or at least scrolled through) the whole document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Write Back Tag for Date Field",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Sign",
+    "content": "We are looking to have a date inputted in a signed document map back into a data field in Salesforce.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Be able to sign Documents in experience cloud",
+    "author": "Carlo Sanchez",
+    "product": "Conga_Sign",
+    "content": "Be able to have users sign a document with a link generated on the experience cloud page or a link without the need for the document/transaction be sent via Email.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to save Conga Sign document to location other than Master record",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer wants the ability to have the merged document pre-signing be saved elsewhere and not on the Master record. If possible, have the merged document saved in a Folder instead of as an attachment on the record.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Drawing Field  for Signers can add images and leave free form markup directly within a document",
+    "author": "Jerry Coalson",
+    "product": "Conga_Sign",
+    "content": "Used across multiple industries like medical intake form, auto damage, insurance claim, field locations for specific points or locations, etc. This is a competitive feature to Docusign\nTake a look at this Docusign video for the \"Drawing\" field option.\nhttps://www.youtube.com/watch?v=ldoKjdY0DD4&ab_channel=DocuSign (https://protect-us.mimecast.com/s/wYPGCG62BASOgylQsBjYLo?domain=urldefense.com) \"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign API to integrate with comms platforms",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "Use case is for customers wanting to send sign transactions outside emails. Specifically, users who would like to send signing links via SMS messages.\n\n\nDiscussed use case would be to retrieve the signing link from the API and then deliver the link via a third party integration such as Twilio.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Mask data for any final copies sent to signers",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Option to mask data for any final copies sent to signers. Most/all characters of sensitive data fields (SSN, bank account numbers, drivers license no, credit card data, etc) should be redacted when completed document copies are sent via email.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Deploy Sign Setup via metadata",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Configuration in Conga Sign Setup to be deployed by means of metadata. So e.g. the Business Unit configurations, Write Back, etc. Customer want to prevent manual actions in production environment where possible.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add \"Completed by Hand\" signing status",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customers recipients sometimes download and Sign the document by hand, then return the document to the customer via email. The customer then updates the transaction status to Complete. Although the status is set to complete, reminder notifications are sent out to the recipients which is not required as the document was complete. They would like a new status, \"Signed by Hand\" which then updates the audit trail to advise the document was signed by hand and stops notifications from being sent to the customer.\n\n\nRequested by Lifen on Case 00786281",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Locate Sign documents/transactions that aren't syncing back to Salesforce.",
+    "author": "Matt Penrod",
+    "product": "Conga_Sign",
+    "content": "If a document is signed by all of the recipients but doesn't sync back to Salesforce, there is no way for the user to know where the document is located or why it's not showing in Salesforce. Documents aren't able to be retrieved by users fast enough, especially if the document is time sensitive. It would be nice for users to have a way of finding/extracting these documents even if they haven't been synced to Salesforce yet.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign Writeback tag - Email",
+    "author": "Kharl Cultura",
+    "product": "Conga_Sign",
+    "content": "The customer wants to inline the WB tag with SF field email if it throws an error. Example:\n\n\nIF SF field requires only 1 email and if they add 2 email with comma or semi colon in throws an error same goes with WB email, if it adds 2 email then it will throw an error as well",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "The signer will sign and either get to choose a bonus of option A or B.",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "Customer would like to have an option that the signer will sign and either get to choose a bonus of option A or B. Is there a way to format that so the signer cannot sign both A and B.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Highlight the Complete Signing button in Conga Sign",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Customer has setup Guided Signing, but have found that their customers reach the last section of the Guided Signing process assume it's complete without clicking the Complete Signing button and therefore not finishing the process.\n\nAs part of the guided signing could a pop-up be added to highlight the requirement to click this button. Or move it to the bottom right, where it would be more naturally seen?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "error message prompt so users can know why they cannot cancel the transaction",
+    "author": "Hanah Bengson",
+    "product": "Conga_Sign",
+    "content": "Reason character limits in Conga Sign when cancelling a transaction is 255 characters only including the spaces.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Writeback tag for Checkbox field",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "Customer would like to have a writeback tag output from a checkbox.\n\n\nCurrently, the customer will get just a checkbox that they can put a checkmark not the writeback tag they put on the template.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to Disable the Drawing Signature for Signers",
+    "author": "Angelie Camasis",
+    "product": "Conga_Sign",
+    "content": "We want to prevent signers from drawing signature, so that they always have to choose from a predifined style.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to capture Credit Card Information that is Encryoted",
+    "author": "Cody Fullinwider",
+    "product": "Conga_Sign",
+    "content": "Customer wants to capture signers credit card information but the write back tags are not encrypted. They currently use the Redirect URL to go to docusign to have signers fill out an additional form with credit card information.\n\n\nCustomer wants to be able to have all of that information captured in one document for signers to fill out and be encrypted.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "\"I Agree\" for the Electronic Record and Signature Disclosure. Can this be turned off",
+    "author": "Angelie Camasis",
+    "product": "Conga_Sign",
+    "content": "When a Conga Sign document is opened by the signer, they get a pop up that they have to click \"I Agree\" for the Electronic Record and Signature Disclosure. Can this be turned off?\n\nTthis would be for a specific template and not for the overall org.\n\n\nWe would want it for any signature tags I'm sure. but in this case we want the write back functionality without a signature",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Embed SOQL Queries in CSEmail Parameter",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Request to allow for embedding SOQL Queries in the CSEmail parameter",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Configure Timing for Sending Audit Trail Link",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Request to allow for only sending the Audit Trail link once the transaction is fully completed.\n\nSteadfast Group Limited requests this feature because they would like to have the audit trail sent as proof of legitimacy once the provider they're contracting with has fully signed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga sign UI functionality",
+    "author": "Angelie Camasis",
+    "product": "Conga_Sign",
+    "content": "Conga sign UI functionality.\n\n- The 'Sign' page seems to be very generic and I couldn't find any option anywhere to customize. (Customize Preview and tag to be based on users permission) Either user can just preview or tag and or both.\n\n- How can I just return to my 'quote' without 'canceling' the whole transaction? If I click the browser return button, how can I return to my draft Sign page? (Wants to be able to return to object without canceling the transaction)\n\n- How can I enable 'only show selected' documents by default? This list is usually quite long as it adds every attachment from the quote. (Wants to enable only show selected as default)\n\n- How can I remove the 'In Person Signer' option in the Signer roles (not applicable to us)\n\n- When I click 'Preview & tag' I'm also missing a 'return' breadcrumb or button. I have to 'Discard' the whole doc and start from scratch even though I may have just forgotten to select/upload another document on the previous screen. I can't find any way on how to return to the Sign page of the already created transaction.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to choose attachments from Files related list or Document versions after cliclking send for signatures button",
+    "author": "Joseph Franklin",
+    "product": "Conga_Sign",
+    "content": "In A1 CLM versions Spring 21 and above Send for e-Signatures button displays all items from both Document versions and Files related lists.\n\nIn case of Fannie Mae, only internal teams review the documents under Doc versions and the Files related list is used to store final PDF that will be sent out for signatures. Maintaining a clean repo with just the final file is a super high priority for this customer, so that users are unable to send any other unwanted/un-authorized documentation to external parties.\n\nAs customer prepares to upgrade in the future, Send for e-Signatures feature will become a showstopper. Can product provide a switch that will allow customers to choose between displaying items from Document versions vs Files related list when sending for signatures?",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Auto Place Tags",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "Customers are looking for an easy way to place tags on every page of a document.\n\n\nCurrent Process with DocuSign:\n\nLogged user imports 3rd party document\n\nwith DocuSign user sets 1 signature tag on the first page in a punctual position (like our preview and tag interface)\n\n1. by using DocuSign's autoplace user replicates that tagging action on each page of the document in the same position of the tag placed on the first page with just one click\n2. user can repeat the action for each tag is needed (initials, sign...)\n3. there's no request to sign all the pages at once, according to Bacardi\n\n\nAdditional: Is there any way we could invoke sign api to request to set a tag (initials or sign or whatever) on each page of the document in position (x,y) or after a punctual set of words like \"sign here\" \"initials:\"? sorry for any previous misunderstanding",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Conga Sign screen content controls",
+    "author": "Chris Shelor",
+    "product": "Conga_Sign",
+    "content": "As an admin setting up Conga Sign for my users, I'd like to be able to choose which fields/features on the Conga Sign screen are editable/accessible to users.\n\n\nEx: disable editing on the CST Expiration Date field so that I can enforce rules for how long a Quote is viable.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to Increase Size of Write back Checkbox",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like the ability to increase the size of a Writeback Checkbox.\n\n\nRequested by NimbusPoint Consulting on case 00779554",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Send notification emails per signing role",
+    "author": "Lindsey Covington",
+    "product": "Conga_Sign",
+    "content": "Need ability to indicate which emails are sent for each type of signing role. Example: In Person Signer we would only want the final email with signed document attached be sent to all persons signing the transaction. Example: for Signer role we would only want emails sent to the recipients and not the person generating the transactions - in most cases for us the Engineer generates the transaction and is also a signer, so currently the Engineer receives duplicate emails - 1 set for transaction generator and 1 set as a signer. We want the ability to configure this setting as needed for our various types of transactions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Company Stamp for In Person Signer",
+    "author": "Lindsey Covington",
+    "product": "Conga_Sign",
+    "content": "*Add additional functionality to Company Stamp for \"In Person Signer\" roles to allow a picture of the company stamp to be taken and uploaded for Sign transaction. Drag & Drop or Browse work for \"Signer\" roles but not \"In Person Signer\" roles.\n\nRequestor: Valcon Vision",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Send documents via phone text messages",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "customer would like send transaction/documents through sms",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add \"Require Drawn Signature\" as Business Unit setting",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "Customer would like to have the \"Require Drawn Signature\" setting on the Business Unit so she can easily toggle it on and off per-unit. This would give further flexibility around the setting and remove the need for the customer to work with Conga Support when they would like the setting enabled.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Non licensed users ability to view at least the status of the Conga Sign transaction",
+    "author": "Carlo Sanchez",
+    "product": "Conga_Sign",
+    "content": "",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Integrate to a webform",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "Customers would like to digitalize their school application form with a signature.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Is there any way to add clickable links to documents sent from Conga Sign before Customer Signs",
+    "author": "Angelie Camasis",
+    "product": "Conga_Sign",
+    "content": "Hello, the documents sent for signing from the illion environment will include hyperlinks to product schedules that the customer signing these can normally click to open and view before signing when we aren't using Conga Sign yet, however the Conga Sign page appears to just be an image preview of the merged document when the signer click to sign, so links are not working for those signing. Is there any way to add clickable links to documents sent for signing? Or can this be added to Conga Sign's Feature?\n\n\nThe customer wants that when the signer open the email and the document shows up for signature, they want the link to be clickable before signing but unfortunately the link will only be clickable after the customer signed and downloaded the document, not during the signing page/process.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Custom Email Templates (remove/edit standard text)",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Sign",
+    "content": "Today, we can edit the subject of the email and the body of the message. However, there is still text that we can't change or remove. For instance one of our customers (Bureau International des Containers) mentioned they were really disappointed with the fact they can't remove the \"Please sign the document\" message which can be confusing in their context. I know the text is \"managed\" and automatically translated, but we could imagine an interface where they would propose their own text for each language available.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Notification for incorrect email address",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like a notification sent to the sender of a transaction in the event of the following-\n\n-when a transaction is sent to an incorrect email\n\n-detection of automatic messages (leaves ect ...)\n\n-email authentification requests\n\n\nCase 00775929\n\nrequested by- BUREAU VERITAS SERVICES France (https://apttus2.lightning.force.com/lightning/r/0013Z00001lmAhQQAU/view)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add reminder emails to the audit trail",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Customer would like to see when reminder emails have been sent in the audit trail",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow a manual update of the transaction record to cancel the transaction",
+    "author": "Darren Plant",
+    "product": "Conga_Sign",
+    "content": "Customer has customers that sometimes don't Sign the transaction but essentially complete the process offline. Their customer then gets reminders and expiry notifications. They would like to be able to update the status on the transaction to essentially cancel it or complete without cancellation notifications going to the customer",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "dynamically pull in documents based off lead criteria",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "give conga sign the ability to dynamically pull in documents based off lead criteria without using composer too.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Regex for tag formatting",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Sign",
+    "content": "Allow admins to create rules for tag formats using regex and validate in signing UI.\n\n\nExample: Security number starting with numeric characters, followed by alpha characters.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "A way to control what emails a recipient receives.",
+    "author": "Cecille Joyce Palma",
+    "product": "Conga_Sign",
+    "content": "Customer said, I know conga sign is made to be simple to use and I appreciate that, but this has been a widely asked for setting for most of my clients.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow Guided Signing Pointer Size Configuration",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "As a customer, I would like to be able to configure the size of the guided signing pointer OR to have the pointer set to a larger size, so it is easier to see and follow and understand which tag I should be interacting with.\n\nThis will allow for better ease of use and potentially accessibility.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "add a checkbox to the cancellation modal: Don't Send Notification.",
+    "author": "Andy Quach",
+    "product": "Conga_Sign",
+    "content": "add a checkbox to not have notifications sent to customers when creating a transaction. so the client's client's stop receiving emails",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer is asking for some Conga Sign Modifications.",
+    "author": "Kharl Cultura",
+    "product": "Conga_Sign",
+    "content": "To have an option/access to modify the default Conga Sign email links and messages below:\n\n1. Link \"View Document\" = will change it into \"Sign Document\"\n2. To remove completely the Audit Trail link\n3. To change \"Cancel Transaction\" to \"Decline Quote\" or \"Reject Quote\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Document Name Field on Conga Sign Transaction record",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "A customer asked that we put a field on the Conga Sign Transaction object that would hold the name of the file(s) attached/related to the transaction. Not sure if it's current functionality, so I thought I'd ask.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to customise the Conga Sign Email template with our own marketing material",
+    "author": "Marisa Seeto",
+    "product": "Conga_Sign",
+    "content": "Ability to customise the Conga Sign Email template with our own marketing material. Replacing Conga Sign with our own logo, footer, headers, colours, font, images, etc. Currently it is heavily marketing Conga Sign.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add the audit trail details to bottom of signed document.",
+    "author": "Ashley Hammer",
+    "product": "Conga_Sign",
+    "content": "A customer mentioned that other vendors offer this capability. In short, they are interested in seeing the Full Audit Trail added right to the bottom of a completed sign document.\n\n\nSubmitted by - Yuri Caetano (LG lugar de gente).",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "WB Tags w/ merge field not working on PDF Templates",
+    "author": "Lawrence Dela Cruz",
+    "product": "Conga_Sign",
+    "content": "WB Tags w/ merge field not working on PDF Templates. On the documentation, it's only available on MS Word.\n\nSample tags for word\n\n\\wb1 {\"apiName\":\"Contact.FirstName\",\"defaultValue\":\"Master.CONTACT_FIRSTNAME\"}\\",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "eNotarization Functionality",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "It would be great to add eNotarization functonality",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expiration date should follow reminder dates",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "I've come across a situation where the reminder date was set, but the expiration date was not set, therefore expiration date defaulted to 5 days. When a reminder is set for a transaction (thereby nudging the client to review), the expiration should come after the reminder date.\n\nWe now have many transaction reminders going out with expired links. The system should have notified us that this would cause an issue. We now have to re-send all transactions and there is also no way to mass send the transactions, forcing us to send them manually. Not sure if the transaction link even updates on the reminder emails once we renew the links.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Schedule Transaction Sending",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "Would be useful to have a feature for scheduling a transaction to be sent without needing to be present and manually enforcing the sending of a document.\n\nWould like to be able to choose from a calendar or time during the day to send.\n\nThis would be extremely for instances where businesses need to hold documentation for release (press releases, awards, laws that go into effect, etc.) and for those who wish to have better visibility by sending during certain times of the workday.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Access links to signing documents",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "After merging our documents from Conga Composer via Conga sign to send out, we would like to have the link to the document to sign available in Salesforce/Conga so as not to have to dig through emails to get to this. When we send out many documents in one day, it gets difficult to pin down the one email that has the appropriate link.\n\nThis would also give us the ability to run a report on the signing status of these documents and easily access and sign all those that are pending on our party's end.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow mass sending and signing",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "Have the option to send out multiple Conga Sign transaction documents to different accounts/contacts and have the ability for our own party to mass-sign these documents. This is helpful to us because we send out hundreds of documents at the same time for signing throughout the year.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Separate multiple documents for signing when selected in Conga Sign",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "Right now, when I click on multiple documents in Conga Sign, it shows them sequentially as one document. It would be helpful to our clients to see them visually distinguished as separate documents.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Marija Mockute",
+        "content": "I have a customer who requested Separate Documents in the same transaction (can we have two separate documents being signed in the same signing flow? With certain signers seeing only one of the documents). Added a vote."
+      }
+    ]
+  },
+  {
+    "title": "Merge Tags in Outgoing Conga Sign Message",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "I'd like to pull in information from our Salesforce fields in the outgoing messages that come with Conga Sign (the same way merge tags are used in any other email template to pull in the recipient's name, the date and other relevant information).",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Outgoing Message Templates with Conga Sign documents",
+    "author": "Tiffany Chiu",
+    "product": "Conga_Sign",
+    "content": "I'd like to have the ability to pull in different template messages on the Conga Sign page depending on the type of recipient I'm addressing. I thought Conga Email Templates would somehow be integrated already but it is separate so I can't add in a template and a Conga Sign document together.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Embed Conga Sign process in Visualforce Page/Web Page",
+    "author": "Frank Emerson, PMP, CSM",
+    "product": "Conga_Sign",
+    "content": "Idea:\n\nAllow signing of a document without leaving the browser.\n\n\nBusiness Use Case:\n\nMulti-step application process with pages for entering information and a final page displaying information in a Conga Composer PDF and the ability to sign document right in the page.\n\n\nBenefits:\n\nUser doesn't have to go to their email and click a link, can review document and sign in the page\n\nMore control over UI design and branding so it appears seamless\n\nIncrease customer trust and engagement by hosting all activities within single portal",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I would like the ability to change the name of a conga document AFTER signing is complete and it attaches to the Salesforce Files.",
+    "author": "Corey Purdy",
+    "product": "Conga_Sign",
+    "content": "We have our document automatically attach to Salesforce Files BEFORE it goes through Conga sign, and then it also attaches after the Signing is complete. Because the same button is used to generate both docs so there is nothing to identify which one was signed or not. As an admin, I would like to resolve the issue of users having to click into the files to determine which one is the signed copy The requested functionality will tell the user which one is signed by the file name.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support Bank IDs",
+    "author": "Amy Reams",
+    "product": "Conga_Sign",
+    "content": "As part of Qualified Signatures, support Bank IDs for the countries and industries that require that level of security to be legally binding.\n\n\nSpecifically in Sweden, Norway, Iceland, Finland, and Denmark.\n\n\nNotes:\n\n1. https://www.bankid.com/en\n2. https://www.bankid.no/en/private/solve-my-bankid-problem/faq/generelt-om-bankid/what-is-meant-by-electronic-signing/#:~:text=Using%20your%20BankID%2C%20you%20can,agreement%20signed%20with%20a%20pen",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add a merge filed function in Business Unit",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "Customer would like to use merge field function inside the business unit:\n\n\nThey would like to pull the data from a specific object. Sample merge fields:\n\n\n{{{Sender.Name}}}\n\n{{{Sender Title}}}\n\n{{{Name.Recipient}}}",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign should send most recent version for Saleforce File Versions (ContentVersions) Created on Same Day",
+    "author": "Casey Shockley",
+    "product": "Conga_Sign",
+    "content": "I would file this more as a 'bug' than an 'idea' or 'enhancement', but nonetheless.\n\n\nConga Sign currently does not distinguish correctly between Salesforce file versions when those versions were created on the same day. This can result in the incorrect version of the file being sent for signature when there is more than one version created on the same day that the most recent version was created.\n\nThe workaround is to either delete older file versions (unacceptable for our use case because we need to have history available), or to download the most recent file version and upload it back in as an entirely separate contentdocument and set that as primary (cumbersome workaround). We also can potentially catch this issue by previewing our file on the Conga Sign screen before sending, although users don't always do this or may not always see the version differences easily to catch the issue.\n\nWe are unfortunately going to have to create automation specifically to address this bug because it is not being fixed by Conga (or not in a timely fashion). The fact that Conga Sign will send out a version other than the most recent file version really reduces our faith in Conga Sign as a platform because certain version changes can be critical and these are documents going to our client or potential clients, therefore reducing our clients' faith in us if we accidentally send an older version of the file.\n\nIt should be relatively straightforward to order by ContentModifiedDate with the level of specificity necessary or IsLatest flag or utilize VersionNumber comparisons to identify the most recent version of a document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use same signer more than once in a transaction",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer occasionally has the requirement for the same recipient to sign as multiple recipients in the same transaction. The recipients were being pulled dynamically, however when the recipient id is duplicated, that recipient only shows as 1 signer, although the same recipient may need to sign as multiple signers. for example signer 1 and signer 3. We have found a way to do this using CSFirst, CSlast, CSemail, however the recipient receives the email to sign multiple times, which they want to avoid as they have had records where the signer needs to sign as 5 more recipients. They would like to only receive the email once and have all signatures for each recipient (still same recipient id) be able to sign in same screen instead from multiple invitations to sign.\n\n\nrequested on case 00459124 by Hammerson Group Management (https://getconga.lightning.force.com/lightning/r/0015000000btj2rAAA/view)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Fixed signing locations regardless of number of signers",
+    "author": "Michael Overman TS",
+    "product": "Conga_Sign",
+    "content": "I had a customer recently, Compass Furnished Apartments (see case here #00458780) where they were working on a lease agreement. Their leases will always have 4 signers, (1 - lessee, 2 - 2nd lessee (optional), 3 - cosigner (optional) and 4 - opp owner/lessor). When creating the document and going thru the merge process, they want all of the signers to have designated spots regardless of how many signers there are. Right now, if there's only signers 1 and 4, then 4 is prompted to sign in spots where signer 2 would sign.\n\n\nApparently Docusign has this feature already (but is lacking some that Conga Sign has). I think this would be a good feature for most of our customers, especially when the number of signers varies but some roles are permanent/required.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to add text in the footer of the Sign email",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "A customer raised a case (00459310) asking for certain texts to appear outside the body of the email so that recipients cannot make any changes - they are hoping to enter text into the footer of a Sign email.\n\n\nThey found a workaround by entering the text into the \"City\" field but find this unhelpful when formatting and aligning text.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add dynamic hyperlink to Conga Sign email",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Sign",
+    "content": "Customer would like to be able to add a dynamic hyperlink to the Conga sign email. Please refer to image link below, the red box is where the customer would like to be able to add the hyperlink\n\nRequested by-Sunday Cool (https://getconga.lightning.force.com/lightning/r/0011T00002V25FKQAZ/view)\n\nCase- 00458516\n\nhttps://i.imgur.com/HSV05uB.png",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Combine Signing with internal approval process",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Customer has requested on case 00456845 the ability to \"pause\" the signing process to allow for an internal approval process in SF after the first signer has signed the document.\n\n\nThe use case is that the document will go to Signer 1 to sign then the document comes back to 3 internal approvers. Once all 3 have approved the first singer, the document is to then be sent back out to a final signer.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Date to Conga Sign attachment view",
+    "author": "Christine Alcansado",
+    "product": "Conga_Sign",
+    "content": "Would like to show created date or date modified while choosing file to send through Conga Sign.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Norwegian to supported Sign languages",
+    "author": "Mark Turner",
+    "product": "Conga_Sign",
+    "content": "Customer has requested that Norwegian be added to the list of supported languages for Conga Sign",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

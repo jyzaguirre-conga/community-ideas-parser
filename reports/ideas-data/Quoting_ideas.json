@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Removing fixed fields on the left in Default view be removed and can we add other two fields as frozen to left?",
+    "author": "Divya Dubey",
+    "product": "Quoting",
+    "content": "Could the fixed fields on the left in Default view be removed and can we add other two fields as frozen to left or if possible could the Default view on the cart be modified ?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ: Under Proposal Summary page view link is not allowing \"Open in new tab option\" but custom fields added via \"Object Summary Setting\" allowing this to perform \"Open in new tab\".",
+    "author": "Harshit Solanki",
+    "product": "Quoting",
+    "content": "Hello Product Tm,\nGreetings!\n\u00a0\nCustomer: Gartner\n\u00a0\nIn one of the October patch <As per my findings Conga CPQ October23.11.10> we removed the HRef from view link under Proposal Summary Page.\nInstead we provided and Admin entry via customer can control this behavior.\n\u00a0\nName of Admin Entry: APTS_OpenLinkInNewTab\nLink: https://documentation.conga.com/cpq/latest/salesforce/configuring-admin-settings-235407193.html#id-.ConfiguringAdminSettingsvFebruary24-APTS_OpenLinkInNewTab\n\u00a0\nHere for fields added to Product Summary via Object Summary Setting are having HRef and allowing users to perform \"Open in new tab\".\n\n\u00a0\nNow customer wants the behavior to be consisten over entire Proposal Summary page. I can see that in Feb 24 release as well we have Admin entry to control view link behavior.\n\u00a0\nHere customer requirement is to change the behavior of the other fields added via Object Summary Setting to the same as view link. Remove HRef and add any admin which stops user to \"Open in New tab\" but allows user to click on it and it automatically opens in new tab.\nJust click on it and it will open in new tab. The same behavior as the view link so that it will be consistent across Proposal Summary Page.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need flexibility to select which line items need to sync with opportunity.",
+    "author": "Asha Nair",
+    "product": "Quoting",
+    "content": "Hi Team,\n\u00a0\nIn case of Syncing the Proposal Line Items to Opportunity, we have the below options to define what all data need to synced.\nProposal System Properties (Sync Bundle using Line Items, Sync Optional Products)Price List Items - Disable Sync with Opportunity\nWe need additional flexibility to decide what lines need to be synced with opportunity other than the above-mentioned properties.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. At this time, we don't plan to implement this feature into our product. This can be achieved using customization to tailor the requirement to the customer use case"
+      }
+    ]
+  },
+  {
+    "title": "Send Proposal - Attach email attachment in the Quote/Proposal Activity history",
+    "author": "Namir Ashraf",
+    "product": "Quoting",
+    "content": "If we are using Send Proposal OOB functionality to send the Proposal email with the Quote document it does not get attached to the Quote/Proposal Activity history for email.\nIf we use the Present OOB button than the document does get attached, can we have the same behavior for both the OOB button as this is a request from business?",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "An API to generate Document with Draft indication but not change the Proposal status to generate",
+    "author": "Manoj Malarazhagan",
+    "product": "Quoting",
+    "content": "Hi Team\n\u00a0\nThomson Reuters Customer has a requirement to generate document through our Doc gen API but not change the status of the Proposal to Generate. We need to keep the proposal status to Draft while generating the document using our API with Draft Indicator.\n\u00a0\nCurrently we have Creating Proposal Document with Draft Indication (conga.com) to generate document in Draft but it changes the status of the proposal to Generated after execution.\n\u00a0\nCan we have an OOTB configuration to keep the approval status as Draft while invoking this API ?\n\u00a0\nIf not, is there a way we can have an API similar to the Preview Document button in the Quote which can be used in custom solutions like TR?\n\u00a0\nThanks\nManoj",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. As I understand it, this is only for the existing APIs, so we will need to review what can be done for this."
+      }
+    ]
+  },
+  {
+    "title": "Collaboration: Layout Enhancements on Dialog Box",
+    "author": "Swapnil Bhandarkar",
+    "product": "Quoting",
+    "content": "In continuation with the idea details mentioned in https://community.conga.com/s/ideadetail?id=087Dm0000008ZzvIAE, we have following additional request for layout enhancement in the collaboration dialog box, as below. Please also see the image attached.\nAbility to have a 3 column view on the assignment details tab on collaboration dialog box. Currently the fields are displayed in a 2 column format. If we have more fields then user has to scroll down. For Hitachi Energy we will have more fields on this tab, and hence want to be able to display all the fields in single view without having to scroll.Ability to provide a URL to open an external page. Currently on the 'completed configuration' tab, there is a link called 'more details' which opens a read only child cart configuration. We want a similar hyperlink to be created on the assignment details tab that will take the user to the collaboration header object. But when we add a field containing the url, it is getting displayed as a text, not as a hyperlink.The collaboration breadcrumb statuses that are displayed on the top of the dialog box - Is it possible to be able to update the labels of the various stages ? Hitachi Energy wants to have the collaboration status tied to quote/proposal stages (draft, submitted, approved etc). We were able to update the collaboration status picklist labels in the field Apttus_Config2__Status__c. But these labels are not getting reflected on the collaboration dialog box. Is there a way to update these labels?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "After clicking on Present button, Auto-populate Primary contact of quote under email - \"To\" field",
+    "author": "Thribuvan B N",
+    "product": "Quoting",
+    "content": "On Proposal, Primary Contact has been populated but when we are sending the Proposal using \"Present\" button, the Primary Contact is not getting auto-populated on the \"To\" field.\n\u00a0\n\ufeff",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Makes sense, we can look into adding a value for that setting that will be more dynamic and read the primary contact instead"
+      },
+      {
+        "commenter": "Thribuvan B N",
+        "content": "We do have an Admin Entry \"APTS_DefaultEmailContactName\" that sends the email to the Primary Contact. However, this would be defined at the org level but the customer's use-case is that the Primary Contact may change with Agreements and so this Admin Entry won't work here."
+      }
+    ]
+  },
+  {
+    "title": "Please allow users to use Apttus_Proposal__DocGen page only for previewing the documents.",
+    "author": "Harshit Solanki",
+    "product": "Quoting",
+    "content": "Customer: IQVIA\nUse-case: They want a preview of the document before sending it for signature.\n\u00a0\nAs of now, they are achieving it via the Preview button but for this user needs to download the document and save it to the local machine to preview it. They want to use a feature same to \"Apttus_Proposal__DocGen\" where they can directly preview the generated document on the same page.\n\u00a0\nWhile using this feature, two things should not happen: the status of the Agreement should not change, and the document should not be attached to the files section. Is there a way to achieve this scenario through an Admin entry or another method? This is a common use case that we should support.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Collaboration - Ability to default the radio button between User and Queue",
+    "author": "Swapnil Bhandarkar",
+    "product": "Quoting",
+    "content": "When we want to create a collaboration request, we click on collaboration icon on the line item or use the product collaboration button in mass update. Here, there are 2 choices to assign the collaboration request to - User or Queue. Quote creator needs to click on either of the radio button to decide User or Queue. We cannot currently default the selection of the radio button. User has to explicitly make the selection. Customers want the ability to pre-book the selection of the Queue radio button here when the collaboration dialog box opens.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Control Update button visibility on Collaboration Request based on condition",
+    "author": "Sandip Kumar",
+    "product": "Quoting",
+    "content": "Hello Product Team,\n\u00a0\nCollaboration Request (CR) has one Update button. This button is visible every time even after Completed and Accepted statuses. When this button is clicked, it resets the CR status and other object records statuses and data, which means CR can go for reprocessing. For our customer, if CR is in these two statuses, CR should not go for the reprocessing. Now, if user by mistake clicks Update button, all previous work and approvals goes in toss, and they have to clone the quote and do a fresh start. To avoid this problem, they hid the Update button but now they were not able to change owner because Update button is not available.\n\u00a0\nUpdate button might be required by other customer all the time. So, I recommend having an option to hide/disable Update button based on condition defined.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "This is valid feedback. We will consider this on roadmap with UI revamp. Personalized UI where customers can configure various elements of user experience is key part of UI revamp that is being planned for 1h of 2024.\u00a0Thanks,\u00a0Amol"
+      }
+    ]
+  },
+  {
+    "title": "Order of Line Items Line items along with the options on the cart should be same as the order of selection of product on the cart and it should be same on the Generated Document as well.",
+    "author": "Divya Dubey",
+    "product": "Quoting",
+    "content": "The order of Line items along with the options on the cart should be same as the order of the selection of items on the cart and same should be the order on the Generated document as well.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea.We currently have a setting called \"Enable Auto Sequencing For Options\" which, when false, will retain the selection of options in a bundle based off the user selection. Primary line items are already in the order of user selections.We also have a page in our documentation that covers retaining the line item order for generation of a document :\u00a0https://documentation.conga.com/cpq/june-23/salesforce/retaining-the-order-of-line-items-in-a-generated-proposal-document-143197385.htmlOutside of the above mentioned, is there a different issue that is not addressed?"
+      }
+    ]
+  },
+  {
+    "title": "Conga Order Management - Requested Delivery Date Mass Update - Switch off the Conga 'Lazy Load' feature on demand",
+    "author": "Laura Martin",
+    "product": "Quoting",
+    "content": "Our customer Novartis/ Sandoz want to switch off the Conga 'Lazy Load' feature to not have to scroll down to the bottom of the cart to enable me to select all lines.\n\u00a0\nThey are asking for the ability to  'switch on or off' the native Conga 'lazy load' feature so when 'selecting all' in the Conga cart, all products are selected and not just the first 50. This will then give me ability to do a true mass update (for example, to the requested delivery date) across all lines in the cart. They understand that there might be performance implications.\n\u00a0\nConga Support case 00843348",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. The lazy loading on the cart is necessary to fully load all details of the cart without hitting Salesforce governor limits on large carts. Depending on the size of the cart, not having lazy load is not functionally recommended.\u00a0We will review possibilities to see if this is something possible for a specific data size to allow the full cart to load and enable mass update on all available line items"
+      }
+    ]
+  },
+  {
+    "title": "Collaboration Request: Layout Enhancements",
+    "author": "Swapnil Bhandarkar",
+    "product": "Quoting",
+    "content": "Hi, we got numerous feedback about the collaboration dialog box having an unfriendly layout screen: users may get lost of collaboration icons, or many Accept buttons, or Complete Collaboration buttons.\u00a0\nAt times it is difficult to distinguish between Accept and Update button on the dialog box (as to what is the difference between the two).\nAlso Cancel button on the dialog box cancels the collaboration request itself, not the pop up.\n\u00a0\nOur customers Hitachi Energy are heavily using collaboration, hence please check if the screen flow can be made user friendly and intuitive.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Multi-Sales rep  Quote/Proposal level collaboration",
+    "author": "Sandeep Jha",
+    "product": "Quoting",
+    "content": "For large deals , generally we have multiple sales rep working on the same deal . Current quote collaboration feature supports only line level collaboration and is more of \u201chelp me\u201d function , with just too many clicks .\n\u00a0\nExample :\n\u00a0\nLet\u2019s say there is a large deal where we want to sell both Hardware and Software together ( One \u00a0contract)\nSales rep A \u2013 can sell only Hardware. \nSales rep B \u2013 can sell only Software. \n\u00a0\nBoth sales rep A and B want to work together on this proposal and present common contract to customer .\n\u00a0\nSales rep A should have ability to add ONLY Hardware products in the CART. \nSales rep B should have ability to add ONLY Software products in the CART. \n\u00a0\nSales rep A should not be able to change anything on the line added by sales rep B ( and vice-versa)\n\u00a0\u00a0\nOnce both products are added , CART can be finalized, and we have respective owners stamped on the line \u00a0( for commissioning reasons)\n\u00a0\n\u00a0\nThanks \nSandeep",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show a user friendly error message if there is any backend error in package.",
+    "author": "Rekha Jangir",
+    "product": "Quoting",
+    "content": "For example:- While cloning conga needs unlock quote record but if there is any quote record locked by approval process on pending approval stage and if user tries to clone that locked quote record, conga give a null pointer exception. Instead it should give a proper message that You cannot clone a quote record that is in pending approval stage.\n\u00a0\nThis is just an example, but everywhere conga should show proper error message instead of exceptions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Improvement of the Reorder Lineitems in the cart to get the result exported to proposal lineitems",
+    "author": "Roger Bertilsson",
+    "product": "Quoting",
+    "content": "I am investigating the newly added feature to reorder lineitems in the cart where the changed ordering is reflected on the column LIneItem.LineSequence. This is a very good feature but the most common case for using this is to get the changes refelected on the order confirmation generated from the proposal lineitems. And as how I see it the LineSequence (or any other field showing the reordered lineite sequence) does not exist on the proposal lineitems.\nSo I therefore suggest that column LineSequence is also distributed to proposal lineitems to be able to use the reordering feature for order confirmation presentation purpose,",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Pagination support in CPQ Cart when using GroupBy Fields",
+    "author": "Prasenjit Banerjee",
+    "product": "Quoting",
+    "content": "As per Feb'23 release we know pagination I meant Page Number in Cart supports in all Views except if user using any \"GroupBy Fields\" from Custom Settings(Config System Properties). We have a customer(3M Health Info.) who wants this feature from OOTB that pagination should support if they are using \"GroupBy Fields\" view. Currently they are using Location Name view using \"GroupBy Fields\".\n\u00a0\nIt would be great if we get Pagination support for \"GroupBy Fields\" view as well. Can you please take this as priority if Product allows it.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for your Idea. The lack of pagination for GrouBy fields was done to keep prevent users from losing the context as to which grou they are working in, if the number of line items in a group spread across multiple pages. We will review this again to see if something can be put on the roadmap"
+      }
+    ]
+  },
+  {
+    "title": "Auto Merge the collaboration requests when submit for merge",
+    "author": "Harshit Solanki",
+    "product": "Quoting",
+    "content": "Hi Team,\n\u00a0\nThe customer is experiencing that a lot of sellers overlook merging completed Collaboration Requests into the parent cart. The problem has increased lately as their use of mandatory collaboration for certain product types has also increased.\n\u00a0\nThey want to get a way to configure CPQ so that when the collaborator does \"Submit for Merge\", the collaboration cart is automatically merged and does not have to be accepted by the seller. They of course realize that the collaboration cart may contain unexpected items (as we also allow e.g. addition of products there), but it's a drawback they are willing to accept.\n\u00a0\nPlease create an option so that if the customer wan't to use auto merge of the collaboration request they can easily use by enabling that option\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. As mentioned in the request, the concerns around carts containing items not reviewed by the owner of the cart were imperative to the existing design. We will review and see if changing this (giving an option) fits into our long term roadmap"
+      }
+    ]
+  },
+  {
+    "title": "An enhancement to show helptext in CPQ shopping cart columns when we hover around the column headers",
+    "author": "Swapnil Bhandarkar",
+    "product": "Quoting",
+    "content": "Hi, is there a way to show a custom 'help text' in the CPQ shopping cart columns when we hover around the column headers? Right now it displays just the column labels when we hover mouse around the column.\nExpectation would be to explain to the user what a column stands for when there could be multiple similar columns.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cascade Pricing Fields updates from Quote to Product Configuration and Line Items",
+    "author": "Swapnil Devlekar",
+    "product": "Quoting",
+    "content": "Critical Pricing Important fields updated from Business Object Header is not cascaded to the shopping cart. e.g., Start Date or Pricing Date change on the Quote header is not copied to Product Config and line items OOTB and doesn't perform a recalculation of Cart Lines.\nCritical Fields:\n- Start Date\n- End Date\n- Pricing Date\n- Duration (Custom Field)\n- Price List\n- Account (Sold-To / Bill-To / Ship-To)\n\u00a0\nConditions to update Cart: \n- Cascade the updates to existing Product Configuration if it is Draft / Saved\n- Block the updates if Product Configuration is In Review \n- Create a new Product Configuration version with the updates applied, if the last version was already finalized.",
+    "votes": "6 Votes",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Please share use cases for changes other than the following:\nExpected Start DateExpected End DatePricing Date\nChanging attributes of the quote such as Account and Price List has drastic impact on all aspects of the quote including the products that are available. I wonder how niche it will be to assume that it will not impact."
+      }
+    ]
+  },
+  {
+    "title": "Mass Product Collaborate in Product collaboration should support more than 10 lines",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Quoting",
+    "content": "As per the current product design, we can do Product Collaboration for 10 products at a time and whenever we try to do it for 10+ lines we are getting the error.\n\u00a0\nThis is a good to have feature in the product as one of the customer has business requirement of adding 10+ lines in Mass Collaboration.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi,We were not able to support more than 10 line for mass collaboration because of salesforce governer limit.We can consider this enhancement on Conga Platform where we can address this scalability issue.Thanks,Bhausaheb"
+      }
+    ]
+  },
+  {
+    "title": "Adding From Field in emails -Sending the generated document to the customer in email (Using Proposal Document Generation)",
+    "author": "Akshita Koul",
+    "product": "Quoting",
+    "content": "Hello Team,\n\u00a0\nOn quote/Proposal , when we click on Present button , in email , we have from field where user gets ability to view the list of users and can see who is in from Field\nBut for Send Proposal Button ,when we are sending the generated document to the customer ,can we add the From field in addition toToCCBCC\n?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi ,Currently in both Present and Send proposal page \"From\" field is not available as we use quote owner as defult sender. Can you please provide us more details or screenshots related to this ask.Thanks."
+      }
+    ]
+  },
+  {
+    "title": "Split cart Finalise email is being sent to last modifer",
+    "author": "Saurabh Pancholi",
+    "product": "Quoting",
+    "content": "Boston scientifc has apporched for the below enhancement:Split Cart finalization emails are being sent to last modifer customer wants it to be sent last modfier as well as quote owner.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi,As per discussion with Customer/PS this ask is for Async finalize where currently email is going to last modfier who can be even approver but ideally this email should go to \"Quote Owner\". This needs to be addressed for Async finalize operation,1. Async Finalize2. Auto Finalize on Approval where QTC profile is Enterprise."
+      }
+    ]
+  },
+  {
+    "title": "Cart IDLE time value with 3 digits are not been saved in Config Settings - System properties",
+    "author": "Mushraf msyed",
+    "product": "Quoting",
+    "content": "Q - Squared has the use case to keep the \u00a0\"Cart Edit Access Idle Timeout in Minutes\" to 480 minutes. Checked in internal org the maximum Cart idle time that can be kept is of maximum two digits number say 99 minutes.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi,Once limit defined in custom setting \"Cart\u00a0Edit Access Idle Timeout in Minutes\"\u00a0is exceeded the cart is unlocked allowing any Sales rep\u00a0can\u00a0open the cart in edit mode,\u00a0the cart is locked again\u00a0for the other Sales reps. If you do not define a time limit the cart remains locked until the Sales rep in edit mode\u00a0does not\u00a0save, finalize, abandon, or close\u00a0the cart.We would like to know why you need cart locked for 8 Hours (480 mins) and related use cases. If you need lock to be released based on certain primary Salesreps action you can avoid defining any timelimit."
+      }
+    ]
+  },
+  {
+    "title": "To hide or remove the blank column in Cart",
+    "author": "Mushraf msyed",
+    "product": "Quoting",
+    "content": "Q-Squared wants to hide or remove the blank column seen after the Product Column as that blank column is of no business use and is causing confusions to their users.\n\u00a0\nThere should be an option to hide or remove this particular column.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "We will consider this idea for future enhancement."
+      }
+    ]
+  },
+  {
+    "title": "A feature to turn off Conga managed package triggers on Quote and other objects",
+    "author": "Marija Mockute",
+    "product": "Quoting",
+    "content": "Customer Olympus is loading lots of data frequently to Conga CPQ using data loader or any other external tools. They reached to me about a feature to turn off Conga managed package triggers on Quote and other objects. They need ability to turn on or off when they perform legacy CPQ data load or want to load any completed quote from external system without affecting any fields and pricing. I\u2019ve assured them that pricing won\u2019t get impacted due to managed package triggers until unless they explicitly call CPQ pricing API or use Cart to reprice/finalize. But still they want an ability to turn on or off managed package triggers as they are not sure of what happens in managed packages. Right now they have a field to turn on/off their customization and want similar functionality from Conga managed package as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The document present while  Presenting the Quote should be sorted as per the type of the document",
+    "author": "Shivangi Mishra",
+    "product": "Quoting",
+    "content": "Customer has a requirement that the document present while\u00a0Presenting the Quote should be sorted as per the type of the document",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Notification of Save/Ignore when redirect from Cart on Custom Button, Check Box Changes, View Link",
+    "author": "Raj Poshiya",
+    "product": "Quoting",
+    "content": "Currently user is redirected from cart without any notification to custom page, or quote header without saving change and no notification if user want to ignore recent changes or want to save. There must be notification if there is something changes on cart so user can make decision when redirect to any custom page or quote header. Currently user does not have any control in these use cases. It just redirect user to either any custom page or on quote header.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "If any changes are made on cart, user show receive notification or popup before redirection from cart page",
+    "author": "Raj Poshiya",
+    "product": "Quoting",
+    "content": "End user should receive a notification or popup when they are trying to re-direct from cart page to any other page when changes are made but not saved. Currently user is redirect from cart without any notification to custom page, or quote header without saving change and no notification if user want to ignore recent changes or want to save. There must be notification if there is something changes on cart so user can make decision when redirect to any custom page or quote header. Currently user does not have any control in these use cases. It just redirect user to either any custom page or on quote header.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need ability to create partial order when we accept proposal",
+    "author": "Manthan Shah",
+    "product": "Quoting",
+    "content": "Need ability to create partial order when we accept proposal\n\nCustomer is currently using Apttus_CPQApi.CPQWebService.createOrder API to customize this functionality. However, there is no complete solution for this.\n\nIf customer passes CopyBundleConfigurationFromSource as true, then system doesn't copy Attributes to option lines, which causes issues if price list item has charge type criteria based on an attribute.\n\nIf they pass CopyBundleConfigurationFromSource as false, then the connection between bundle and option line doesn't come correct.\n\nCustomer is looking for an OOB API or a way where they can create partial orders from Proposal, when they accept the proposal.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Subscriptions End Date Default 12-Months from Start Date",
+    "author": "Ben Racine",
+    "product": "Quoting",
+    "content": "When end user enters in start date, the end date does not default 12-month later. Franklin Covey wants subscriptions to default the end date 1 year from start date.\n\n\nhttps://apttus2.lightning.force.com/lightning/r/Case/5003Z00001MZLElQAP/view\nhttps://apttus2.lightning.force.com/lightning/r/Case/5003Z00001McemJQAR/view\n\n\nAbove are links to a TS and AMS case where Conga's investigation ultimately concludes that this is how the product is intended to work. I am hoping that the product team will consider this enhancement to streamline workflows for the customer.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Improvements to Enable Emailing of Quotes from CPQ",
+    "author": "Trevor McNeil",
+    "product": "Quoting",
+    "content": "Not guaranteed our team will utilize sending quotes from CPQ but in order for it to be considered and promoted to users, some changes will be needed; would be interesting to understand if other customers are utilizing",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Wants to have an option to Hide other Email folder when sending proposal via Quote",
+    "author": "Mohammed Girniwala",
+    "product": "Quoting",
+    "content": "Customer wants to have an option to hide other Email folder when sending the proposal.\n\nPlease check the screen shot for the further understanding.\n\n\n-- When the user clicks on Send button, the system is fetching all the Email Folders. The question was regarding the flexibility to remove some of the Email Folders from the list. -- I found that it's not possible to restrict the visibility of some of the Email Folders. The system triggers the below SOQL and will show all the Email Folders that will be fetched from the system. SELECT Id, Name, DeveloperName FROM Folder WHERE Type = 'Email' LIMIT 1000",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Hide Generate Button on Generate and Preview",
+    "author": "Niraj Ittan",
+    "product": "Quoting",
+    "content": "When we click on Generate or Preview on a Quote then there are couple of buttons shown like Generate or Submit.\n\nWe need ability to hide Generate button (currently we can only hide Submit button)\n\n(Use Case : Customer using only Submit button for large carts wants to hide Generate button)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Grid",
+    "author": "SF Integration Service Account",
+    "product": "Quoting",
+    "content": "Selecting \"Configure Products\", Configure the products needed, click \"Go to Pricing\" on this layout the expandable cell for the Description use to be able to expand when pulling the bottom right corner. Now this does not function as it has in prior times. Need to be able to expand this to display all the text within the box",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Inconsistent behaviour when we implement recommendation callback class",
+    "author": "SF Integration Service Account",
+    "product": "Quoting",
+    "content": "When we implement a recommendation callback class, recommendations do appear at the top of the page for the first time, however it does not appear when we peform below steps.\n\n\n- Create a Proposal, Configure Products, Search for a product using the search text box.\n\n\n- Add a product to cart, Save the cart, click configure products again which takes to the cart",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "SoftBank  :   Cart -> Change Service1 column's width dynamic.",
+    "author": "Chintan Jani-1",
+    "product": "Quoting",
+    "content": "We would like to suggest the enhancement that user can do any of those 3 below to show the Service1 column values fully in the cart screen as Conga's feature. (Please see attached file where we indicate.)\n\n\n\n1. Change Service1 column's width dynamic. (The column width will be automatically expand to display the value fully if the value is longer than the default column width.)\n\n\n\n2. Wrap and display Service1 column value. (If the value is wrong, it will be wrapped and display in 2 lines.)\n\n\n\n3. User can change the Service1 column's width manually. (Scaling it's width by dragging the column like Excel.)\n\n\n\nWe really appreciate it if user can view all Service1 name fully at the same time.\n\n\nIf any of three is approved and will be implemented in the future version release, please inform us.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Validation and message for Attribute text pattern matching during quote configuration",
+    "author": "SF Integration Service Account",
+    "product": "Quoting",
+    "content": "Our Client has a requirement to check for patterns in Attribute text fields. The need is to show an error message as soon an incorrect format text is entered in an Attribute.\n\nThe current possibilities is to write custom logic in Validation call back class. In this case, the error message will display when 'Go to pricing' is clicked and on 'Finalize'.\n\nAnother solution is to keep a validation rule in the Product Attribute Value object for that attribute. In this case, the error message will not display consistently and the user may not notice it to make the necessary change.\n\nThe requirement is a better user experience by showing the message as soon as the incorrect text is entered until the correction for the value is made- similar result as a validation rule will do in a standard salesforce page.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "When Quote is synchronized with opportunity, there is no Error or Success message",
+    "author": "Swapnil Bhandarkar",
+    "product": "Quoting",
+    "content": "Currently, When Quote is synchronized with opportunity, nothing happens after pushing the button and the user is left wondering if they even pushed it. There is no error or success message shown that sync with oppty was successful. It should be clear that actions took place.\n\n\nSteps to Reproduce\n\n1. Create a quote and add some products to it. Finalize the cart and come back to quote header page.\n2. Make the quote primary so that Synchronize with Opportunity button is visible.\n3. Press the button, it does some processing and then page is refreshed. No change on quote header page.\n4. For identifying whether opportunity line items were created or not, one needs to go to the opportunity record and check the opportunity products related list.\n5. There can be a small message added on the top of the screen when sync with opportunity button is pressed, whether the sync was completed or not.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Provide a custom setting to stop sending an email when Finalizing a configuration.",
+    "author": "Ronak Dhokai",
+    "product": "Quoting",
+    "content": "For Winter 20 and later versions, if 'Run Misc Finalization Task in Async Mode' is set to true in Config System Properties, an email is sent to the user when they Finalize a configuration.\n\n\nIf we disable this setting the Finalization would happen Synchronous manner and no emails will be sent out.\n\n\nIf the customer wants to keep 'Run Misc Finalization Task in Async Mode' as checked, still they should have an option to disable emails through some custom settings.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "column width adjustability on cart",
+    "author": "Nirmal Kalthiya",
+    "product": "Quoting",
+    "content": "Current CPQ cart does not provide the flexibility to adjust the cart column width on the cart itself.\n\n\nwe have a display column settings where we can defined the width which will be fixed.\n\nIf we can have the flexibility of adjusting the column width on the cart itself then it would be very helpful .\n\nit will help show the data properly and users can adjust thewidths as per their requirement.\n\nThis seems feasible and useful.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Sync With Opportunity Using Config Line Items",
+    "author": "Shahid Ali",
+    "product": "Quoting",
+    "content": "Currently we have a dependency on proposal line items but we need the ability to sync the opportunity configuration line items.\n\n\nUse case: Customer wan't to skip finalization Or Use Async finalize and does not wants to wait for Proposal line item creation, to improve end to end performance.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Status Of copyProductConfiguration API  (Clone Quote)",
+    "author": "Shahid Ali",
+    "product": "Quoting",
+    "content": "When copyProductConfiguration API is called some Queueable jobs are run by product (CopyCartAttributeQJob, CopyQuoteAttributeQJob etc.).\n\n\nCustomer wants to know when all the queuabale jobs are completed so that the can perform other operations in cutomization. Right now this causes issues in customization (attributes not copied properly or unable to lock row errors)\n\n\nWe need either the job id or some other mechanism to know when these jobs are completed.\n\n\nThis idea was created in wrong workspace so created again in the right one\n\n(CFG-I-27)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "(Duplicate) Limitation with Template Generation with Config Line Item",
+    "author": "Shahid Ali",
+    "product": "Quoting",
+    "content": "We are trying to use Configuration line items to generate documents for a Proposal. However, since we cannot go more than two levels deep in template creation, we are not able to utilize this functionality. For example- on proposal there is a lookup to agreement object. Since the master object here is product configuration, we cannot use any field from Agreement (as its more than two levels of relationship)\n\nThe workaround given by product was to create formula fields but that is not feasible for us as we are close to limit on proposal object.\n\n\nThis is duplicate of https://congainternal.ideas.aha.io/ideas/XAC2-I-19 as this is created inw rong workspace.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "(Duplicate) Status Of copyProductConfiguration API",
+    "author": "Shahid Ali",
+    "product": "Quoting",
+    "content": "When copyProductConfiguration API is called some Queueable jobs are run by product (CopyCartAttributeQJob, CopyQuoteAttributeQJob etc.).\n\n\nCustomer wants to know when all the queuabale jobs are completed so that the can perform other operations in cutomization. Right now this causes issues in customization (attributes not copied properly or unable to lock row errors)\n\nWe need either the job id or some other mechanism to know when these jobs are completed.\n\n\nThis is duplicate of https://congainternal.ideas.aha.io/ideas/QTNG-I-66 please close",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "\"assign to all\"  for quote collaborator",
+    "author": "SF Integration Service Account",
+    "product": "Quoting",
+    "content": "Customer is looking for a feature where users can assign a collaborator to all of the products in the cart. Sort of a \"assign to all\" button/feature?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin: Show Product Description for Option products (hover over) on Structure tab of a bundle",
+    "author": "Vaibhav Kothari",
+    "product": "Quoting",
+    "content": "This is a request from GE Healthcare client. Since there are over a million catalog numbers (Option products), it will be useful to have a Product Description field on hover over at the time of option search and adding it to the Option group using CPQ Admin.\n\nSee attached screenshot for the places where Product Description field (hover over) should come up. It will be good to have it as a configurable setting so that we can show whatever field we want on this hover over.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We want to Replace a product with multiple products/single product",
+    "author": "Jinay Panchal",
+    "product": "Quoting",
+    "content": "Hello Team,\n\nGreetings!\n\n\nWe have an idea raised on behalf of one of our customers.\n\n\nSo., basically the use case is as follow:\n\n-> The customer wants to change the existing proposals in customer accepted stage with new products, and when that proposal is cloned it should be able see the new products after adding/removing and after configuring depending on the requirement one product might get replaced with one product or multiple products.\n\n-> At present, there is no such Apttus OOB functionality which can achieve this certain use case.\n\nPlease provide an insight on this, whether we going to have this kind of functionality in our future releases further.\n\nThanks & Regards,\n\nJinay Panchal\n\nConga Technical Support\n\nWorking Hours: Mon-Fri | 04:00 PM - 01:00 AM IST",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Additional page while making quote primary has to be meaningful",
+    "author": "Govind Gokul",
+    "product": "Quoting",
+    "content": "It will be helpful if the intermediate page (while making the quote primary) provides some guidance.\n\nSomething like \"Are you sure you want to make the Quote Primary?\n\nPlease click Continue to confirm,\"\n\nversus having just a screen pop-up with no guidance.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Tab View field on Config System properties to be made flow specific",
+    "author": "SF Integration Service Account",
+    "product": "Quoting",
+    "content": "This is a requirement from Philips Healthcare Customer.\n\nFor a specific flow we are supposed to open a custom page when the user clicks on configure button.\n\nFor the client we have the show tab view field checked due to which for this new flow when we click on configure the user is not redirected to the custom page and still remains on the out of box page.\n\nWe tried putting the ustom page on both attribute and options page but it still does not work. This only works if we turn off the show tab view setting which we cant do for this customer.\n\nHence the idea/request to make the field show tab view flow specific.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Error mechanism to notify on bad configuration data",
+    "author": "Mihir Shah",
+    "product": "Quoting",
+    "content": "Problem statement: Unexpected application behaviour and Erroring in case of bad configuration setup data. Currently there is no robust mechanism to either notify the administrator on CPQ Maintenance console OR Rich Error reporting at transaction time.\n\n\nSource of the issue: Bad configuration data mainly happens in data migration OR someone delete the fields which are referred in the Rules.\n\nBelow table provides the list of objects and fields where bad data can exist. These fields can have blank value OR incorrect field reference where application is expecting a valid field reference.\n\n\nTroubleshoot challenges:\n\nDue to lack of comprehensive error reporting, the option mostly remain is trial and error, which is always time consuming and painful. Also the customers and partners are then dependent on TS to get the subscriber logs, but that too does not provide such detail Errors.\n\n\nError reporting Required:\n\n1) Enhance the maintenance console to report on such bad configuration data (if required field is blank or referring to non-existed field. So the admin can look for such data at one place and handle clean-up proactively\n\n2) Enhance the Error reporting on transaction time by providing the rule reference which is causing the issue so that diagnosis and fix can happen fast.\n\n\n| Object | Field | Comments |  |\n| Apttus_Config2_ProductAttributeRule_c (Product Attribute Rule)  | APTTUS_CONFIG2_CONDITIONCRITERIAEXPRESSION_C (Condition Criteria Expression) | Look for Apttus_Config2_AttributeValueId_r. | SELECT Id, Name, APTS_Ext_ID__c, Apttus_Config2__ConditionCriteriaExpression__c FROM Apttus_Config2__ProductAttributeRule__c |\n| Apttus_Config2_ProductAttributeRuleAction_c (Product Attribute Rule Action) | APTTUS_CONFIG2_FIELD_C (Target Attribute) |  | SELECT Id, Name, Apttus_Config2__Field__c, APTS_Ext_ID__c FROM Apttus_Config2__ProductAttributeRuleAction__c |\n| Constraint Rule Action (Apttus_Config2_ConstraintRuleAction_c) | APTTUS_CONFIG2_ACTIONCRITERIA_C (Condition Criteria) | Look for Apttus_Config2_AttributeValueId_r. | SELECT Id, Name, Apttus_Config2__ActionCriteria__c, APTS_Ext_ID__c FROM Apttus_Config2__ConstraintRuleAction__c |\n| Constraint Rule Condition (Apttus_Config2_ConstraintRuleCondition_c) | Apttus_Config2_ConditionCriteria_c (Condition Criteria) | Look for Apttus_Config2_AttributeValueId_r. | SELECT Id, Name, APTS_Ext_ID__c, Apttus_Config2__ConditionCriteria__c FROM Apttus_Config2__ConstraintRuleCondition__c |\n| Price List Item (Apttus_Config2_PriceListItem_c) | Apttus_Config2_Criteria_c (Charge Type Criteria) | Look for Apttus_Config2_AttributeValueId_r. | SELECT Id, Name, APTS_Ext_ID__c, Apttus_Config2__Criteria__c FROM Apttus_Config2__PriceListItem__c where Apttus_Config2__HasCriteria__c = true |\n| Price Dimensions (Apttus_Config2_PriceDimension_c) | Apttus_Config2_Datasource_c (Field) |  | SELECT Id, Name, APTS_Ext_ID__c, Apttus_Config2__AttributeId__c, Apttus_Config2__BusinessObject__c, Apttus_Config2__Type__c, Apttus_Config2__Datasource__c, Apttus_Config2__ContextType__c FROM Apttus_Config2__PriceDimension__c where Apttus_Config2__BusinessObject__c = 'Apttus_Config2__ProductAttributeValue__c'\n\n |\n| Price Matrix Entry (Apttus_Config2_PriceMatrixEntry_c) | Apttus_Config2_Condition_c (Condition) | Look for Apttus_Config2_AttributeValueId_r. | select Id, Apttus_Config2__Condition__c, APTS_Ext_ID__cfrom Apttus_Config2__PriceMatrixEntry__c |\n| Price Ruleset (Apttus_Config2_PriceRuleset_c) | APTTUS_CONFIG2_CRITERIA_C (Ruleset Criteria) | Look for Apttus_Config2_AttributeValueId_r. | SELECT Id, Name, APTS_Ext_ID__c,APTTUS_CONFIG2__CRITERIA__C FROM Apttus_Config2__PriceRuleset__c |\n| Price Rule Entry (Apttus_Config2_PriceRuleEntry_c) | APTTUS_CONFIG2_CONDITION_C (Condition) | Look for Apttus_Config2_AttributeValueId_r. |\n\nSELECT Id, Name, APTS_Ext_ID__c, Apttus_Config2__Condition__c FROM Apttus_Config2__PriceRuleEntry__c |\n| Product Attribute (Apttus_Config2_ProductAttribute_c) | Apttus_Config2_Field_c (Field) |  | SELECT Id, Name, Apttus_Config2__Field__c, APTS_Ext_ID__c FROM Apttus_Config2__ProductAttribute__c |\n| Approval Rule\n(Apttus_Approval_ApprovalRule_c) | Apttus_Approval_CriteriaFieldNames_c | Currently no entries that refer to PAV so can be skipped.  |\n\nSELECT Id, Apttus_Approval__Active__c, Apttus_Approval__CriteriaFieldNames__c, APTS_Ext_ID__c FROM Apttus_Approval__ApprovalRule__c |\n| Approval Rule Entry (Apttus_Approval_ApprovalRuleEntry_c)\n\n\n\n | Apttus_Approval_ConditionFieldNames_c\nApttus_Approval_CriteriaFieldNames_c | Look for Apttus_Config2_AttributeValueId_r. |\n |",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Default Email Template while Presenting to Customer",
+    "author": "Bhaumik Mehta",
+    "product": "Quoting",
+    "content": "After the Quote/Proposal gets Approved and Finalized and document is generated, there is a Present Action available as next step. When Sales Rep tries to Present the Generated Doc, there is an option of Selection of Template. There could be multiple email templates available. It will be good if we provide Email template defaulting functionality based on Quote Record type or any other condition based on any Fields on the quote. Refer attached screen shot which shows the email template selection screen,",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

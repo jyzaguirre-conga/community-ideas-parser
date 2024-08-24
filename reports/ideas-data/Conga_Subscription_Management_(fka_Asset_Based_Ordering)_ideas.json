@@ -1,0 +1,358 @@
+[
+  {
+    "title": "Product Status (Custom field) for Renewals Automation",
+    "author": "Rahul Karwal",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When automated renewals are created the Product Status field should be used to determine which products should create as follows. Product status is a custom field. For now, we have to use out of box feature suggested in last column below however would want to use Custom fields. Niccolo\u00a0Cianchini from Conga is familiar with this request.\nProduct StatusExisting Product on AssetReplacement Product identified on ProductProcess for Renewal creationAvailable for SaleP-0001N/AIf product is in pricelist, it will show in catalog, else not.Decommissioned & Replaced\u00a0P-0001P-0002Using SWAP rulesRetiring & ReplacedP-0001P-0002Using SWAP rulesDecommissioned\u00a0P-0001\u00a0Create renewal but place on hold.\u00a0 Decommissioned products cannot renewal automatically or manually. (TBC) mark the product as Do Not Renew and remove it from GBP PricelistRetiringP-0001\u00a0(TBC) Keep the product as renewable and remove it from pricelist",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Nicollo and Swapnil Devlekar are not aware of this use case. We need additional information like:\n1. Is it Ondemand renewal?\n\u00a02. Are you expecting during OnDemand renewal quote creation, few assets should be replaced.\n3. Swap looks for effective date and should fall within existing assets date range, are we expecting same date as in asset?"
+      },
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "We need additional information. Will reach out to the contact mentioned in the Description."
+      }
+    ]
+  },
+  {
+    "title": "Quantity cascade to Option Level should work for the ABO operations",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Hi team,\n\u00a0\nAs per the OOTB behaviour, when the \"Auto Cascade\" is TRUE on the PLI, the Bundle Quantity will be cascaded to the Option Line for the New Sales. However, the same use-case doesn't work for the ABO Operations when \"isAssetPricing\" is set to TRUE globally. To make this work, we first need to mark the isAssetPricing Flag to False through some other way and then the Quantity will be cascaded. However, as per the customer's expectations, since the field \"Quantity\" is already present in the custom setting \"Config Asset Line Item Criteria Fields\", the change in the Quantity at the Bundle level should make the isAssetPricing to FALSE for all the options and subsequently the quantity should be cascaded as well to all the Options.This is for the customer ABBYY.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We are tryign to deliver it by Oct'24 release on Salesforce CPQ."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will look at this technical feasibility and get back to you soon."
+      }
+    ]
+  },
+  {
+    "title": "Ability to see the complete asset structure from the top bundle asset record",
+    "author": "Eashwaran Pallipuram",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When a user accesses an asset record for the top bundle, in the asset record page, need a way to view the complete asset structure under the bundle asset record. This view should be similar to what the user can view in the 'Installed Products' page while performing an ABO transaction",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "https://conga.atlassian.net/browse/CPQ-82084"
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We are planning this view on platform on possible future release once we get proper detail page of Account on platform. Most probably we will target this on Feb'25."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We are planning this view on platform on possible future release once we get proper detail page of Account on platform."
+      }
+    ]
+  },
+  {
+    "title": "Conga CPQ: Installed Products page loses refrence of assets added over the cart page.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Hello Product Tm,\nCustomer: Gartner\n\u00a0\nGartner has a use case where they are using custom VF page to filter the assets in the install products page. When they are trying to do so with a saved configuration the assets are losing context in the install products page but are still present in the cart. This is causing duplication of asset selection.\n\u00a0\nHere is the summary of what is happening.\n-> They have 2 buttons on Installed Products page.\nView All AssetsView Agreement Assets\nHere when they first go to Installed Products page only Agreement assets will be visible.\n\u00a0\nAfter this the user clicks on the View All Assets and it will use a custom VF page where it will call the same Installed Products URL but with Different URL parameters to filter the assets.\nHere due to this the page is getting refreshed and the refrences of the Assets over the installed products page are getting lost even if they are already added to the cart on a Saved cart.\n\u00a0\nThis is happening as refresh of the page due to the same URL being called with different URL which inturn changes the Cart Context.\n\u00a0\nJIRA: https://conga.atlassian.net/browse/CPQ-79743\n\u00a0\nPlease consider this as an enhancement.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "When the custom VF page is opened by redirecting away from CPQ app you are effectively exiting the Conga CPQ app and hence it is technically impossible to preserve the context of selected assets when you redirect back to CPQ which is technically relaunching the CPQ app. There is nothing we can do here OOTB.\nThe best possible alternative is to open the custom VF page as a pop-up so that the CQP app remains in the browser in the background."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "@harshit solanki, can you show us this use case on your org, our team have queries."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We are on analysis phase"
+      }
+    ]
+  },
+  {
+    "title": "Kindly allow the lookup fields accessible in Advanced serach on Installed product page.",
+    "author": "Divya Dubey",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "As of now OOTB Currently, the fields of type Text, Picklist, Multi-picklist, Date, Datetime and Boolean are supported In Advanced search on Installed Product page.\nBut few customer have requirement that lookup fields should also be accessible in the Advanced Search.\n\u00a0\nKindly review the request.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "As of now we don't support lookup field search on Salesforce and Platform. We support Group by View with lookup fields which should suffice."
+      }
+    ]
+  },
+  {
+    "title": "Option Lines remain with Pricing Status as null upon Sync from SFDC to Turbo when performing the Change Asset Operation using API",
+    "author": "Saurabh Pancholi",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Change Assets SFDC API should mark all Bundle and Option lines as PENDING . Currently it does not updates option line items as pending and leave them blank. Which is an issue as Turbo APi prices the line items which have pending as pricing status.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will look at this and get back to you soon."
+      }
+    ]
+  },
+  {
+    "title": "Bundle Quantity does not auto cascade for the ABO Operation",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When the user is performing a renewal operation on a bundle asset and changing the bundle Qty, the Quantity is not cascaded to the Option level. This issue will occur when \"isAssetPricing\" is TRUE on the Line Item. If we disable the custom setting \u2018Default Asset Pricing Indicator ?\u2019 then this issue is not happening. \n\u00a0\nHowever, as per the customer's use case, the Bundle Quantity should be cascaded to Option Quantity in ABO operations as well same way it works in New Sales operations. This should happen irrespective of the value of the isAssetPricing flag on the Line Item.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ Renewals - Create Renewal Opportunity batch behavior change request<Renewal Mode: Auto>",
+    "author": "Harshit Solanki",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer Name: LNRS Data Services, Ltd.\n\u00a0\nRequest: LNRS Data Services, Ltd. asked to change the behavior of the Create Renewal Opportunity batch job <Renewal Mode Auto>.\n\u00a0\nCurrently, the behavior is as follows:\n- If the batch is processing a certain number of records and fails due to any one record, the batch rolls back all the changes.\nFor example, if it processes 100 records and one has a data issue, all 99 records are not updated.\n\u00a0\nThis is the default behavior, and no customization is involved.\nIs it possible to change this behavior so that changes for unaffected records are applied, and only the records with issues are rolled back?\n\u00a0\nPlease let us know if this is feasible.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "CPQ - Installed Products - Ability to show/hide buttons based on quote type/sub type",
+    "author": "Govind Dubey",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When we are on \"installed products\" page, trying to action any assets, we see buttons for \"Renew\", \"Cancel\", \"Amend\", etc. actions. We are requesting ability to show/hide these buttons based on certain conditions.\n\u00a0\ni.e. if quote type is Renewal, show RENEW and CANCEL\nif quote type is Amend, show AMEND and CANCEL.\n\u00a0\nWe tried using DisplayActionCallback but this class only offers ability to hide cart level buttons such as \"CATALOG PRODUCTS\",\"INSTALLED PRODUCTS\", etc. It doesn't offer any ability to control above mentioned buttons.\n\u00a0\nDue to this limitation, we are forced to create multiple flows per quote type as we do not want to expose all actions to our sales users. This increases maintenance at our end whenever any changes are done, needing to apply same changes to all applicable workflows.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will think over it and if possible we will provide this feature by June24 release."
+      },
+      {
+        "commenter": "Govind Dubey",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "title": "Enable one time change behavior",
+    "author": "Gunjan Vazirani",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "On keeping eable one time change checked in Installed Product Settings, when we perform change operation on assets, as a current behavior Asset line Items with One Time Chrarge Type has Line Status: Existing. Now as the line status is Existing, system does not allow any changes on such line and if a user does make changes then on reprice they are reverted back automatically for certain fields.\n\u00a0\nCustomer's(Orange Internaltional Carrier) expectation: It should not allow changes at all in the first place instead of reverting it post reprice.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "There are scenarios where user cancelled entire Options or ramp with one time lines. If we set one time lines as Read only then such operations will not be possible.You can cumtomise and keep one time lines read only for ABO operations."
+      }
+    ]
+  },
+  {
+    "title": "Large Number of Asset Renewal Line Items",
+    "author": "Jigar Naik",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "We have a request to support minimum of 10K lines for new sale as well as renewal. As per my discussion with Laxmi, renewal is supported with 600 lines only in turbo mode.\u00a0Can we support this?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will look at it and get back to you."
+      }
+    ]
+  },
+  {
+    "title": "Large Number of Asset Renewal Line Items",
+    "author": "Jigar Naik",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "We have a request to support minimum of 10K lines for new sale as well as renewal. As per my discussion with Laxmi, renewal is supported with 600 lines only in turbo mode.\u00a0Can we support this?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will look at it and let you know"
+      }
+    ]
+  },
+  {
+    "title": "Difference in mode of cancellation of Assets",
+    "author": "Ram Gopal T",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "We have a below use case from one of our customers.Scenario 1Cancellation on RenewalsExpected behavior per customer:Net price should be zero and no refundProduct behavior:Achievable by disabling same day cancellation flag in config system propertiesScenario 2Termination where start date = end date(Termination Date)Expected behavior per customer:Net price should be zero and no refundProduct behavior:Achievable by enabling the same-day cancellation flag in config system propertiesWe would need a way to identify the cancellations done in 2 scenarios so that we can achieve the use case.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "this is done on feb23 release."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "with Same day Cancellation=false we get same result on both use cases, no refund."
+      }
+    ]
+  },
+  {
+    "title": "Undo Asset related operations OR Create Asset Versioning to switch to an earlier state of asset",
+    "author": "Vaibhav Kothari",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Use Case: Below are few use cases related to ABO actions:\nSales users cancel assets by mistakeSales users did a renewal and activated the order. However, they forgot to add some promotion or other attributes required at the time of renewal\nCurrent Solution:\nSince Conga does not provide any way to revert to the previous state of asset, users have to create assets from scratch or amend an existing asset in case of renewal.\n\u00a0\nFeature request:\nCustomers expect to have a better way of reverting the asset to it's previous state. Like have asset versioning so that customers can choose to go back to any version.\n\u00a0\nPlease let me know for further details.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "@Vaibhav Kothari: can you pls create separate Idea for #2 Sales users did a renewal and activated the order. However, they forgot to add some promotion or other attributes required at the time of renewalIt will help us to tag write status after reveiwing it.Let this IDEA be for #1 for which I have already added comments."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "After Termination it is difficult to rollback an asset, we are thinking below mentioned points could be technical hurdles:\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 After Termination system calculates, Selling term, Net price, Delta\u00a0 and Asset TCV on asset and many other pricing fields. There can be complex bundle-option asset. It will be difficult to \u00a0capture original values of all asset line items, and use them while undo cancellation. Reverse pricing Calculation will be complicated.\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 We recently implemented \u201cRestore asset fields\u201d feature which is used for Cancellation of option and its reselection during Amend/Renew operation. But it will not work for Termination of entire asset.\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 After Termination Billing also refund amount which is not consumed, rolling back billing is also a challenge.There is workaround we would like to propose: Sales-rep can go for \u201cSuspend\u201d of assets instead of Termination and \u201cResume\u201d it if the transaction is done by mistake. Sales-rep can further Terminate asset if customer no longer need it."
+      }
+    ]
+  },
+  {
+    "title": "Early renewal sceario should be supported in Conga CPQ",
+    "author": "Dhaval Prajapati",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "We should be able to renew the asset before the asset end date.\n\u00a0\nRelated TS case#00803261\n\u00a0\nRelated JIRA#CPQ-57569",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Early Renewals is supported for Ramp and Non-Ramp lines as well. Refer document on this topic"
+      }
+    ]
+  },
+  {
+    "title": "Self-Service Account and Contract Management",
+    "author": "Catherine Malco",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "For Customers to be able to easily do the following via Community:\n\n-Asset Management (add license, swap (if possible), others)\n-Manage subscriptions (Ex. Renewals)\n\n-Account Management (update account information: billing address, contact persons, contact details..etc)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use-case to copy Billto, Shipto and Soldto Accounts from Assets to Renewal quotes",
+    "author": "Ankur Prasad",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Customer: ABBYY\n\nUse-case: ABBYY is using Auto Renewal to create renewal proposals. They have some assets which has 3 different accounts in Billto, Shipto and Soldto Accounts. When our out of the box renewal job creates Proposal it only populates Account field (which is considered as soldto account. System does not copy over billto and shipto accounts. Customer has use-case to copy over this values as well which is not happening right now.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "This idea is useful and accepted to be deliver on Jun23 CPQ release. Here's Jira ticket to track: https://conga.atlassian.net/browse/CPQ-61583"
+      }
+    ]
+  },
+  {
+    "title": "Ability to have renewed end dates of assets when they are removed/cencelled and then readded on the same cart",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "* Ability to have the renewed end dates for asset line items if they have been removed and re-added back to the same cart during configuration\n* This should of course take place only when utilizing \"UseProposalOrAgreementEndDate\" in Cotermination Preferences During Renewal within Installed Products Settings\n* JIRA [CPQ-52037] was raised for the same and it has been mentioned that the current behavior is that once an asset LI is readded after removal, the end dates populated are from the asset and not the renewed ones.\n* The intent is to attain uniformity in product behavior",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Release Name - Feb '23"
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "this has been taken care with new setting \"Restore asset fields\"."
+      }
+    ]
+  },
+  {
+    "title": "Service CPQ for POS use-cases are not supported for deep cloning, JIRA: CPQ-50745",
+    "author": "Jay Patel",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "The customer user case is as given below: 1. They are NOT using our Service CPQ module. 2. The Price List Item of the products which are configured on the Cart are NOT having Related Pricing. 3. They have their own custom flow or use case. For that, they are using our RelatedLineItem Object. 4. The user is configuring one of the Product which they are saying as Hardware or Software Product. 5. Along with the Hardware/Software Product, they are adding Coverage Product on the same Cart. 6. The Hardware, Software & Coverage are the custom types of the Product. 7. So here, the customer wants to create a Relationship between Hardware/Software Products and Coverage Products. 8. To achieve that, they are using our OOTB RelatedLineItem object. The user is creating Hardware/Software LineItem along with Coverage LineItem. RelatedLineItem object is working as a junction object between these 2 LineItems. So, they are putting LineItem as Hardware/Software LineItem Id and RelatedLineItem as Coverage LineItem Id. Along with that, they are putting a Dummy Asset on the RelatedAssetLineItem Id. Because without RelatedAssetLineItem Id, the system will throw NullPointerException. 9. The RelatedAssetLineItem field will have the actual AssetLineItem Id only when they are doing renewals. We explained that the OOTB system will never populate the RelatedLineItem lookup field with another LineItem in case of Service CPQ. But the customer is using this customization since more than a year and they don't want to change anything. The implementation was done by the Partner. As per him, the system can copy everything correctly from RelatedLineItem to ProposalRelatedLineItem to OrderRelatedLineItem or RelatedAssetLineItem. The system is also able to clone the correct data (on new configuration) if we configure the already Finalized Quote. Hence, the issue is only on the Deep Cloning of the Quote using Apttus_QPConfig__ProposalClone VF page. So as per the customer's request, we wanted to know whether this can be fixed from our end or not? They are also OK if we can provide this as an Enhancement or Story. FYI: JIRA: CPQ-50745",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Swapping configurable products",
+    "author": "Mark Schlott",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Please see attached for screen shots provided by Kevin Brown of Citrix",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "need more details as attachments is not found."
+      }
+    ]
+  },
+  {
+    "title": "After Clicking on Terminate redirect user back to Installed product",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "1. Create a proposal\n2. Configure Cart\n3. Go to installed page\n4. Select any asset and click on Cancel\n5. User need to enter the termination date and click confirm\n6. The User should stay on the Installed product screen only rather than moving to the cart.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "On the Confirm swap screen in cart, a message/notification should be displayed to user in the popup screen",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When user tries to do Product swap in cart, on the 'Confirm Swap' screen a message needs to be displayed to notify the user on the date that should be given.\n\n\nSteps:\n\n1) Create a Quote with Type as 'Renewal' and Sub Type as 'Early' or 'Term'.\n2) Click on Configure Products and go to installed products page.\n3) Select the asset and do the product swap by selecting the purchased product.\n4) Now in the 'Confirm Swap' screen, a message needs to be displayed to the user on the date that should be entered in 'Effective End Date'",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Gartner Request: Provide ability to show custom message/validation on SWAP or Termination action",
+    "author": "Chintan Jani-1",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "When the user is trying to perform SWAP/Termination action, in the popup that shows the date we would like to have an ability show a message to the user to guide them on what values are acceptable. Example: Termination action we would want the user to only select last day of the month, for SWAP we want the user to only select the 1st of the month etc.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "this can be done using Asset line item callback. Please refer document on this topic."
+      }
+    ]
+  },
+  {
+    "title": "Allow searching for multiple assets using logical operators and comma separated values on Installed Products page",
+    "author": "Jai Patel",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "On The installed products page, we have 2 filter tabs, \"Basic Search\" and \"Advanced Search\".\n\n\nOn the \"Basic Search\" tab, if 'Asset Name\" is configured as a filter then at a time, user can search only for one asset. It only accepts one asset name value at a time. GEHC has quotes with large number of assets. This approach of searching assets one at a time is highly time consuming and cumbersome. For all the text fields (especially Asset name), GEHC would like the system to support comma separated values where user can add multiple comma separated asset names and system should be able to search for all the mentioned assets.\n\n\nOn the \"Advanced Search\" tab,\n\n1. User should be able to apply filter with \"AND\" and \"OR\" logic. Currently, only \"AND\" logic is supported. The \"OR\" logic is required for to search multiple assets names simultaneously and also to enhance the scope of search criteria.\n2. User should be able to search large number of assets by providing multiple comma separated asset names.\n\nThis is a critical use case for LATAM, EU & JAPAN as they quote with 200+ assets in one configuration.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Use Advance search and add multiple rows, it considers AND."
+      }
+    ]
+  },
+  {
+    "title": "Installed Products page : Basic Search only works on Product field",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Current behavior :\n\nIn the Quote, when I go to the Installed Products Page to see a list of assets displayed, then I can use the search box available to filter the products. The text entered in this filter is matched only with product field, not with any other field.\n\nExpected behavior : Basically this field should work with all the columns present in the list. Asking user to go for advanced filter for even quick search is time consuming and not efficient.\n\n\nRecording:\n\nhttps://conga.zoom.us/rec/share/9PXy-mDWt3tWLocPSFDaBRcwB5s2oN-dmhu_JsHXRdzsSH1Nbdi9A6cY6Dlq9_4W.yPg9G1FGc3YHxgL4\n\nPasscode: Zwu4!@5Z",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Search box works for Product name, product description. There are basic and advance search to do advance filtration."
+      }
+    ]
+  },
+  {
+    "title": "Asset Line Items should be Versioned",
+    "author": "Sachin Behl",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Asset Line Items should be Versioned\n\n\nWhenever Asset Line Items are modified as part of ABO operation then new version of the Asset Line Item should be created.\n\nInstalled Products should pick the latest version for any new ABO operations.\n\nThis will give complete history of the incremental changes that have happed over the period like dates, amounts, configuraiton changes etc.\n\nThese can be represented in a simple view like we have in Agreement - In Effect View, which give the complete history of the changes for specified parameters.\n\nApart from history, it will make easier to validate all the changes happening to Asset Line Items from all the ABO operations.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to sell service  on assets belonging to accounts not linked through account hierarchy",
+    "author": "Jai Patel",
+    "product": "Conga_Subscription_Management_(fka_Asset_Based_Ordering)",
+    "content": "Business Case: 2 hospitals take help from an organization (can be another hospital as well with its own assets or it can be a non-hospital entity like a Trust or Financer) to negotiate their service contract with GE. The organization will then negotiate with GE for the assets belonging to the 2 hospitals. All the 3 entities (2 hospitals + organization) are \"Accounts\" in GE's salesforce org. The organization and 2 hospitals are independent accounts and are not tied together by any hierarchy. In order to meet such a request, the salesperson needs to create a quote on organization account and fetch the assets of the 2 hospital accounts on the quote. As per current design, this is not possible. Currently, on the installed products page, we can fetch the assets of the account on which the quote is created or any account which is part of the quote account's account hierarchy. As part of this new feature, we should be able to fetch any asset for the accounts belonging to the same country and sell service on these assets. So, the assets on the installed product page should not be limited to the quote account hierarchy. Example: Salesperson from France should be able to quote service on assets belonging to any French account.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "It has been implemented, Refer this ticket \"CPQ-51015 : Need ability to fetch all Assets from unrelated account on Installed Products page\""
+      }
+    ]
+  }
+]

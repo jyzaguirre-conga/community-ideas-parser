@@ -1,0 +1,778 @@
+[
+  {
+    "title": "Requirement for Custom Decimal Precision in Deal Guidance",
+    "author": "Vahhab Mumtaz Lakhani",
+    "product": "Pricing_&_Promotions",
+    "content": "The customer has a specific requirement regarding the deal guidance functionality. They need the ability to set different precision levels for decimal numbers displayed on the deal guidance screen, separate from the decimal precision used for values displayed in the cart. The customer wants to customize the precision for decimal numbers specifically for the deal guidance screen.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Thank you for sharing your idea. We will consider this suggestion for future platform improvements."
+      }
+    ]
+  },
+  {
+    "title": "Apply contract pricing irrespective of line item being cloned from an asset",
+    "author": "John Hammons",
+    "product": "Pricing_&_Promotions",
+    "content": "Present behavior is that when an asset is changed, and an option line item is cloned, contract pricing will not be applied unless the original option line item also has the contract applied. The behavior is as follows:\nPerform a \"change\" operation on the asset.Re-configure the bundle, and clone an option line item.Apply contract to the new option line item. See no change in pricing, and contract price list item is not applied after repricing.Apply contract to the original line item. Contract price list item is then applied after repricing to the cloned line item. Original line item still retains it's own price list item due to asset pricing.\nThe ask is for the ability to apply contract pricing to the clone without having to apply the contract to the original line item.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Hello,We will reach out to the creator of the Idea with some more questions on the use case and see what we can do."
+      }
+    ]
+  },
+  {
+    "title": "Promotions: Apply benefits at the bundle level instead of cart level",
+    "author": "Shiv Chorawala",
+    "product": "Pricing_&_Promotions",
+    "content": "As of now, Conga CPQ at the cart level applies for benefits on the benefits (Product) Line Item whichever comes first based on the lowest Primary Line Number.\n\u00a0\nBelow are two different scenarios explaining how promotions are applied as of now and how this is not helping one of our customer GEHC promotion use case.\n\u00a0\nScenario - 1\nOn the Cart, if we have 2 bundles and both of them have the scope and the benefit. If we try applying incentives on both the scopes it applies benefit only once in the first bundle which has the lowest primary line number. The second bundle will never have the benefit applied even though the Promotion Scope & Benefit are present on both bundles.\n\u00a0\nScenario - 2\nOn the Cart, if we have 2 bundles and both of them have the scope and the benefit. There is one benefit that is already applied to the first bundle.\u00a0\nWhen we apply the promotion on the second bundle, we see that this promotion is not getting applied on the second bundle as there is a benefit that has already been applied on the first bundle\n\u00a0\nGEHC Business Use Case:\u00a0\nThe Customer needs the benefit to be applied on bundle level and not on the cart level.\nThe priority of assigning benefit products should be given to the bundle level first then to the cart level. But right now it applying on the cart level.\u00a0\n\u00a0\nPromotion design gives a 10% discount on upgrading laptop storage to 1 TB\nUse case:\nExample: - In the cart we have two Laptop configure\n\u00a0\n\n\u00a0\nIn my case, Just want to apply a Promotional discount to the second bundle/product (Dell XPS 14) -- but based on Scenario - 1 - the benefit is getting applied to the first benefit product that is, and the option/configure line of Bundle-1 (Dell Inspiron 5559).\u00a0\n\u00a0\nPlease find the attachment under the idea which has sample data use cases.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Promotions: Promotion should apply to all nested bundle options",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "If we apply promotion to nested bundle as a benefit, the promotion should get applied to all the option inside the nested bundle (better if this is a configurable setting). Currently we have done customization to apply benefit adjustment to all the nested option but too much customization with promotions is causing issues so a OOB solution is needed.\nFor customer use cases, the nested bundle will have zero List price so it should work with zero price as well.\nAlso, the removal of promotion from nested bundle should go and remove it from all the nested option.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "HasIncentive and Incentive Code flag value in C# PCB (BasePriceCallback)",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "The HasIncentive and Incentive Code lineitem fields for benefit line item are not available in all methods of Before Pricing of Base Price Call Back of Turbo C# PCB. Due to this, the customer(s) have to use additional customization in case of Turbo, as in Salesforce PCB, these fields are available with updated values in PCB. \n\u00a0\nAsk: The HasIncentive and Incentive Code should be available in all methods in C# PCB methods in BasePriceCallabck.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "setIncentivesForCart API: Incentive code should be applied on Benefits items too.",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, the Incentive Code is applied only to the Scope item in case of Buy X Get Y. When there are multiple instance of Y products available in cart, and OR condition is selected in Benefit criteria, Conga will apply the benefit to the item which has lowest primary line number. If the benefit item is nested bundle Customer has to use customization to apply promotion to all the option inside the nested bundle.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Promotions: Apply benefits only when benefit product is inside a bundle",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "We need the option in promotions where we can define the benefit criteria to be bundle-option combination. This is somewhat similar to the \u2018include bundle option\u2019 available in scope of promotions.\n\u00a0\nBusiness Use Case: Customer wants to restrict the incentives to be applied only when a product is present as an option/nested option inside a particular bundle. The current behavior is to apply the incentive on the matching benefit product found in the cart, regardless of which bundle it is present in.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Promotions: Ability to fetch the benefit products using API",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "We need the ability to pre-emptively get the benefit products from the cart which are eligible for as benefit products for promotions, particularly for Buy X Get Y type of promotions. Currently, the get incentives API only returns the eligible promotions which satisfy the scope criteria but there is a possibility that the product/option defined in benefits may not be present in the cart thereby making the promotion irrelevant for the cart. This will be needed for Turbo pricing as well\n\u00a0\nBusiness Use Case: GEHC has a custom UI screen where getincentives API is used to show eligible promotions. This API returns results based on scope and not benefit products. Users can apply a promotion after selection from available promotion based on API results but do not see ant effect on cart if benefit product is absent. This can cause confusion to users on incentives application.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display cart currency symbol prefixed for the values on deal guidance screen",
+    "author": "Pavan Kumar",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently on the deal guidance screen, Currency values are displayed as Decimals only. It would be good to have an enhancement to show currency symbol prefixed to the values for better user experience.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Turbo Pricing: Need more validations from pricing APIs",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Currenlty there are limited validations from Turbo API for the data recieved in payload. There could be many scenarios in customer uses cases like add favourites through classic API, fast selection etc. where such data can be created on SDFC side which is not valid for Turbo pricing engine.\nSome examples from a recent production case 00887371:\n1) Line sequence field on item is zero\n2) Price Line item attached in line item payload does not exist on Turbo DB.\n\u00a0\nASK: There could be other use cases where key fields like line number, PLIs, item sequence, line sequence have corrupt data like duplicate lines, invalid values etc. Turbo APIs especially the restore/full api should be able to send appropiate error message as a part of response when such data is recieved so that customer can correct the data or handle it gracefully in their customization.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Related Pricing for Service CPQ",
+    "author": "Jigar Naik",
+    "product": "Pricing_&_Promotions",
+    "content": "As we have the related pricing functionality for the standard CPQ setup, we should also have the similar mechanism for Service CPQ. We recently got a requirement for Hitachi Energy to price the service product as certain percentage of the asset it would be relate to. For example, when the asset \u201cCyber Security Workplace\u201d is related to \u201cBasic Service\u201d, \u201cBasic Service\u201d should be priced as 2% of \u201cCyber Security Workplace\u201d asset price.For the demo, we have met this requirement using the pricing callback but having an OOB feature for the same would be really helpful.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "[Promotions] :  CPQ should have capability to Apply Promotions directly on NetPrice [in Custom Price Point]",
+    "author": "Hardik Shah",
+    "product": "Pricing_&_Promotions",
+    "content": "Promotion needs to be applied after OOTB adjustment (manual) have been applied. Please see the calculation below.\nPlease refer to Jira for details : https://conga.atlassian.net/browse/CPQ-79553",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support multiple contract numbers on Pricelist in contract pricing.",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "As of today, a pricelist can have only one contract number in contract pricing. Customer currently uses contract price lists to store list price of their customer specific price. There is also a adjustment/discount component which is stored in a custom object (agreement product line item) and it is applied in PCB logic. So, in many cases multiple customers can use same list price (from contract price list) but the discount could be different. The admin team has to create and manage multiple contract price lists with same list price from same products which they have raise as a pain point.\n\u00a0\nPlease reach out to me to get details.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Pricing: Need to handle WS close events gracefully",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "With Turbo pricing on the OOB configuration page, we see an issue that the out of box web socket is closed. Mostly its with the Close code 1006. When this happens the carts gets stuck and the end user is clueless on why this cart is not working. We need a graceful exit when OOB web socket is closed for any reason. The user should see some message and the next action he can do to move forward. Since we do not have a handle OOB WS details are not able to handle this issue. Please provide a graceful exit to WS close scenarios from product end.\n\u00a0\nPlease reach out to me/Shiv C. for any details",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need API to force reprice of cart on Conga Platform",
+    "author": "Harsh Shah",
+    "product": "Pricing_&_Promotions",
+    "content": "We have few customer requirements where every month the master data like Price rules/ Currency Rates etc will be modified by admin based on need and they want the existing carts to get reprice based on the latest data that is modified.\nSo we need an API which can be triggered for cart where even without modifying the pricing status of lines we can reprice entire cart so that pricing is fetched based on latest configuration.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cart Grand Total for  Usage Products",
+    "author": "Saumil Deodhar",
+    "product": "Pricing_&_Promotions",
+    "content": "We have a problem related to Grand Total on the Usage Products use case.\n\u00a0\nWe have a use case of spreading at Roche Diagnostics QTC where price of certain materials needed to support a diagnostic test provide a \"spread\" to the price of a test. In simple words, the price of a diagnostic test incorporates the price of needed materials and customer doesn't pay of materials but only pay to Roche per test.\n\u00a0\nBelow example will provide simple explanation of above where Material 1-4 are providing a spread(specified in Surcharge column) to the Test Price. After receiving surcharge, the price of the test now includes price of the underlying materials.\n\u00a0\n\n\u00a0\nCan product provide some setting where the Net Price of the usage product start getting included in the Grand Total of the shopping cart?\n\u00a0\nCurrently, we would need to customise the total calculations.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Display Currency on the Deal Guidance Screen",
+    "author": "Saumil Deodhar",
+    "product": "Pricing_&_Promotions",
+    "content": "Deal guidance screen at present does not show the currency in which the quote is being prepared.\n\u00a0\nThe screen should be enhanced to display currency. See attached screenshot for further reference.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ Admin UI : Make delete button for Price List Item dependent on the user access",
+    "author": "Harshit Solanki",
+    "product": "Pricing_&_Promotions",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer: Sandoz.\n\u00a0\nRequirement: They want the remove button to be dependent on the user access. Suppose if the user does not have access to delete the record the button should not be visible to the user at first place.\n\u00a0\n\n\u00a0\nPlease consider this as an enhancement and let us know if any information is needed here.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Sonia Yadav",
+        "content": "Hello Team,The same thing applies to the editing the PLI in CPQ Admin. With read access, the user is able to update the PLI through CPQ Admin.Thank youSonia"
+      }
+    ]
+  },
+  {
+    "title": "Allow the user to access the New Adjustment Value applied in Price Waterfall for some other operations.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\n\nPresently, when a user overrides a price point with a new adjustment value, it is accurately displayed in the waterfall. However, the user is unable to access this value beyond the Price Waterfall. If a user intends to utilize this value in a different context, there is currently no mechanism to facilitate such an action.\n\u00a0\nTo be Capability:\nRecord the user-applied value in a designated object/field for future reference. This will enable the user to access the new amount once they exit the Price Waterfall page.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Thank you for submitting the idea, we will take the required enhancement in Conga Platform"
+      }
+    ]
+  },
+  {
+    "title": "Allow the user to remove default price points & discounts from the Price Waterfall Display.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\n\n\u00a0\nPresently, certain default points like Base Price Override, Group Adjustment, and Incentive are consistently visible to users. The user lacks the ability to control the visibility of these points, meaning they are always displayed when the criteria are met.\n\u00a0\nTo be Capability:\nEnable users to manage the visibility of default price points, including Base Price Override, Incentive, and Group Adjustment. Allow users to decide whether to present these points to the customer or keep them hidden.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Thanks for submitting the idea. I Would like to understand why we need to hide the default price points."
+      }
+    ]
+  },
+  {
+    "title": "Allow the user to display any other price in the left section of the price waterfall.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nBy default, the Net Price is consistently shown in the left section of the Price Waterfall.\n\n\u00a0\nTo be Capability:\nAllow the user to configure the display of the left section. This will allow the user to display any other price point or any other information to the customer.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show waterfall data for secondary charge lines",
+    "author": "Harsh Shah",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently on the waterfall page we are just showing Primary lines but we have use case for customer where all the pricing is going to roll up to multiple secondary charge lines and for specific set of users we will not show option lines. So users will just see charge lines with all rolled up pricing. For this scenario waterfall is not useful as users will not see any waterfall for secondary charge lines of bundle.\nWe would also want that Disable bundle option feature be implemented for waterfall page same as cart page so users who cannot expand bundle on cart page will also not see option lines for same bundle on waterfall page.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Mausmi Pandey",
+        "content": "Hi Team, did we get any inputs on this Idea further ?"
+      }
+    ]
+  },
+  {
+    "title": "Allow Deal Guidance to be shown on Shopping cart",
+    "author": "Swapnil Devlekar",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, the deal guidance is displayed at the line level, or it can be incorporated through formula fields at the Quote header level. When sales reps are engaged in negotiations within the shopping cart, it is more beneficial for them to have the comprehensive deal guidance visible directly in the shopping cart, eliminating the need to navigate away to the quote header",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow custom deal guidance shapes/images",
+    "author": "Swapnil Devlekar",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, the deal Guidance band does not allow to setup custom shapes or images. The current OOTB shapes are not easy to interpret. We should allow customers to set up customer images/shapes that are easy for Salesreps to understand.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow the user to choose any price point in \u201cAdjustment Applies to\u201d setting while configuring Price Pipeline Ruleset.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nCurrently the user can only choose between List Price, Previous & Prior Price point while doing the configuration.\u00a0\n\u00a0\n\nIf the user wants to choose a specific price point while defining the rule, there is no option to do so.\n\u00a0\nTo be Capability:\nAllow the user to choose any price point in \u201cAdjustment Applies To\u201d field including custom price points.\n\u00a0\n\nFor example, if a user wants to define SG&A as a percentage of Invoice Price. The current functionality restricts the user.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow the user to choose the adjustment type while applying discount on Price Waterfall Page",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\n\n\u00a0\nIf we apply discount on the price waterfall page, we can only override using values. We can't choose between discount %, discount amount, markup amount and other discount types.\n\u00a0\n\u00a0\nTo be Capability:\nAllow the user to choose between different adjustment types, so that they can accordingly apply on the Price Waterfall Page.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Control the sequence of manual adjustment applied through shopping cart in Price Waterfall",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\n\u00a0\nWhen a user makes a manual adjustment via the shopping cart page, it is consistently applied after the Price Pipeline Ruleset points. If a user wishes to manage the sequence of applying manual adjustments, there is currently no option to do so.\n\u00a0\nTo be Capability:\nEnable users to specify the point at which a manual adjustment is incorporated. The current sequencing of manual adjustments results in variation in the final price calculation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow users to show the value of custom price point in Grand Total",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nPresently, in the pricing process, the Grand Total reflects the sum of Net Prices for all line items after calculation. However, when a custom price point is specified post Net Price calculation through a callback, Grand Total fails to consider the most recent price point after Net Price, displaying the outdated price instead.\nAdditionally, when applying a discount to the Total Price, the configuration of a custom price point hinders the ability to cascade the discount to individual line items.\n\u00a0\nTo be Capability:\nEnable users to display the cumulative value of Custom Price Points in the Grand Total when they have set up additional pricing points following the Net Price calculation. This adjustment will address the previously mentioned cascading issue.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Unfortunately, we don't have an out-of-the-box feature capability to achieve the same, so will have to wait for the Total level waterfall."
+      },
+      {
+        "commenter": "Akshay Vaibhav",
+        "content": "Until the Total Level Waterfall is developed. Can we have a way to show the custom price point in the Grand Total, so that there is no mismatch between the actual value and the value shown in Grand Total which is sum of Net Prices for all Line Items"
+      },
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "We will solve the ask with Total level waterfall (https://conga.atlassian.net/browse/CPQ-77408). With Total level waterfall, we can calculate all the price points before and after the net price.Closing the idea."
+      }
+    ]
+  },
+  {
+    "title": "Allow the user to change the label of List Price in Price Pipeline.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nIn the current functionality, if a user configures a Price Pipeline to configure a Price Waterfall, they can\u2019t change the label of List Price and Base Price. Due to this if we need the List Price and Base Price points with different names as per the use case, it can\u2019t be implemented.\u00a0\n\u00a0\n\n\u00a0\n\n\u00a0\nTo be Capability:\nAllow the user to edit the name of List Price and Base Price pricing points, so that user can customize the waterfall as per the use case.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Data Sync: Customers should be able to run reports on their data sync",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Customers should be able to get Weekly/Monthly Reports for Syncs that ran through the week/month and along with Duration and the Records Synced overall and per Object.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Data Sync: Notification for long running operations",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Customers should have ability to get notification when any particular ongoing sync is in progress for more than 2 hours. Should also include the data about what exactly is in progress. Preferably it should be configurable. Currently, the monitoring has to be done manually",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo: Ability to delete C# PCB logs from swagger",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Can we have an API to delete the C# PCB/Pricing logs from Swagger based on criteria like cart id. Date etc.\n\u00a0\nWhen we price a cart multiple times while testing/debugging, a lot of logs are generated and Swaager UI becomes cluttered. We can get a limited number of logs on screen and it becomes difficult to scroll/navigate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo: Enable logs for different users in Swagger.",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently in Turbo the logs for PCB and Pricing execution are enabled only for the user whose security token is used for login. Admin user should be able to enable debug logs in swagger for other users (similar to what we have in Salesforce debug logs). This is needed when a Turbo error comes in production and UAT environments where actual business users cannot share their security token due to security reasons.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Pricing: Getting code line numbers in debug logs should not be depended on UI exception feature flag.",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "In order to get line number from C# PCB code we were provided the below API.\n\u00a0\nhttps://<tenant-name-here>.congacloud.com/pricing/api/admin/swagger/index.html\n\u00a0\nAs of today, this feature The feature will not work if flag is-callback-exception-throw-enabled is true. You have to turn this flag off. We want the limitation to be reomved and the debuglog API should work even when the flag is true.\n\u00a0\nThe feature flag is-callback-exception-throw-enabled enabled the exceptions on UI which is needed otherwise there is no indication that error has occurred except in UI/logs.\u00a0In production we can keep it off but in dev/QA environment it is needed to make both of them together.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "SWIFT - Revalidate doesn't enforce the newest price after cloning",
+    "author": "Maurice Hout",
+    "product": "Pricing_&_Promotions",
+    "content": "Description:\nAfter updating a price matrix entry price and updating the version on a product record the system doesn't take the latest price after re-validation of the cart.\n\u00a0\nExpected Behavior:\nThe cloned quote should accept the new change of Price matrics entry\n\u00a0\n\u00a0\nSee Case for reference : 00798462 / 00790410\nSee IDEA for Reference : IDEA-I-314",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Nirav Dave",
+        "content": "We have sent an email to Maurice to provide more details on this."
+      }
+    ]
+  },
+  {
+    "title": "Show the breakdown of Price Waterfall Column when a user clicks/scrolls/hovers on the specific column.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nCurrently in the price waterfall user can see the value of a price element in the column along with the name of the price element. If a price element consists of sub elements, then user doesn\u2019t have the capability to view the price breakup.\u00a0\n\u00a0\nTo be Capability: \nAllow the user to view the price breakup if a price element is comprised of different sub elements.\nExample:\nIf a price element Pocket Price is 100 USD and it is summation of 5 different price elements.\nPrice A + Price B + Price C + Price D + Price E = 20 + 30 + 10 + 35 + 5 = 100 USD\nThen if the user selects the pocket price column they can see the breakup of the 5 price sub elements in the price waterfall.\n\u00a0\nCurrent:\n\n\u00a0\nTo Be:",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow the user to display custom VF Page in the section below the Price Waterfall in the \u201cAnalyze Price Waterfall Page\u201d.",
+    "author": "Akshay Vaibhav",
+    "product": "Pricing_&_Promotions",
+    "content": "Current Capability:\nCurrently below the price waterfall there is a display section in which Line-Item Field Name and Line-Item Field Value can be displayed. User can choose the list of Line-Item Fields to display below the Price Waterfall. Currently there are no customizations that are allowed in this section.\u00a0\n\u00a0\nTo be Capability:\nAllow the user to insert a custom VF page where we can collect the required information and represent it in the manner needed as per the user case. This will allow the user to display the data in a hierarchical manner. A hook on the page can be provided that will enable the user to pull the information and represent it as per the use case.\n\u00a0\nExample:\na) Let\u2019s say we have 10 Line-Item Fields. We can pull the data from these 10 Line-Item Fields and display them in hierarchical manner. We can choose to display the data in List View, Tabular View etc.\u00a0\nb) If certain cost or price elements are displayed in the price waterfall. we can calculate the summation of different cost or price element and display in the below section.\n\u00a0\nCurrent:\n\u00a0\n\n\u00a0\nTo be:",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Data Sync: Use Bulk API 2.0",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "We got an error in data sync where data sync was consumed all the bulk API limit in the org which was blocking other integrations to work (JIRA CPQ-59318). On investigation we found that bulk API batches with 0 records were being created. We also connected with Salesforce.com and they recommended to use Bulk API 2.0 for data sync application. Please use Bulk API 2.0 as per recommendation",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Data Sync: Dependency Sync should start only on data change",
+    "author": "Shahid Ali",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently the data sync system syncs the dependent objects even when there is no releavant change in the master object to be synced. For Example, If there is a Field 'A' on Product2 object and it is updated on 10k product2 records, the system will start syncing all dependent objects like PriceListItems (PLI) even if this field is not used in any formula fields. This behaviour is causing issues with customers with huge data volume, e.g. for GEHC 180k products update triggered sync on 2.5 million PLIs even though there were no fields on PLI which were require to be updated.\n\u00a0\nSince we already have metadata info, Can we make the sync smarter to make sure the dependecy sync is triggered only when we have to update something on child records. Relying on \u2018Last modified Date\u2019 only might again trigger such un-necessary dependecy syncs in future so having this enhancement will help us avoid issues in the future.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Shahid, the system will check whether any PLI records were changed and in your case, since no records changed, data-sync will ignore that object and move on. Is that not what you are seeing?"
+      }
+    ]
+  },
+  {
+    "title": "Ability to show an indication on the cart line item when pricing status returns an error from turbo call back",
+    "author": "Swapnil Bhandarkar",
+    "product": "Pricing_&_Promotions",
+    "content": "Hi, the field Apttus_Config2__PricingStatus__c\u00a0in the line item object (Apttus_Config2__LineItem__c) is an open picklist with 2 valid values (Complete and Pending). When pricing status is pending, there is a icon on the line item on the cart for showing that price is pending.\nIn turbo pricing, when we use turbo callback to fetch the pricing (by connecting to an external system) and whenever there is an error in pricing, then the value is set to 'Error' (as it is not a restricted picklist).\nCurrently, when this pricing status is set to 'Error', there is no status etc shown on the cart for identifying that there was something wrong with the pricing or even which line item had a pricing error. The expectation is to show some symbol/icon to let the user know that there was a pricing error.\n\u00a0\nPS: We have setup a custom message on the cart when there is a pricing error. But there is a bug on that for which we have raised a TS Case. But with this idea, the expectation is that there should be an ability to show a icon whenever there pricing status = 'Error'.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Akshay Vaibhav",
+        "content": "Issues faced by the user:a) There is no UI indicator for the user on the screen when Pricing status is marked as Error.b) In case of new line addition PLI is not associated, however in case of reprice there is no way user knows the pricing hasn\u2019t happened.\u00a0c) If PLI has been associated and further Quantity changes from 1 to 2. User still sees the price of 1 product after Reprice operation."
+      }
+    ]
+  },
+  {
+    "title": "Extended Price of bundle header line changing on Adjustment to option line",
+    "author": "Poovaiah Machaiah",
+    "product": "Pricing_&_Promotions",
+    "content": "We've noticed that the extended price of a bundle header changes when an adjustment is done on the option line. But the extended price of the option line doesn't change. Even for the standalone products, the extended price doesn't change on adjustment.\nThis varied behavior is causing issues in reporting on discount percentages for approval at line level. We expect same behavior in all cases.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Poovaiah Machaiah",
+        "content": "Could you please advise why this cannot/won't be implemented?"
+      }
+    ]
+  },
+  {
+    "title": "Cost Context in Turbo",
+    "author": "Nilay Desai",
+    "product": "Pricing_&_Promotions",
+    "content": "We have one issue with the execution of the Presto Callback and Pricing Callback. The current execution is as follows:\nCost Model associated to pricelist.Presto Callback is invoked \u2013 costing is calculated.Pricing Callback is invoked.\nHitachi Energy now has cost and price information coming in via an Integration with SAP REIWA. In this scenario, there are two challenges:\nPresto Callback has already executed \u2013 with no control to execute is after pricing has happened.Cost Line Items are not accessible in the Pricing Callback.\nWith these limitations we do not have a way to get cost calculated.\nWe cannot build this integration from Presto Callback because not all pricelists using costing approach and hence presto is not invoked in all transactions. To build a solution where call is invoked from Turbo PCB and Presto Callback basis the cost model association is a very expensive way to build any Integration \u2013 as we have to replicate authentication, authorization, parsing, error handling & logging framework on both Turbo and SFDC side as there is no reusability possible between the two.\u00a0\n\u00a0\nWe need a capability to have Cost Data available in Turbo context and further some cost ruleset feature for cost engine.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Fixed Price Addition to Products",
+    "author": "Ayush Choudhary",
+    "product": "Pricing_&_Promotions",
+    "content": "Fixed Price addition to Tier Pricing as given over excel.\n\u00a0\nWe want to add fixed price for app products apart from variable prices being calculated through price matrix. Attached an excel for your reference.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adjustment Lines from Turbo",
+    "author": "Nilay Desai",
+    "product": "Pricing_&_Promotions",
+    "content": "Capability required in Turbo Pricing Callback to:\n\tAdd / Edit / Remove adjustment lines.Bucket Adjustment lines.\nCapability to mark adjustment lines in \u201cnon-application\u201d mode i.e., do not apply it on any pricing point.\n\u00a0\nUse Case: There are pre-applied adjustment and pricing points coming from Integration which need to be stored and displayed in Shopping Cart. As creation of fields for holding all adjustment types is an expensive operation, we want the capability to store it on adjustment lines.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Incentive / Promotion - Display the Benefit Quantity as a distinct line item on the shopping cart",
+    "author": "Tushar Sonawane",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, the benefit quantity is included in the Incentive/Promotion section but is concealed within the adjustment line item. It would be beneficial to have the benefit quantity displayed as a separate line on the shopping cart, allowing end users to see it and including it on generated documents.\nThese types of promotions are particularly applicable to the FMCG and pharmaceutical industries, where promotions often involve receiving an additional product rather than a discounted price. Although such promotions may appear to be limited to B2C scenarios, they are also present in B2B.\nAs part of this concept, several features could be incorporated, such as:\n1) Automatically adding a benefit product to the shopping cart, even if it has not or already been added\n2) Removing the benefit quantity line if the item on which the promotion was applied is removed from the shopping cart\n3) Making the benefit quantity line read-only (in case added as a sperate line)\n4) Clearly marking the product line with a different color or icon to indicate that it has been automatically added as part of the promotion\n5) Including the benefit quantity as a free quantity, meaning that there is no pricing impact\nSuggestion: It may be more challenging to apply this idea to complex bundle products, so it could be limited to the standalone items.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "API to return progress result from pricing queueable jobs to display pricing progress.",
+    "author": "Irfan Khan",
+    "product": "Pricing_&_Promotions",
+    "content": "Conga has an API which returns the progress result of pricing operation. This API gives the percentage completion details of the batch job that is being run with the async pricing in progress. It has no direct linkage to the number of line items getting priced. The % complete indicates the % of jobs completed, not the % of priced items. This is a very generic job monitoring API that is meant to display a busy indicator rather than an accurate measure of the task.\n\u00a0\nWhat is expected here is the 'no of jobs completed' and 'Total no of jobs' as a result of this API. As we know that how many items are there and what is the pricing batch size, so we can easily calculate the both results.\u00a0\n\u00a0\nEg. - 100 items are there which are pending, and batch size is 5 then 100/5 = 20 will be the 'Total no of jobs' submitted in back end. When 'Compute total in separate steps' checkbox is checked then we can increase the Total no of jobs with 1. So it will be 21 .\n\u00a0\nIt is very general calculation similar to it happens in batch process. Similar thing can be implement in this new API.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Auto save functionality on cart is not available in CPQ",
+    "author": "Swapnil Bhandarkar",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, In quotations when we are configuring products and when line item is added and/or changes are made etc, then we can save the cart only on button click on the cart.\nCan this be autosaved. Meaning every time we make some changes to the configuration, there will be periodically changes saved automatically without user needing to manually save it.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Auto Save functionality can be implemented through triggers, although the standard behavior will remain unchanged to avoid any adverse effects on existing customers. Introducing customization could potentially impact performance. However, on the Conga platform, auto-saving will always be enabled."
+      }
+    ]
+  },
+  {
+    "title": "Custom CSS for Custom Fieldsfrom Display Column Settings",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Pricing_&_Promotions",
+    "content": "As of now, we can only set the CSS override for the OOTB field in Price Ramp Popup from Display Column Settings.\nThe same is not working for custom fields.\nIt will be good to have this feature.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Related Pricing on Price Ramps",
+    "author": "Jared Seefried",
+    "product": "Pricing_&_Promotions",
+    "content": "When a product has a related pricing association to another main product, the customer would like any price ramps created under those main products to have the same related price association so the price ramps calculate the same as the main products related pricing association",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to enter null value in price tiers",
+    "author": "Ram Gopal T",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently, when users are creating price tiers, the \"To\" value will be null. But once users enter a value, we would not be able to remove that value and provide a null value. Even if we remove it to provide a null value, the value will be auto-populated with the latest value. Again to provide a null value, users have to remove the whole tier and create a new one. This is causing a bad user experience. Kindly provide the ability to enter a null value without deleting the whole tier.",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Saumil Deodhar",
+        "content": "Hi @Amol, to clarify, this is not price admin-related task. In this idea, Ram is talking about the price tiers that we create from the cart while quoting."
+      },
+      {
+        "commenter": "Amol Baviskar",
+        "content": "this is pricing admin related ask. we will consider this for CPQ admin on Conga platform"
+      },
+      {
+        "commenter": "Sofia Reimchen",
+        "content": "To add - this is affecting our enterprise customer Roche"
+      }
+    ]
+  },
+  {
+    "title": "Request for Turbo APIs to be made available to the customer",
+    "author": "Govind Gokul",
+    "product": "Pricing_&_Promotions",
+    "content": "The customer says, \"Currently, we are on Classic API of Conga, but for online Conga (Manual) orders we are using Turbo API. We are expecting Conga to give us the Turbo API for processing automated Orders.\"\n\u00a0\nThey are requesting Turbo APIs to be made available so that they will be able to add promotions and reprice via Turbo APIs without getting into UI.\n\u00a0\nRelated TS case # 00830410\u00a0\n\u00a0\nRegards,\nGokul G",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Turbo Pricing - Addition of new field in Product2 object should not require manual clearance of cache",
+    "author": "Mohit Patel",
+    "product": "Pricing_&_Promotions",
+    "content": "Turbo Pricing - Currently addition of new field in Product2 object need manual intervention in form of cache clearance. If we add new field and don't perform this manual step then new field don't show immediately in the turbo response until and unless the API Cache is deleted. In absence of system guided or automatic clearing approach, it is likely to be missed out by project/support team during execution and that leads to unnecessary down times and blocker issues in production. Hence need Out of the box solution to avoid such issues.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Analyze quote page - Product long description, Line Number should be displayed along with product name",
+    "author": "Mohit Patel",
+    "product": "Pricing_&_Promotions",
+    "content": "In Analyze quote page - Product long description, Line Number should be displayed along with product name to understand which line number the user have selected to add the cost line item details. Currently only product name gest displays and when user added same product more then one, it becomes difficult to understand which line item user is selecting and adding cost data.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Analyze Quote page - Transfer Price currency dropdown field should have type ahead search or filtering capability",
+    "author": "Mohit Patel",
+    "product": "Pricing_&_Promotions",
+    "content": "In Analyze Quote page Transfer Price currency drop down list should jump to currency by typing it\u2019s letter in keyboard (instead of scrolling). Type ahead search or filtering functionality should be available to improve & enhance end user experience.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Our plan is to merge Cost Model and Transfer Price View into the new Price Waterfall view available on TurboPricing and soon in Conga Platform. These will be handle as part of building that user experience."
+      }
+    ]
+  },
+  {
+    "title": "Currency in Analyze Quote page for cost line item should be inherited from Quotation level automatically.",
+    "author": "Mohit Patel",
+    "product": "Pricing_&_Promotions",
+    "content": "Currency in Analyze Quote for cost line item should be inherited from QT level automatically. For now the value is always defaulted to\u00a0(--none--). User has to select the currency manually. So if quote currency can be defaulted then User don\u2019t need to populated the currency manually.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Async Pricing: Provide error handling mechanism for async pricing API - Apttus_Config2.BatchJobService.updatePriceForCart",
+    "author": "Vaibhav Kothari",
+    "product": "Pricing_&_Promotions",
+    "content": "Use Case: Salesforce is evaluating queueable async pricing API Apttus_Config2.BatchJobService.updatePriceForCart to work with larger carts. This API works fine but it only returns the Job Id as a response.\nhttps://documentation.conga.com/cpq/september-22/updating-price-for-the-smart-cart-143197743.html\n\u00a0\nSince Salesforce is going to call the API from a custom page, they would like to know whether the API execution is successful or failed. At present, there is an email that goes to the submitter about the job completion. No other monitoring mechanism is available.\n\u00a0\nAsk: To have a monitoring framework for async pricing job. Since these are queueable jobs, there are multiple chained jobs as per the pricing batch size.\n\u00a0\nImpact: Salesforce cannot leverage async pricing API unless there is a mechanism to monitor the jobs.",
+    "votes": "9 Votes",
+    "comments": []
+  },
+  {
+    "title": "Async Pricing (RepriceCartJob API) : Flexibility to modify the email going out to the submitter for success or failure of the job",
+    "author": "Vaibhav Kothari",
+    "product": "Pricing_&_Promotions",
+    "content": "Salesforce is currently using RepriceCartJob API to submit async approvals for carts with more line items. An email is sent to the submitter when the job is completed. As of now, there is no configurable email template for this API and the email content is very minimal/technical.\n\u00a0\nAsk: Salesforce would like to have separate email templates for success/failure scenarios of this job so that they can customize the email sent out to the submitter.\n\u00a0\nAPTS_DisableCartAsyncNotification admin entry is available to disable email notifications but it is not specific to any API. It will disable emails for other async operations as well.\n\u00a0\nImpact: User does not get any details about the failure and next steps to be performed on the failed quote. Salesforce has custom implementation so they would like to notify the users about the next steps to be taken in case of such failures.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Price Ramps Support for Turbo Pricing",
+    "author": "Swapnil Devlekar",
+    "product": "Pricing_&_Promotions",
+    "content": "Roche has several use cases for price increase on a periodic basis and these use cases can be achieved easily using OOTB Price Ramps. Currently, Price Ramps are not supported in Tubo Pricing. We need this feature to be made available on TP.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adhoc Usage Price Tiers",
+    "author": "Swapnil Devlekar",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently the Usage Price Tier input on the cart page allows entering tier values only in an incremental way i.e. 1 - 4, 5 - 10, 11+ etc. Also if the Tiers are in decimal then increments aren't correct e.g 1 - 2.5, 3.5 - 6.5, 7. 5 etc. It should be 1 - 2.5, 2.6 - 3.5, 3.6+ etc. Roche also has a requirement to add adhoc Tiers which are not incremental e.g. 1 - 1 > $50 2 - 2 > $49 3 - 6 > $45 7 - 10 > $40 11 > $35",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Swapnil Devlekar",
+        "content": "Hi Product Team, Can you provide details if and when we plan to deliver this enhancement?"
+      }
+    ]
+  },
+  {
+    "title": "Discount based on volume (Total Qty based on Modality, it can be 1 or more products)",
+    "author": "Brij Siddharth",
+    "product": "Pricing_&_Promotions",
+    "content": "Our client (GE) is looking for below functionality to be developed at summary level. Discount based on volume (Total Qty based on Modality, it can be 1 or more products) 1. a. 5-9 units, 4% discount b. 10-20 units, 6% discount c. >20 units, 10% discount",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin Behaviour for Advanced Criteria",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "In the CPQ Admin UI, there is a difference in the behaviour of Advanced Criteria from Rulesets to Constraint Rules to Promotions. Price Ruleset does not automatically amend the advanced filter condition both in CPQ Admin and Lightning. If user tries to save error message appears. For promotion and constraint rule it does just by clicking the \"+\":",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Discount on Total Net Price at run time",
+    "author": "Brij Siddharth",
+    "product": "Pricing_&_Promotions",
+    "content": "We have this use case from our client and we are not able to achieve it OOB. We are looking for a solution this use case.\n\n\n1. Below scenario is little unique & very much needed. Sequence of steps:\n2.\n\na. Total Net Price .. e.g 10K, Apply 10% Discount... total Net Price now is 9K\nb. I have 2 coupons of $800 & $1200.\n\n3. For $800 applied fully (as it is = 10% of Net Price).\n\n|\n | Coupon Pool |\n | Original Contract Price |\n | 10% Discount |\n | After Discount |\n | Coupon |\n| Senario 1 | 800 |\n | 10000 |\n | (1000.00) |\n | 9000 |\n | (800.00) |\n| Senario 2 | 1200 |\n | 10000 |\n | (1000.00) |\n | 9000 |\n | (900.00) |",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Promotion on Total Quote Amount",
+    "author": "Brij Siddharth",
+    "product": "Pricing_&_Promotions",
+    "content": "We have this use case from our client and we are not able to achieve it OOB. We are looking for a solution this use case.\n\n\nPromotion on Total Quote Amount (Total Net price inclusive of all bundles in the Cart)\n\n1.\n\na. 500k-800k, 4% discount\nb. 800k-1.1M, 6% discount\nc. 1.1M-1.5M, 8% discount\nd. >1.5M, 10% discount",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Stop/Customize email for \"RepriceCartJob\" API",
+    "author": "Vaibhav Kothari",
+    "product": "Pricing_&_Promotions",
+    "content": "Use Case: Salesforce is one of our largest enterprise customers and have a lot of custom UI implementation in CPQ flow. They call our APIs for pricing and have been running into CPU timeout errors for a cart with close to 70 line items. We proposed the solution to use async pricing by using \"RepriceCartJob\" API\n\nhttps://documentation.conga.com/cpq/latest/repricing-the-cart-143903106.html\n\n\nIssue: \"RepriceCartJob\" API works well for pricing the cart. However, the email received after the job completion is having very minimal information. It is one liner email saying that the batch job is completed.\n\nThere seems to be no email template behind this email and hence customers cannot customize the email going out to the users submitting a cart for async pricing.\n\n\nProduct team also recommended another API (BatchJobService.updatePriceForCart()) that is queueable but Salesforce cannot go with it for now due to certain challenges in error handling\n\n\nImpact: Although the async pricing API solves the purpose of not running into governor limits, this is not creating a good user experience. It creates a lot of ambiguity.\n\n\nAsk: Having a configurable option to turn off/on the emails completely so that customers can have their own customized emails with relevant content in the email body.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Highlight of invalid discount values",
+    "author": "Raj Poshiya",
+    "product": "Pricing_&_Promotions",
+    "content": "In the cart, the discounts which are provided should be highlighted if they are invalid. Invalid means for example negative discounts or discounts which are higher than 100 %. These discounts could be e.g. highlighted in red on the corresponding line item. 1. Discounting in Summary Panel 2. Negative discount and large amount discount from line value. Want to see all the option available in Conga and option to prevent.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "The use case could be achieved today using deal guidance, where deal guidance could be set for below zero or above 100 with some band in red color. The slight difference would be instead of showing discounts in different colors, the additional column will be added with a color band."
+      }
+    ]
+  },
+  {
+    "title": "Turbo Pricing Error Handling Notification alert: Downtime & Error resonse from Turbo Server",
+    "author": "Thribuvan B N",
+    "product": "Pricing_&_Promotions",
+    "content": "We have a request from Premier plus customer- Thomson Reuters Holdings Inc. (https://apttus2.lightning.force.com/lightning/r/0011U00000D8zadQAB/view) to add the below monitoring system for Turbo Pricing.\n\n\n1. To make any automation available from Conga side, that will notify the Customer in case of any planned Turbo Server outages/downtime.\n2. To make any automation available in case any turbo Pricing API fails because of slow response Turbo Server.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to define currency rounding modes per flow or currency basis",
+    "author": "Chetan Patel",
+    "product": "Pricing_&_Promotions",
+    "content": "Hi team,\n\nGartner customer is looking for a way to facilitate currency fields rounding mode per country/currency/flow basis. Currently we only have it at org level in the custom setting.\n\nWhen customer has multi currency enabled in salesforce org, there are valid scenarios when customer needs to define rounding modes differently for each currency based on each country's norms. For example, for USD customer might want to keep HALF_EVEN whereas for JPY they would like to keep it different.\n\nIf we can facilitate out of the box way to define rounding modes per flow/currency basis by any means of configuration or providing a callback hook for customers to implement their own rounding logic for each flow/currency then it that would be great addition to multi currency features support by Conga.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Revalidate button should enforce the newest price after cloning",
+    "author": "Kalpesh Valera",
+    "product": "Pricing_&_Promotions",
+    "content": "Use Case: Once a quote is finalized, after that in case there is any change in price in the price matrics Or Price rules etc, On cloning the carr OR reconfiguring the cart, On click of validate button the new price should be taken care. So the feature reuirement is in case of any chanhge on the price matrics Or price rules the product version should change automatically by OOTB from 1 to 2 OR 2 to 3. So that on the revalidate Price changed in the Price Matrix will now be reflected in the cart. So they can use the below functionality. https://documentation.conga.com/cpq/may-22/revalidating-the-product-configuration-181307550.html This can be done by writing the custom logic in the Revalidation callback class, where the Pricing Status will be updated based on the Product Version change.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Promotion code should not get applied to non eligible lines",
+    "author": "Swapnil Devlekar",
+    "product": "Pricing_&_Promotions",
+    "content": "When we have products in the shopping cart that are eligible for promotion and we bulk select the line items which would include products that are eligible for promotion and some that are not, and apply the promotions in bulk, the system applies the promotion code to all non-eligible lines as well. The adjustment is applied only to the eligible lines.\n\n\nThis is misleading to users as non-eligible lines also get the promotion applied.\n\n\nLike adjustment the promotion code should also be applied only to the eligible items.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Ramp pop-up on cart page can be auto-closed after saving",
+    "author": "SF Integration Service Account",
+    "product": "Pricing_&_Promotions",
+    "content": "When we open Price Ramp in the cart page, add multiple ramps and save the changes, Price ramp pop-up page does not auto-close. Users find it confusing if the changes made have been saved to the cart.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow/display discounts on negative prices",
+    "author": "Maurice Hout",
+    "product": "Pricing_&_Promotions",
+    "content": "Use Case:\nFor SimCorp, discounts are applied at quote summary level. This is used in combination with an approval workflow on both discount approvals and deal size approvals. Simcorp has some use cases, where named users are allowed to enter a pre-approved adjustment (controlled through collaboration.) The most important one is when converting existing clients from a perpetual contract to a subscription contract, so it is not an inferior case. It is part of contract transformations. The sales rep may want to apply an additional discount on the quote as is \u2013 or maybe there is upselling and discount as part of the conversion. The only way the sales rep can do the discounting is through the quote summary and it is paramount, that the discounting happens consistently across the quote. As negative prices are allowed and as discounts through the quote summary are supported, we expected the value to populate the \"Net Adjustment Percent\" field when -ve is applied. With -ve the field value is Null.\nSee attached screenshot where 20% discount was already applied. It doesn't show (right lower corner value .0,00% even when 20% was applied) This is confusing for the End Uses.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ-51003 || Novartis Pharma AG -> Issue with Restricting permissions on Incentives object",
+    "author": "Chintan Jani-1",
+    "product": "Pricing_&_Promotions",
+    "content": "CPQ-51003\n\nIssue: Issue with Restricting permissions on Incentive object\n\nDescription:\n\nIssue being faced: The Apttus/Conga custom page for Incentives doesn't seem to respect permission set. The user hasn't been given permission to access any field other than Active flag but still he/she is able to change them, and upon save, the changes are being saved without any insufficient privileges error.\n\nCustomer Use-case:\n\nThe customer wants to restrict the user to edit the fields on the incentive records other than the field \"Active\".\n\nExpected Behavior:\n\nThe user should not be able to edit the fields other than \"Active\" as we have not provided the permission for the same.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Possibility of extending field length for Apttus_Config2__NetAdjustmentPercent__c",
+    "author": "SF Integration Service Account",
+    "product": "Pricing_&_Promotions",
+    "content": "Apttus_Config2__NetAdjustmentPercent__c the size is (10,4), can you please increase it to (15,4)\n\n\nBecause when we are price overiding it is throwing an error as below \"\"Failed to reprice.: Upsert failed. First exception on row 0; first error: NUMBER_OUTSIDE_VALID_RANGE, Net Adjustment (%): value outside of valid range on numeric field: 10243999900 Net Adjustment (%): value outside of valid range on numeric field: 10243999900\"\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Reprice Quote button not taking New PLI",
+    "author": "SF Integration Service Account",
+    "product": "Pricing_&_Promotions",
+    "content": "Hello Team,\n\n\nAfter finalized the cart, the new PLI is created then Reprice Quote button is clicked to capture the new PLI however it is not taking the new PLI",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "cart lines emissions display",
+    "author": "Mouli Kommineni",
+    "product": "Pricing_&_Promotions",
+    "content": "cart lines emissions calculator . in Boral we display environmental fee for every line we add to cart in QLD area.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow users to specify format for the generated Coupons",
+    "author": "Bhavin Mistry",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently when you generate coupons for the Incentive, it is generated in 6 character alphanumeric text. Customer is requesting for it to be configurable so that can specify the format based on the promotional campaigns. As these coupons are supposed to be used by the end users in Digital Commerce, this is a valid requirement.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Flow based Custom pricing fields",
+    "author": "Piyush Jain",
+    "product": "Pricing_&_Promotions",
+    "content": "Currently there is a limit of 255 char for custom pricing fields in config system properties , When no. of flows are higher each flow has its own set of pricing fields and this field is not able to hold all the custom pricing fields resulting in customization. Would be great if we can have flow based custom pricing fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Discount by Net Adjustment %",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "Adjustment types do not allow users to define the final 'Net Adjustment %' covering Price Rules/Matrix/Promos.\n\n\nIt would be good to have an Adjustment Type like 'Net Adjustment %' that allows users to override the final Adjustment like 'Price Override' but by Discount %\n\n\n| List Price | Base Price | Adjustment Type | Adjustment Amount | Net Price | Net Adjustment % |\n| 100 | 20 | % Net Adjustment | 90% | 10 | 90% |",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Multiple Adjustment Popup Should Show Adjustment Percentages",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "On line-level there is a \"Net Adj %\" \u2013 it would be useful to have the Adjustment Lines showing their \"Net Adj %\"\n\n(calculated for that individual ALI based on it's net adjustment to Net Price",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Multiple Adjustment Popup When Audit is On",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "When a PLI has 'AllowManualAdjustment' set to False, the 'Multiple Adjustment' popup doesn't show.\n\n\nHowever, since Price Rule Audit and Price Matrix Audit are switched on, the popup will have relevant data and should be shown.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display Line Item Promotion Benefit Quantity",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "When a Quantity Promotion applies to a Line Item, the Promotions 'Benefit Quantity' should be displayed for users.\n\n(For % promotions, this is possible through the ALI audit or Net Adj %)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adjust Quantity Promotion Benefit",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "When a Promotion applies X benefit quantity to a line, sales users should be able to view and adjust the benefit quantity up or down similar to Discounting.\n\nFor example:\n\n- Add 1 or more free quantity\n\n- Reduce 1 or more free quantity",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Every X Get X Promo for Product Groups (Quantity Promos)",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "Every X promotions require Scope to be defined at Product level. This means if N products have that promotion, there would need to be N promotions created/priced.\n\nThis enhancement is to expand this to allow Product Group scope for Every X promotions along with Benefits being flagged as \"for qualifying product\". This way a single Promotion could apply to N products\n\nOr hide the non-relevant Scope fields (Family, Product Group, etc\u2026)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin Custom Field Support for Price Rulesets/Rules",
+    "author": "Ahmad Khalifa",
+    "product": "Pricing_&_Promotions",
+    "content": "Sometimes custom fields are added to Price Rulesets/Rules for Reporting, Backend Integration or other purposes.\n\nIt would be nice if CPQ Admin can support showing custom fields using Fieldsets like other parts of CPQ Admin",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Related Pricing on Large (Smart) Carts",
+    "author": "SF Integration Service Account",
+    "product": "Pricing_&_Promotions",
+    "content": "Related pricing is not working for large cart and it is working fine for regular cart.\n\nCurrently, related pricing is not supported for large cart.\n\n\nDocumentation for the same: https://documentation.conga.com/cpq/summer-21/about-smart-cart-143890113.html\n\n\nWe would like to have the feature on the large carts as well.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

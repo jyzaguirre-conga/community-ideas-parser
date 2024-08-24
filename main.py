@@ -3,37 +3,64 @@ from scraper import CongaIdeasScraper
 from claude_analyzer import ClaudeAnalyzer
 from loading_indicator import start_loading_indicator
 from markdown_converter import convert_markdown_to_pdf
+import os
+import logging
+import sys
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
     scraper = CongaIdeasScraper()
-    ideas = scraper.get_ideas()
-    print("Scraped Ideas:")
-    print(json.dumps(ideas, indent=2))
+    categorized_ideas = scraper.get_ideas()
+    logging.info("Scraped Ideas:")
+    logging.info(json.dumps(categorized_ideas, indent=2))
 
     analyzer = ClaudeAnalyzer()
-    print("\nAnalyzing ideas with Claude...")
-    stop_event, loading_thread = start_loading_indicator("Waiting for response")
-    summary = analyzer.analyze_ideas(json.dumps(ideas))
-    stop_event.set()
-    loading_thread.join()
 
-    print("\nIdeas Summary and Analysis:")
+    pdf_output_folder = "reports/pdf_output"
+    markdown_folder = "reports/markdown"
+    ideas_data_folder = "reports/ideas-data"
 
-    if summary:
-        for section in summary["sections"]:
-            print(f"\n{section['title']}:")
-            print(section['content'])
+    os.makedirs(pdf_output_folder, exist_ok=True)
+    os.makedirs(markdown_folder, exist_ok=True)
+    os.makedirs(ideas_data_folder, exist_ok=True)
 
-        with open("ideas_summary.md", "w") as file:
+    for project_name, project_ideas in categorized_ideas.items():
+        project_file = f"{ideas_data_folder}/{project_name}_ideas.json"
+        project_pdf_file = f"{pdf_output_folder}/{project_name}_ideas_summary.pdf"
+
+        if os.path.exists(project_pdf_file):
+            logging.info(f"Summary for project {project_name} already exists. Skipping.")
+            continue
+
+        logging.info(f"\nAnalyzing ideas for project: {project_name}")
+
+        stop_event, loading_thread = start_loading_indicator("Waiting for response")
+        summary = analyzer.analyze_ideas(json.dumps(project_ideas))
+        if summary is None:
+            logging.error(f"Failed to generate summary for project: {project_name}. Exiting.")
+            sys.exit(1)
+        stop_event.set()
+        loading_thread.join()
+
+        logging.info(f"\nIdeas Summary and Analysis for project: {project_name}")
+
+        if summary:
             for section in summary["sections"]:
-                file.write(f"# {section['title']}\n\n")
-                file.write(f"{section['content']}\n\n")
-            file.write(summary["table"])
+                logging.info(f"\n{section['title']}:")
+                logging.info(section['content'])
 
-        print("\nSummary saved as ideas_summary.md")
+            project_summary_file = f"{markdown_folder}/{project_name}_ideas_summary.md"
+            with open(project_summary_file, "w") as file:
+                for section in summary["sections"]:
+                    file.write(f"# {section['title']}\n\n")
+                    file.write(f"{section['content']}\n\n")
+                file.write(summary["table"])
 
-        convert_markdown_to_pdf("ideas_summary.md", "ideas_summary.pdf")
-        print("Summary converted to ideas_summary.pdf")
-    else:
-        print("No summary generated.")
+            logging.info(f"\nSummary for project {project_name} saved as {project_summary_file}")
+
+            convert_markdown_to_pdf(project_summary_file, project_pdf_file)
+            logging.info(f"Summary for project {project_name} converted to {project_pdf_file}")
+        else:
+            logging.warning(f"No summary generated for project: {project_name}")
 

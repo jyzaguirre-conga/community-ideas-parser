@@ -1,0 +1,1298 @@
+[
+  {
+    "title": "Action buttons on the cart gets misplaced after every upgrade.",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi team,\n\u00a0\nEvery time a customer performs an upgrade, their Cart Action buttons get misaligned. Even though the sequence in the backend is correct, the UI doesn't reflect the same data. This is an intermittent issue and happens generally for custom flows in the customer org. Even if run the Custom Settings Maintenance, the issue will be still be observed. As a workaround, to resolve this, the customer needs to run the Custom Settings Maintenance for each flow individually and that too for each \"Display Type\".\n\u00a0\nThe customer has more than 15 flows in their org and it is not feasible to go through this tedious process as it is very time-consuming.\n\u00a0\nHence, we should handle this within the Product as the buttons on the UI should be aligned with the backend data after the upgrade.\n\u00a0\nNote that, the issue occurs not just for major release upgrades but even a patch upgrade.\n\u00a0\nThanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to search product with having huge amount of Component views with SOSL",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer has huge database of products in which they do a search in All products under product catalog.\nThey run with 50001 SOQL error.\nWhen \"Disable SOSL Text Search\" is enabled, they don't hit that limit however this gives more no. of products as SOSL searched all the fields and also the result is not sorted.\n\u00a0\nThey want this functionality to work without enabling this setting.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. How many products are in this price list that the error is occurring in?"
+      }
+    ]
+  },
+  {
+    "title": "Action buttons on the cart gets misplaced after every upgrade.",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi team,\n\u00a0\nEvery time a customer performs an upgrade, their Cart Action buttons get misaligned. Even though the sequence in the backend is correct, the UI doesn't reflect the same data. This is an intermittent issue and happens generally for custom flows in the customer org. Even if run the Custom Settings Maintenance, the issue will be still be observed. As a workaround, to resolve this, the customer needs to run the Custom Settings Maintenance for each flow individually and that too for each \"Display Type\".\n\u00a0\nThe customer has more than 15 flows in their org and it is not feasible to go through this tedious process as it is very time-consuming.\n\u00a0\nHence, we should handle this within the Product as the buttons on the UI should be aligned with the backend data after the upgrade.\n\u00a0\nNote that, the issue occurs not just for major release upgrades but even a patch upgrade.\n\u00a0\nThanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to search product with having huge amount of Component views with SOSL",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer has huge database of products in which they do a search in All products under product catalog.\nThey run with 50001 SOQL error.\nWhen \"Disable SOSL Text Search\" is enabled, they don't hit that limit however this gives more no. of products as SOSL searched all the fields and also the result is not sorted.\n\u00a0\nThey want this functionality to work without enabling this setting.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. How many products are in this price list that the error is occurring in?"
+      }
+    ]
+  },
+  {
+    "title": "Hiding Default View from Cart",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The custom is asking to have a capability to hide default view. As per the customer, The view is always shown and shows way too many columns, which is confusing users.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. The cart views have a way of defining a view to always be shown to customers and can be displayed instead of the default view for users.\u00a0You can find more information here:\u00a0https://documentation.conga.com/cpq/latest/salesforce/managing-cart-views-158336965.html"
+      }
+    ]
+  },
+  {
+    "title": "Ability to copy the option product number of times in a single click in cart",
+    "author": "Yash Parikh",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We are adding a bundle along with options to the cart. If we select an option from the bundle and click the \"Copy\" button, we want a feature that allows us to enter the number of times they want to copy that option. The new option line items should be created that many times, and they should be able to apply different attributes to these option line items.\n\u00a0\nCurrently, this feature is not available. Is it possible to implement this in a future release, or is there another way to achieve this?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to show products with words matching strictly with the word provided in the search.",
+    "author": "Shubh Agrawal",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi,\n\u00a0\nOur customer have following requirements with the smart search functionality:\n\u00a0\nWhen we enter a word in the search box in the catalog page, we will get products whose name are LIKE the word we entered. For example, if we seach for Standard, it will also fetch non-standard products.\n\u00a0\nAdditionaly, we know that Smart Search uses the below sources as Metadata for the search activation :\n1. Weightage fields provided in the flows\n2. Listed Products Column2 and Listed Products Column3 in the Catalog Page settings\n3. Values in Search Filter Fields picklist from Classification Hierarchy object\n\u00a0\nIf we add description in the column2/3, it will also search for the word in the product description, but removing this will remove the description from the catalog page.\n\u00a0\nCustomer wants to keep the description on the cart page but restrict the search to not go into the description as long as it is not configured in the weightage.\n\u00a0\nPlease go through this and provide your feedback.\n\u00a0\nThank you!\n\u00a0\nCustomer: Q Squared Solutions LLC",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Require new API for GEHC Renewals",
+    "author": "Jai Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The new API should enable to do the following:\nadd multiple bundles in the cartadd the default optionsprovide flexibility to add non-default optionsexecute constraint rules\n\u00a0\nThis API is critical for USCAN implementation where GE wants to use it to provide an enhanced experience to users in the renewal flow. This API will help the users save time and additional clicks by bypassing the bundle configuration page.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Jai Patel",
+        "content": "This API is required for use in Service CPQ renewal flow."
+      }
+    ]
+  },
+  {
+    "title": "Ability to add usage price tiers in the favorite configuration",
+    "author": "Shubh Agrawal",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When we set usage tiers within line items in the cart and save the configuration to favorites, the tiers are not retained. Our customers have a business requirement where they require the tiers to be saved along with the configuration when they mark it as a favorite.\n\u00a0\nCase: 00888277\n\u00a0\nCustomer: FTI Consulting, Inc.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Sort Cart page by product name",
+    "author": "Ryan Walls",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Cart page is not currently sortable and will show products by line item number. Customer LabCorp would like to have the ability to sort the cart page by product name alphabetically.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "We plan to support this in the Conga Platform in the future."
+      }
+    ]
+  },
+  {
+    "title": "Move the processing of Favorite cart configuration and Copy Product features to Turbo",
+    "author": "Sejal Shetty",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Move the Favorite cart configuration and Copy Product features processing to Turbo processing. Currently these features are processed on Salesforce due to which some of the Turbo UC customers are running into Duplicate PLN issue.\n\u00a0\nIf these features are processed on turbo, then it will prevent the Duplicate PLN issue.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Collaboration for Option Products",
+    "author": "Divya Dubey",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We observed that collaborate is not working for \u201cOption Products \u201c. However, This works fine for Bundle/Standalone Products.\nPlease help in enabling Collaborate option products is not working.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Intake Form for Cart",
+    "author": "Hardik Sheth",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Allow user to Mass import products to cart from Excel sheet. For enterprise customers they have requirements to create quotes with large number of products. For such cases adding products current process is time taking. Where they need to search each product one by one and add.\n\u00a0\nInstead if we have a button where user can import data from excel sheet, it will be very useful feature. User can enter Product Code /Product Name in the sheet along with some custom fields that can be configured by admin. This will let users quickly add number of items to the Cart.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "We will be building enhancements to cover this use case in the Conga Platform."
+      }
+    ]
+  },
+  {
+    "title": "Capability to Link Items on Cart with Each other",
+    "author": "Hardik Sheth",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently when we dont' have a capability to sell service along side with Equipment. The system supports only after sales services. Here we have to first click on Configure Service button which takes us to Asset selection. Once we select asset, system shows relevant Services.\n\u00a0\nIf we add a button on a Cart, which Performs following action.\nAllow users to select items present on Cart.When user clicks on Relate button, system will created Related lines.Run the Config / Pricing logic based on above selection.\nThis way we will be able to support service sell along with equipment. We will also reduce the number of clicks user has to perform when doing service configuration. For after sales service we can continue using Configure Service button as is.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "This is part of our roadmap for CPQ on Conga Platform."
+      }
+    ]
+  },
+  {
+    "title": "Select all Line items instead of Limited Selection in Shopping cart",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Existing Functionality Limitation: In the case of a Large Cart, If we have 50+\u00a0Line Items -> User selects the Line Items using the Select All Check Box(before the scrolls till the last item) it selects only up to 50 Line Items.\nImprovement Suggestion: To Enhance the limit of the Select All functionality to select all the line items in the Shopping cart Page in one Click.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Data Integrity check  to ensure the data is sync between Turbo and Salesforce",
+    "author": "Karthikeyan Gopu",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Data Integrity check\u00a0to ensure the data is sync between Turbo and Salesforce . Today, we have a situation in GEHC where we observed the PLI records exists in turbo even after the record been deleted in salesforce end. There is no existing mechanism to ensure the data integrity.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cumulative Rage Discount Setup Using Incentives",
+    "author": "Divya Dubey",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "One of our Customer (Align Technology, Inc.) wants to use the Cumulative Range pick-list value with one of the Rule type while setting up Promotions (Incentive record). Please help on this if this possible.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Drive related price from asset",
+    "author": "Namir Ashraf",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "At present we can only drive the related price from the cart but we have a use case to drive the price of the product based on a asset of that account.\nCan you please check if this could be possible to give as a OOB feature.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Hi Namir,we have price escalator feature for Ramp assets. User can define different price based on base price of existing ramp line of asset and can derive price for new ramp line. But such feature is not there for standaloen and bundle -option asset.Can you elaborate more on use case, steps to be followed, data structure etc."
+      }
+    ]
+  },
+  {
+    "title": "Product Complexity Score",
+    "author": "Jai Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "As part of this requirement, GEHC would like Conga to give a feature/framework which helps define complexity of a bundle w.r.t. its performance so that the product modeling team can identify which bundles need optimization and the sales users can understand that certain bundles will be slower due to their complex nature.\n\u00a0\nAs part of the modeling process, GEHC calculates the complexity score of offerings. The intention of this calculation is to help configuration management leaders and administrators understand how complex the offering is and its impact on the configuration experience for the sales representatives. For example, the expectation is that offerings with their complexity score marked \u201cComplex\u201d shall have lower performance (higher load times for the configurator) while those marked \u201cLow\u201d shall have comparatively better performance (lower load times for the configurator).\n\u00a0\nConga has shared various parameters involved in loading of the bundle on configuration page. However, GEHC has not been able to relate the computed complexity score and the configurator load times/ performance. They have seen offerings with Complexity score \u201cLow\u201d have as much or sometimes even longer load times than offerings that have been marked complex.\n\u00a0\nThis makes it difficult to understand how to define the complexity of our offerings and the potential impact to the sales users. This is also preventing us from defining a framework for identifying and measuring offering complexity. This information is critical to determine how the platform can guide our administrators to optimize the offerings.\n\u00a0\nPlease refer the attached pdf document on the parameters used and the detailed analysis done by GE so far.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to Disable the Email Notifications.",
+    "author": "Drashtiben Vora",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "As mentioned on the below documentation -\n\u00a0\nWhile you are in edit mode, if another user requests control by clicking\u00a0Request Edit Access, you are notified through an email with the message:\u00a0\u201c<<user in read-only mode>> has requested to edit the cart. Would you like to grant access?\u201d. The field\u00a0Current User\u00a0in the Product Configuration object contains the ID of the sales\u00a0rep currently accessing the cart in the edit mode. In edit mode, after you save, close, finalize, or abandon the current cart, an email notification is sent to the Sales reps who are waiting to get the edit access to the cart.\n\u00a0\nhttps://documentation.conga.com/cpq/october-23/salesforce/about-cart-locking-for-concurrent-access-239539555.html\n\u00a0\nThe customer would like to disable these email notifications when the first user saves, closes, finalizes or abandons the cart. They would like to receive emails only when they have asked for edit access by clicking on \"Request Edit Access\".\n\u00a0\nHence, requesting the ability to control these email notifications.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Constraint Rules: disable warning popup messages for client-side execution",
+    "author": "John Hammons",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When using constraint rules on client-side exeuction mode there are warning messages even when it's not configured for them. This appears on the cart line item page when there's a conflict, product exclusion, or inclusion. There's a preference for end-users to not see any error message unless it's configured for it.\n\u00a0\nWhile this was worked around in the past by using server-side execution mode, but with work moving forward only on client-side execution this would need a change of behavior.",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "getProductDetails Error : \"Remoting response size exceeded maximum of 15 MB.\" in Conga CPQ",
+    "author": "Saurav Chauhan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer has a use case where they are adding 6 bundle products over the cart and for those bundle products around 5.5 K option product components are getting added over the cart.\n\u00a0\nWhen we refresh the page manually or here in case it is redirected to the cart from their custom page, in first getProductDetails() it is going to fetch option component products and there it is getting around 5.5K records and that call itself is failing with the getProductDetails Error : \"Remoting response size exceeded maximum of 15 MB.\".",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "getProductDetails Error : \"Remoting response size exceeded maximum of 15 MB.\" in Conga CPQ",
+    "author": "Saurav Chauhan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer has a use case where they are adding 6 bundle products over the cart and for those bundle products around 5.5 K option product components are getting added over the cart.\n\u00a0\nWhen we refresh the page manually or here in case it is redirected to the cart from their custom page, in first getProductDetails() it is going to fetch option component products and there it is getting around 5.5K records and that call itself is failing with the getProductDetails Error : \"Remoting response size exceeded maximum of 15 MB.\".",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Product Versioning Functionality",
+    "author": "Bhaumik Mehta",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer is looking for a Product versioning functionality. The reason for the same is they have a very complex bundles available and if they would like to apply the changes, they can create a new version and apply the same instead of updating the existing Bundle. Once the changes works, they can use the new version by activating the same. The similar features are available in their existing system and hence they are asking for this feature.\nThis is also helpful when they would like the publish an updated version in the next quarter. Currently as there is only 1 active version, they are unable to manage the same.\n\u00a0\nExample provided by customer: \n(1) Revert back to that bundle if there are any issues such as accidentally deleting rules or records or if we changed a constraint rule or default quantity how do we go back to a stable version for configuration purposes\n(2) Version control is not available for the bundles to roll back to if released changes to production introduces more bugs or does not resolve a bug fix, etc.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin : Product code in Structure Tab",
+    "author": "Bhaumik Mehta",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "HItachi Vanatara users are creating Bundle Products using CPQ Admin UI. They have large number of Options (3-4k Options) to be added as part of the bundle. Currently on the CPQ Adin UI, we are able to see only product Name in the Structure Tab.\nThey are looking for an option to Display Product Code also along with Product name using which they can easily find Option if they would like to apply any changes in the structure.\nEven when they select any Option Group, they are not able to see the Product Code. Refer attached screen shots.\n\u00a0\nThey are requesting Product Code to be made available on the CPQ Admin UI int he Structure tab so that they can easily search the Option and this should help from usability point of view.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin - Product Group Creation - Filter by Bundle",
+    "author": "Bhaumik Mehta",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customers are using CPQ admin for the Product Modeling. They have a very huge bundles with 3-5k Options inside that.\n\u00a0\nWhen they want to create Rule with the Product group, they need to create the Product Group. While creating Product Group, they are able to see all the skus in the left Panel and its becoming difficult for users to find and all product in the Product group as they have more than 200k skus.\n\u00a0\nThe ask from the end users is if there is a filtration criteria available based on the Bundle Product then they would be able to see only the Option products which are part of that Bundle and they can quickly find the required Products to add it as part of the Product group.\n\u00a0\nSo when user goes to create Product group, if they have an option to Select bundle, then it would reduce the number of options visible.\nAlso there is an ask about adding Product Code in the Left panel where Products are visible as many products will have similar type of name with just few different words. Hence it gives flexibility to search the Product based on product Code.\n\u00a0\nTheir existing tool has this capability and hence they are looking for this capability in the new tool as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Disable warning message on Finalize in cart when an inclusion rule has been triggered",
+    "author": "Jesse Hoffart",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When an inclusion rule (Action Disposition = Warning) on a bundle is triggered the warning message displays when configuring the product, but also triggers a pop-up on the Finalize action in the cart. This gives the impression there is an additional matter that requires tending to. An OOB solution to disable this pop-up could help reduce confusion for users.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Delete Line Item from the Favorite Configuration",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi team,\n\u00a0\nAs per the current product design, we don't have any provision to delete the existing Line Items from Favorite Configuration. We can add new Line Items however, there is no way to delete the existing ones. So, because of this, we need to delete the entire Favorite record and this increases the overhead. So, there should be an option to remove the Line Item from the Favorite Configuration. The customer has raised this primarily for the Digital Commerce cart however, the same behavior is observed in the CPQ cart as well.\n\u00a0\nSo, can we add the feature of removing the Items from the Favorite Configuration in future releases for both CPQ as well as Digital Commerce?\n\u00a0\nThanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Favorites Configuration : Ability to update existing favorite configuration",
+    "author": "Hardik Shah",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Use-case : Customer is using Conga's favourite configuration to add same products in the cart. However during lifecycle of Products, some products gets sunset (not used) and new products are launched.\nThere is no capability in the product to update existing favorite configuration.\n\u00a0\nAsk : Admin should be able to update products in existing configuration with ease. As of now, they have to delete the products from backend and call Conga API to add new products. (this may cause issue with data integrity, also cannot be maintained by Sales-ops/Administrators)",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Total level discount should be spreaded only on options",
+    "author": "Divya Dubey",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Business Requirement: Bundle product's pricing (especially Net Price) should be zero when we configure any bundle-options. Pricing should be derived based on option's price. It's been already setup/achieved.\n\u00a0\nEnhancement Needed: Considering above requirement, when we apply adjustment at the summary group level, adjustment should be applied only on the option level, bundle product's pricing (especially Net Price) should be zero.\n\u00a0\nAs per OOTB functionality, when we disable \"Price include in bundle\" checkbox on PLI at option level, it allows the adjustment to applicable at the option Line items on cart but in this case the net price will be shown on bundle level. So, original business requirement is not getting met.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "The net price of the bundle is the sum of the bundle as well as the options. If you want the bundle net price to be zero and not include the option prices, you need to use different charge type for the options.We are building some capabilities around option price rollup through the price waterfall capability on Conga Platform. It will be coming out in the June Release. We do not plan any other enhancement.If you have any questions, please reach out to us."
+      }
+    ]
+  },
+  {
+    "title": "Those cart line items should be highlighted in the cart wherever the constraint rule is applicable",
+    "author": "Divya Dubey",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "There is a requirement from our customer that on whichever cart line items constraint rules are applicable , those should be highlighted in the cart .\nSo that the end user could get the idea that some rule is applied on the particular line items.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Digital Commerce || Add Favorite Items from the Catalog Page",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently, if we try to add the favorite from the Catalog Page it doesn't work as expected. If we change any field, for eg Quantity for the Product and add it to the Favorite from Catalog Page, it won't give the desired results. The Product would be added with the default setup and it won't have the changes that were made on the Catalog Page. If we try the same from the Cart Page, this would work fine. However, here the expectation is that the correct data should be reflected in the Favorite Configuration when we add the Product from the Catalog Page as well.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Make System Properties flow based.",
+    "author": "Shahid Ali",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer have different business unit with different complexity and different requirements. However, most of the important settings are defined at system level in 'System Properties' and only limited settings are supported at flow level (e.g. CSS). Even for services CPQ, most of the settings are decided at config system properties.\n\u00a0\nThe ask is that all/most of the settings should be supported at flow level line pricing batch size, cart line item update chunk size etc. Only the settings which are truly system level like URL should be defined at system level.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Hardik Shah",
+        "content": "This is much needed feature, not sure why it is rejected."
+      }
+    ]
+  },
+  {
+    "title": "Support of Replacement Constraint Rules for New Sales.",
+    "author": "Akshay Vaibhav",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Current Process:\nReplacement Constraint Rules are supported only for ABO Carts.\n\u00a0\nCustomer Use Case:\nThey have created Replacement Constraint rule to fulfill the replacement story. They created Prompt constraint rule because other types of replacement constraint rule was not working in DC. When RFQ has been created without replacing the product from DC and cart was opened in salesforce, Replacement CR still fires and if we neglect the pop up of Replacement CR, that pop up never opens again and message (X\u00a0products should be replace by Y) until we manually replace in the cart. \n\u00a0\nDocumentation Link:\nhttps://documentation.conga.com/cpq/june-23/salesforce/managing-constraint-rules-247532601.html",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Hiding the option charge type row from cart user facing the performance issue",
+    "author": "Divya Dubey",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When Hiding the option charge line item from the cart using the custom flow\n\u00a0\nFlow setting: if (Is option_rollupline_item == true)\nset Is_hidden=true\n\u00a0\nThe line item was getting hidden from cart but in the backend on each reprice it was duplicating the concerned line item on each reprice.\n\u00a0\nThere is a request to provide an OOTB setting to achieve this use case.\nKindly review the same .",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ: Installed Products page loses refrence of assets added over the cart page.",
+    "author": "Harshit Solanki",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello Product Tm,\nCustomer: Gartner\n\u00a0\nGartner has a use case where they are using custom VF page to filter the assets in the install products page. When they are trying to do so with a saved configuration the assets are losing context in the install products page but are still present in the cart. This is causing duplication of asset selection.\n\u00a0\nHere is the summary of what is happening.\n-> They have 2 buttons on Installed Products page.\nView All AssetsView Agreement Assets\nHere when they first go to Installed Products page only Agreement assets will be visible.\n\u00a0\nAfter this the user clicks on the View All Assets and it will use a custom VF page where it will call the same Installed Products URL but with Different URL parameters to filter the assets.\nHere due to this the page is getting refreshed and the refrences of the Assets over the installed products page are getting lost even if they are already added to the cart on a Saved cart.\n\u00a0\nThis is happening as refresh of the page due to the same URL being called with different URL which inturn changes the Cart Context.\n\u00a0\nJIRA: https://conga.atlassian.net/browse/CPQ-79743\n\u00a0\nPlease consider this as an enhancement.",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Need Audit/history tracking for cart objects on Conga Platform",
+    "author": "Harsh Shah",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "HV needs field tracking/Audit feature for Transactional cart objects such as Product Configuration, Line Item where they can track the changes done on fields along with the user that performed the change. \nThey are requesting a similar feature of Salesforce Field Tracking where admin can select the fields for tracking history.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enhance the intuitiveness of the navigation arrow to the Total Screen.",
+    "author": "Akshay Vaibhav",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Current Capability:\n\nCurrently it is difficult for a user who is not accustomed to the system to understand the functioning of the button and what purpose it solves.\n\u00a0\n\u00a0\nTo be Capability:\nMake the navigation button more intuitive for a user so that they can navigate to the \u201cTotal Screen\u201d without any external support.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need solution to perform external third party API callout(which updates data in SFDC) when using Out of the box Copy action in Turbo enabled shopping cart.",
+    "author": "Mohit Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Use case : When user does copy operation in the shopping cart, Externally configured (through third party configurators) items needs to be copied into configurator. For that, configurator provided Silent copy API. This API will create copy of the line-item inside the configurator and run validation to update latest configuration and pricing and then saves all the data back to SFDC Line item & related child object using REST API exposed on SFDC side.\n\u00a0\nCurrent Solution: \nWe are using OOB Copy action button inside shopping cart.We are using OOB beforeCopyBundleLineItems method of Action callback class to populate two custom fields (Is copied from & Copy Is In Progress)OOB copy operation will create new line item and will copy all the fields from previous/copied from Line item to new line item.Turbo Pricing will get execute for new line item.In TP callback\u2019s onPriceItemSet method we invoke third party configurator API (silentCopy) to get the item copied into configurator.Configurator will create the item and validate the configuration & pricing \u00a0and at last will save back all the data on SFDC via REST API exposed on SFDC.Configurator will send back the response to TP callback silentCopy API call.Pricing will continue and post completion, Line item data saved back to shopping cart as part of OOB Turbo sync.\n\u00a0\nProblems in current architecture :\nConfigurator updates back the Line-item data on SFDC while price call is in progress on the Turbo side.Now SFDC line-item has updated data(price fields) but turbo still has old line-item data, so we will be ending up with incorrect prices and configuration in the shopping cart. Moreover, Turbo sync will overwrite the Line item data and possibility of loosing data saved back by the configurator.Reason behind using TP callback to invoke silentCopy API was the absence of any pre-price hook or unavailability of afterCopy function on SFDC side. Also, we can\u2019t use Line item trigger since external callout from trigger will not be supported.Sometimes configurators takes more than 30 seconds to respond back since copy/validation is complex operation so we might face Turbo time out issues. Though we can mitigate this issue by increasing Turbo time out value.\n\u00a0\nCurrent Architecture Diagram",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Mohit Patel",
+        "content": "Adding the Recording Link of the discussion with Product team (Laxmi, Kedar, Pravin, Nirav, Mohan) - Discussion with Product team Recording URL"
+      }
+    ]
+  },
+  {
+    "title": "REQUIREMENT - INCREASE THE COUPON LIMIT AND GENERATION OF COUPON CODE",
+    "author": "Akshita Koul",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello Team,\n\u00a0\nENI has below 2 requirements:\n\u00a0\nThe field \u201cApttus_Config2__CouponLimit__c\u201d on the sObject \"Apttus_Config2__IncentiveCoupon__c\" have a numeric limit of 999 since the field length is of three digits maximum, for their business this value is not sufficient and the number of digits needs to be increased. They cannot keep this blank as it leads to infinite usage .We can generate maximum 500 coupon codes for each incentive, their Business requires to extend this limit beyond 500 records per-Incentive.\nCan you please check this and take this as an Enhancement.\n\u00a0\nRegards,\nAkshita Koul",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Nirav Dave",
+        "content": "Regarding the second point (limit of 500 coupons generated per incentive), we report that coupons are correctly generated even beyond 500, but these are not shown in the incentive front end\n[Nirav] - Could you please raise a bug regarding this, so our Engg team can have a look into?\u00a0\nIn Addition to that, Customer has:\n1) They should have the possibility to digit 6 numbers (for example: 999.999) in the field \"Apttus_Config2__CouponLimit__c\",\n2) They should have the possibility to generate 999.999 coupon codes for each incentive.\n[Nirav] - Request you to share some business use cases where a single Incentive requires 999999 Coupon codes. Also, it will be helpful if we can have a use case where the limit is also required as 999999 for each coupon.Like"
+      },
+      {
+        "commenter": "De Nicola Gianluca",
+        "content": "Regarding the second point (limit of 500 coupons generated per incentive), we report that coupons are correctly generated even beyond 500, but these are not shown in the incentive front end"
+      },
+      {
+        "commenter": "Akshita Koul",
+        "content": "Hello Team,In Addition to that,  Customer has:1) They should have the possibility to digit 6 numbers (for example: 999.999) in the field \"Apttus_Config2__CouponLimit__c\",2) They should have the possibility to generate 999.999 coupon codes for each incentive."
+      }
+    ]
+  },
+  {
+    "title": "Need an option to clone a line from one cart to another cart just like classic in platform",
+    "author": "Sandip Kumar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In Roche, we have two types of products:\n1.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Instruments, PPX for which assets are getting created.\na.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Flow - Quote -> Agreement -> Order -> Asset.\n2.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Test materials for which assets are not created.\na.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Flow - Quote -> Agreement.\n\u00a0\nWhen we do amendment, we use agreement as a source of truth:\n1.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If Agreement line was converted to asset, we are using ChangeAsset operation to add them to amendment quote.\n2.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Otherwise, we clone the cart line item associated with agreement line item to amendment quote. This is done using clone API provided by the product.\n\u00a0\nWe are planning to move to platform for CPQ not for other areas as platform doesn\u2019t have UI for CLM.\nIt will be good to have agreement cart line item available in platform from SalesForce and also, we would like an option to copy a line from one cart to another cart. Below is an example from classic where we can copy a line from agreement cart to quote cart.\nApttus_Config2.CPQWebService.clonePrimaryItemColl(SourceCartId, LineNumber, TargetCartId)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Combined Progress Bar in Shopping Cart",
+    "author": "Sumitha Porchezhian",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In the Conga shopping cart\n1. We have the progress bar that comes up in the shopping cart while doing any operation like recalculating the price, configuring the price, adding product etc\n\u00a0\n2.Once the progress bar gets completed, there is another spinner for turbo synch that runs in the background\n\u00a0\nBusiness ask is that any operation inside the conga shopping cart will be presented with one progress bar combined from Conga as many times its very confusing for business which might lead to other errors as well. Once that Progress bar gets completed we assume all operations are completed from Conga\n\u00a0\nAs per the call discussion with Congo Team we are submitting the idea in this portal.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Suraj Baviskar",
+        "content": "Thanks for submitting the idea.\u00a0The logic behind implementing two progress bars is as below:- The first progress bar describes the Pricing progress, i.e. if it is completed, then the user will be able to know that Pricing is finished and then the user can keep working on Cart without waiting for the Sync to complete.- The spinner for Sync is mainly used to describe that the Sync with Turbo Engine is still in progress and the user can keep working on cart without wait."
+      }
+    ]
+  },
+  {
+    "title": "Local Currency Conversion",
+    "author": "Rekha Jangir",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currency Conversion by storing prices in native currencies.\nAs per the business\u00a0we have seen within the AMESA team, businesses use local currency to manage the prices and if there is a need to price in different currencies then they use currency exchange rates.\u00a0Also, these exchange rates keep changing every month. Now conga only supports having prices stored in a single global currency and based on different currencies, conga will handle the conversion. If we go with this supported way then we have to update all the prices every month as after conversion original rate will be affected. So we need to know a way within Conga by which we can our price in the local currencies.\n\u00a0\nSample Example\n\u00a0\nProduct Price (CHF): 1000\nCFH to USD Conversion Rate: 0.9\ni.e Product Price (USD): 900\nNext Month CFH to USD Conversion Rate: 0.91\ni.e Product Price (USD): 910\n\u00a0\nNow if we store Product Prices in USD then\nProduct Price (USD): 900\nCFH to USD Conversion Rate: 0.9\nProduct Price (CHF): 1000\nNext Month CFH to USD Conversion Rate: 0.91\nProduct Price (CHF):\u00a0989.01",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support for cost matrices.",
+    "author": "Mandeep Toor",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Support for cost matrices similar to price matrices to calculate cost and populate on line items.",
+    "votes": "16 Votes",
+    "comments": [
+      {
+        "commenter": "Eashwaran Pallipuram",
+        "content": "Majority of manufacturing customers require a way to set cost for a product in the cart to calculate the profit margin and the setup requires ability to calculate the cost based on a dimension."
+      },
+      {
+        "commenter": "Sachin Behl",
+        "content": "Many customers request for Cost Matrix along with a Pricing Matrix"
+      }
+    ]
+  },
+  {
+    "title": "Apttus_Config2.CallbackTester.testValidationCallback() API/method is not working when we implement validation callback class with \"IValidationCallback3\" interface.",
+    "author": "Harshit Solanki",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer: IQVIA\n\u00a0\nRequest from them:\n->They had their test class implemented with Apttus_Config2.CallbackTester.testValidationCallback(Id cartId, List\u00a0rampLineItems, List\u00a0assetItems, Apttus_Config2.CustomClass.IValidationCallback2 valCallback) API/method. Here their callback class was having interface as \"IValidationCallback2\". After a recent bug raised by IQVIA<https://conga.atlassian.net/browse/CPQ-69292> we provided the fix to those issues in \"IValidationCallback3\" interface.\n\u00a0\nRefer: https://documentation.conga.com/cpq/october-23/salesforce/validation-callback-class-208507565.html\nLine: \"To use the Validation Callback you must create a custom Apex class that implements the\u00a0Apttus_Config2.CustomClass.IValidationCallback3\u00a0interface and register the custom apex class with Validation Callback Class. You must write your custom logic in the custom apex class.\"\n\u00a0\nAfter this fix the Apttus_Config2.CallbackTester.testValidationCallback(Id cartId, List\u00a0rampLineItems, List\u00a0assetItems, Apttus_Config2.CustomClass.IValidationCallback2 valCallback) method/API is not working and they are getting below error:\n\u00a0\nError: Method does not exist or signature is not valid.\n\u00a0\nHere the API/method is only working with \"IValidationCallback2\" and not with \"IValidationCallback3\".\n\u00a0\nPlease consider this idea and implement the Apttus_Config2.CallbackTester.testValidationCallback(Id cartId, List\u00a0rampLineItems, List\u00a0assetItems, Apttus_Config2.CustomClass.IValidationCallback2 valCallback) with \"IValidationCallback3\".\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to pass 'Cotermination Preferences During Renewal' as a parameter for On-Demand renewals",
+    "author": "Eashwaran Pallipuram",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In CPQ when we renew assets manually, the system provides the ability to choose a 'Cotermination Preference' which consists for 4 values\nUse Proposal/Agreement End DateRetain Current Asset End DateUse the Farthest Asset End DateEnter Renewal Date\nWe need a similar flexibility when renewing assets using On-Demand renewal process. Since the cotermination option 'Use Proposal/Agreement End Date' is not applicable for On-Demand renewals, we should be able to call on-demand renewals with one of the other 3 cotermination options as parameter. Sending no value for this parameter should be treated as 'Retain Current Asset End Date'",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Character Limits [255] for Custom Pricing Fields in Config System Properties.",
+    "author": "Hardik Shah",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer (Mid-Enterprise CPQ) will be reaching limits (PFA) soon [only 255 characters are allowed], while the short-term solution is to reduce API characters, customer is really concerned about scalability of Custom Pricing fields custom settings, particularly when they are planning to rollout Conga CPQ in other divisions/regions\n\u00a0\nPlease note, majority of customer's use-case requires changing fields on cart that affects pricing or evaluating pricing/quantity calculations, which requires complex expression (attached are some of the examples, where Product/support recommended to add field in settings - \u00a0https://conga.atlassian.net/browse/CPQ-69865)\n\u00a0\nDo we have any plans to increase the limits?, as other customers might have/or will face the same challenges.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Group the products in mini cart using a custom field",
+    "author": "Honey Lalwani",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently, we have a feature where we can display a custom field value in the mini-cart at the bottom of each product; however, in a case where a field has the same value for multiple products, it will display the field value separately for each product creating a lengthy, redundant, and incomprehensible view for the users. Thus it will be a good addition if the user can group those products based on a custom field resulting in a design that will be compact, concise, and comprehensible.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Shopping cart column visibility through permission sets",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently, if a system admin needs to show or hide a field on the shopping cart, they need to add the field to the cart flow\u00e0display column settings and then set up the configure products button to launch the appropriate flow when the user opens the cart.\n\u00a0\nIn case there\u2019s a field that the admin wants to show to a specific set of users (for example, Sales Reps in the US) and hide it from another set of users (for example, Sales reps in Germany) then the admin would need to configure two separate flows and setup them to be used by sales rep of respective countries. The same would need to be done if different users from different countries wish to see different fields on the cart.\n\u00a0\nIn cases where a single org is being utilised by multiple countries (in the case of Roche 50+), its not scalable to create and manage more than 50 views to control the visibility of the fields on the shopping cart.\nWe need a capability to hide/show fields based on permission sets since they are much easier to maintain and set up.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Record filtering capabilities for admin while configuring a view",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When the user is present in the shopping cart, Conga CPQ provides a capability to create new views or apply filters to the views to see only specific records on the cart.\u00a0\n\u00a0\n\n\u00a0\nWhen the admin is setting up the views, and the use case is to create a view to show a specific type of lines than its not possible to setup filters from the admin screen\n\u00a0\n\n\u00a0\nCustomer needs this capability to publish views with preconfigured filters for their users. It significantly enhances cart page experience",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Highlight text for editable fields cart page on user click",
+    "author": "Hardik Sheth",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently we allow users to update fields of line item directly from Cart page. For example Quantity which is OOTB field. When user wants to edit the quantity , first user needs to select existing data, delete it and then enter new data. We can reduce this extra steps if we select the inputs as soon as user clicks on editable field. This is one of the widely used features now a days to reduce number of clicks.\n\u00a0\n\u00a0\n\n\u00a0\nWe can make this feature configurable by adding a field on Config Display Columns custom settings. If the flag is set then system will auto select the entered data as soon as user clicks on the text box.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Automate refresh process for Product Offerings, Product Family and Product Group Member data",
+    "author": "Hardik Sheth",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "With Feb23 Turbo release (TC +TP), we are required to call refresh APIs for Product Offering, Product Family manually whenever we are doing master data changes with Product. This is in addition to the requirement of Turbo Sync and Publish. These manual steps impacts stability of the system.\n\u00a0\nWe should ensure that with Turbo sync we take care of required updates of Product offering and Product Family into Turbo Config engine, which removes manual requirement of refresh.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "We will look into adding this feature in the near term"
+      }
+    ]
+  },
+  {
+    "title": "Add Purchase Identifier field on the Line Item Object",
+    "author": "Swapnil Devlekar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We have an OOTB field 'Purchase Identifier' on Proposal Line > Agreement Line > Order Line > Asset Line but not on the Line Item object. At Roche, we are using this field to store instrument serial numbers. Since the field doesn't exist on the line item object during the Amendment the amendment quote doesn't carry over the serial number. If Product can provide this field then we don't need to customize and change the existing integrations",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We have frozen the cart line item data model because some customers have added a ton of fields which is getting close to the limit. We do however store the purchase id internally and copy it to the OLI, ALI etc.The internal purchase id maybe exposed via an Api. Also on Cart line item value of \u00a0Purchase Identifier value can be fetched using formula field."
+      },
+      {
+        "commenter": "Stefan Schroeder",
+        "content": "@Laxmi Agarwal: Is there any update on this topic? Why is the status saying \"Will not implement\"?"
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will discuss this use case with team and get back to you. If we don't see any technical hurdle then we will try to provide it after Feb'24 release."
+      }
+    ]
+  },
+  {
+    "title": "Add new Order Header - Total Discount and Total Discount %",
+    "author": "Laura Martin",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Order Header new fields: Total Discount and Total Discount %\n\u00a0\nTotal Discount = Total List Price minus total Net Price (which can be seen as Order Amount in the order header).\n\u00a0\nTotal Discount % = the % value of the 'Total Discount' value compared to the total List Price.",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Platform Enhancement: Ability to change owner of a record with one click (with an 'assign to me' kind of button)",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently in SFDC when we want to change the owner of a record, we have to follow these steps:\nClick on the change button.Opens a popup where you need to search for a userSelect the user and then click OK.Then the record is assigned to you.\nThis is SFDC behavior and unlikely that it will change. But Hitachi Energy is one of the early adopter for platform and is enquiring that at least in platform it should be possible to have an 'assign to me' sort of button that we have in many other applications (jira for example). Basically expectation is to have easier way to re-assign the record owner.\n\u00a0\nUse Case: In the functionality for collaboration, this is needed often. Because process wise the collaboration request is assigned to a queue first. Then someone from the queue who wants to work on it will assign the ownership to himself. Hence the ability to assign the collaboration request ownership to oneself is needed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Collaboration: Ability to give validation message on the collaboration dialog box",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently when we try to create a collaboration request, we click on the collaboration icon which opens a dialog box for collaboration creation. Our customer currently requires that for one the date fields in this dialog box, there should be some restriction on what dates can be entered. There is currently no way to display a validation message on this dialog box itself. We have written a validation rule on the date field, but the validation message is shown on the cart screen, not on the collaboration dialog box.\nCan you add somehow a way to display a validation message on this collaboration dialog box itself? Pls see image attached.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need for using PrestoAppId when not doing costing calls (Hitachi Energy)",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In a nutshell, the issue is that we are looking send the value of a custom field on the line item to the turbo, but that is currently not happening unless we use the presto app id in the cart url. Can you please help in creating a product jira for the same?\nMore information below. This is for Hitachi Energy.\n\u00a0\nFor the TS ticket (00864899), the issue was that a custom field APTS_ABB_Source_Location__c was not getting passed to turbo when we add a product to the cart.\n\u00a0\nWe got the resolution that we should have this parameter i.e. prestoAppId in the cart URL. When we have this parameter i.e. prestoAppId in URL, then the system makes a call for callPrestoForCart action and subsequently the system calls getCartLineItems. In getCartLineItems, we get updated value in APTS_ABB_Source_Location__c, hence that value is getting passed in Web Socket calls successfully.\n\u00a0\nWhen we do not pass prestoAppId in the cart url, the system doesn't call callPrestoForCart and getCartLineItems explicitly, hence when we land on cart, the system doesn't get an updated value in APTS_ABB_Source_Location__c. This causes the aforementioned issue, as we are currently not passing the prestoAppId in the cart url.\n\u00a0\nFrom a UAT unblocking perspective this resolution sounds good, but our recommendation is that the above solution is only a temporary workaround. Because the presto app id is supposed to be passed on only for cost related calculations, hence it should not be needed to be passed on the cart when we are not doing any pricing calls.\n\u00a0\nThis requires a product fix such that it should be possible to send the value of a custom field on the line item to the turbo without using the presto app id in the cart url. Can you please help in creating a product jira for the same?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ - Price Rule object's Rule Type field does not have the 'Condition' value when the Application Level = 'Bundle'<Only using SF UI to create the Price Rule Record and not  Conga CPQ Admin>",
+    "author": "Harshit Solanki",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello Product Tm,\nI am raising this request so that on the Price Rule Edit page<Apttus_Config2__PriceRule> we can add the 'Condition' picklist value when the Application Level on the Price Rule Set is set to \"Bundle\".\n\u00a0\nPlease have the \"Condition\" value added on this page when the Application level is \"Bundle\".\n\u00a0\nIf we perform this using the Conga CPQ Admin UI the same is not happening it is allowing the \"Condition\" Rule Type when the Application Level is set to \"Bundle\".\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Bundle configuration page shows all the prices of Option product",
+    "author": "Pavan Kumar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "If an option product has multiple charge types associated under specific price list, System would show all the prices accordingly on the Bundle configuration page even after the Price list item is resolved for the option product. However, the expectation is to show only one price which is qualified and attached to the line item.\nAttached the screenshot for reference.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. We will analyze this and determine if this change is possible without seeing a hit in page and data rendering"
+      }
+    ]
+  },
+  {
+    "title": "Ability to use custom logic in Product filter callback to filter Categories just like products",
+    "author": "Priyanka Thakkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently the Product filter callback does not support ability to filter categories.\nAlso the OOB product filter has limited ability to filter caltalog since only one filter is executed for one cart and the filter criteria does not provide much flexibilty.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Avoid execution of Asset LineItem Filter Call Back class on catalog page",
+    "author": "Yogeshkumar Bhimasibhai Kachhot",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When we land on catalog page after clicking on \"catalog product\" button from cart. And we search for any product, Product Filter call back class only should be executed as expected. Currently Asset Filter call back class is also getting executed which is causing issues like \"so many soql rows exceeded\" if we use any custom object on call back classes.\n\u00a0\nIf we avoid execution of Asset LineItem CallBack Class on catalog page then such issues can be overcome.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea, we will review this request and see what we can and cannot do in the scope of our roadmap"
+      },
+      {
+        "commenter": "Govind Dubey",
+        "content": "This way we will be able to support few complex customization within asset filter callback. Currently with complex logic of assetfiltercallback whenever we go to cart from installed product screen it is giving issue of SOQL exceed. With separate transaction we will be able to support such use cases. So it is much needed change."
+      }
+    ]
+  },
+  {
+    "title": "Line status of a cancelled asset on cart",
+    "author": "Saurabh Pancholi",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi Team,\nWhenever a asset is by mistake cancelled on cart . We cannot re add that asset on the same cart with renewed status even if we delete the cart line.\nWe need to abandon the cart and readd the asset .We should have an option to readd the asset if the cart line is deleted.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Send Proposal - Insert User Email to CC field",
+    "author": "Chetan Nawale",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Send Proposal - Insert User Email to CC field\nDisplay and Auto-populate the \u2018CC\u2019 field with the Sender\u2019s email address on the Proposal email template.\nOnly for particular record type.\ncase number reference : 00851407",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga CPQ - Ability to directly edit line sequence and item sequence from cart",
+    "author": "John Hammons",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently in carts we can change the line sequence by dragging and dropping. This doesn't work in a specific customer use-case as we build larger carts (100+ line items) it becomes less feasible to scroll through the cart page. Instead the customer would like to be able to directly edit the Line Sequence on the cart to change the location of a bundle or standalone product and have the cart reconfigure appropriately (moving the other line items accordingly).\n\u00a0\nSimilarly, we are able to enforce item sequence for bundle options, or we have the option Item Sequences ordered by end-user selection. The customer would prefer for end-users not to have to rebuild the bundle if they want to re-order the Item Sequence; if we could instead re-order directly from the cart page and re-price to enforce the re-ordering that'd be preferable.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. We understand the painpoint for resequencing with large carts. We'll look into this for our future roadmap as we update our existing cart functionality"
+      }
+    ]
+  },
+  {
+    "title": "Running the Custom Settings Maintenance for all the flows doesn't update the data",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "After the CPQ upgrade, we need to run the Maintenance jobs for all the required components including Custom Settings Maintenance. For Custom Settings, we run the maintenance for all the flows that should ideally update the data. However, it is observed that if we select the option \"All\" and run the maintenance, the data doesn't get updated properly. Afterwards, we need to run the maintenance for the Individual flow which then brings the data in sync. So, if there is an option to run the maintenance for all the flows then the system should be updating the data there itself. There shouldn't be a need to run the Custom Settings Maintenance for all the flows individually again unless and until there is any change made on any individual flow.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to add fields on error message from TP server",
+    "author": "Ram Gopal T",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When we have an inactive product on the cart with pricing mode as Turbo, currently we get a message \"Product not found:<Product ID>\". This message is confusing to users as many users do not understand product ID. We need the ability to add a custom field along with the ID using either a custom setting or custom label so that the field referred on the custom setting or label is also displayed on the error message along with the ID and the end users would be able to understand the same.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin tab not working in Lightning when Clickjack Protection is enabled",
+    "author": "Tirthak Kothari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Under Session Settings, we have a field \"Enable clickjack protection for customer Visualforce pages with headers disabled\". If this field is TRUE, we are not able to access the CPQ Admin console in Lightning. We need to disable this flag to access the CPQ Admin console. There should be some provision such that even with this flag enabled, we should be able to access the CPQ Admin Console.\n\u00a0\nWe get the below error when trying to open the CPQ Admin Console in Lightning.\n\u00a0\n\n\u00a0\nNote that the Clickjack protection causes issues only when we try to access CPQ Admin using Lightning. We won't face any issues in Classic View even with the Clickjack Protection enabled.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. Clickjack support for CPQ Admin in Lightning has been added to the June 2023, October 2023, and February 2024 release"
+      }
+    ]
+  },
+  {
+    "title": "Viewing Rich Text Fields on the Cart UI",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "This is an ask from a customer.\n\u00a0\nThe customer needs to show Rich text to their Sales rep on the cart UI (for example, the Brand Name suggested by the marketing team for a specific product).\n\u00a0\nFor displaying it on the documentation generated via composer, we have a way to display it by rendering the field as HTML, but there is nothing to display it on the cart.",
+    "votes": "17 Votes",
+    "comments": []
+  },
+  {
+    "title": "CPQ - Expired Price List Items do not show in Catalog",
+    "author": "Jared Seefried",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently, when a product is designated as an active product but carries an expiration date on the Product Line Item (PLI), there is a request to automatically excluded from the catalog as a selectable product. This adjustment is necessary to prevent user confusion regarding the product's availability on the price list.\n\u00a0\nPresently, the system allows users to add such products into their carts. However, during repricing, the system indicates there are pending changes on the line item, prompting users to click the wrench and configure these changes. Subsequently, users might click on the configuration icon and find no modifications are required. This situation leads to unnecessary confusion and requires additional troubleshooting resources to find why an available catalog product is \"not working\".\n\u00a0\nTo enhance user experience and streamline the process, it is suggested that the system dynamically manages expiration dates for active products. This automation would eliminate the need for users to manually assess product availability and avoid unnecessary confusion caused by pending changes that do not require configuration.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Bill of Material (BOM) display inside the shopping cart",
+    "author": "Mohit Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Use case : Products being configured into external configurators have Bill of material-BOM (sub items/break-ups).\nWe want to show this BOM into shopping cart for each line items. Expand/Collapse type of behavior is expected since user wants to see BOM into shopping cart itself without redirecting/navigating to other window/page.This BOM will be displayed as read-only data in the shopping cart.BOM Items can have separate set of fields(column header) to be displayed compared to main/header line item.Currently, Configurators will roll up the prices, cost information into mail/header line item so shopping cart need not to roll-up, but in future might we need to roll-up the price, cost information from BOM items into main/header items.There can be ~80-100 BOM items per line item.There can be more than one BOM per line items e.g. Sales BOM, Cost BOM, Configuration BOM etc.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. This is a rather large one with multiple parts and we'll have to review each one to see which ones match our plans for the future enhancements around the cart"
+      }
+    ]
+  },
+  {
+    "title": "Hide 'Refine your Search' section from product catalogue page for specific flow",
+    "author": "Chetan Nawale",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hide 'Refine your Search' section from product catalogue page for specific flow",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Can we get some information as to why you would want to hide the search filters for a specific flow?"
+      }
+    ]
+  },
+  {
+    "title": "Installed Products Page - Ability to pre-sort the asset list by fields other than created date",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello, currently when we launch the installed products page to see all the assets for that account, the list is pre-sorted by the order of created date. Currently in Philips Healthcare we are using Service CPQ and as part of the flow we create asset line items in a custom logic from the cart line items.\nWhen we go to the installed products page, all these assets are listed in the order of their createddate in descending order.\nIssue - Equipment bundles in Philips also have some times sub bundles, and if a parent bundle has a child bundle configured inside it, then we have to show the parent bundle asset and child bundle asset separately. This is achieved using a custom code.\nRequirement is that when the assets are listed, we want to see the parent bundle asset line item record first and then below it the child bundle asset record. Currently this is not happening. It is by default listing the assets always by created date, which can be misleading. Please see the attached images.\nRequirement: Give ability to use custom sorting in the asset filter callback so that above use case can be satisfied.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Swapnil Bhandarkar",
+        "content": "Hi @Laxmi, Philips is looking for the sorting capability. And I think its a really good use case. Please do consider to fix it sooner."
+      },
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "This is a good use case, we will consider it on future release."
+      }
+    ]
+  },
+  {
+    "title": "Ability to Drag and drop line items within the bundle in the cart",
+    "author": "Devannie Perkins",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We love the agility to drag and drop stand alone line items this feature is great. We would now like that feature to also be applied to line items with-in a bundle.\nThis would allow the user to organize their quotes per their customer needs.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. We will review your request and see if it fits into our long term roadmap. As of now, there are two ways to sequence the options inside a bundle, either by the sequence they are in inside the bundle structure, or by the order of selections of the user"
+      }
+    ]
+  },
+  {
+    "title": "Allow Cart views and filters for option products",
+    "author": "Swapnil Devlekar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Today in the shopping cart we have the ability to create a view only for primary materials (bundle headers) but not based on option products. For complex bundles which also have sub-bundles under them, users should be able to also create views and filter them based on option products. e.g. For a Complex system bundle that has multiple modules under it and each module has services attached to it, if users want to just filter a particular type of modules or they want to see just all service products today we are not able to do it. This functionality is very important for Roche.",
+    "votes": "8 Votes",
+    "comments": [
+      {
+        "commenter": "Swapnil Devlekar",
+        "content": "We also need this feature to filter out option products e.g. an Instrument bundle can have hundreds of install parts and they are not necessarily needed in the conga cart during negotiations, so we should be able to hide it / filter out using cart views"
+      }
+    ]
+  },
+  {
+    "title": "Ability to sort lines items in the Shopping Cart",
+    "author": "Tushar Sonawane",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The\u00a0Shopping\u00a0Cart\u00a0does\u00a0not\u00a0currently\u00a0support\u00a0sorting. Sorting\u00a0will\u00a0give\u00a0users\u00a0an\u00a0easy\u00a0way\u00a0to\u00a0arrange\u00a0the\u00a0products\u00a0according\u00a0to\u00a0the\u00a0cart's\u00a0fields,\u00a0offer\u00a0discounts,\u00a0and\u00a0make\u00a0any\u00a0necessary\u00a0rapid\u00a0changes. \nIt\u00a0is\u00a0a\u00a0pretty\u00a0common\u00a0feature\u00a0that\u00a0will\u00a0be\u00a0useful\u00a0in\u00a0many\u00a0situations.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. We agree that sorting the cart is an important feature we'd like to implement. As of now it is not planned for our short term roadmap, but we are considering it long term. As our roadmap evolves we will update this Idea to reflect any changes that occur"
+      }
+    ]
+  },
+  {
+    "title": "Turbo Synch for individual objects instead of running for entire consumer profile",
+    "author": "Tushar Sonawane",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently,\u00a0we\u00a0have\u00a0to\u00a0execute\u00a0a\u00a0Turbo\u00a0synch\u00a0on\u00a0all\u00a0of\u00a0the\u00a0consumer\u00a0profile\u00a0objects. It\u00a0can\u00a0be\u00a0annoying\u00a0to\u00a0have\u00a0to\u00a0wait\u00a0for\u00a0the\u00a0Turbo\u00a0synch\u00a0for\u00a0all\u00a0of\u00a0the\u00a0consumer\u00a0profile\u00a0items\u00a0to\u00a0finish,\u00a0especially\u00a0in\u00a0the\u00a0development\u00a0and\u00a0testing\u00a0orgs. If\u00a0there\u00a0is\u00a0a\u00a0way\u00a0to\u00a0choose\u00a0which\u00a0objects\u00a0to\u00a0sync\u00a0and\u00a0only\u00a0those\u00a0objects'\u00a0data\u00a0to\u00a0sync,\u00a0that\u00a0would\u00a0be\u00a0helpful.\nThis\u00a0functionality\u00a0will\u00a0make\u00a0testing\u00a0on\u00a0the\u00a0Turbo\u00a0side\u00a0much\u00a0simpler\u00a0and\u00a0faster. Even\u00a0in\u00a0production,\u00a0consumers\u00a0can\u00a0receive\u00a0prompt\u00a0updates\u00a0if\u00a0they\u00a0only\u00a0require\u00a0specific\u00a0items'\u00a0data\u00a0and\u00a0not\u00a0the\u00a0complete\u00a0consumer\u00a0profile. \nOR\nGiven\u00a0the\u00a0ability\u00a0to\u00a0construct\u00a0personalized\u00a0consumer\u00a0profiles,\u00a0we\u00a0can\u00a0restrict\u00a0the\u00a0items\u00a0in\u00a0these\u00a0profiles\u00a0to\u00a0operate synch quicker and faster.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for your idea. We will review the request and update the Idea if we decide to move forward with it.As of now, the full sync of all objects and not making it selective is to ensure data integrity between the two systems. We will review if partial sync of only specific object changes will work"
+      }
+    ]
+  },
+  {
+    "title": "Collaboration Request : Ability to partially accept collaboration when there are multiple line items added to the same collaboration request",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Out customers have asked for the ability to partially accept collaboration when there are multiple line items added to the same collaboration request.\nFor example, user selects 3 line items on the cart and creates a collaboration request for them. The collaborator works on these items in the child cart and completes collaboration. When the initiator re-opens the parent cart again, then he/she sees updates for all three lines. Here currently he/she can accept the collaboration or update the collaboration and resend it.\nThe scenario is what if the initiator wants to accept one of the line items and not the remaining two. Right now there is no such capability. Either user has to accept everything, or has to update everything. Hence customer is looking to partially accept the collaboration request.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Date format and Currency format as per user locale in cpq admin",
+    "author": "Ankita Kumari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hello,\n\u00a0\nI am raising this idea on behalf of our customer Lectra. They are looking for feasibility of date format and currency format as per user locale under CPQ Admin specifically.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea, we will review and see if can add this to our roadmap"
+      }
+    ]
+  },
+  {
+    "title": "Reference to Parent Product Needed while cloning",
+    "author": "Shahid Ali",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently, when you clone a product from CPQ Admin and from Salesforce there is no reference to the product from which the product is cloned. Right now it is not possible to add custom button in CPQ Admin so there no way to customize it.\n\u00a0\nPlease provide a reference to parent product on cloning.",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Jerry Churchill",
+        "content": "Greater flexibility in the over all product cloning process in Conga Admin console would provide many customers the ability to have the cloning process meet their businees requirements. This would reduce clicks, errors and misses, improving the overall workflow for Product Admins."
+      }
+    ]
+  },
+  {
+    "title": "Enable/Show Product Price on product catalogue page for particular flow",
+    "author": "Chetan Nawale",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "business can use multiple flows but requirement is show product price for particular flow, in current conga product we don't have that capability to show product price for a particular flow.\nif we enable the product price it will enable for all , if we disable then it will disable for all.\nplease check the attachment.",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for your Idea submission, we will review the request and see if this is something we will pursue in our roadmap.For clarity, is this to display all types of pricing (all charge types) based on flow, or only specific ones?"
+      }
+    ]
+  },
+  {
+    "title": "Price Agreement : Order create page should be locked and Spinner should be shown in Order Create page when order is being created",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement : Order create page should be locked and Spinner should be shown in Order Create page when order is being createdUser clicks on Price Agreement and selects a quote/agreement, this shows price agreement detail page with line items. User add certain quantity on one or more line items and click create partial order button. This takes to the order page. User fills all fields and click 'Create Order' button.\u00a0Order gets created in backend but no spinner is shown. UI is still open to edit fields and create order again. This is current processTo be in parirty with Salesforce Order create customer need below requirement.Once user fills all fields and click 'Create Order' button in order create page, Order create page should get locked as soon as user clicks 'Create Order' button and spinner should be shown until backend process complete. If any errors on order creation, user should be notified with error message on UI in same page and allow to edit fields and click 'Create Order' again to create order with corrected data. If no error, order should get created and user is redirected back to price agreement detail page like it is happening now.\u00a0This is requrested from Hitachi",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Price Agreement : Order Create page is not in parity with Salesforce",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement : Order Create page is not in parity with SalesforceUser clicks on Price Agreement and selects a quote/agreement, this shows price agreement detail page with line items. User add certain quantity on one or more line items and click create partial order button. This takes to the order page. This order page doesn't show required fields, doesn't throw any error message when users click on place order after filling information but failed to create order. On Successful order placement, this sometimes redirect back to price agreement detail page but fail to do same in some cases. There is no spinner available when user clicks on place order button. User doesn't know what's happening, whether order created or it is in progress etc. It should be great if we can make this parity with salesforce to show mandatory fields, show error messages if error is thrown, spinner if in progress and proper redirection always back to price agreement detail page.This is requrested from Hitachi",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Agreement : Way to filter the Line items shown on the Price agreement detail page",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement : Way to filter the Line items shown on the Price agreement detail pageCustomer currently using custom VF page to place partail orders. There they have flexibility to show only few products based on criteria (ex: show only line items whose status = won, hide all lost items). Right now price agreement detail page shows all line items associated to the Quote/Agreement. Should have flexibility to show only certain products based on criteria.This is requested by Hitachi",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Agreement : Way to redirect back to Quote/Agreement from Price agreement detail page",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement : Way to redirect back to Quote/Agreement from Price agreement detail pageWhen user click on Quote/Agreement under Price Agreement tab, the detail page shows with product and order list for the quote or agreement. Customer at this time not using price agreement tab, but directly launching detail page from Quotation. So should have a flexiblity to redirect back to Quote/Agreement from where user launches the price agreement detail page.This is requested by Hitachi",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Agreement : Flexibility to relabel in \u2018Price Agreement\u2019 keywords under price agreement detail page",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement : Flexibility to relabel in \u2018Price Agreement\u2019 keywords under price agreement detail pageWhen user click on Quote/Agreement under Price Agreement tab, the detail page shows Price Agreement Detail and Price Agreement Line items. Should have flexibility to relabel these as per customer requirement.This is requested by Hitachi",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cart views name is non editable",
+    "author": "Saurabh Pancholi",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Dear Team,\nI would like to bring to your attention an issue regarding the inability to modify the name of the Cart view. This lack of editability poses concerns as it complicates the process of rectifying any errors in the name, necessitating the deletion of the view and the subsequent recreation process.\nYour prompt attention to this matter would be greatly appreciated.\nBest regards,\nSaurabh Pancholi",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Agreement - Allow to create orders for quantity more than the original quantity on product",
+    "author": "Suseel Kumar Reddy",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Price Agreement - Allow to create orders for quantity more than the original quantity on productPrivce Agreement tab at this moment shows list of line items associated to Quote/Agreement in Price Agreement Detail page when users click on Quote/Agreement under price agreement tab. In\u00a0Price Agreement Detail page, users can select a quantity within the limits of quantity of line item and place order.\u00a0Need a way to place orders for quantity more than the original quanity listed on the line item",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Suseel Kumar Reddy",
+        "content": "This is for Hitachi customer"
+      }
+    ]
+  },
+  {
+    "title": "Automate post upgrade maintenance jobs",
+    "author": "Jared Seefried",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Jack Henry has requested an enhancement to have maintenance jobs be automated post upgrade. This would reduce the manual intervention involved when running upgrades off normal business hours.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amol Baviskar",
+        "content": "We will consider this with mechanisms available within Salesforce and Conga platform"
+      }
+    ]
+  },
+  {
+    "title": "Auto Renewal Opportunity - Opportunity Currency",
+    "author": "Manoj Malarazhagan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When Auto Renewal Opportunities are created, The CurrencyIsoCode API (Opportunity Currency) is defaulted with the value from the User profile that scheduled the Opportunity creation job (CreateRenewalOpportunityJobScheduler) . \n\u00a0\nThis causes issue in Multi Currency Scenarios when syncing Proposal Line items from Auto Renewal Proposals to Auto Renewal Opportunity.\n\u00a0\nFor example the User scheduled the Job has default currency as USD, and the Assets that are auto renewed are in CAD, The Opportunity Line items that gets created in the auto created Renewal Opportunity is in USD instead of CAD. This happens because the Auto Renewal Opportunity's Currency code is Defaulted to USD from the User profile of the Job Scheduler.\n\u00a0\nRight now customer is manually deleting these lines and re-syncing the Opportunity line items after manually changing the Opportunity currency.\n\u00a0\nTO address this gap, if Opportunity's currency code is updated with Renewal Proposal's Currency then it will be a good enhancement.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "We will look at this and get back to you"
+      },
+      {
+        "commenter": "Manoj Malarazhagan",
+        "content": "Hi TeamIS there any tentative release this feature might be considered for analysis? This is to provide customer leadership a tentative time frame to check back again."
+      }
+    ]
+  },
+  {
+    "title": "Collaboration request - Auto include related line items & allow update on completed/closed collaboration request",
+    "author": "Mohit Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We have below requirement from customer for collaboration feature\n\u00a0\n1) Auto include line items from the same factory when collaboration request is raised - For eg. Line Item 1 belongs to Factory A, Line Item 3 & 4 also belongs to same Factory A then when user raising collaboration request on Line Item 1, Line Item 3 &4 should get automatically added into request. So that user need not to raise separate request for those lines.\n\u00a0\n2) To update existing collaboration request based on certain criteria - Allow user to update already accepted/Completed collaboration request and while doing so if any new line items present in the cart which belongs to the same factory as in current collaboration request line item, then auto include those into the request.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "In Service CPQ, display prices from price matrices on the bundle configuration page for the options",
+    "author": "Jai Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In Service CPQ, the Service Base price is dependent on matrix pricing so almost all the service products will not have a list price but will have a matrix configured on the PLI. We do not display the matrix price on the bundle configuration page. This is causing a lot of confusion and inconvenience in GE Healthcare.\n\u00a0\nWhen their business users are selling service bundles and they come to bundle configuration page, they see \"0\" as that is the list price configured on the PLI. This misleads them to believe that the option has a \"0\" price and can be given for free. However, when to go to the cart, then they are able to view the final price from matrix. To avoid this confusion and to-and-fro between cart and bundle configuration page, they want to see the final matrix price for the option on the bundle configuration page itself.\n\u00a0\nGE would like to have this feature in the June'23 release as it is impacting one of their biggest regions, USCAN. Below are the more details about the impact:\n\u00a0\nRegion : USCAN\u00a0\nDollar Impact \u2013 Overall business more than $ 2 B.\u00a0\nNo. of Users \u2013 300+\nImpact- It will greatly impact the APTTUS adoption, since they have Quote Suite (Excel based tool) which is more flexible & faster.\u00a0\nSeverity \u2013 High",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Amol Baviskar",
+        "content": "Hello,\u00a0We understand the use case and it is critical feeback from end users.\u00a0Unfortunately, we will not be able to support this on Salesfoce as it will result in governance limit issue.\u00a0We will for sure want to address this on Conga platform. Service CPQ on Conga platform is planned after Asset Based Ordering functionality support. Service will come around 2H of 2024.\u00a0Workaround of hiding pricing $0 is already provided to GE team\u00a0Thanks,\u00a0Amol"
+      },
+      {
+        "commenter": "Jai Patel",
+        "content": "GE has requested for this requirement to be made available as early as possible."
+      }
+    ]
+  },
+  {
+    "title": "Maintenance job should not fail when data volume is very high",
+    "author": "Mohit Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Problem - When we have huge amount of data in Product2, Price List, Categories (say more than 1 Million records) tables, maintenance jobs failed in execution. It seems salesforce governance limit issue are failing the jobs. Can we have solution here by breaking up the process in different transactions. for eg. Separate job to delete the\u00a0entries from the batch job table and execute job in separate job etc.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Customization of MiniCart Page - BSC ask",
+    "author": "Balaji Krishnan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The minicart is appreciated by Customers. However we need ability to configure this page. May be remove the finalize button if not needed. The reason being if we customize to bring fields from another systems, keeping finalize button creates challenges and users clicks here and complains it does not work. Right now we are tying to use CSS to supress this however this is not per Flow. In some flows it makes sense to show and in other it does not. So need that ability to hide it when needed and should be configureable.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Data in Name crapping the our product.",
+    "author": "Balaji Krishnan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Useful: To reduce the noise level and ensure Usability for customer.\n\nProblem statement: If we go to CPQ Admin -> I get an error message as below.\n\n\"The name can only contain underscores and alphanumeric characters. It must begin with a letter and be unique, and must not include spaces, end with an underscore, or contain two consecutive underscores.\"\n\n\nThis is a data issue when the data got loaded from another system. However if this is the case, we should not allow this data to be inserted into the tables/objects or if we allow them, then do not display atleast these products and allow rest of them to be displayed.\n\nRight now the user is struck and we cannot use CPQ Admin itself. Need product to do some innovation to fix these usability issues.\n\nIf we submit as a bug, it will be asked to clean the data. so need product to address this in another way.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Pricing Summary on the Cart Page to show all the Cart Fields on one page/single page view without scroll",
+    "author": "Bhaumik Mehta",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When customer has more number of fields on the Cart page, in order to see all the pricing fields, user need to scroll a lot on the cart page.\n\nWould that help if we can build something like Pricing Summary where in user can click/hover on the product and see all the price points/cart fields in a single page without scrolling to the right and see all the fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "User should be able to select ~ 1500-2000 Assets & \u201cRenew\u201d them in a Single click",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "As of now, when we are trying to Renew 500+ Assets in a single click from the Installed product page, we are getting the error \" Could not resolve remote action: performAssetActios\" in UI and \"heap size too large\" error in the logs.\n\nCustomer has a requirement that they need this feature to be able to renew a large number of assets in a single click.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Renewal button not consistently acting like change button",
+    "author": "Balaji Krishnan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Use clicks on:\n\n1. Click on Installed Product\n2. Select Products\n3. Click on 'Renew' Button\n4. Click on 'View Cart' button.\n\nThis last step is an extra step (Click on 'View Cart' button) if we compare it clicking the \"change/Terminate button\" the user does not need to click the \"view button\" to see the cart.\n\nNote: BTW to avoid the pop-up after renewals, we have set the default to the \"Use proposal/agreement date\"\n\nIs there a way to reduce the click and directly land into the cart when renew button is clicked. thanks.\n\nChecked with Laxmi and suggestion was to raise a ticket to be addresed by product. Related to CPQ-4740 (BSC)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Skip the execution of OOB conga triggers and callback classes which are part of managed packages",
+    "author": "Ankita Kumari",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "While doing the bulk data load, customer wants to skip the execution of OOB conga triggers and callback classes which are part of managed packages. They are suggesting if it can achieved using a flag field in custom setting.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Disabling task creation in CPQ",
+    "author": "Deep Joshi",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Can we have an OTB way for disabling task creation when the cart is finalized like APTS_UseWorkflow admin entry used in CLM",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to expose queue members in CPQ Approval View",
+    "author": "Jesse Hoffart",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Go to \"My Approvals\" page from Quote/Proposal record. Unable to see queue members when approval is assigned to a queue.\n\n\nIn current state, when a sales rep wants to find approval queue members, they reference an offline document. It would be helpful to have the ability to understand who is in the queue from the 'My Approvals' page directly rather than having to access another offline document and find the relevant queue.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Populate option product instead of bundle product in Opportunity Products's Product field when 'Sync Option Products' is enabled during syncing quote with opportunity",
+    "author": "Chetan Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi Team,\n\nCurrently, while syncing finalized quote with opportunity, when 'Sync Option Products' is enabled, system syncs option line items but in the Product field of Opportunity Products object, it populates bundle product for all option lines which impacts opportunity forecasting as for a bundle product, all opportunity products records will have same bundle product name.\n\n\nThis request came from Illumina customer to populate right product instead of bundle product for all lines to avoid customization.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Notification count should populate post configuring the Real Time Cart Notifications for collaboration request.",
+    "author": "Shivangi Mishra",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Use case - Customer has a use case where they expect that the count of notification should populate post they configured the Real Time Cart Notifications for collaboration request.\n\n\nCurrent Behavior : Only notifications are visible, but the count of notifications are not populating.\n\n\nExpected Behavior : The total count of the notifications should also get populate in the cart, when any action is performed in collaboration request.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Quote Collaboration feature should work for products added by constraint rule",
+    "author": "Shivangi Mishra",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer use case : Customer has several products added through constraint rule. They need to use collaboration feature for CR added product, but due to the product limitation they are not able to use this feature for auto included products.\n\n\nCurrent behavior of the system :\n\n* Only user added product can be sent for collaboration\n\n\nExpected behavior :\n\n\n* Quote Collaboration feature should work for products added by constraint rule",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Search filters in mass updates in line item",
+    "author": "Ram Gopal T",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The customer is looking for a way to implement lookup filters in the mass update functionality in the cart page with filter criteria in the line item.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "ABO - Install products",
+    "author": "Balaji Krishnan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "ABO -- The OOTB button in the Install products need to be customizable instead of the button embeded in the single page app itself. Navigate to install products, there are several buttons \"Renew\", \"Change\", \"Terminate\" etc etc. These buttons need to be customizable and should be available on the flows. The is creating un-necesary work during when implemneting ABO when the customer asks for some of the buttons to be hidden based on the mode. Since all buttons are visible or enabled, we are forced to use flows to disable, enable these buttons. Futher when you go the cart the flow settings are not carried forward. So please work on getting these straightned out. thanks.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Laxmi Agarwal",
+        "content": "Hi Balaji,We are able to hide/unhide ABO buttons \"Renew\", \"change\", Temriante\" etc. using custom fields \"Hide Assets action\" , this is flow based.Also using \"allowed Action\" field is available on Asset line item for hide/unhide buttons for particular asset."
+      }
+    ]
+  },
+  {
+    "title": "Cart Enhancement - usability",
+    "author": "Balaji Krishnan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Helptext is available in the SFDC that will be displayed to the user when he hovers over it. However in the cart this helptext of SFDC is not available for the users. The ask is to get this helptext be available on the cart headers so that when the user hovers over the cart header he can get this helptext that will tell him the meaning of the columns or whatever the user defines it. This is something available at the Quote header and is OOTB from salesforce but it is not available in the cartpage or cart grid. Customer is asking this useability enhancement. If the idea is to use the CONGA grid in the long run, we need to have this available there as well.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Enhancement TP: Need Control on Product Sequence on Cart",
+    "author": "Deepak Chauhan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In Nokia, some of specific products must be shown at end of cart irrespective of no of products in cart and there sequence in which they added. It also does not matter how products are added, either manual or through constraint rules, some specific products always must be at bottom of cart.\n\n\nIn Classic, Nokia handle it by updating Line Sequence field through Pricing Callback on Line Item and successfully did it since last 4 years. This customization does not support in Turbo and it does not respect it.\n\nWe need this feature in product if it does not support existing customization",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Blank Screen for Turbo Pricing",
+    "author": "Deepak Chauhan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We had one issue reported by Nokia where the screen turbs blank whenever we click configure products button to either create a new cart or go to the already configured cart. When we check we were getting time out exception and we raised the concern with the cloud Ops team. Cloud Ops team found that the auth proxy was not working properly for one of the cart0-web services. Once restarted, the issue got resolved.\n\nWe Have provided the same information to Nokia and Nokia was not happy with these kind of infra issues. We have checked with Cloud Ops as well and they have confirmed that they cannot put monitoring with such disconnect on auth-proxy.\n\nASK FROM NOKIA:\n\nGetting the blank screen is not a very good customer experience and if there is any infra issue, the system should display some message on the screen/UI. This is not acceptable.\n\nPlease help to get this enahncement incorporated in the turbo builds.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Preview on the Single Click Generation Page not showing the latest generated document",
+    "author": "Prashanth Devalapalli",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Generate quotes using single click document generation button. Go back to the cart and change quantity or pricing. Click on the single click generation button, the preview is not showing the latest document that was just generated.\nWe checked documentation and there is nothing in regards to sorting and defaulting the latest generated document.\ufeff\n\n\nImpact :\n\nWhenever there are multiple documents generated, when the user does single-click document generation, it goes into the UI but does not preview/select the document that was just generated. Business ends up downloading the incorrect document.\n\nThe files/proposals generated don't show up in a sorted by created date in the UI. This causes confusion to the user on which document to pick",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin Multiple UI Enhancements & Cleanup",
+    "author": "Ahmad Khalifa",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer had 3 observations in UI, where available fields on CPQ Admin UI may not have any functionality behind.\n\n1.)\tConstraint Rules \u2013 'Stop Procecssing More' field on rule header\n\nIn case of multiple constraint rules all will apply according to sequence, but there is no way to stop processing more rules.\n\nOnly within constraint rule, several conditions linked with OR can help to have a logic in particular for overlapping scenarios (account & dynamic account group; product & molecule (field of product2)\n\nOr having the rules with increasing conditions so they can be all mutually exclusive\n\nWe have heavy need for constraint rules due to manual adjustment limits in all countries and to put all constraints in one rule may lead into violating against limits or not fulfilling the exact need\n\n2.)\tPrice Rule \u2013 Allowable Action field on rule header\n\nThe field 'Allowable Action' is still there but functionality deprecated or no longer in use.\n\nIn fact this functionality would avoid most of the constraint rules to limit manual adjustments. In particular no adjustments and adjust downwards would help a lot.\n\nIn addition adjust from/to would help as well\n\n3.)\tPrice Rule \u2013 Product group field in case of rule type = condition\n\nWe have been told that we can use product group only for scoping in price ruleset, but not in price rule, because a product can be member of multiple product groups (as far as I remember)\n\nIf it is not recommended to use it, I would prefer to remove the field from page-layout",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Price Ruleset Criteria Support for Lookups",
+    "author": "Ahmad Khalifa",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When configuring a Price Ruleset in CPQ Admin, the Criteria functionality doesn't show Lookups even though it's supported in classic admin.\u200b\n\nCPQ Admin should support Lookups there as if it's set through classic admin, the CPQ Admin will override it and break the rule",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Move Products Across Product Groups",
+    "author": "Ahmad Khalifa",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When managing products in Product Groups in the CPQ Admin, it would be useful to have the ability to move one or more products to a different product group",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enhancement Request: Grid Cart UI editable fields",
+    "author": "Raj Poshiya",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "there is no indication of editable fields in the cart grid UI unless you mouseover the field.\n\nRequire to have clear visibility on Editable Fields. Specially on Configurator where currently it is greyed out read-only fields there is chance of improvement.\n\n\nPlease find attached screen shot for greyed out of read-only fields. It is specially for Picklist fields. It does not looks readonly to users. If only picklist value shows instead of picklist that will be better.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Hardik Shah",
+        "content": "This is also needed for BSC. There is no visible indication on Cart that informs user whether those fields are read only or editable."
+      }
+    ]
+  },
+  {
+    "title": "Ability to conditionality highlight individual cell in the cart grid and making it required",
+    "author": "Chetan Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently there is no mechanism or configuration elements in place to highlight any cart cell conditionally or making it required for end user's input. Just like we have Attribute Rules which provides ability to make fields required, similar functionality on line item would help make cart more dynamic to the end user. Illumina customer is having this requirement and requested to create an idea for the same.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo engine - To track the run status for any retry sync job  that we run for any particular object.",
+    "author": "Thribuvan B N",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "This is for Turbo engine.\n\nRequest is raised by Thomson Reuters Holdings Inc. (https://apttus2.lightning.force.com/lightning/r/0011U00000D8zadQAB/view)\n\n\nCustomer is unable to track the run status for any \"Retry\" sync job when they run for any particular object.\n\nThey try to re-run 'retry' job for any failed objects. There is no mechanism to track the progress of such a sync",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Dynamic cart based on data entered (e.g. 100% discount, enter cost center)",
+    "author": "Trevor McNeil",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "More effective use of screen area",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Progress Bar on Validate and Finalize",
+    "author": "Trevor McNeil",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "https://community.apttus.com/t5/Ideas/progress-bar-for-check-price-and-finalize/idi-p/7676",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow users to see cart views as tabs or picklist view in the cart",
+    "author": "Chetan Patel",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Currently Conga CPQ shows all cart view in picklist form. Illumina customer wants to raise an idea to have some setting that allow admin to also see the cart views in tabs instead of picklist values.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Highlight editable fields in cart page",
+    "author": "SF Integration Service Account",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Editable fields in cart page was highlighted in older versions without hovering over the fields. This will improve customer experience.\n\n\nFor example, quantity might be editable for product 1, but not for product 2, and in the cart it should highlight only editable quantity field.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "User Friendly Message/Validation require in case of Data Discrepency or when Full Data Sync Require",
+    "author": "Raj Poshiya",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "-> If there any data discrepency happened due to any reason like Data Sync not happens/run for more than 1-2 week or new data creation or any other reason. There is no signal Product give to end user that there is any data discrepency and reqiure Full Data Sync.\n\n-> Please have a feature in product to notify user about data discrepency and notification when Full Data Sync Require. In such cases Product does not stop user to do any of operation like adding new metadata or doing Data sync.\n\n\n-> if system already have data Sync discrepency then it should stop user to perform any operation or give list of objects where data discrepency found and how to resovle those data discrepency either through Full Data sync Or Any other way which is appropriate for that specific situation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Difference in behaviour of currency fields on the cart",
+    "author": "Govind Gokul",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Noticed a change in behaviour when we clear the currency field values on the cart\n\n1. When we delete only the value, the field is blanked out.\n2. When we delete the value with the currency abbreviation/symbol, it shows the value as USD 0 or JPY 0 based on the currency setting of the user.\n\n\nHowever, after reprice both the fields are blanked out.\n\nWe need consistent behaviour for the scenarios.\n\n\nAttaching screenshots to support the observation.\n\nScreenshot \"SS1\" shows the current values of the currency field - Base Price Override\n\nIn Screenshot \"SS2\", we see a difference in the values of Base Price Override.\n\nFor the 1st line item, only \"220\" was deleted.\n\nFor the 2nd line item, \"JPY 440\" was deleted.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Column header alignment issue on Configure Products -> Option group page.",
+    "author": "Priyanshi Agrawal(Conga)",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Hi Team,\n\n\nWe have an enhancement request from our customer in Option Group Page while configuring products.\n\nAttached in the Screenshot we can see below:\n1. Option Header is left aligned and its rows are also left-aligned\n2. Uom and Qty is center aligned but their rows are left aligned.\n\n\nIdeally, alignment should be proper from product design itself, this is what their expectation is.\n\n\nI have educated them about how to achieve it using custom CSS but they wanted to know the possibility if this can be a part of product design itself.\n\n\nCould we check on the possibility of adding it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "System should not allow us to access the actions if the profile Sync is disabled OR it should show a warning message to us.",
+    "author": "Raj Poshiya",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "If Profile sync is disabled then it should not allow user to perform any action such as set frequency, on the Sync Setting tab.\n\n\nOr it should show a validation message that please enable the sync before changing the frequency setting\n\n\nCurrently if the profile sync is disabled and if someone tries to update the frequency the code on the turbo side is disabling the scheduler from the turbo.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change the name of the ConfigSetting VF page as it is too generic and is causing issues/conflict with other apps/vendors",
+    "author": "SF Integration Service Account",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "* It is useful because it would avoid any probable conflict with any other cpq apps in the marketplace having the same generic VF page name. For instance, Zuora has the same VF page name which is causing problems when accesing the right page\n* It benefits the client in opting for other alternatives while avoiding a conflict\n* Just have a diffrenciated name which is not likely to be used by any other app",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CIG Needs to work in Lightning",
+    "author": "Emeryll Monique Emelo",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer's Business Requirements to work in Lightning via CIG batch button.\n\nAs of the moment button works only in classic.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to rename Save button to \"Save & Exit\"",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "The customer needs a capability to rename \"Save\" button to \"Save & Exit\" since improve user experience since clicking on Save takes user out of the shopping cart.\n\n\nNote: This enhancement is requested by Hitachi Energy Holdings Ltd (fka ABB PG Power Grids Ltd). I am unable to find the customer in \"Requested By\" Field",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display Tooltip on the Shopping Cart",
+    "author": "Saumil Deodhar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Customer needs the capability to show a tooltip/help text when a mouse has hovered over the columns in the shopping cart.\n\n\nCustomer desires this feature as by showing the tooltip/help text for fields present in the shopping cart, user can be guided to populate correct information.\n\n\nSo when the idea is implemented, the flow would be\n\n* Create a Quote\n* Open Shopping Cart\n* Add Product o Go to Cart\n\n** At this point, if the user hovers the mouse over the columns displayed in the cart, a tool tip should be shown\n\n\nNote: This enhancement is requested by Hitachi Energy Holdings Ltd (fka ABB PG Power Grids Ltd). I am unable to find the customer in \"Requested By\" Field",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Upsell and Cross sell are two different things !!",
+    "author": "Matthew vanderHeijden",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "We say that we have Upsell and Cross sell functionality in Conga CPQ, but we don't. All we have is showing product recommendation(s) to the user. Upsell is something different then Cross sell.\n\nUpsell is showing better products of a higher value to the customer. Example: Customer selects a \"MacBook Pro 16\" Laptop with M1 Pro chip - 16GB Memory - 512GB SSD ($2,499)\" The Upsell product would be: \"MacBook Pro 16.2\" Laptop with M1 Max Chip - 64GB Memory - 2TB SSD ($4,229). In the end the customer select one or the other.\n\nCross sell is when you are trying to selling for example an accessory of a product the customer has already in the cart (or maybe as an asset)\n\nWe need to make a distinction between them with a different rule and a different place to show them.\n\nAll our customers are interested in Upsell and Cross sell functionality. It is a MUST HAVE. We need to improve our \"recommendation\" functionality and make it on par to the industry standard.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ - Changes to add or cart or add to bundle buttons",
+    "author": "Mark Schlott",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Please see attached for screenshots and explanation from Kevin Brown at Citrix",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Disturbing error message shown although Cancel was selected when trying to publish a favorite.",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "1. Open a new quote 2. Go to the Catalog page. 3. Choose the Favorite Category. 4. Select a Favorite(Shubham) and click publish(PL : Contract Based Pricing). Expected Result : Error message should come and disappear when Cancel button is clicked. Actual Result : Error message should come and disappear when Cancel button is clicked.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Select Default Template on proposalgenerate Page",
+    "author": "SF Integration Service Account",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "When the user clicks the Generate Proposal Button on the proposal they get redirected to an intermediate page where they have to select the document format and the template.\n\n\nBut for Template selection, even though we are using Query Template the system doesn't select the template automatically. The user needs to select the one template that is being displayed and click on the Generate button.\n\n\nLooking for a way to Automatically select the template and generate the document.\n\n\nWe looked at the send proposal button and Fast Doc gen feature but currently user is asking for a fire and forget button which automatically selects the template and generates the document. We looked at using the custom API but they want to check if there is any out of the box way of achieving this.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "We are able to Save the favourites with the duplicate name.",
+    "author": "SF Integration Service Account",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "1. Create a quote from account\n2. Click on configure products and add the products to cart\n3. Save the configuration as favourites with scope as private with some name.\n4. Create another new quote.\n5. Click on configure products and add the products and save the configuration as favourite with scope as public with the same name as mentioned earlier.\n6. Here it throws the error of duplicate name.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Cart Support for Salesforce Console Apps",
+    "author": "Ahmad Khalifa",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "CPQ apps are mostly Standard Lightning apps and we don't currently support Console Lightning apps.\n\n* This is a challenge for customers who already use a Sales Console app or who want to switch to a Console app.\n* CPQ screens will work with Console apps but they will result in several confusing tabs that easily lead to confusing situations where users can easily make data errors.\n\nIt would be great to extend our UI support to Console Apps.\n\n\nSome examples of the areas that we don't support that could case issues:\n\n(tabs here refers to Lightning tabs, not browser tabs)\n\n* Finalize Cart - will open a new tab with the Finalize page, then closes it and goes back to the Quote tab. This leaves the Cart tab open still and users could mistakenly go and edit that Cart (which is in status Finalized now). Even worse is when they click on Configure again, this starts another Cart tab - so now you have two Cart tabs and it's easy to remember which is the active one.\n* Submit for Approval - when submitting for approval, similar to finalize, several tabs open up. But the confusing part is that retriggering approvals will open the old approval tab that wasn't closed, then the UI does nothing. This is frustrating for users who don't remember to close the tab\n* Any Custom VF page opened through a Cart Action, when it redirects back to the Cart, this will result in a separate tab being opened for the Cart. So you end up with two tabs or more for the same cart and they don't show the same values\n* Other UI parts like Incentives Manager are also affected",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Some of the custom field values for Line Items are not carried over from Config Cart to Pricing Cart in Split Cart",
+    "author": "Shital Patil",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "In Split cart implementation Custom fields on line items are not getting copied to the pricing carts.\n\nScenario 1: New Cart which is not priced\n\nBy default Custom fields on line items are not getting copied to the pricing carts. Only fields that are displayed on the cart columns are getting copied over. In most cases customer don't want to add all custom fields in cart Layout. Can we have enhancement so that all custom fields can be copied from Config Cart to Pricing Cart without adding these fields in the cart layout? Or provide a custom setting where we can list all custom fields from line item which needs to be copied.\n\nScenario 2: Priced cart with Split\n\nThe updates to the Custom fields on line items are not synced from Config to Pricing or Pricing to Config Cart.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "SCPQ - Add an \"Is Optional\" flag on the Related Line Item object",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configure,_Pricing,_Quoting_(Conga_CPQ_elements,_fka_Apttus_CPQ)",
+    "content": "Scenario :\n\n1. A service model S1 is configured in the cart by associating it to an equipment asset.\n2. The service bundle S1 is marked as 'optional' in the cart (so the service options also marked as 'optional').\n3. Another service model S2 is configured in the cart by associating it to the same equipment asset as in step 1. This service model S2 is not marked as optional.\n4. If we open the Related Line Item records for both the services, then there is no way to know whether the RLI record is associated to an 'Optional' service model or not.\n5. For Philips, we are using a new customized RLI screen, and would like to see that the RLI record get an 'Is Optional' flag built-in, that gets set to TRUE or FALSE automatically based on the 'is optional' flag for the service model on the cart itself.\n6. This will make it easy for users to identify the 'optional' RLI records instead of checking on the corresponding service model if it is optional or not.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

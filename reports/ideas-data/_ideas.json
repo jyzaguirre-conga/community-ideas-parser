@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Example Idea 1",
+    "author": "SF Integration Service Account",
+    "product": "",
+    "content": "This is a description for an example idea.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Give users the option to turn off lazy loading on the grid and choose pagination, or vice versa. ( Hybrid page-loading strategy)",
+    "author": "Jackie Tsang",
+    "product": "",
+    "content": "Today, the Conga grid uses pagination to display pages of records, and the Salesforce Datatable component uses lazy loading to show infinite records. The new idea is to provide both options to users, where the admin can set up a default page-loading preference, and end-users would be able to switch preferences based on their needs. For example, we allow them to toggle off lazy loading on the UI so that the pagination component will appear.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "[Copy] Only Successful login should be counted as a login count for Lite users",
+    "author": "Ramya Dasaratha",
+    "product": "",
+    "content": "While conting the logins for Lite users only Successfull Logins should be counted and not the failed ones.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Is there any way to add clickable links to documents sent from Conga Sign before Customer Signs",
+    "author": "Josie Panergo",
+    "product": "",
+    "content": "Hello, the documents sent for signing from their sandbox environment will include hyperlinks to terms and conditions that the customer signing these can normally click to open and view before signing when we aren't using Conga Sign yet, however the Conga Sign page appears to just be an image preview of the merged document when the signer click to sign, so links are not working for those signing. Is there any way to add clickable links to documents sent for signing? Or can this be added to Conga Sign's Feature?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Optional Message field character limit in Conga Sign",
+    "author": "Hanah Bengson",
+    "product": "",
+    "content": "The customer would like Optional Message field character limit in Conga Sign.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Watermark restriction on Draft Agreement",
+    "author": "Jai Patel",
+    "product": "",
+    "content": "Business requirement is \u2013 to have capability to control the availability of watermark on generated documents and when all approvals, on agreement and clauses, are done then only user should have capability to remove that watermark.\n\nBenefit \u2013 controlled behaviour so that compliance issues can be tackled where sales users do not go and share a contract document without approvals.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow email address to be used for 2FA (not just SMS)",
+    "author": "Colton Lederer",
+    "product": "",
+    "content": "Today, when sending a form for signature, this group has physicians being sent 2 items; the email containing the form to sign, and an email containing the code to use so they can click into the link on first email to view the form. This prevents the physicians from forwarding the email and allows for 2FA.\n\n\nIf physicians needed to use their cell phone, a lot of additional data would need to be populated in Salesforce and additional consent forms would need to be signed by the physicians.\n\n\nThey are using S-Docs and S-Sign.\n\n\nAccount: Loblaw\n\nPotential sign licenses 300-400",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Accessibility Issue. Need to be able to use Screen reader with Sign emails.",
+    "author": "David Vernall",
+    "product": "",
+    "content": "Due to the sign email being a graphic, they cannot be read by screen readers and therefore visually impaired customers cannot use our product.\n\nCase 00783515",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "I think it would be helpful to be able to pull Generated Quote and SBQQ Quote Documents from where they are stored. Another idea would be to have an Esignature plugin that works with CPQ..",
+    "author": "Angelie Camasis",
+    "product": "",
+    "content": "The customer is using a Salesforce CPQ to generate documents but docs are saved on there personal folder and no option to save under files. Conga sign can't automatically find the generated docs. And so they will need to always download the generated docs which are against their privacy policy since docs include sensitive information. Need to download and manually upload to Conga Sign interface before sending for signature.\n\n\nCustomer suggestion:\n\nI think it would be helpful to be able to pull Generated Quote and SBQQ Quote Documents from where they are stored. Another idea would be to have anEsignature plugin (https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_esp_plugin.htm) that works with CPQ.\n\n\nIn the meantime, we may be forced to explore other solutions like docusign, who might offerthis type of plugin (https://help.salesforce.com/s/articleView?id=sf.cpq_prepare_for_docusign.htm&type=5) .",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Control file name for items uploaded by signer",
+    "author": "David Vernall",
+    "product": "",
+    "content": "We need to know, at a glance, the contents of files that get uploaded, and by whom. Please add a new parameter to the Attachment tag: \"filename\":\"{{contact_firstname}} {{contact_lastname}} - [arbitrary text]\"\n\nCase number 00782912",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Greater notification email customization (especially transaction ID)",
+    "author": "David Vernall",
+    "product": "",
+    "content": "Customer wants to customize what is shown within the notification email that comes from conga. MOST IMPORTANT is CONGA SIGN TRANSACTION ID that is included in the email. This means nothing to the end user, and is more confusing if anything to the customer.\n\nhttps://www.screencast.com/t/B3N6u5liX\n\nSee link above.\n\nThis feature is currently available with DocuSign apparently, according to customer.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Sign Date Write Back Tag",
+    "author": "Michael Overman TS",
+    "product": "",
+    "content": "There's not currently an option for writing back to a date field with Conga Sign so customers can enter a date other than when they signed",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Sequential tabbing",
+    "author": "Abi Flores",
+    "product": "",
+    "content": "customer would like to have a feature where the tab is going up and down and not right to left.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Save progress for signer",
+    "author": "David Vernall",
+    "product": "",
+    "content": "Customer would like a feature where a signer can save their inputs and return to fill in the rest of the document and complete signing at a later point in time.\n\nCase number 00781503",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Default Expiration Email Format",
+    "author": "Angelie Camasis",
+    "product": "",
+    "content": "The customer would like to request for a date format defaulted to a region where the signer is. Or make the month a word so that they won't be confused, and that they will easily identify the date to the month.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make Sign write back pick list tags work when it references a references a child object.",
+    "author": "SF Integration Service Account",
+    "product": "",
+    "content": "Please make Sign write back pick list tags work when it references a references a child object. Case 780756",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Editing the email content.",
+    "author": "Josie Panergo",
+    "product": "",
+    "content": "The customer on this case # 00781357 is requesting to have an option to edit / customize the text written before the file name.\n\nPlease refer to this screenshot - https://www.screencast.com/t/F9654N3wOr2",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga sign transaction status should be the same as the audit trail.",
+    "author": "Abi Flores",
+    "product": "",
+    "content": "when ever the document expires sign transaction, will be automatically change the status to Expired\".",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The ability to change the view of the Sign UI, based on the specific tablet/mobile device being used.",
+    "author": "Matt Penrod",
+    "product": "",
+    "content": "Since each tablet/mobile device has differences in how mobile experiences are displayed, users are expereincing different Sign UI issues based on the specific device that's being used. Being able to change/set the view of the Sign UI would help customers who utilize various different devices for their Sign transactions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The possibility to hide tags or make them more transparent, for contract visibility",
+    "author": "Corey Purdy",
+    "product": "",
+    "content": "Some sign tags can obscure some text on a contract, no matter the size. Being able to temporarily hide or make the tags much more transparent can help with making the contract more readable, especially when using in-person signing.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Replicate RoutingType parameter for AdobeSign",
+    "author": "Mark Turner",
+    "product": "",
+    "content": "Customer has requested that all signers receive the transaction at the same time when using AdobeSign. Is it possible to recreate a parameter for ES similar to routingType? Case 00780694",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Testing orchestrate idea creation",
+    "author": "Ramya Dasaratha",
+    "product": "",
+    "content": "test test",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to show partially assigned documents  in salesforce",
+    "author": "Christine Alcansado",
+    "product": "",
+    "content": "The customer would like to have an option to show partially assigned documents in salesforce, so whenever a document is sent out in Conga Sign to be sent to Salesforce after each customer signs the document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Composer Lightning Component custom button order",
+    "author": "Kharl Cultura",
+    "product": "",
+    "content": "The customer has a business requirement where they wanted to rearrange the button order instead of alphabetical order.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

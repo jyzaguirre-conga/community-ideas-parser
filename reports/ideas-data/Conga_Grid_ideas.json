@@ -1,0 +1,769 @@
+[
+  {
+    "title": "Configure View link in Action column to open in same tab",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Grid",
+    "content": "Currently the \"View\" link in the Action column of a Conga Grid will open a new webpage either in a new browser tab or (using Salesforce Console Navigation) a new Salesforce subtab.\n\u00a0\nA certain use case would benefit greatly from the View link opening/redirecting to the same tab - \"This current behavior is an issue because, we have automation that takes place when a record is updated. Because this record opens in a new tab, the user doesn't receive the updates from the automation when going back to the original tab UNLESS they refresh that original browser tab.\" \n\u00a0\nProviding this configuration option would allow the product to better accommodate a variety of use cases and user preferences",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for your idea submission. I'm afraid I don't fully understand the requirment. Is it possible to review this with you."
+      }
+    ]
+  },
+  {
+    "title": "Configure View link in Action column to open in same tab",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Grid",
+    "content": "Currently the \"View\" link in the Action column of a Conga Grid will open a new webpage either in a new browser tab or (using Salesforce Console Navigation) a new Salesforce subtab.\n\u00a0\nA certain use case would benefit greatly from the View link opening/redirecting to the same tab - \"This current behavior is an issue because, we have automation that takes place when a record is updated. Because this record opens in a new tab, the user doesn't receive the updates from the automation when going back to the original tab UNLESS they refresh that original browser tab.\" \n\u00a0\nProviding this configuration option would allow the product to better accommodate a variety of use cases and user preferences",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for your idea submission. I'm afraid I don't fully understand the requirment. Is it possible to review this with you."
+      }
+    ]
+  },
+  {
+    "title": "Edit the Mass Update Layout in Conga Grid",
+    "author": "Jorji Macatangay",
+    "product": "Conga_Grid",
+    "content": "It would be beneficial to have the ability to rearrange the fields in the Mass Update layout. This would make it less cumbersome to locate the fields for updating using this functionality.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello - Thank you for this idea. At this time we are focused primarily on improving Grid loading performance and not on UI layout updates. Down the road when we have performance where we want it we will take a fresh look at the UI."
+      }
+    ]
+  },
+  {
+    "title": "Prompt for Token Refresh",
+    "author": "Maybeleen Matammu",
+    "product": "Conga_Grid",
+    "content": "Certain issues in Conga can be resolved by simply refreshing the token. However, some customers have expressed concern that in these cases, no error message is generated, leaving them without diagnostic information to address the issue.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Maybeleen, thank you for submitting this idea! We will be taking it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Grid - Sum for Multi Currency sets to record instead of Active User's currency.",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Grid",
+    "content": "Customer have expressed a need for the currency displayed in the sums within their Grid to be independent of the active user's currency. Instead, they require the currency to be determined by the record itself, as their users operate in various countries and handle transactions in different currencies.\n\u00a0\nThis adjustment would greatly enhance the usability and accuracy of their system, ensuring that the currency displayed in the Grid aligns with the context of the record being viewed.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello - thank you for submitting. We will do further investigation on this and revert back when we know a date for this enhancement."
+      }
+    ]
+  },
+  {
+    "title": "Mass delete a column across multiple grid views",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "Customer needs to delete a column that exists on 100+ of their grid views. They are lookin for a seamless way of doing this without having to manually removing each column on each grid views one by one.\n\u00a0\nA workaround which is to export view JSON, remove the column string and then import the updated JSON in SF may work but will require them to look into each view/JSON to make such update which is a tedious process considering they need to do it on 100+ views.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "I can understand the effort needed to remove a column from multiple grids. At this time we will be focusing our efforts on other enhancements."
+      }
+    ]
+  },
+  {
+    "title": "Enhanced Grid View for Increased Data Visibility Without Scrolling",
+    "author": "Dan John",
+    "product": "Conga_Grid",
+    "content": "To address the issue of limited screen visibility and excessive scrolling, we propose implementing a feature that allows users to view more data without the need for constant scrolling. This enhancement will ensure that users can see a comprehensive view of their data, especially on laptops, by optimizing the display layout. By reducing the need to scroll both horizontally and vertically, this feature will improve user experience and productivity.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Conga will continue to optimize Grid for usability, but due to the configurability options available within Grid there may be a need for scrolling that is dependent on the amount of data being surfaced."
+      }
+    ]
+  },
+  {
+    "title": "Restrict Grid View Visibility for Permission Groups Despite \"View All Data\" Permission",
+    "author": "Dan John",
+    "product": "Conga_Grid",
+    "content": "To enhance privacy and data security, we propose implementing a feature that restricts users in specific permission groups from viewing other users' grid views, even if they have the \"View All Data\" permission. This will ensure that individual grid views remain private and inaccessible to unauthorized users, aligning with business requirements for confidentiality without compromising necessary permissions for other processes.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Conga Grid will continue to respect Salesforce settings."
+      }
+    ]
+  },
+  {
+    "title": "Enhanced Copy and Paste Functionality for Grid Values Across Browsers",
+    "author": "Dan John",
+    "product": "Conga_Grid",
+    "content": "To improve usability, we propose a feature that allows users to copy and paste values directly from the grid without highlighting the text. This feature should work consistently across all browsers, including Edge and Chrome. Unlike the current behavior where Edge displays complete text or values in pop-ups or mini page layouts, this enhancement will ensure seamless copy-paste functionality across all browsers, providing a more efficient user experience.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Can we set up a call to review this workflow before deciding on whether to take it into our roadmap?"
+      }
+    ]
+  },
+  {
+    "title": "Automatic Refresh of Conga Grid upon New Record Addition",
+    "author": "Dan John",
+    "product": "Conga_Grid",
+    "content": "To enhance user experience and streamline task management, we propose implementing an automatic refresh feature for the Conga Grid. Currently, users must manually refresh the grid to see new tasks or updates, which disrupts their workflow. With this enhancement, the Conga Grid will automatically refresh whenever new records are added or existing ones are updated or closed, ensuring users always have the most up-to-date information without manual intervention. This will improve workflow efficiency, provide real-time task management, and enhance overall user satisfaction",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "This seems like a useful addition, and we will take a look at this."
+      }
+    ]
+  },
+  {
+    "title": "Title: Conga Grid - Able to Show the Grandchild Object in Grid",
+    "author": "Brianson Alcantara",
+    "product": "Conga_Grid",
+    "content": "Details: The customer wanted to add the grandchild object two levels down from the master object in Grid\n\u00a0\nBenefit: This will allow he customer to display a different related object from the master object in the grid.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Is the request for a view only experience? Or is there any expectation of interacting with the field?"
+      }
+    ]
+  },
+  {
+    "title": "Ability to automatically reflect the changes on a field name that is used across grid views",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "Customer needs to update a field name in SF that is a requirement for their process. This field name is being used on multiple grid views and customer is looking for an automated approach to mass update the field names/column label across all grid views so that they don't need to manually do this on each grid view through Column Settings.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To have the ability to search look up fields on Grid search records",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Grid",
+    "content": "The Search field cannot search lookup fields - as Grid utilizes SOSL https://documentation.conga.com/grid/latest/search-records-143886757.html\n\u00a0\nWorkaround: filters to find those records, but just not able to use the Search box for lookups.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Apex CPU limit Error in Conga Grid",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "Mas update in Conga grid that updates 100 records or more is causing the error 'APEX CPU time limit error', Salesforce CPU issues and timeouts.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Unfortunately we often hit limits imposed by the salesforce platform."
+      }
+    ]
+  },
+  {
+    "title": "Allow searching across objects when finding a field to add to the Grid grid",
+    "author": "Glenn Buck",
+    "product": "Conga_Grid",
+    "content": "Users often add fields to their grid and they know what field they want to add; however, they don't understand the data model so they don't always know which object a field is in. They have to click into each available object to search for the field. It would be more useful if the search went across objects similar to salesforce reporting.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent needing to save at both the Child/Related list Level and Parent Level if data is changed in both places",
+    "author": "Glenn Buck",
+    "product": "Conga_Grid",
+    "content": "When users are updating data on a Parent record and a child record they need to Save in both places. From a user perspective, if they change a child record and a parent record they often save at the Parent level thinking they are updating both records resulting in unsaved child data.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Keep the user where they are in the grid after they add or remove a field from the grid view. It currently take the user back to the top of the grid.",
+    "author": "Glenn Buck",
+    "product": "Conga_Grid",
+    "content": "Keep the user where they are in the grid after they add or remove a field from the grid. It currently takes the user back to the top of the grid. This is painful for users that have a long list of records in a grid and they want to add a new field or remove one to quickly evaluate extra data. The user then has to scroll/find the row they were on.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Export Conditional Formatting in Conga Grid",
+    "author": "Brandon Cole",
+    "product": "Conga_Grid",
+    "content": "When exporting settings, I would like the option to separately export conditional formatting so that it isn't included just in the Views part of the export.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Brandon, thank you for your Idea.\u00a0 I have moved it to 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Conga Grid - fill out options",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "When the grid view has a required dependent picklist field and the user happens to click on that field first, and then go back to the controlling field, the user is not able to select any value for it anymore. The field seems to freeze and doesn't give an option to be selected.\u00a0What works is if the user fills out the first required field from left to right, however, having the option to fill out whichever field  first is more user friendly.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Dhanie, thank you for your Idea. I have moved it to 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Would like to save data without the grid view refreshing or at least keep me on the same page where I was editing",
+    "author": "Jake Teixeira",
+    "product": "Conga_Grid",
+    "content": "After making changes to a field value at the bottom of the grid view results and clicking the \"save data\" button, it refreshed the grid view and brought me back to where I was editing that field value at the bottom of the view, but we discovered that it only jumps you back to where you were editing if there are required fields either within the grid view or within SF displayed in that grid. We would like it to bring you back to where you were editing regardless of whether or not there is a required field. Ideally, this same functionality would also work on multiple pages within the grid view",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Glenn Buck",
+        "content": "We also would like to see this implemented."
+      },
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Thank you for your Idea.\u00a0 I have updated this Idea to 'Future Consideration.'"
+      },
+      {
+        "commenter": "Jake Teixeira",
+        "content": "Refined Idea: After making changes to a field value at the bottom of the grid view results and clicking the \"save data\" button, it refreshed the grid view and brought me back to where I was editing that field value at the bottom of the view, but we discovered that it only jumps you back to where you were editing if there are required fields either within the grid view or within SF displayed in that grid. We would like it to bring you back to where you were editing regardless of whether or not there is a required field. Ideally, this same functionality would also work on multiple pages within the grid view"
+      }
+    ]
+  },
+  {
+    "title": "Ability to filter inactive records when copy/pasting from excel to Grid when adding In Line records.",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "Issue is with the Owner field/column (OwnerId, reference field). In certain scenarios, the Owner name they are pasting in from the Excel file corresponds to two different user records. When pasted, Grid defaults to one of the user records (the first one that comes up when searching the name).\u00a0\u00a0The user it defaults to is an inactive user. The inactive user does not have object access.\u00a0It would be great to have an option to filter our inactive records to prevent such issue.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Dhanie, thank you for your idea.\u00a0 I have moved it to \"Future Consideration.\""
+      }
+    ]
+  },
+  {
+    "title": "Conga Grid  - Add a grandchild record with related column",
+    "author": "Austin Miller",
+    "product": "Conga_Grid",
+    "content": "It is currently possible to add a related(Child) record with the Related Column selection in the Conga Grid view. It would be nice to add the ability to also use the grandchild record to the Related Column. For instance trying to add the related Contact to an Account record on an Opportunity Grid view.Opportunity (Parent)|Account (Child)|Contact (Grandchild)",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Austin, per our converation, I have recommended to start at the grandchild and pull in the parent information since it is much easier to display and edit that info from the child than it is to display and edit child info on the parent."
+      },
+      {
+        "commenter": "Austin Miller",
+        "content": "Hey Lindsey! We have tried that option but it doesn't match the use case for this request. They would like to display the grandchild name on the main list view instead of clicking through the related lists."
+      },
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Austin, have you tried this option?\u00a0https://documentation.conga.com/grid/latest/manage-object-relationships-in-related-lists-143899924.html"
+      }
+    ]
+  },
+  {
+    "title": "Create option in Grid Setup that enables/disables Save View and Save View As independently",
+    "author": "Jeff Ercolani",
+    "product": "Conga_Grid",
+    "content": "Currently when you restrict the ability to Save Views, it disables both Save View and Save View As.  We have use cases with our customers where they don't want their users to be able to override admin-generated views but they should be able to create their own versions of the admin-generated views.  Can we add separate configuration options to enable/disable Save View vs. Save View As?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Jeff, thank you for your Idea. I have put this under 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Ability to create custom permission to Conga Grid Users permission set and use that in Component visibility",
+    "author": "Katherine Olivario",
+    "product": "Conga_Grid",
+    "content": "Hide Grid to users that doesn't have Grid license",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Katherine, if you follow the steps below, you are able to hide the Grid with Component Visibiity (however, it will show the tab still)\n1. Clone Grid perm set2. Setup custom permission3. Attach it to the cloned Grid perm set and assign to user4. Set the custom perm under Component Visibility"
+      }
+    ]
+  },
+  {
+    "title": "Provide User the ability to resize related list height when viewing the reading pane underneath Grid rows",
+    "author": "Jeff Ercolani",
+    "product": "Conga_Grid",
+    "content": "When viewing the reading pane by clicking the triangle to the left of a Grid row and expanding underneath the row, it would be great to give the user the ability to resize the height of that expanded region so they can view a higher number of related records.  This would make working on the data in those related records much easier and prevent the need for scrolling.  This is a request coming from one of our Strategic accounts.Thanks!",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Jeff, thank you for submitting Idea. I have moved it to 'Future Consideration'."
+      }
+    ]
+  },
+  {
+    "title": "Mass Update with no active Record Types",
+    "author": "Austin Miller",
+    "product": "Conga_Grid",
+    "content": "Currently Conga Grid will not allow you to Mass Update selected records if they have a Record Type and no Record Types are active. If a random Record Type is enabled then you will be able to Mass Update. If there are no records in the Grid View with Record Types then you will be able to Mass Update even if there are no active Record Types. This would be a great feature if the user would like to deactivate all record types for the future while still being able to Mass Update records that have old Record Types.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Austin, thank you for your Idea.\u00a0 I have moved it to 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Grid to mirror user permissions from Salesforce",
+    "author": "Mark Turner",
+    "product": "Conga_Grid",
+    "content": "We have a requirement to change the behaviour in Grid - at present, field in a list view can either be edited or not based on permissions granted in Grid Setup. The use case we have is that in Salesforce, if a field on an object is only editable by the record owner, this should be reflected in Grid. For example:In Salesforce, the Case object has a field called \"Case Owner\" and this can only be changed by the owner of that particular record. Whereas, in Grid, all users are currently able to edit this field - the requirement is that only the owner of that record can change that field",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Mark, thank you for the Idea.\u00a0 I have moved this into \"Future Consideration.\""
+      }
+    ]
+  },
+  {
+    "title": "Automaticall Inherit the required field in SFDC to Grid",
+    "author": "Lawrence Dela Cruz",
+    "product": "Conga_Grid",
+    "content": "Hi Team,I have a case wherein if the field in SFDC has been tagged as required and have no Default valies, the Conga Grid doesn't inherit the required field and put 0 as a default value.Partial workaround:Disable the required field in SFDC.Tag the column required in Conga Grid.Back to SFDC and tag the field as requiredThanks!",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Lawrence, thank you for your Idea. I have moved it to 'Future Consideration'"
+      }
+    ]
+  },
+  {
+    "title": "Ability to remove 'Save' button and keep 'Save Data' Button",
+    "author": "Conor Vernall",
+    "product": "Conga_Grid",
+    "content": "Need to have the ability to remove the 'Save' Toolbar Button, but keep the 'Save Data' dropdown button.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hello, thank you for your Idea.This functionality already exists.\u00a0 Please navigate to the object's Feature Security settings in Grid Setup. There is an option to disable 'Save Views.' Once that setting is disabled, the Grid will only show 'Save' and 'Save Data' in which both save the data if you make changes."
+      }
+    ]
+  },
+  {
+    "title": "Child Grid View column width not be dependent on parent Grid View",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Grid",
+    "content": "When the final column in a child/nested Grid view is not stretched out to the full width of its parent Grid View, modified child Grid column widths don't save (are auto-adjusted to be wider upon refresh). This is cumbersome to configure and places the column filter icon out of sightCustomer is requesting that the column widths of child Grid Views not be dependent on / need to match up with the width of the parent Grid View.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Editing in Grid",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "Customer and their users are using Grid like a spreadsheet. They are altering prices and other numbers. If you edit one field value and hit the enter key, it goes to the next line, but you must manually select the contents of the cell and delete before entering the updated number/value. Per customer, It would be extremely helpful if there is a way to make the grid that when you hit enter, it goes to the next line and selects the contents of the cell.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "All products tagged as Active will only show when it will use for Batch Update.",
+    "author": "Lawrence Dela Cruz",
+    "product": "Conga_Grid",
+    "content": "All products tagged as Active will only show when it will use for Batch Update.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lawrence Dela Cruz",
+        "content": "Customer wants to filter all Products that has active status only. So that, when we use this on the Batch Update action, it will show only Products that has Active status and the Inactive products will not be included"
+      }
+    ]
+  },
+  {
+    "title": "Grid aggregating data from our systems",
+    "author": "Cameron Tierney",
+    "product": "Conga_Grid",
+    "content": "Customer is looking to have Grid Data reside in Azure but surfaced in a SFDC view.  However, they do not want to store the data in SFDC.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Modify List view in Conga Grid",
+    "author": "Thomas Kirkland",
+    "product": "Conga_Grid",
+    "content": "List views> Select a view -customer wants a way to sort other than alphabetically and to limit what fields populate and can be seen by certain users.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Change the server run time in Conga Grid for Mass Update",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Grid",
+    "content": "A customer is looking for an option to\u00a0change the server run time in Conga Grid. A simple update using the mass update is making Conga Grid return an error related to our server\u2019s CPU time timing out.\u00a0Customer's workaround is to use a dataloader tool to minimize the number of records within the batch which in-turn will allow their server to split up the update actions into multiple segments to allow any other automations to fire off without exceeding their time limit.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to select multiple users at a time to change Feature permissions",
+    "author": "Katherine Olivario",
+    "product": "Conga_Grid",
+    "content": "When you go to Grid Setup > Select object > Features > toggle the radio button to User, you are given a list of users down the left side of the screen to select.\u00a0 The customer would like to have a mass update option so they can select multiple users at a time to update their feature permissions and not have to go through each user individually.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use External Data in a Grid",
+    "author": "Austin Miller",
+    "product": "Conga_Grid",
+    "content": "It is currently possible to use external data with Conga Composer but we would like to have the ability to display external data in Conga Grid as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enable toolbar functionality for subpages in Conga Grid",
+    "author": "Alois Simmelbauer",
+    "product": "Conga_Grid",
+    "content": "Via Setup (cogwheel on the right = Conga Grid configurations options) there is the possibility to set the toolbar (yellow area) for the main level.However, there is no possibility to set the toolbar on the sub-level (here Quote Line Items). With click on the cogwheel of the sub-level, you immediately get to the settings of the main level.\u00a0Requirement / Idea:Use the \"Conga Grid configurations options\" on subpages similar to the main levelGive the possibility to hide e.g. the \"Conga Grid configurations options\" on subpages via the toolbar settings if it is not used or shall not be used",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Selected Criteria for Displaying 'Modified' in Grid",
+    "author": "Johnny Checton",
+    "product": "Conga_Grid",
+    "content": "Conga Grid Views show as '(Modified)' when changes are made to the View settings.\n\n\nHowever, when using a multi-Tabs Grid View and toggling between Tabs, the (Modified) stamp is displayed with the Grid View Name. This occurs when no view settings or record data has been modified on the Grid.\n\nIt would be helpful for Admin users to define which criteria cause the (Modified) stamp. For instance, only when record data is adjusted.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Grid - ability to create scrolling of long text fields",
+    "author": "Christina Bergholm",
+    "product": "Conga_Grid",
+    "content": "Want to create scrolling of long text fields. Right now, we are using a Visualforce page as a wrapper and editing the styling to show entire long text fields in the grid (client request). but this makes each row take up a lot of space.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to add notes inside Grid Reading Pane for Custom Objects",
+    "author": "Jeffrey Allen",
+    "product": "Conga_Grid",
+    "content": "Customers are able to add notes in a normal Grid view, but not within the reading pane on custom objects, which would be useful and not require an additional custom notes object as a workaround. Customer had a Grid on a custom object and would open the reading pane on another custom object within it, and the \"add note\" functionality would not work correctly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to merge multiple records into 1 excel template through Custom Action",
+    "author": "Hanah Bengson",
+    "product": "Conga_Grid",
+    "content": "Ability to merge multiple records into 1 excel template output through Custom Action",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Grid color UI adjustability",
+    "author": "Kirk Wessman",
+    "product": "Conga_Grid",
+    "content": "clients who dont use default SF color scheme need to be able to adjust color of Grid UI elements that fall outside the cells themselves (which can be adjusted already via conditional formatting). e.g. the tabstrip",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to change the number of records selected in the Grid picklist",
+    "author": "Mark Turner",
+    "product": "Conga_Grid",
+    "content": "Linked to case 00802816\n\n\nCustomer wants the ability to change the number of records from 50/100/500/1000 in the picklist at the bottom of a Grid List View",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Update pop-up when hovering over a lookup field in a Grid to Lightning",
+    "author": "Chloe Bevan",
+    "product": "Conga_Grid",
+    "content": "Compact view of relationship fields\nHovering the mouse over a lookup field (e.g. Account or Contact) shows a summary pop-up of the lookup. The styling for this comes from classic though. How can it be changed to lightning look and feel?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Restrict users being able to modify column filters on a Grid view",
+    "author": "Chloe Bevan",
+    "product": "Conga_Grid",
+    "content": "This would be helpful for organisations who want to keep uniformity to their Grids and not allow users to be able to edit or configure themselves",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Nitesh Agarwal",
+        "content": "we want to apply filters at tab level and lock it so that users see data only owned by them"
+      }
+    ]
+  },
+  {
+    "title": "translate all text in conga grid including action buttons",
+    "author": "Andy Quach",
+    "product": "Conga_Grid",
+    "content": "Currently all text gets translated except for the action buttons on grid. see example here:https://www.screencast.com/t/nnF2r0DMA. client would like everything to be translated based off language settings from user",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "View Filtered Lookups in Grid",
+    "author": "Johnny Checton",
+    "product": "Conga_Grid",
+    "content": "Right now, in order to view filtered lookups in Grid, the permission 'View Setup and Configuration' must be enabled. For some customers, this permission is otherwise unnecessary for end users. It would be a helpful feature to toggle on filtered lookup visibility from Grid level settings.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Update layout of Mass Update window",
+    "author": "Josie Panergo",
+    "product": "Conga_Grid",
+    "content": "When clicking Action -> Batch Edit -> Mass Update in a Grid, the customer wants the 'Number Invited' and 'Number Attending' fields swapped over on the window that pops up so that they are in a different position on the page. The columns in the grid are ok, it's just the pop-up window that needs updating.\n\n\nCase #: 00798280",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent column reorder",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Grid",
+    "content": "I'm looking for the ability to restrict column reorder from a grid. In my use case, customer will copy paste data from Excel to a 32 columns grid and there are chances a misclick could happen where they would modify the order which would lead to business issues",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Optimize loading speeds",
+    "author": "Shefa S.",
+    "product": "Conga_Grid",
+    "content": "Optimizing speed between page loading times for updates. Slow actions when loading page with updates or changes.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "sort order on Conga Grid list views",
+    "author": "Hanah Bengson",
+    "product": "Conga_Grid",
+    "content": "1.) Predefine a sort order on Conga Grid list views that carries over to any new SF record page using the list view\n\n\n2.)Conga Grid to reference Salesforce's Custom Metadata (where customer have already defined their required sort order)\n\n\nCase 00793305",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "change the default number of rows displayed on a Grid",
+    "author": "Hanah Bengson",
+    "product": "Conga_Grid",
+    "content": "Change the default number of rows displayed on a Grid. Customer have a grid that they want people to update and there are 634 rows but the default view is only 100. They want to show them all by default.\n\n\nCASE ID 00793066",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Fullscreen mode via grid",
+    "author": "Kharl Cultura",
+    "product": "Conga_Grid",
+    "content": "This is related to case - 00788119\n\n\nWhen customer is doing fullscreens mode, it is not updating and it was due to browser issue why codes are not pushing through.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Mass Create records for Conga Grid",
+    "author": "Nikki Gaspar",
+    "product": "Conga_Grid",
+    "content": "The customer would like to Mass create opportunities using Conga Grid as an added feature.Case# 00790687",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Inline creating extra record when doing a copy paste from excel",
+    "author": "Angelie Camasis",
+    "product": "Conga_Grid",
+    "content": "When user is trying to paste multiple records using Add --> inline functionality, one extra row gets created automatically.\n\nWhen the customer try to delete the extra record, they are presented with below error message.\n\n(Unsaved rows selected. Click Save to continue.)\n\n\nAnd when we click on save button, they are getting SFDC error because required fields are blank for extra record that gets created automatically.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Conga Grid released a feature that shows a Delete button on the lines when inline editing via copy and paste. The Delete button will resolve any issues on this Idea."
+      }
+    ]
+  },
+  {
+    "title": "Would like to issue Notification  on the date field inside Action and an option show task assigned in the Conga grid to  Salesforce task list",
+    "author": "Christine Alcansado",
+    "product": "Conga_Grid",
+    "content": "Customer is requesting for these two:\n\nCan we have a notification issue from a Conga Grid action item list when the deadline date passes?\n\nCan we have tasks assigned in the Conga Grid show on the Salesforce task list?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "3.\tRow level actions in Grid",
+    "author": "Chloe Bevan",
+    "product": "Conga_Grid",
+    "content": "A standard use case is to call javascript, URLs or API using an action on a row level rather than from the action menu or toolbar present at the top",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga grid related list fields to be added on the main grid column",
+    "author": "Kharl Cultura",
+    "product": "Conga_Grid",
+    "content": "The customer's business requirement was to show the related list field on the main grid column instead of showing it on the drop-down of the record.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Updating manually hardcoded titles and privacy in the Grid UI",
+    "author": "Kharl Cultura",
+    "product": "Conga_Grid",
+    "content": "Case - 00783982\n\n\nCustomer wants to manually update the hardcoded visualforce page of grid UI instead of updating it via package.xml and commits.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to clone related records",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Grid",
+    "content": "When cloning a record, that would be great to have an option to select child records (like selecting the child objects we want) that we would like to clone as well",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Replicate Salesforce account ownership transfer feature when changing owner in Grid",
+    "author": "Rodolphe Malaguti",
+    "product": "Conga_Grid",
+    "content": "Salesforce provides a powerful feature when it comes to transfer accounts. You can select options such as transfer of the attached opportunities. That would be great that such feature exists, especially when doing mass transfers",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Grid Usage Report - Description of action",
+    "author": "Michelle Brannan",
+    "product": "Conga_Grid",
+    "content": "A customer would like more information to be added to the Grid usage report. At the moment you can view what Grid pages have been viewed by users, but not what action they have taken, such as mass updated the view, exported data etc. This would be a great addition to get insights into actions on data.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show error message when copy/pasting invalid data into required field in Grid.",
+    "author": "Matt Penrod",
+    "product": "Conga_Grid",
+    "content": "If a field is required and the data can't populate on a paste, it would be beneficial (and provide more clarity to the user) for the grid to error when saving. If there is a data issue and the user is unaware of it, they end up with blank required fields (which can cause confusion.) By showing an error message, it alerts the user to the issue and what it's related to.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove Toggle Lightning/Chatter",
+    "author": "Lindsey Covington",
+    "product": "Conga_Grid",
+    "content": "Chevron wants to be able to remove the Lightning/Chatter toggle from Grid.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer wants  Kanban and Grid to sync with one another",
+    "author": "Cody Fullinwider",
+    "product": "Conga_Grid",
+    "content": "Customer wants to use a grid view for their kanban board. They want to be able to make edits to the kanban how they can in the SF list view instead of going back an forth between Grid and kanban.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Selecting a different view (other than the default) after drilling up/down from another record in Grid.",
+    "author": "Matt Penrod",
+    "product": "Conga_Grid",
+    "content": "Choosing a view, after drilling up/down, is faster than having to drag more fields onto the page. Also, if there are different use cases for different users, the default view can't provide the correct view for all of them.\n\nCustomer's use case: \"I have a list of campaign members and routinely drill up to the Contacts, so that I can make the needed edits. I would like to be able to select the view once I've drilled up to decide what fields will be shown (instead of having to drag them onto the screen each time). But, I don't want to have to select my view as the default view because it won't work for everyone who drills up to contacts (especially from other records).\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Grids in Screen Flows",
+    "author": "Amy Reams",
+    "product": "Conga_Grid",
+    "content": "PatientPoint would like to be able to show Grid as a Screen Flow within one of their flows.\n\n\nIdea being, they could present a grid of information to their users within a flow, have them create or update information within that grid, and then carry on with the flow to complete it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer with case number 00772574 is requesting the features below:",
+    "author": "Kharl Cultura",
+    "product": "Conga_Grid",
+    "content": "1. Remove preview box in Grid\n\n2. To compress two Grid Views to show on one screen instead of scrolling up and down to view the 2nd Grid View\n\n3. Wrap Text on the Column Name\n\n4. Last Modified by and Modified Date issue",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Account update from Grid",
+    "author": "Andy Quach",
+    "product": "Conga_Grid",
+    "content": "when a client makes an update to an account or opportunity on a grid view, it stays on that view once the update has been completed. Currently it refreshes and goes back to the home tab. https://www.screencast.com/t/2EerBrUo",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Open edit / view hyperlink (in action column) in same tab.",
+    "author": "Manish Singh",
+    "product": "Conga_Grid",
+    "content": "We would like to have an enhancement where when user clicks on edit hyperlink in the Action column it would open in same page instead of new page.\n\nBelow is what it is happening currently.\n\nCurrently when user clicks on edit hyperlink in action column within the grid, user is navigated to new browser tab , when user saves the record it navigates user to a default tab. So we are thinking if we could open the edit popup on same screen so that user flow is not interrupted and user can edit from the same browser tab instead of new tab. This would be a good user experience.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Grid Additional function/Option relating to Account Team",
+    "author": "Angelie Camasis",
+    "product": "Conga_Grid",
+    "content": "When changing ownership using Grid an Account Team in the record should not disappear or Grid should have an option like in Salesforce interface where customer can check a checkbox to keep account whenever they change the ownership.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Copy/paste number formatting from Excel to Grid",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Grid",
+    "content": "Customer has users who require large numbers to be copied from Excel to Grid, the numbers include commas, for instance 1,000,000.00, however when a number value with commas is copied from excel to a number field in grid, the user is unable to paste the value and the existing value remains. This is an issue for the customer as there has been times where human error has entered the incorrect value causing issues. Customer would like to be able to copy/paste values with commas as it with ensure the correct numbers are being entered from excel\n\n\nRequested by\n\nChevron Products Company a division of Chevron U.S.A. Inc., a Pennsylvania corporation on Case 00119990",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Batch Task On Grid Vs Salesforce Action",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Grid",
+    "content": "When receiving emails for Tasks within Salesforce is enabled, the function works fine when creating a Task in Salesforce but on Conga Grid, it is not sending out the email that Salesforce is sending out.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Click to Dial within Grid",
+    "author": "Lindsey Covington",
+    "product": "Conga_Grid",
+    "content": "Right now, you are unable to click the phone number in the Grid and it bring up a 3rd party click to dial integration. Within SF, you can set it up this way.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Chatter in Grid View staying in Lightning instead of toggling between Classic &Lightning",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Grid",
+    "content": "Instead of toggling between Lightning and Classic, they want to keep the Lightning UI in the Reading Pane for Grid - https://www.screencast.com/t/uuiVtBnkAaG - Toggle Lightning/Classic Chatter (https://www.screencast.com/t/uuiVtBnkAaG)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer wants an Auto Save feature whenever something within a grid is changed",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Grid",
+    "content": "They expressed the few clicks in regards to saving the current view they are on. Apparently it is time consuming to have to consistently hit the save button.",
+    "votes": "2 Votes",
+    "comments": []
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Possibility to do Multiple Part Search",
+    "author": "Taylor Fikri",
+    "product": "Catalog",
+    "content": "Currently, GE Renewable Energy users need to enter 1 part code after part code into the Search bar 1. So it could be very long in case of a long list of parts.\n\u00a0\nUsers can then use a \u201cmultiple\u201d search \u2013 ideally doing a copy-paste from original list from Customer in a Excel or Word table into a place \u2013 and then launch the search. For the matches, the multiple parts will appear in the search area.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Possibility to do multiple part search while configuring product",
+    "author": "Shubh Agrawal",
+    "product": "Catalog",
+    "content": "Customer: GE Renewable Energy\n\u00a0\nWhat customer require is a search functionality where, if we input multiple products for searching (possibly separated by commas or another delimiter), we should be able to retrieve all the specified products in the search, rather than just one of them.\n\u00a0\nBusiness impact: The users have raised concerns about the time-consuming process of searching for products one by one. They are interested in exploring the possibility of an out-of-the-box (OOB) functionality that would enable entering multiple products in the search bar at once, using a comma-separated format or another delimiter, and display all the listed products accordingly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to remove items from favorites in DC and CPQ",
+    "author": "Swapnil Bhandarkar",
+    "product": "Catalog",
+    "content": "Within DC or CPQ, we do not have the option for removing a favourite line item from favourites. OOTB it doesn't seem possible, the only way out is to create a new favorite with updated configuration.\nIs there a way to enhance the favorites functionality such that we are able to edit a configuration if we want to remove a line item from it?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. From a DC perspective, we do support Updating Favorites which allows you to remove primary line items inside a saved favorite. We can review this idea from a CPQ side however, as we do not support updating favorites as of now"
+      }
+    ]
+  },
+  {
+    "title": "Products under Default Category should be listed automatically, when user navigates to Catalog page from CartPage i.e. Add More Products on Cart",
+    "author": "Hardik Shah",
+    "product": "Catalog",
+    "content": "1. Create a Category with Type = 'Offering'.\n2. Set the \"Default Search Category\" as True.\n3. Associate Price-List with this Category.\n4. Add few Products in above created Category.\n5. Navigate to any Quote & Configure products.\n6. Product would be loaded by Default. No need to search or click on 'Magnyfing glass'.\n7. Select any Product and navigate to Cart.\n8. Click on \"Add More Products\" in Cart.\n9. Expected : Products in Catalog would loaded by default.\n\u00a0\u00a0Actual : User has to either search the Product or click on category to get list of Products.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "UI - Product detail popup on catalog page feels outdated",
+    "author": "Mohit Patel",
+    "product": "Catalog",
+    "content": "We received feedback from business people that the popup UI look & feel on catalog page is not in line with current generation UI and it feels outdated. No options available to arrange/categorize the information instead it just show fields in simple list.\nPlease update the UI to be inline with latest UX/UI design philosophy of lightning/salesforce.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Guided category path is not completely shown when we have hidden root category",
+    "author": "Gunjan Vazirani",
+    "product": "Catalog",
+    "content": "Eg: We have Category Hierarchy as All -> Root Category -> Temenos1 -> Temenos2 -> Temenos 3 -> Temenos4 -> Temenos5\n\u00a0\nCurrent Behavior:\nIf \"Hide Single Top Category\" is true then you will see \"Temenos2\" as main category. Now click Temenos3. Now on left panel click Temenos4. Notice on Product Catalog->All->Temenos3 will be shown as navigation path (Below search box. Now go to Temenos4 from level panel and notice that Temenos3. will get replaced with Temenos4.Now when we Turn off \"Hide Single Top Category\" and refresh the catalog page (you can also go out of catalog and comeback. Now you'll see that Temenos1 is also visible. Click Temenos2, now click Temenos3 from level panel, then click Temenos4. Notice that this time Product Catalog maintains all the patch of categories and you can click on any previous categories to go back. It will be something like this All>Temenos1>Temenos2>Temenos3>Temenos4>Temenos5\n\u00a0\nCustomer Use-case:\nCustomer has a use-case where they want to enable \"Hide Single Top Category\" from Catalog page settings for cleaner look of categories. However when they do this, they don't see guided category path which they can use to navigate from one category to another.Eg: When \u201cHide Single Top Category\u201d is unchecked then the guided path should be All>root category>temenos1>temeno2>... , but when \u201cHide Single Top Category\u201d is checked Only root category should be hidden from navigation and rest all part should be visible.Navigating to the previous sub category when customer is on the leaf category should either be possible from the guided path on top of the page of from the left side of the page.It will save user's click to move back in categories.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To add the OOTB field product type in refine my search",
+    "author": "Ram Gopal T",
+    "product": "Catalog",
+    "content": "We would like to have the field Product Type(Apttus_Config2__ProductType__c\u00a0) from the product object in Search Attribute Object so that we could use the same in configuring refine my search feature.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Select Multiple Locations in the Catalog",
+    "author": "Brad S",
+    "product": "Catalog",
+    "content": "3M Health would like to add multiple products to different locations at the same time.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need to create Favorites for specific group of User",
+    "author": "Sonia Yadav",
+    "product": "Catalog",
+    "content": "Favorite configuration can be either public or private as mentioned in Admin guide: https://documentation.conga.com/cpq/december-21/configuring-save-as-favorite-143197471.html Customer wants conga team can work on this favorites as an improvement, i.e. assigning favorites to a specific group of users. Thank you Sonia",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Favorites UI improvements: Choosing Price List and Publish",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Catalog",
+    "content": "1. Create a Favorite from any configuration. 2. Publish the Favorite. 3. While publishing the Favorite, you can either scroll and select or type what you need, the typing part is quite difficult here, you need to click the white line Expected behavior : User should be prompted for entering the Price List to which the Favorite has to be published. There should not be a need to to double click on the next line.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "More Number of Fields on Product Display List",
+    "author": "Saumil Deodhar",
+    "product": "Catalog",
+    "content": "Customer desires to display more fields than currently allowed (3) on the product list on the catalogue\n\n\nThis would help users to select accurate products across different business units\n\n* Create a Quote\n* Open Shopping Cart\n* Search for the Product or Navigate to Categories to see product list\n\n** At this point, the system should display more fields on the product list than what is currently allowed\n\nNote: This enhancement is requested by Hitachi Energy Holdings Ltd (fka ABB PG Power Grids Ltd). I am unable to find the customer in \"Requested By\" Field",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adding multiple Favorites to the cart with a single click",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Catalog",
+    "content": "1. Currently we are able to add multiple Products from the Product Catalog. 2. Similarly we want to add multiple Favorites from the Category section to the cart. a. Basically add to Cart should work the same way for both Normal Products and Favorites.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Favorite Configurations filters behavior should be same as filters elsewhere in catalog",
+    "author": "Jarkko Vainio",
+    "product": "Catalog",
+    "content": "Currently filters in Favorites category work differently than other parts of the product catalog: favorite filter lists always shows all picklist values while in other parts of the catalog only values really used on products are shown. Favorites filters should work same way as other filters.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Favorite Configurations, information about configuration needed",
+    "author": "Jarkko Vainio",
+    "product": "Catalog",
+    "content": "CPQ Favorite Configuration shows currently only metadata that creator of favorite entered for that record. There is no visibility what actual line items there are without adding it to cart. Having ability to see selected data from line items would be a great help for users to pick the right favorite. Data could be for example product codes or other product data.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Fast Product Entry (Keyboard based)",
+    "author": "Ahmad Khalifa",
+    "product": "Catalog",
+    "content": "Ability to add Products to the Cart by Code/Quantity directly through keyboard entry to allow rapid addition of large number of lines -Should be able to search products with Name/Code or other fields -Adding Quantity in same entry through keyboard (e.g. using ',' or TAB) -Optionally show added item Price (from Turbo)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Product list in Favorite configuration",
+    "author": "Piyush Jain",
+    "product": "Catalog",
+    "content": "Currently when user add Favorite configuration , he gets to see all the products only in cart. This request is to show list of products in catalog itself on click on favorite configuration .",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Disable Add to Cart for Favorites",
+    "author": "Piyush Jain",
+    "product": "Catalog",
+    "content": "Ability to disable Add to cart for favorite configuration once user has added favorite configuration once. Similar to what we have for products.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make Sort By field Configurable on catalog page",
+    "author": "Brij Siddharth",
+    "product": "Catalog",
+    "content": "Make Sort By field on Catalog Page to have an option to hide or show based on Business Requirement. Currently At Philips this feature is been requested. Refer Attached screenshot.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Email Notification When Conga Trigger Fails To Generate Document",
+    "author": "Maybeleen Matammu",
+    "product": "Conga_Trigger",
+    "content": "The customer requested to be notified when the Trigger fails to generate a document, to avoid the need for constant checking of the Trigger Dashboard for failed records.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea. I have moved to future consideration"
+      }
+    ]
+  },
+  {
+    "title": "Create a Function/Button in Conga Trigger Dashboard to enable setting up an automated email about the results when Conga Trigger is executed",
+    "author": "Hanah Bengson",
+    "product": "Conga_Trigger",
+    "content": "Our clients are seeking to implement a feature that allows them to receive automated email notifications in the event of every Trigger execution.\n\u00a0\nBenefits:\n1. Clients will receive timely notifications when a Trigger is executed, ensuring swift awareness of any issues with the results.\n2. This functionality will enhance productivity for our clients, as they will no longer need to visit the dashboard to check for errors manually.\n3. This feature is poised to significantly enhance the overall user experience, providing clients greater control and proactive error management.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved to future consideration"
+      }
+    ]
+  },
+  {
+    "title": "Capability to see the records that run on a specific date",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Trigger",
+    "content": "Customer is looking for the option to see the records that ran or failed on a specific date and export all data, not only those that has errors.\u00a0Particularly records that were stuck in queued state.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved to \"future consideration\"."
+      }
+    ]
+  },
+  {
+    "title": "Adding business unites to Conga trigger",
+    "author": "Andy Quach",
+    "product": "Conga_Trigger",
+    "content": "we could add users to business units (one user - to many business units) and use the Business Unit to define who can see the transaction/associated records and final documents, as well where those documents are stored (kind of like the SC0). It would make it much easier/simpler for end users and admins to have control over security.\n\u00a0\n\u00a0This would also help with similar security concerns for Trigger - if the solution formula includes the Business Unit, and that set permissions for record/file access, it would be so much easier than the automations needed to configure access/ownership based on record details.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, we will not be moving forward with it at this time. I've move it to \"deferred\""
+      }
+    ]
+  },
+  {
+    "title": "Trigger error reports to pull reports in real time.",
+    "author": "Andy Quach",
+    "product": "Conga_Trigger",
+    "content": "Have the generate error report button be able to generate error reports of most recent errors that day. Currently appears to be a product limitation.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea! I've moved to \"Future Consideration\""
+      }
+    ]
+  },
+  {
+    "title": "Email alert for Trigger Dashboard Error",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Trigger",
+    "content": "This is useful for the end user if they don't have an access to the Dashboard, and for them to monitor if there is an error right away",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make Trigger Dashboard available through API",
+    "author": "Darren Plant",
+    "product": "Conga_Trigger",
+    "content": "Customer would like to be able to access the Data in the Conga Trigger Dashboard through API so they can report ore effectively",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Manually Resetting the Daily Limit for Conga Trigger in Sandbox Environment",
+    "author": "Raenard Joseph Reusi",
+    "product": "Conga_Trigger",
+    "content": "Should be able to manually reset the daily transaction limit for Conga Trigger in a SandBox environment.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Send Email alert when Trigger/Batch Fails",
+    "author": "Nathan Kirwood",
+    "product": "Conga_Trigger",
+    "content": "Customer would like to receive a notification when a Trigger fails.\n\nRequested by AB Sciex LLC (https://apttus2.lightning.force.com/lightning/r/0013Z00001lmOMYQA2/view)\n\nCase 00792342",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Trigger - dynamic 'Used to send as' field",
+    "author": "Alejandra Tarrell",
+    "product": "Conga_Trigger",
+    "content": "My customer has a requirement for their Conga Trigger documents to emailed out from their client's account rep. Since they can only have one generic \"User to send as\" email address, this is causing a lot of these emails to be ignored, and they are looking at alternate solutions for this use case. They need the 'send from' email address to be dynamic.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Trigger not passing Br Encoded formatting However \\n Works in Salesforce Field",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Trigger",
+    "content": "\"_BR_ENCODED_\" formatting is not being kept when being passed through a salesforce field but \"\\n\" works fine with Conga Trigger.\n\n\n\\n is the current workaround for customer",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Error in Trigger Dashboard when Documents cannot be written.",
+    "author": "Bryan Johnson",
+    "product": "Conga_Trigger",
+    "content": "When trigger cannot write documents to files due to salesforce storage being full it would be nice to get that error written back to the trigger dashboard.\n\nWhen that happens now you get a success and no error and no documents",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

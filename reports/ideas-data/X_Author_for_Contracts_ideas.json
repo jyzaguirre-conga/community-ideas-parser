@@ -1,0 +1,1003 @@
+[
+  {
+    "title": "X-Author Contract to pick up value from more than 1 object levels",
+    "author": "Swapnil Devlekar",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently, X-Author Contracts can pull up data from only one object level down e.g. Agreement > Agreement Lines. But we also have many use cases where we need to track or print information from more than one object level e.g. Agreement > Agreement Lines > Payment Terms. This is a pretty regular use case and has been asked by Roche and many customers.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Contract to pick up value from more than 1 object levels",
+    "author": "Swapnil Devlekar",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently, X-Author Contracts can pull up data from only one object level down e.g. Agreement > Agreement Lines. But we also have many use cases where we need to track or print information from more than one object level e.g. Agreement > Agreement Lines > Payment Terms. This is a pretty regular use case and has been asked by Roche and many customers.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Date Pickers Message When checking in the Document using XAC 2.0",
+    "author": "Divya Dubey",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello Team,\n\u00a0\nCustomer has a requirement to hide the Date Pickers Message box (With below message) which comes whenever the template (with date picker field) is checked in using XAC 2.0.\n\u00a0\nMessage:\nWhat error is being troubleshoot\nThis document contains date picker control(s) as content control, XAJS can not process this document. Please click \u201cOk\u201d button to get XAJS compatible document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support of API 61 to get data upto 5 level",
+    "author": "Brijesh Mistry",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently, in XAC, the User can go up to 3 levels to insert data in the Template.\nPlease provide support up to level 5, as Salesforce has developed a new version of API 61 , which offers data up to level 5.\n\u00a0\nhttps://help.salesforce.com/s/articleView?id=release-notes.rn_api_soql_5level.htm&release=244&type=5",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Want to add rich text area field below or above other fields like lookup or text field in the same cell on the repeat table.",
+    "author": "Manasvi V",
+    "product": "X_Author_for_Contracts",
+    "content": "We need to add 2 fields below one another in a repeat table. But when we are adding fields like text area and lookup it works without any error but if 1 of those field is Rich text area then both the field values are not populated on the generated document, only the Rich text area field value is populating but other field value is not getting populated.\n\u00a0\n\ufeff",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support insert with clause formatting for DAR",
+    "author": "Namir Ashraf",
+    "product": "X_Author_for_Contracts",
+    "content": "As of now, we do not support the INSERT WITH clause formatting in the DAR section. The customer has requested this enhancement to support their use case.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability for Users to Specify Save Location when checking out a Document",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently, when user's check out a document in X-Author 2.0, the document is saved to the Default local file location (specified in Microsoft Word). If they attempt to use Microsoft's Save functionality they can change the location to where the document is being saved, but when they go to check out a different document with X-Author 2.0, the document that is checked out saves to the last saved location (and not the Default local file location). Users would like the ability to specify the save location for their documents when they are being checked out with X-Author 2.0.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "XAC checkout functionality with Autocheckout = False",
+    "author": "Abhishek Jain",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello Team,\nJust wanted to confirm below use case.\nThere is a one agreement and generate document by user A - 1.0.0Same time User B downloaded the generate document.User A checkout the document, make redlines and checked in the document. 1.1.0User B open the downloaded and make his/her redlines and check-in back. 1.2.0\nIs there any way user B can see the error in XAC 2.0 like there already latest redlines document check-in by User version 1.1.0 and please work on that?",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "In X-Author's we would want to add more than 9 rows in Segment condition",
+    "author": "Manasvi V",
+    "product": "X_Author_for_Contracts",
+    "content": "In the XAC 2.0 and 1.0 we have a limit to add only 9 rows, we would want to increase that limit as there is customers requirement were they want to add 10 rows of conditions but due to the 9-row limit we are not able to add more rows.",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to Identify Mismatched Content Control Boxes",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer (Verizon) is experiencing issues with the number of content controls in their document not matching the number of Doc Clauses in the X-Author 2.0 panel. This mismatch is causing a 'MarkedForDeletion' error message that prevents the users from being able to check in the particular document. The customer has a lot of content controls (50+) in their documents and it is not easy to identify which specific content control box that is causing the issue. Having the ability to identify (highlight) particular content control boxes that are not matched to a Doc Clause, will help users to easily identify the issue and remove the mismatched content control (saving their users a lot of time).",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "There should be version number available on the X-Author 2.0",
+    "author": "ECOM Help Desk",
+    "product": "X_Author_for_Contracts",
+    "content": "As checked, there is no version number available on he XAC 2.0 but version number must be available.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Keep Special Characters in Microsoft Word when Naming a Document",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "In X-Author 1.0, the document name in Microsoft Word would preserve any special characters that were utilized. When checking out a document in X-Author 2.0, the punctuation does not show up in the document name in Microsoft Word. The document name shows up correctly in Salesforce and X-Author 2.0, but the name that shows up in Microsoft Word does not keep any of the special characters/punctuation.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Default Read-Only Clauses at the Template Level",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer (Verizon) is looking for the ability to restrict the type of clause being used for specific templates. Having a template level setting that defaults the clause type to 'Read-Only' would prevent users from accidentally inserting the wrong clause type.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Automatically close instance of Word when checking in and unprotecting a document",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Whenever a user checks in a document with X-Author Contracts 2.0 a new instance of Microsoft Word opens for the new document. The previous instance of Word remains open which can cause users to not be sure about which instance of Word they should be working in. This also happens when a user attempts to unprotect a document. A second instance of Microsoft Word will open and the first instance will remain open. Having so many instances of Microsoft Word open can cause confusion for the user who may be checking in/checking out a large number of documents every day.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "X-Author Check in and Check out permissions",
+    "author": "Alison Aubuchon",
+    "product": "X_Author_for_Contracts",
+    "content": "When you check out a document in X-Author it should remove the document protection so you can accept and reject changes and it should auto lock when checking in a document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Templates - allow for searching/recently used option in Fields when creating Segments",
+    "author": "Alison Aubuchon",
+    "product": "X_Author_for_Contracts",
+    "content": "When you are creating a segment conditional the list of fields is not searchable and you have to scroll through a long list. Or maybe include a recently used section for the fields that we use often.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Templates - allow for naming of segments",
+    "author": "Alison Aubuchon",
+    "product": "X_Author_for_Contracts",
+    "content": "It is impossible to figure out what segment you need to review or update because they are all named Segment Conditional. You have to click through each to find the one you are looking for. If you could rename them it would be easier to navigate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to display the version number in X-Author 2.0",
+    "author": "ECOM Help Desk",
+    "product": "X_Author_for_Contracts",
+    "content": "There is no version number in the XAC 2.0 as it was in the XAC 1.0\n\u00a0\nIn XAC 1.0, we are able to see the version number like 11.9.2.5.2001 (one of XAC 1.0 version's) but in XAC 2.0 no version number is visible.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Show Notification/Banner (Confirmation Pop up) in XAC 2.0 and XAC Advance",
+    "author": "Ayush Saxena",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello team,\n\u00a0\nWe would like to show Notification/Banner (Confirmation Popup) in the XAC 2.0 & XAC Advance on the basis of few fields like Agreement Approval Stage is 'Approved'.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "In XAC, Section template/clauses should be supported in header & footer part of the template and we should publish them accordingly",
+    "author": "Dhaval Prajapati",
+    "product": "X_Author_for_Contracts",
+    "content": "The customer is having a following use case which is not supported in current XAC:\n\u00a0\nUse case: Customer's logo is frequently getting updated. Hence, they want to add a logo (with some merge field line Agreement number) in section template/clause and add this section template/clause in the header of the template. Then, whenever is logo is changed, they will update it in related section clause/template and will publish it such that it gets updated in respected Agreement template (where it is added in the header).\n\u00a0\nHowever, as per the current XAC functionality, section clause/templates are not supported in header and footer of template. Hence, publish functionality is also not working for them as per the expectation. Thus, customer has to manually update each template and they have a good number of templates. So, it\u2019s difficult to update each template when logo is changed.\n\u00a0\nHence, if we can provide such functionality which supports section clause/template in the header and footer part of the template and one can publish them accordingly to fulfill the mentioned use case.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to add repeat table inside the clause template in XAC 2.0",
+    "author": "Namir Ashraf",
+    "product": "X_Author_for_Contracts",
+    "content": "This is an enhancement request for XAC 2.0 earlier in XAC 1.0 it was supported to add the repeat section inside the Clause template. While in XAC 2.0 this feature has been not provided.\n\u00a0\nIt is causing a lot of issue in maintaining and creating new clause template and as the customers business requirement this is a key feature.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Limit \u201cRecently Opened\u201d in XAC to the users' recently opened docs",
+    "author": "Piotr Klimiuk",
+    "product": "X_Author_for_Contracts",
+    "content": "Can we limit \u201cRecently Opened\u201d in X-Author to the users' recently opened documents? Currently you can see everyone\u2019s.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Highlight the fields/clause present on template in field/clause section of XAC 2.0 when selected on the template/agreement document",
+    "author": "Divya Dubey",
+    "product": "X_Author_for_Contracts",
+    "content": "We have a customer request that as in XAC 1.0, when a fields/clause is selected from a template/agreement document it gets highlighted in control panel, they want the same feature to be provided in XAC 2.0.\n\u00a0\nThat is, whenever they select fields/clause present on template, it should be highlighted in field/clause section of XAC 2.0",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "In XA2.0- Add Labeling of the Logged in Environment so user can see if they are in Production or UAT.",
+    "author": "Rachelle Blevins",
+    "product": "X_Author_for_Contracts",
+    "content": "In XA2.0 there currently is no way to see whether I am in the Production or UAT org from the Word document Conga Add-In for XA2.0. I would like to see an enhancement added to the \"Labeling/About details\" of the Logged in Environment that shows whether the user is in Production or UAT. Once we are logged in we can't identify the environment, like we used to be able to in XA1.0 in the header bar for Connections.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Want to configure custom date & currency format in XAC",
+    "author": "Raj Somani",
+    "product": "X_Author_for_Contracts",
+    "content": "User wants to configure custom date and currency formats for Locale.\n\u00a0\nFor Date, we have the Default Date format field under Template Locale object where we can set field dependent for locale code and Date format but it is not reflecting on XAC level (Screenshot attached).\nReference JIRA: https://conga.atlassian.net/browse/CONTRACTS-18924\n\u00a0\nFor the Currency format, we do not have anything in the object or on the XAC side. We can set the default precision number but are not able to configure the format for the thousand separator and decimal.\n\u00a0\nFor Example, We cannot configure Date Format to dd/mm/yyyy and Currency Format to X XXX,XX for fr-CH locale code",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Arnaud Saint-Pasteur",
+        "content": "Hello, I'm very surprised that this kind of setup is not already available in the standard product.I understand that all the locales are not setup \"out of the box\" but it mandatory to be able to add easily a new one.Best regards"
+      }
+    ]
+  },
+  {
+    "title": "X-Author Contracts setting that would restrict users to only being able to insert smart clauses.",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer (Abbott MDD) is only using Smart Clauses in their documents. They want to be able to restrict the available options when inserting clauses in X-Author Contracts, so that only 'Insert Smart' is an option for their users ('Insert' is not visible). It would be beneficial if there was a setting or custom permission that would only allow Smart Clauses to be available to be inserted (or only Text Clauses). This would prevent user's from making the mistake of selecting 'Insert' instead of 'Insert Smart' when they go to add a clause.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "X Author Contracts \"2.0\" Conditional Segment View",
+    "author": "Shefa S.",
+    "product": "X_Author_for_Contracts",
+    "content": "Starbucks has expressed much difficulty when there are many segments in a template and all of them are labeled \"conditional segment.\"\nIt consumes much time and effort to have to select through all the available Conditional Segments to find the right one that needs to be updated from the panel.\nIf we could label the segments, give them a name when building them or expose the value, we could navigate through our segments quicker.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X Author Contracts \"2.0\" Sort Ability in Templates versions",
+    "author": "Shefa S.",
+    "product": "X_Author_for_Contracts",
+    "content": "Starbucks team idea within Templating of XAC\n-Ability to sort/filter through template versions\nSometimes template versions are more than v50, they aren't able to scroll back to V1 in this case.\nCreating a sort order button or filter can help when we need to find other versions than the most recent.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to sort clauses by 'Most Recently Created/Modified'",
+    "author": "Minhui Huang",
+    "product": "X_Author_for_Contracts",
+    "content": "In the Clause Library (XAC 2.0),\u00a0all clauses are displayed in an alphabetic order. Could we have an option to sort them by 'Most Used' or Z-A order? or 'Most Recently Created/Modified'? Thanks!",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "X-Author Template 2.0 Should Have the Ability to Have Comments",
+    "author": "Taylor Fikri",
+    "product": "X_Author_for_Contracts",
+    "content": "See 3 BD X-Author 2.0 use cases below for Conga to consider:\n\u00a0\nBD Use Case:\u00a0\n\u201cAs a BD Contract Consultant, after I generate an agreement and open it in X-Author, I need to be able to see the comments that were originally on the CLM Template.\u201d\n\u00a0\nThese comments include:\n\u201cIf \u2013 then\u201d scenarios, at the discretion of the business unit. Example comment: \u201cInstructions: Delete if pricing is per GPO and insert the following language below Pricing\u201d.Additional notes from the Legal Team/Contract Consultant/others, addressed to the BD Contract Consultant working on the contract.\u00a0Example comment: \u201cInstructions: 2/10/22-Email from Jim Sommer relating to agreements where the offered pricing is lower than the lowest priced tier on the National\u00a0Agreement, which also (typically) provide for higher levels of commitment. Other considerations \u2013 These pricing agreements are typically terminable on 60-days\u2019 notice.\u201dAdditional decision points, asking the BD Contract Consultant to add or remove sections based on the individual situation with the Customer. Example comment: \u201cInstructions: If the Volume Commitment is less than 70% the non-full line supplier is not required, and this section may be removed and instead mark this section as \u201cRESERVED\u201d or delete and renumber and correct the sections that survive termination of this agreement.\u201d",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC - Grouping ..",
+    "author": "Balaji Krishnan",
+    "product": "X_Author_for_Contracts",
+    "content": "Today if we want to group a set of data based on single object let's say (agreement line items) and display in template, we are not able to do so. The ask is to have this grouping in XAC upto atleast 3 levels. This is not available in XAC today. In composer we have one level grouping but in XAC we do not have any grouping at all. This is needed by some customers when developing a template. Please address this in the next release of XAC",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to insert smart fields from agreement's child objects in the clause template.",
+    "author": "Shubh Agrawal",
+    "product": "X_Author_for_Contracts",
+    "content": "-Request by customer-\n\u00a0\nIdea: Ability to insert smart fields from agreement's child objects in the clause template.\n\u00a0\nDescription:\nThe customer wants to insert smart fields from the agreement clause object in the clause templates.\nIt is possible in XAC 1.0 but in XAC 2.0, we cannot see the child objects of the agreement when we try to insert fields in clause template.\nAs the customer is migrating from XAC-1.0 to XAC-2.0, They want the ability to do the same in XAC 2.0 as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Feature for Merge Service( Generate Proposal ) to \"Push up\" conditional segments after generation",
+    "author": "Rene Rodriguez",
+    "product": "X_Author_for_Contracts",
+    "content": "The current behavior of the Merge Service does not fill in the empty space created by the conditional segments that are farther away in the rough draft of the template.\n\u00a0\nExample: If Clause 1 and Clause 4 are selected in conditional sequence, then the space from Clause 2 & 3 are still present after generation\n\u00a0\nConditional Signature Blocks function in the same way\n\u00a0\nThere is no MS Word workaround for this in terms of formatting we could implement on the Technical Support side",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Using the Salesforce File system for managing Rich text Area fields as Image",
+    "author": "Abhishek Agarwal",
+    "product": "X_Author_for_Contracts",
+    "content": "There has been use cases that we have seen from customer side to be able to get the dynamic logo of partners for CLM and product logos for CPQ, to be able to render on the generated document. Currently, we can achieve the same with the help of Rich text Area field and render it as image on the configured template. The ask here is that this functionality can only be done if the image is uploaded in the same salesforce org as a document and not as a salesforce files. It would be great if we can extend the support for the same using salesforce files as salesforce files is being promoted with the lightning system.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Date Picker Limitation in XA2.0",
+    "author": "Cristina P.",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer is using Date pickers (smart field) and we are seeing a pop up when the doc is being converted to XA2.0 format. It would be ideal if we XA2.0 would accept the use of Date pickers so we can avoid seeing this pop up.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Community- Install Center - add the next release date below each product download date. (Alternative would be to have an automated email users can sign up for a certain product release date.)",
+    "author": "Rachelle Blevins",
+    "product": "X_Author_for_Contracts",
+    "content": "In Conga Community- Install Center - enhancement to add the \"next release date\" below each product version download date.\nFor example if we know when the next X-Author for Contracts version is going to be released, we might wait for the next release before download of the current version. *An alternate upgrade would be to have an automated email to customers to provide the next release date to us who sign up for that notification for a certain product.\nThanks,\nRachelle Blevins",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Regenerate with redlines feature in XAC 2.0 should have same behavior as observed when using XAC 1.0",
+    "author": "Hardik Macwan",
+    "product": "X_Author_for_Contracts",
+    "content": "The feature \"Regenerate with redlines\" should retain redlines from previous document, and the newly regenerated document should have an incremented version.The current behavior of Regenerate with redlines does not retain redlines from the original generated document to the newly regenerated one. We do copy redlines from previous document, but in order to create a version we have to check it in otherwise the redlines are lost.This feature is completely different in XAC 1.0, as when using Regenerate with redlines in over there, the newly regenerated document does have all the redlines from previous document without the need to check in.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Possibility to created clauses & sections not only seperatad by Agreement Type but also by Accounts / Customers --> for X-Author to appear only the relevant clauses / sections when wanting to insert new clauses (Agreement Type + Account/Customer)",
+    "author": "Anika Pinnell",
+    "product": "X_Author_for_Contracts",
+    "content": "We are looking for the possibility to create clauses and sections not only seperated by Agreement Type, but also in addition related to our Customer Accounts. In this way, our Sales department could see in X-Author 2.0 only their Account relevant clauses to insert them into a generated Agreement Template. We often have the use case that the clause was deleted and needs to be brought back at a later stage. We do not want to regenerate or go back to an earlier Agreement version, because all the otehr changes inbetween would also be gone and it is too much effort to rebuild the entire Agreement, just to bring back one simple clause.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to see missing metadata in X-Author Contracts 2.0",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "In X-Author 1.0, users are able to see the missing metadata in their templates by navigating to the Control Panel. This is very helpful in being able to troubleshoot issues/errors that come up in templates. In X-Author 2.0 this feature is not available and it makes it more difficult to see which parts of the template have missing metadata.",
+    "votes": "9 Votes",
+    "comments": [
+      {
+        "commenter": "Erica Freudenberg",
+        "content": "Are there any status updates on this as it seems to be in \"Needs Review\" for quite some time?  Is this on roadmap?"
+      }
+    ]
+  },
+  {
+    "title": "User is able to insert the alternate clause anywhere in the agreement",
+    "author": "Thribuvan B N",
+    "product": "X_Author_for_Contracts",
+    "content": "User can insert the alternate clause anywhere in the agreement\n\u00a0\nPlease refer to the Below recording for steps:\nCase_ 00860303 - No built-in way to modify or revert an alternate clause from the clause library-20231003_174137-Meeting Recording.mp4",
+    "votes": "6 Votes",
+    "comments": []
+  },
+  {
+    "title": "No built-in way to modify or revert an alternate clause from the clause library",
+    "author": "Thribuvan B N",
+    "product": "X_Author_for_Contracts",
+    "content": "Received Conga Technical support case: 00860303\n\u00a0\nNo built-in way to modify or revert an alternate clause from the clause library.\n\u00a0\nThe client reported this issue mentioning that the current process of modifying or reverting an alternate clause from the clause library is very \"unfriendly\". The steps are attached in the document.\nThe user expects a built-in feature, which can revert to the main clause with a single click.\nI, as an SA, anticipate many similar requests from other customers as the current process is not user-friendly. \nWould love to see this feature in the next release.\n\u00a0\nFor better clarity, you can refer the below recording:\nCase_ 00860303 - No built-in way to modify or revert an alternate clause from the clause library-20231003_173205-Meeting Recording.mp4",
+    "votes": "7 Votes",
+    "comments": [
+      {
+        "commenter": "Mohammed Omer Farooq",
+        "content": "Please view the following document to get an idea about the user steps that are currently needed to revert an alternate clause- Steps to revert to the main clause-compressed.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Parallel Review Completion Notification to the CLM User",
+    "author": "Xavier George Manayil Joseph",
+    "product": "X_Author_for_Contracts",
+    "content": "When a parallel review is completed, currently the reviewer replies to a big email id which will merge to CLM application, but CLM User never know whether this review is performed or not. He would need to go back to that Agreement record and see the activities to understand the same.\nIf CLM User also gets a notification, then it would be easier for them to proceed with their CLM lifecycle.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Hide agreements on Start Tab",
+    "author": "Cristina P.",
+    "product": "X_Author_for_Contracts",
+    "content": "On the \"start\" tab there is a list of agreements.\u00a0The user has given us 2 options either to show the recent agreements opened by the current logged-in user profile or assigned to them. The main concern is with seeing the all agreements from the channel.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to group and sum the repeat table rows in the XAC template.",
+    "author": "Manasvi V",
+    "product": "X_Author_for_Contracts",
+    "content": "We want a feature such that depending on a particular field value in the repeat table we need to group all the rows with similar value, and we need to add/sub/avg/count a field from that group of rows and display it as 1 row in the repeat table.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to use email templates when sending for review from X-Author 2.0",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer wants to be able to use an template in Word when they send reviews in X Author 2.0/ Conga plug in.\u00a0 Currently, the user is having to type the email each time.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "In X-author for contract 2.0, If we click on a segment or field in the document, it doesn\u2019t take us to the corresponding field or segment in the \u201cWork\u201d tab",
+    "author": "Rohit Bavaliya",
+    "product": "X_Author_for_Contracts",
+    "content": "Hi Product Team,\n\u00a0\nIn X-author for contract 2.0 If we click on a segment or field in the document/template, it doesn\u2019t take us to the corresponding field or segment in the \u201cWork\u201d tab (it only works the other way around) and so it is very difficult to find the correct place without there being a way to scroll up & down?\n\u00a0\nThe customer wants this feature in XAC 2.0 as they have very complex templates which contain N number of fields, Clauses, and segments. It is very hard for their user to find the correct segment or field via scroll up or down.\n\u00a0\nPlease take this enhancement as consideration in future XAC 2.0 product release.\n\u00a0\nRegards,\nConga Techncial Support Team",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Hiteshkumar Dobariya",
+        "content": "In XA 1.0 - We can programmatically doc to the pane.XA 2.0 - We are using Javascript and Microsoft Word does not support mouse hover and highlight the fields. Hence, we are not able to do it.\u00a0Alternate option: As you mentioned if a customer has lots of fields, how he/she can able to identify the smart/merge/RO fields?So, in XA 2.0 - we have an option called Highlight Field. if you click on the Highlight field then Smart fields are Highlighted in Lime color and RO fields should be highlighted in Yellow color."
+      }
+    ]
+  },
+  {
+    "title": "Create Repeatable Sections / Tables as Clauses",
+    "author": "Barry Ben-Horowitz",
+    "product": "X_Author_for_Contracts",
+    "content": "We should have the ability to create a repeatable / section as a clause to allow for reusability of table exhibits in multiple templates. The Insert as Repeatable Table and Section are visible when creating a clause and selecting Fields - Insert Fields but many to one objects such as Agreement Line Items are not visible. This would eliminate the need to configure exhibits in multiple templates. This is needed for BD, Abbott, Coca Cola. Its an enormous cost to embed the same exhibit in many templates that include data from many to one relationship objects such as Agreement Line Items etc.",
+    "votes": "15 Votes",
+    "comments": [
+      {
+        "commenter": "Barry Ben-Horowitz",
+        "content": "We have a solution for this!  Much thanks to Rebecca and Niraj for their help.  I'm doing a design document to add to Expertize.  The solution basically is to create a Section (Type = Section) and add the repeatable table in the Section.  This will add the repeatable table (exhibits) to the Clause Library."
+      },
+      {
+        "commenter": "Mitesh Solanki",
+        "content": "This is definitely good feature to have as Bosch is also looking for similar feature"
+      },
+      {
+        "commenter": "Soumit Panda",
+        "content": "Adding NetJets to the list. We have a similar requirement for NetJets, where in a table exhibit of aircrafts  (assets) owned by the customer needs to be displayed on multiple templates."
+      }
+    ]
+  },
+  {
+    "title": "X-Author 2.0 - Ability to sort document versions in numerical order.",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently X-Author 2.0 displays the document version based on the SystemModstamp. Customer would like the ability to sort their document versions in numerical order in X-Author 2.0 (as they are able to in X-Author 1.0).",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "X-Author - identify salesforce production vs Sandbox connections.",
+    "author": "Arun James",
+    "product": "X_Author_for_Contracts",
+    "content": "Implement a visual identification , color theme changes when login to Sandbox vs Production.\nPresently there are no changes to the UI themes when logging in to sandbox.\u00a0Some of the users do UAT testing, accidentally retain the UAT connection when they work on actual production contract document.\n\u00a0\nSuggest to implement a color theme change when on any sandbox connection.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Arun James",
+        "content": "Hello Hitesh,I can explain to you in a short call. Can you setup the call? I am on EST time."
+      },
+      {
+        "commenter": "Hiteshkumar Dobariya",
+        "content": "Hi Arun,Could you please elaborate more on this idea?Please let me know a convenient time to talk on a Team call about it."
+      }
+    ]
+  },
+  {
+    "title": "Need ability to add Custom fields on the XAC 2.0 screens",
+    "author": "Abhishek Kamalia",
+    "product": "X_Author_for_Contracts",
+    "content": "In XAC 1.0, we have the ability to add any custom field in the Create and Checkin page using the FieldSets.\nHowever, in XAC 2.0, we cannot add any custom fields on the Create and Checkin screens.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "List out Smart and Non-Smart Fields in a Template.",
+    "author": "Drashtiben Vora",
+    "product": "X_Author_for_Contracts",
+    "content": "For large templates, It is difficult to check Which field is Smart field is which one is not as the user have to go to each field and check.\n\u00a0\nIt would be great to have a feature where the user can have a list where they can see Smart and non-smart fields (With some differentiator like color change, Order Change, etc).\n\u00a0\nThis can be achieved for a Contracts but is not available as of now for Templates.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need a Scroll bar in the XAC 2.0 screens",
+    "author": "Abhishek Kamalia",
+    "product": "X_Author_for_Contracts",
+    "content": "Need a scroll bar on the XAC 2.0 Template screens.\nContracts Tab has Scroll bar however the Templates Tab don't.",
+    "votes": "12 Votes",
+    "comments": [
+      {
+        "commenter": "Mohammed Girniwala",
+        "content": "Hello Team, We got another request from the CSM that this is requested by one of our customers.They need the scroll bar on the Contract screen as well in XAC 2.0. Case no 00860300 for reference."
+      }
+    ]
+  },
+  {
+    "title": "Insert as A Smart Field option on Insert Fields screen",
+    "author": "M Melwyn Joy",
+    "product": "X_Author_for_Contracts",
+    "content": "Now XA has two options called Insert as Table and Insert as a Section on Insert field Screen during template creation.\nWe usually create smart fields on templates but it takes two levels to complete the process.\nFirst, to insert a field and second is to make it smart later.\nThe Ask/Idea here is to give a third option on Insert Fields screen called Insert as Smart which will make the field being inserted as smart and avoid multilevel time consuming process.\nSelect single field or multiple fields and then clicking on INSERT AS SMART option would shorten the time and avoid the extra hustle.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Scroll Bar and Search Option on Segment Tab (Template) and DOC field page (Contract)",
+    "author": "M Melwyn Joy",
+    "product": "X_Author_for_Contracts",
+    "content": "When working on complex templates, there's no option to scroll down or search for the fields on Segment tab like on Clauses and Field tab.\nAlso, on the Contact during open or open and update, there's no option to scroll down or search for the fields on DOC Field Page like on Doc Clauses tab.\nCustomer is finding it hard to use the product and are reaching out to the Conga team with multiple question on How\nDuring template creation, we from the Conga team have also faced the same issue when working on complex templates.\nKindly look into this issue and provide the Scroll bar and Search option on these pages.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Order Management - API to locate x-Author, Conga APIs to search X-Author templates",
+    "author": "Laura Martin",
+    "product": "X_Author_for_Contracts",
+    "content": "Our customer Novartis/ Sandoz want to automatically map the correct X-Author template to the correct order.\n\u00a0\nThey want to be able to use a Conga API to assist in searching for and selecting the correct X-Author template which is relevant for my order based on the Conga OOTB Query Templates Filter.\n\u00a0\nConga Support case 00845681",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC 2.0 font size change for the template/agreements name on the Right hand side window",
+    "author": "Divya Dubey",
+    "product": "X_Author_for_Contracts",
+    "content": "The XAC 2.0 right hand side window does not show the full name of agreements and template . Although we could resize the window to see th full name by dragging the right side panel towards the left .which decreases the page size of word document.\n\u00a0\nBut there is a requirement to offer an enhancement of chaging the font size of the right side panel so that full names are viewable easily without dragging it.\nPlease have a look at the enhancement request.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "XAC 2.0 Salesforce Connection Failures",
+    "author": "Arun James",
+    "product": "X_Author_for_Contracts",
+    "content": "Sometimes when X-Author for Contracts (XAC 2.0 Add-in) opens in your word application.\nThe saved connection will not re-establish automatically and the attempt to obtain session ids from Salesforce will go indefinite loop, I would like to see a timeout on the connection attempt and show informative prompt messages.\n\u00a0\nNote: Workaround to fix this issue is to clear the Add-in cache from the Microsoft word application and re-attempt to connect to salesforce.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Arun James",
+        "content": "Case ref #: 00843207"
+      }
+    ]
+  },
+  {
+    "title": "Enable/Disable Auto Checkout",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Verizon would like the ability to enable and disable the checkout document in XAC 2.0",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add \"Source\"/\"Target\" selection back in to \"Regenerate With Redlines\" functionality",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "In Microsoft Word -> Review -> Compare -> Combine we are allowed to choose the formatting for either the Source or the Target document. In X-Author for Contracts 11.5 we were able to select this when using the \"Regenerate with Redlines\" feature (as it would perform the same action as combining).\n\u00a0\nIn newer versions of X-Author Classic, and in 2.0, we can not select the source or target for formatting. The source is always selected. This can cause table, formatting, and indentation issues when a conditional table is changed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC 2.0 - Reverse highlight / Text anchor",
+    "author": "David Vernall",
+    "product": "X_Author_for_Contracts",
+    "content": "Hi Team.\n\u00a0\nCurrently if you click on a field within the 'Field' tab on the XAC UI, then it will jump to where that field lives on the actual Word template. Fantastic stuff.\n\u00a0\nOur customer would like to have the reverse of that happen also. So, if you click on the field on the Word template, it then highlights/jumps to the corresponding Field on the list of fields in XAC.\n\u00a0\nThank you!",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Matt Penrod",
+        "content": "I have a customer that is requesting this as well."
+      }
+    ]
+  },
+  {
+    "title": "XAC 2.0: Ability to Swap a Clause Multiple Times",
+    "author": "Paul Koivula",
+    "product": "X_Author_for_Contracts",
+    "content": "After swapping a standard clause for an alternate clause in XAC 2.0, it is not possible to swap again. The alternate clauses disappear. The expectation is that the user could further swap the clause or even swap it back to the standard clause.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "XAC 2.0 Compare UI",
+    "author": "Paul Koivula",
+    "product": "X_Author_for_Contracts",
+    "content": "Increase the filename size in this screen. For several clients, the filenames are long enough that everyone of them looks identical on this UI.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Drop-Down Value in Generated Document",
+    "author": "Shree Harini Murugesan Sundaramoorthy",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer has templates that have a drop-down list providing a series of standardised values that can be chosen within a template. The Business has observed that the drop-down list is no longer present within the generated document. Is it possible to keep drop-down values in generated document or is there any work around solution for the same.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Vivek Mishra",
+        "content": "This is a limitation in Microsoft Word with the technology used by X-Author for Contract."
+      }
+    ]
+  },
+  {
+    "title": "App Version In X-Author for Contracts Config file needs to update to correct version installed",
+    "author": "Carrie Bellio",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello,\nIt has been brought to our attention once a customer upgrades their X-Author for Contract the config file App Version text line does not reflect the correct version installed.\n<AppVersion>11.5.819.2001</AppVersion>\n\u00a0\n\nInstalled version:",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Make clause boxes more difficult to remove",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "When editing or copying/pasting in a Word document, clause boxes keep getting removed. During Merged Agreement creation, Legal users are copying and pasting clauses to align with proper formatting for Legal Documents. This causes clause boxes to be inadvertently removed. It would be helpful if there was a way to make sure the clause boxes remain, regardless of the edits being made in Word.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Karen Schilling",
+        "content": "Add a notification to notify user if a clause box is removed - Karen/Robin from Verizon"
+      }
+    ]
+  },
+  {
+    "title": "Error popup on check in when the document is opened in word and edited directly from email without saving",
+    "author": "Gunjan Vazirani",
+    "product": "X_Author_for_Contracts",
+    "content": "Issue: Receiving an error message while checking-in an document in XAC 2.0.\nDescription: When we open an document directly from the email which is sent for review and connect it to XAC and check-in the document we receive the error message-\"An unexpected error has occurred. Please try again The application has encountered an error. Please contract the administrator\".\n\u00a0\nSteps to Replicate: \n1. Login to org\n2. Go to Agreement\n3. Send the document for review(I have just imported an offline document for testing)\n4. Go to the email received, without downloading just open the document received in word\n5. Login to XAC 2.0 \n6. Make some changes in the document and then click on finish.\n7. We will see a message that the document is checked in successfully but then an error is thrown : \"An unexpected error has occurred. Please try again The application has encountered an error. Please contract the administrator\"\n\u00a0\nCurrent scenario: This is a product limitation currently and users need to save a copy of the attachment to local before check-in. Workaround is to save the document locally and then check-in with changes.\n\u00a0\nExpectation:\na) If the document is to be saved locally first then a meaningful error should be thrown.\nb) The idea is to have one single storage place. There should not be a need to save the file locally and in Salesforce.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Date formats in X-Author Contracts",
+    "author": "Ram Gopal T",
+    "product": "X_Author_for_Contracts",
+    "content": "Current scenario: The X-Author 1.0 has multiple date formats available for selection but X-Author 2.0 has only limited options. For 1.0, we use field dependencies and Locale set at the \"Locale\" object but for 2.0 we use date formats from Microsoft's .Net library. This limits the options for available date formats in XAC 2.0.\n\u00a0\nThis is causing the customer to rely on XAC 1.0 to select the date formats available. It would be helpful if we have the date formats which are available in XAC 1.0 in XAC 2.0 as well.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Need to Translate the UI of XAC 2.0",
+    "author": "Yash Parikh",
+    "product": "X_Author_for_Contracts",
+    "content": "--> Customer has a requirement to translate the UI of the XAC Menu/Labels.\n\u00a0\n--> Currently they have translated the UI of XAC 1.0 by using the following documentation:\nhttps://documentation.conga.com/clm/february-23/salesforce/use-case-translating-x-author-contracts-user-interface-143884743.html,\u00a0\n\u00a0\nAnd they want to translate the labels, options, and the whole UI of XAC 2.0 to some other language other than English.",
+    "votes": "12 Votes",
+    "comments": [
+      {
+        "commenter": "Florence Eden",
+        "content": "Customers need to have UI in French and German for their business users. It is standard practice in those countries to deliver the UI in the local language. Thank you for considering this."
+      },
+      {
+        "commenter": "Shefa S.",
+        "content": "Customer has a need for French/German translation for the UI"
+      },
+      {
+        "commenter": "Gajanan Pujari",
+        "content": "Translation of UI should be available in XAC 2.0 and will make a lot of sense for some of the customers."
+      }
+    ]
+  },
+  {
+    "title": "Add/delete fields in the \u201cCreate new offline agreement\u201d section of the X-author 2.0",
+    "author": "Tirthak Kothari",
+    "product": "X_Author_for_Contracts",
+    "content": "The customer would like to have a feature using which we can add/delete fields in the \u201cCreate new offline agreement\u201d section of X-author 2.0\n\u00a0\nThe customer\u2019s use case is that -\n\u00a0\nThey are creating Agreement records directly from X-author. Their business use case requires some fields to be required. Without adding these fields into X-author, they can not fill those fields. Hence, can not move forward with the Agreement creation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add feature to disable/greyed out Check in offline button in XAC 2.0",
+    "author": "Raj Somani",
+    "product": "X_Author_for_Contracts",
+    "content": "We are having one button called Check-in offline in XAC 2.0. We should have a feature to disable/greyed out that button. Also if possible then Can we customize the button in a way when we click on it, it should not show all the agreements? Suppose we have agreement templates based on the account and we do not want to let other accounts select the templates that are not assigned to them.\n\u00a0\n\n\u00a0\nThank you",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Vivek Mishra",
+        "content": "@Hitesh, let's create a JIRA for the first part ie. disable check-in offline button.Raj, I didn't understand the 2nd part of the requirement."
+      }
+    ]
+  },
+  {
+    "title": "Template Migration Manager for Mac OS",
+    "author": "Ram Gopal T",
+    "product": "X_Author_for_Contracts",
+    "content": "The template migration manager, which is now available only for windows, should also be made available for Mac OS.",
+    "votes": "6 Votes",
+    "comments": [
+      {
+        "commenter": "Yugesh Bhatikar",
+        "content": "This is badly needed for the Apple CLM pursuit which is underway. Please create a MacOS version, or even better a web based version"
+      }
+    ]
+  },
+  {
+    "title": "X-Author - Word Cross Referencing in smart clauses",
+    "author": "Deep Joshi",
+    "product": "X_Author_for_Contracts",
+    "content": "@DJoshi - Could you please elaborate more about this idea?",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Shree Harini Murugesan Sundaramoorthy",
+        "content": "Hi Team,I have one case for TS 00828295, where customer is adding only cross reference field in their template and while generating the agreement all these cross reference field numbers will appear as zero (null) in the generated agreement. Is there any workaround to achieve this? Please help us here"
+      }
+    ]
+  },
+  {
+    "title": "Easier Testing of XAC Template Changes",
+    "author": "Paul Koivula",
+    "product": "X_Author_for_Contracts",
+    "content": "This is a good suggestion from CVS.\n\u00a0\nWhen making changes to an XAC template, the user needs to check-in the template, activate it, and re-generate a template to see the results. It would be easier if there were a test mode where the user could just make a change and click on a button within the template to see the impact of the change, instead of going through the check-in/activate/generate cycle.Hi Paul,Will review this idea and get back to you for the same.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author: Convert number to words",
+    "author": "Swapnil Devlekar",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer has legal requirements to print the numbers as text also on their contracts. As an example \u2013 'Contract Term' \u2013 24 months. This must be printed on the document as 24 (twenty four) months.The primary focus is on Germany as legal requirement, but probably this will be needed for other countries too and other languages tooWe tried solving this by using the MS Word functionality, but it doesn\u2019t work with XAC because of the way the fields are added there.We need a feature in XAC that can convert Number fields to text words",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Allow Customers to Modify Timeout Period for CreateWordPackage API",
+    "author": "Jeff Ercolani",
+    "product": "X_Author_for_Contracts",
+    "content": "For customers who are creating very large contracts using X-Author for Contracts, they can and do run into issues with the process timing out when using the CreateWordPackage API. We set a specific timeout period for the API that the user cannot change. This enhancement request is to give the user the ability to configure the CreateWordPackage API and modify the timeout period.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent or disable opening of new version or copy in a new window after check-in",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently when checking in a document in X-Author for Contracts (XAC 2.0) the new version of the document will open. We can now mitigate it either by checking in asynchronously or disabling automatically locking the new document. While the customer has these options they would prefer a method to inhibit the opening of the new window.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "DOTX Format",
+    "author": "Matt Penrod",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer would like the ability to be able to use DOTX format with X-Author contracts. This would allow them to track changes in Word based on the Track Changes setting in their template. Currently, track changes is available in DOCX and DOC format after the document is generated, checked-out in X-Author, and then checked back in. The customer wants a way to be able to have the Track Changes Word setting carry over automatically from the template to the generated document.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Disable check-in offline from XAC 2.0",
+    "author": "Ayush Choudhary",
+    "product": "X_Author_for_Contracts",
+    "content": "Case Number: 00822251\n\u00a0\nAccount: MSCI INC\n\u00a0\nThe customer wants to disable the check-in offline button in XAC 2.0 as per their business use case for a specific profile of users.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Raj Somani",
+        "content": "Hello Team,Case: 00827428Account Name: HELLA GMBH & CO KGAAThe customer also wants to disable the check-in offline button in XAC 2.0 as per their business use case for a specific profile of users.Thank youRaj Somani"
+      }
+    ]
+  },
+  {
+    "title": "Ability to use salesforce custom labels in XAC templates",
+    "author": "Chetan Patel",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently in X-Author Contracts for word, we don't have ability to use salesforce custom labels as merge fields or in conditional logic. This was raised by customer Illumina to allow more generic values in template conditions to avoid unnecessary formula fields on header objects.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "During Approvals, XAC checkin shouldn't be allowed. Need restriction",
+    "author": "Sreenath Kothacheruvu",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently, for one of the customers, we are using the X-Author web service to convert Docx to PDF on approval completion.\n\nHere, the latest Docx will pick from the document version detail. However, during approvals users can check in incorrect/wrong Docx to the agreement later which can be converted as an Agreement document.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "All agreements are get expired if we expire one renewed agreement",
+    "author": "Rohit Bavaliya",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello Team,\n\n\nCustomer Use-case:\n\nA customer renews the main agreement and creates renewed agreements .1 and .2. For some reason, the customer wants to cancel .2 agreement using the 'Cancel Request' button. Upon canceling .2 agreement, it changes the status of these agreements to 'Cancelled' and marks the status of .1 as 'Activated'. After customer expires .1 version by clicking on the 'expire' button on the agreement record page, he saw that all versions are get expired. As per the customer expectation, canceled agreement has not to be expired.\n\n\nI have tested the same in internal orgs and observed the same behavior. Would it be expected to expire all agreements if one version gets expired?\n\n\nThe user wants this to be considered as an enhancement for the future.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Billing Address fiels not displaying data in proper format on the generated document.",
+    "author": "Harshit Solanki",
+    "product": "X_Author_for_Contracts",
+    "content": "When the customer uses the billing address field in the template and generates the document the document contains the billing address data in a query format.\n\n\nAnd for that customer needs to use the below fields as a workaround.\n\n1. Billing City\n\n2. Billing Street\n\n3. Billing Country\n\n4. Billing Zip/Postal Code\n\n5. Billing State/Province.\n\n\nCustomers don't want to do that.\n\n\nPlease take this as an enhancement.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Differentiating changes in smart fields during parallel review",
+    "author": "Ram Gopal T",
+    "product": "X_Author_for_Contracts",
+    "content": "Issue Summary :\n\n* As of now, when Parallel review completes, the final merged document, overrides all the smart field's value with final reviewer's selection, and it contains tracked changes for other fields which were modified by previous reviewers.\n* In this process, there can be a scenario where a field was never modified by the last reviewer but the final merged document will show it as redlined and mark the final change against last reviewer, because previous reviewer had changed it's value.\n* This scenario is misleading for Michelin. We have already recommended 'Office 365 review process' to them to avoid this, but they have requested below mentioned feature on XAC 2.0.\n\nCustomer's Suggestion :\n\n* Once the review process is complete, when the Contract Manager or owner checks out the final merged copy, under Doc Fields tab in XAC, they should be able to see the fields value submitted by each reviewer.\n* Customer's expectation is to see additional fields (with reviewer's name as Header) and the field value which was submitted by them in review check-in process.\n\nThe customer has notified us that they have an upcoming renewal and if they are not able to achieve their requirement, they might consider other products.\n\nCustomer- Michelin\n\nReference case - 00814703",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC Query of Template Attributes",
+    "author": "Barry Ben-Horowitz",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently template attributes such as smart, updateable and segment rules are only available by checking out templates. Illumina and BD have requested a report mechanism to gain insight into the template attributes without having to access the templates. This is a major benefit to our customers and prevents accessing configured templates via XAC. NOTE - Illumina is not available in the requested by list.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need original agreement details to be added in XAC through insert field for amended agreement",
+    "author": "Raj Poshiya",
+    "product": "X_Author_for_Contracts",
+    "content": "The customer has a use case where they want to print the details of merge fields on the Amended agreement from the Original Agreement.\n\n\nIn XAC customer is looking for a related list such as \"Related Agreements (Relationship To)\" from where the original agreement details can be inserted as smart fields.\n\n\nCurrently, this is not supported in XAC.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "User should be able to add new custom fields on template Creation flow in XAC 1.0/2.0",
+    "author": "Raj Poshiya",
+    "product": "X_Author_for_Contracts",
+    "content": "Hi Team,\n\n\nThe customer requested that they want to add custom fields in XAC UI when the user is trying to create a template/clause.\n\n\nCurrently, it has pre-defined set of fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display Category field values in XAC 2.0 based on Template record type assignment",
+    "author": "Minhui Huang",
+    "product": "X_Author_for_Contracts",
+    "content": "Hi Team,\n\nThe customer (Irvine management company) would like to display Template Category field values in XAC 2.0 based on Template record type assignments. This feature is working fine in XAC 1.0, however, it doesn't work in XAC 2.0. They hope we can enable this feature in XAC 2.0 as well.\n\n\nThanks!",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Within XAC 2.0 it would be nice to understand which clauses are locked",
+    "author": "Eric Ferris",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently within XAC 2.0 there are visual indicators for Doc Clauses when there are \"Alternates Available\" however since there is the ability at the Template to \"lock\" a clause from editing, it would be nice to see which Doc Clauses are locked by the template with a small icon. I have attached a couple screen shots to help clarify Current Locked Clause vs Proposed with this \"new idea\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customize email template for Check-in from X-Author For Contracts",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "The current email that send out during asynchronous check-in from X-Author are poorly worded. An example would be:\n\"Hi,\n\nCheck-in process of  is completed.\n\nThanks\"\n\nCustomization for customers would be beneficial as they may change it to suit their business needs. The current setting in Contract Lifecycle Manager for \"Email Template For Checkin Notification\" isn't impacting checkin from X-Author.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Use Files for Storing X-Author Contracts Template Word Files instead of Attachments",
+    "author": "Tapas Shah",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer Name : Infobip Limited\n\n\nCurrently, when we create any XAC template, the word file is stored in attachment and not in Files. Salesforce has asked its customers to use Files instead of Attachments and that is why we have properties like Enable File in Comply System Property, Approval System Property, Proposal System Property etc. Using that property, we can make sure that Agreements, Approvals or Proposals use Files instead of Attachments but that is not the case with Templates, Clauses, Supporting Documents master data.\n\n\nProduct should store XAC templates also in Files as per Salesforce recommendation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow lookup fields to be highlighted",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "The customer wants to be able to see all fields that were merged from Salesforce, including lookup fields (which are unable to be marked as smart), quickly. Highlighting them would draw attention to them quickly for what is changed from the template.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Automatically highlight smart fields in X-Author for Contracts 2.0 with admin entry",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "In X-Author 1.0 there was an admin entry, APTS_DefaultHighlightFieldsControlPanel, to automatically highlight smart fields in the document. In 2.0 manual selection of highlighting is required in the contract through Work -> Highlight Fields. The customer would like the same functionality in 2.0 as was present in 1.0.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove Auto Locking of Template After Check- In - XAC 2.0",
+    "author": "Carrie Bellio",
+    "product": "X_Author_for_Contracts",
+    "content": "In XAC 1.0, after checking in a template the template will stay unlocked as expected.\n\nIn XAC 2.0 after checking in a template, the template will auto lock and this causes an unnecessary extra step of releasing the lock manually on the template document, which causes confusion and a bad customer experience as they are used to the functionality of XAC 1.0, which keeps the template unlocked.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Have field attribute names (API names in Salesforce) visible in X-Author 2.0",
+    "author": "John Hammons",
+    "product": "X_Author_for_Contracts",
+    "content": "In X-Author for Contracts 1.0 the \"Attributes\" are visible for Fields in the Control Panel which give the full field API name and parent agreement. When checking Fields in XAC 2.0 we only have the Field Type and name visible (along with editable options for the field).\n\nIn larger environments with custom fields and implementations seeing the full API name in X-Author is extremely helpful. For the partner contact it is preventing them from moving to XAC 2.0. Screenshot attached of comparison between XAC 1.0 control panel and XAC 2.0 template fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need ability to sort on multiple Fields based on the fields used in template.",
+    "author": "Thribuvan B N",
+    "product": "X_Author_for_Contracts",
+    "content": "Customer: Thomson Reuters Holdings Inc.  (https://apttus2.lightning.force.com/lightning/r/0011U00000D8zadQAB/view)\n\nSupport Level: Premier Plus\n\n\nFollowing the XML code used for Sorting the line items with on the template grid.\n\n\nNeed ability to sort multiple Fields based on the fields used in the template.\n\n\n\n\n\n\n\n\n\n\nApttus_Proposal__Proposal_Line_Item__c\n\n\n\n\n\nApttus_QPConfig__LineNumber__c\n\n\n\n\n\nSequenceLine__c\n\n\n\n\n\nSequenceOption__c\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline_Contacts__c\n\nCustomer_Master_Contacts__c\n\n\n\n\n\n\n\n\n\n\n\n\nPlease watch the below 5 Min recording for a better understanding:\n\nhttps://conga.zoom.us/rec/share/DRb1c5wuEWRQquGxy8kWwzUXqWh4BPUKMIlj82mF5NI3Hra1-ndFRaXKWPThzr99.sd8d47vPsK_DLQUf?startTime=1654268412000\n\n\nPasscode: @d%e*zD0\n\n\nIn one template it should sort based on one field and in another template based on another field.\n\n(Need to sort two separate ways in two order forms- One template to use one XML and another to use another XML)\n\nIt means, they are asking whether they can have multiple Admin entries?\n\nIs there a way to add one more XML and call that specifically for one more template?\n\n\nCurrently we have feature for sorting one field.\n\nReferred the Admin Settings in CPQ:\n\nhttps://documentation.conga.com/cpq/may-22/configuring-admin-settings-169285279.html#id-.ConfiguringAdminSettingsvMay22-AdminSettingsinCPQ\n\n\nBut Customer is in need of having the ability to sort multiple fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "X-Author Contracts both XAC1.0 & XAC2.0 should process faster for Complex Documents",
+    "author": "Jay Patel",
+    "product": "X_Author_for_Contracts",
+    "content": "Very Slow processing for Complex Documents: Unable to check in an agreement doc using X-Author v2 (v2103), take very long time, same with XAC1.0 11.27.127.\n\n\n\u2022 The document contains 50+ clauses and might be conditional so there are many fields as well.\n\n\u2022 The clauses are smart so XAC has to reconcile them while every check-in.\n\n\u2022 This document also has 7 repeat tables with lots of fields (some of them are having more than 40+ fields). And again these repeat tables might contain the condition so it will be more complex.\n\n\u2022 Due to the complexity of metadata, it is taking time as XAC has to retrieve the metadata and validate the data every time so it is taking much time.\n\n\nAfter a VERY long time (15+ minutes Or 20+ minutes Or more) the document gets checked-in sucessfully, but ususally end user loses the patience after 5-7 minutes.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to display the latest version number of a template in X-Author on top.",
+    "author": "Joseph Franklin",
+    "product": "X_Author_for_Contracts",
+    "content": "When checking out a template in XA contracts and if there are multiple (>50) versions user has to manually sort on the 'Version Number' to see the latest version every time they check out. This is an additional step that that can be avoided.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support for HTML content in XAC template without use of Rich Text Field",
+    "author": "Chetan Patel",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently XAC template supports use of Rich text field to interpret HTML content, in case customer wants to apply dynamic styling from salesforce, but Rich Text field has limitation in terms of formatting. for example it only supports some font family. So if we can allow any other Text Area field to use as HTML content that will be really useful for customers to apply dynamic rich HTML content for formatting in template.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Have a READ ONLY checkbox while creating a clause.",
+    "author": "Ankur Prasad",
+    "product": "X_Author_for_Contracts",
+    "content": "Have a READ ONLY checkbox while creating a clause, such that if checked, the clause will be treated as a read only clause - in the template or generated document. Also other options (Insert as Smart clause, Insert as TEXT etc.) should not be visible during its addition. For further discussion on this, we can get connected.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove the download copy number from the merge document name when check-in with \u2018retain document name\u2019 as checked.",
+    "author": "Ankur Prasad",
+    "product": "X_Author_for_Contracts",
+    "content": "When any merge document is downloaded locally in our machine, it contains the download number appended to its name. Now when this merged document is checked in, with 'retain document name' check box as checked, it continues to carry the download copy number. Customer needs to have the download copy number to be removed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Gray out documents hyperlink in XAC 2.0 if there isn't a contract attached to an Agreement record.",
+    "author": "Carrie Bellio",
+    "product": "X_Author_for_Contracts",
+    "content": "It would be useful to customers when they are testing to know which Agreement has an attached contract to it. Instead of digging around, clicking on Agreement after Agreement.\n\nPlease see the attached screenshot of the 'Documents' hyperlink as it shows clickable (blue) but after we click on it, then the error message appears there are no documents available for this Agreement. Instead, we should display the 'Documents' hyperlink as not clickable until a document or contract is attached to the Agreement record.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Include \"Account\" in the search results",
+    "author": "Carrie Bellio",
+    "product": "X_Author_for_Contracts",
+    "content": "Current State: If you search for something like \"Mutual Nondisclosure Agreement\" or \"Master Service Agreement\" you will get hundreds of hits.\n\nWe know that you can search by the Agreement Number, but then you have to copy and paste that from Salesforce which is one extra step.\n\nFuture State: It would be better if the Search functionality also included \"Account\" in the search results. This way the customer wouldn't have to comb through dozens of records/documents.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Date format",
+    "author": "SF Integration Service Account",
+    "product": "X_Author_for_Contracts",
+    "content": "Hello Team,\n\n\nThe customer looking forward to add custom date format, for example: MMMM dd, yyyy",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support Date picker in X-Author 2.0",
+    "author": "Prabakar M",
+    "product": "X_Author_for_Contracts",
+    "content": "Currently due to limitation from Microsoft Office.Js , X-Author does not support date picker component.\n\n\nIn future, when Microsoft Office.Js supports Date picker, X-Author should also support Date picker component.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC plugin should also be supported/working in Windows'11",
+    "author": "Karan Matlani",
+    "product": "X_Author_for_Contracts",
+    "content": "Hi Team,\n\n\nOne of our customer was trying the XAC plugin in Word in Windows 11 OS. He is getting below error:\n\n\n\n\nWith the same configuration/setup/credentials, it's working fine in Windows 10 and iMac.\n\n\nCustomer's windows setup: \n\n\nBest Regards,\nKaran Matlani\n\nConga TS",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "For XAC 1.0 ; show warning message while creating new clause",
+    "author": "Ankur Prasad",
+    "product": "X_Author_for_Contracts",
+    "content": "Showing warning/error message while creating a new clause , that clause limit is 64K characters.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adding an READ ONLY clause on generated agreement document",
+    "author": "Ankur Prasad",
+    "product": "X_Author_for_Contracts",
+    "content": "This enhancement is required on XAC 1.0 (legacy X-Author for Contract)\n\nAs the customer (Verizon) has a use case of inserting 'Read Only' clause on generated documents, they are currently using clause with IMAGE on it so that it can be a read only.\n\nThis might be a possible candidate for an Enhancement Request, to allow users to insert 'Ready Only' clauses on Agreement document from XAC.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Limitation with Template Generation with Config Line Item",
+    "author": "Shahid Ali",
+    "product": "X_Author_for_Contracts",
+    "content": "We are trying to use Configuration line items to generate documents for a Proposal. However, since we cannot go more than two levels deep in template creation, we are not able to utilize this functionality. For example- on proposal there is a lookup to agreement object. Since the master object here is product configuration, we cannot use any field from Agreement (as its more than two levels of relationship)\n\n\nThe workaround given by product was to create formula fields but that is not feasible for us as we are close to limit on proposal object.\n\n\nThis was created in wrong category so created a new idea after discussion with CPQ team. old/duplicate idea - QTNG-I-65",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Feature to Make clauses read only while adding from playbook under X-Author Contracts tab",
+    "author": "SF Integration Service Account",
+    "product": "X_Author_for_Contracts",
+    "content": "There is a feature to change clause properties to read only under X-Author Templates tab.\n\nIt would be good to have a feature making clauses read only while they are added from playbook under X-Author Contracts tab itself",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Feature to Make clauses read only while adding from playbook under X-Author Contracts tab",
+    "author": "SF Integration Service Account",
+    "product": "X_Author_for_Contracts",
+    "content": "There is a feature to change clause properties to read only under X-Author Templates tab.\n\nIt would be good to have a feature making clauses read only while they are added from playbook under X-Author Contracts tab itself",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "XAC should give ability to sort repeat section based on some fields",
+    "author": "Anubhav Jain",
+    "product": "X_Author_for_Contracts",
+    "content": "Many a times, there is situation where customer wants to sort their repeat section based on some custom field/logic. I know there is an admin entry APTS_ProposalConfig which does the trick for you, but that's a global setting and affects all the template or line or products.\n\n\n1. There are situations where customer wants to sort different sections based on different logics, the sort feature should be local to XAC section and not a global setting. Please see attached.\n2. Also, when XAC is run on custom object, even admin entry don't allow to sort the repeat section. This should be also supported. Like if we create a XAC template on Product Configuration, Configuration Line Item repeat section can't be sorted today.\n\n\nExpertize article\n\nhttps://apttus.cloud.answerhub.com/questions/18542/sort-on-configuration-line-item-in-xac.html?childToView=18543#answer-18543",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Hector Gomez",
+        "content": "Hello, I just want to be able to sort quote lines in the system any type of way; either via template or within salesforce.  I don't have access to that link - can you provide a link for me/customer (admin)?Thanks."
+      }
+    ]
+  },
+  {
+    "title": "publish template with SSO",
+    "author": "Karan Shetty",
+    "product": "X_Author_for_Contracts",
+    "content": "One of customer's IT Risk policies is that they don't allow users to access Salesforce with a Salesforce Password. They only allow users to login with OKTA SSO.\n\nHence while publishing templates, they should not have to enter credentials and it should publish based on SSO.\n\nNeed this as requirement added on the system.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

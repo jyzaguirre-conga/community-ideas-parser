@@ -1,0 +1,772 @@
+[
+  {
+    "title": "Enhance the /approveRequest API call to designate the actual approver",
+    "author": "Brian Gertsch",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "The /approveRequest API call does not allow designating who is approving a request. This is needed in instances where we have a delegate approver who is notified about an Approval. For instance, if an approval is originally assigned to User A, but User A has a delegate configured in the system, User B, then the Approvals module will notify both User A and User B. We currently enable the approval through a third-party application which makes the /approveRequest API call. However, there is no way to indicate in the API call whether the approval was completed by the assigned User A or delegate User B. We need to add a parameter for actualApprover to the /approveRequest API call\n\u00a0\nAccording to the latest documentation for the Approvals API (link: https://documentation.conga.com/approvals/latest/salesforce/approvals-rest-apis-225250750.html) the following call is created to allow recording an approval:\n\u00a0\nApproving Approval Requests\nPOST /approveRequest\nThis API is used to approve approval requests. This API accepts the ID of the approval request and comments as input parameters.\n\u00a0\nThis documentation gives the following example JSON message body:\n{\n\"requestId\": \"a1WJ0000003ACuKMAW\",\n\"comments\": \"test comments\"\n}\n\u00a0\nWe propose adding the following new, optional \"actualApprover\" parameter:\n{\n\"requestId\": \"a1WJ0000003ACuKMAW\",\n\"comments\": \"test comments\"\n\"actualApprover\": \"0051300000B4uxLAAR\"\n}\n\u00a0\n\u00a0\nPlease consider supporting this need.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "We will consider this in the Conga Platform"
+      }
+    ]
+  },
+  {
+    "title": "Conga CLM- Agreements - Integration with Outbound Call Functionality",
+    "author": "Simran Singh",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Proposal: Integrate the existing approval notification setup with the bot (Moveworks)\n\u00a0\nProblem: Micron is implementing a 3rd party callout that is required to be messaged on the event that a user receives an Approval Request from CLM. We are looking for an option that would not require us to put the Callout on the Trigger that is called on the approval request as that has limitations and is against best practices. We have reviewed Conga Documentation and cannot find a method to hook in that would allow us to notify through a callout. We need assistance in identifying if there is a best practice to hook into the approval notification or if there is another solution that would be better.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "We will consider this in the Conga Platform"
+      }
+    ]
+  },
+  {
+    "title": "Too many clicks to submit for approvals",
+    "author": "Nishil Desai",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "A user has to click buttons 4 times to submit a Quote for approval.\n1. Create Quote (or Agreement).\n2. Configure product and add 30% discount to trigger approval. The \"Submit for approvals\" button is enabled on Cart page.\n3. Click \"Submit for approvals\" button, this will show the approvals preview page with additional buttons.\n4. Click \"Submit\" button, this will show the approval level Comments box as Clarivate has enabled add Comments before submitting for approvals.\n5. User adds comments and clicks \"Submit\" button again. This now submits the quote for approval and user is shown another page with Return button.\n6. User clicks \"Return\" button, this will navigate the user to Quote details page.\nUser has to click 4 times to submit a quote for approval. This is not a good user experience.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Increase decimal value from 15 to 50 for righthand comparators in Conga Approvals with Conga CPQ",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We have use-cases with custom fields being used with auto-reapproval criteria in Conga Approvals. With these it is currently failing due to comparisons and rounding:\nThe left hand comparator will be taken as the direct value as it was the existing value.The right hand comparator is re-calculated, and as a result it is rounded to the 15th decimal value.\nThe actual custom field shows the value as being the same; in Approvals with comparing the custom field in the right hand comparator value the criteria fails as it is rounded to the 15th decimal value. As the custom fields get more complex the number may be more off due to the rounding.\n\u00a0\nWith increased decimal support we should not encounter issues as often.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Hello,We would like more information, such as one or more examples, to be able to take this forward."
+      }
+    ]
+  },
+  {
+    "title": "Please remove Salesforce Actions from Approval Request related list via the Quote.",
+    "author": "Rahul Karwal",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Please remove Salesforce Actions from Approval Request related list via the Quote.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Hello,We would need more details of this issue including some screenshots to be able to help you."
+      }
+    ]
+  },
+  {
+    "title": "Queue user able to Approve via email even if they don't have access to Approval request object.",
+    "author": "Rohit Bavaliya",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Dear Product Team,\n\u00a0\nWe have come accross a scenario where a queue user is able to approve an approval request via email, even without access to the approval request object. This occurs due to a Salesforce limitation. When an approver responds via email, the system uses the context user's permissions to approve the request. Therefore, even if the approver lacks permission for the approval request, they can still approve it via email. We request an enhancement where the approver's permissions are checked instead of the context user's permissions when approving a request via email. This would ensure that only those with permission for the approval request object can approve the request. We request that this idea be considered for future product enhancement if possible.\n\u00a0\nRegards,\nConga Technical Support",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Hello Rohit,Please would you explain why the user is in the queue when they are not permitted to approve or reject? Can the user not be removed from the queue. The product is working as designed as we expect only those users who have permissions to approve or reject to be part of the queue."
+      }
+    ]
+  },
+  {
+    "title": "Conga Quote Approvals: Refreshing the Return page<That we get after submitting Product Configuration Approvals> in Console Application moves the Quote status from Presented to Approved.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer: Gartner\n\u00a0\nThey are using Console Application.\nIn their Console application they are creating a quote and configuring it. Post that they are submitting that Configuration and after clicking on Submit button they are getting below page.\n\n\u00a0\nHere they keep this page open and go to the Product Configuration and Approves the Request which will move the Status of the Quote to Approved.\nNow they move the Quote status to Presented.\n\u00a0\nHere the user comes back to this tab and thinks that they forgot to perform a task and refreshes the tab which will move the Quote status to Approved again.\nThe URL of this page is : https://rahuloct23--full.sandbox.my.salesforce.com/apex/Apttus_Approval__SObjectApprovals2Submit?classicMode=false&headerSObjectId=a1M1e000001IDjZEAW&headerSObjectTitle=Test+Conga&isAdhocProcess=false&lightningMode=true&returnId=a1M1e000001IDjZEAW&sf1Mode=false&sObjectId=a3X1e000000tXU3EAM&sObjectType=Apttus_Config2__ProductConfiguration__c\n\u00a0\nThis page is getting refreshed and moves the Quote status to Approved.\n\u00a0\nHere the customer wants that this should not happen as customer sometimes forget to close this tab refreshes.\n\u00a0\nPlease help us achieve this.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Approvals - allow NOT operator logic in advanced filter conditions",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Presently we only allow AND and OR operators in advanced filter condition fields (https://documentation.conga.com/approvals/latest/salesforce/creating-expressions-208509575.html). It would reduce redundant advanced options if we allowed a NOT operator directly in the advanced filter conditions and for cleaner logic. Presently we have a limitation of the 255 character limit on the advanced filter condition field, and that is in danger of being reached with complex approval step entry criteria.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support for Contain and Does Not Contain operator for multiselect picklist values within a Child Process Approval Rule criteria",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Product Team,\n\u00a0\nAs per our discussion with the respective Approvals team we got to know that as of now we do not have any support for Contains and Does not Contains operators for multiselect picklist values within a Chile Process Approval Rule Criteria.\n\u00a0\nPlease help us achieve this.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Blank value of a field which gets used in Approval Rule Criteria does not trigger Approvals.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Product Team,\nCustomer: Gartner\n\u00a0\nUse-case - When they are using Text field with \"does not contain\" operator and if they have the field value as blank the Approvals does not trigger.\n\u00a0\nSuppose my condition is Product code does not contain \"ABC\" and if customer provides no value to Product Code still the Approvals are not triggering.\nHere as per the use-case Approvals should trigger as the field is not containing ABC words.\n\u00a0\nPlease help us achieve this.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approval request history missing attachment submitted through the approval process",
+    "author": "Panthalarajan Nagarethinam",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Attachments can be selected when submitting an agreement for approval process. And the same selected attachments show up on all the approval requests as well.\nOnce the approval is complete the attachments are still visible in the Approval request object. But as soon as new approval is created for the same agreement, the current approval requests are getting moved to the Approval request history object but the attachments associated with the approval requests are not getting moved to the approval request history object.\n\u00a0\nThis is creating data integrity issues and since approval request history is suppose to maintain all the data that was part of the original approval request.\nApproval request history should display the attachments associated as well.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Hello,Approval history uses Salesforce platform capabilities around field history tracking and currently cannot support this. We will consider this in Conga platform but it is not a priority right now."
+      }
+    ]
+  },
+  {
+    "title": "Add more business object details for intermittent page for Apttus_Approval__ApprovalContextSubmit",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Starting with Sept'22.02.10 and Feb'24 releases the Apttus_Approval__ApprovalContextSubmit leads to an intermittent extra page (documented here). Extra information should be added to the intermittent step such as related business object ID for the approvals, any approval steps, and assignees according to the configuration.\n\u00a0\nCurrently the use-case for still using that page is to approve a process that has no steps entered. ApprovalContextSubmit will change the status of the related object to approved; PreviewSubmitApprovals\u00a0will not allow an end-user to proceed forward (as no steps are entered), and the status is still \"Approval Required\".",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kshitij Lawate",
+        "content": "Any simple information message along with Quote Id, Status, will be sufficient. As of now it only displays submit and cancel button which will cause confusion for users on how to proceed. thanks."
+      }
+    ]
+  },
+  {
+    "title": "Workaround Requested: For newly introduced Additional Page in Approvals",
+    "author": "Mugdha Desai",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Workaround Needed: We logged a support ticket for this, our end users are unhappy with traversal path and would like to put in a feature request for removal of the additional page or a workaround for the additional page. The volume of processed deals is very high and this introduces additional unnecessary clicks for the end user, ultimately increasing cycle time.\n\u00a0\nSalesforce CSRF Limitation\nStarting with the September 22 release, the out-of-the-box Apttus_Approval__ApprovalContextSubmit, Apttus_Approval__ApprovalContextPreview, and Apttus_Approval__ApprovalContextCancel managed package Visualforce pages have an intermediate approval/rejection selection page, even if comments in the approval process are not enabled. This two-page, two-click flow is due to a change in Salesforce protocol required to prevent cross-site request forgery (CSRF) attacks, and there is no workaround.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Turbo Pricing: Need line items details on restore/full API response.",
+    "author": "Shahid Ali",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "As of today the restore/full API does not give full line item details in its response even though the API prices the lines. Due to this customer has to make a GET lines cart to line items details from cart in their custom implementation. Which is a additional API call and has a performance cost. Please sent line item details in restore/full response along with Summary lines (Similar to the response we get in GET lines). It will be good if we send full response based on API parameter but not necessary.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Email replies for approvals should filter empty space from HTML or noreply@salesforce.com text",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When requiring mandatory comments for rejection emails reply will still reject. This is due to a few reasons:\nIf the Approval Email is in HTML format it creates an additional line break that separates the thread (replied to) email, and it's taken as a comment.If \"Enable Sender ID compliance\" is on in the org also, the system takes \"noreply@salesforce.com sent on behalf of <user email>\" as a comment.\nThe ideal would be that a rejection without comments is denied. Since the extra text is picked up the system interprets it as a comment.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "If approval requests are in a state of \"Not submitted\" there should be no need to trigger reassignments",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Presently if an approval request is in a state of \"Not Submitted\" automatic re-assignments for de-activated users to backup approvers will still trigger. This causes confusion as the backup approvers are receiving email notifications for approvals not submitted. Depending on the object (agreement, proposal, cart line item) it may have been abandoned from some time ago also. Reassignment should be determined upon approval submission.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Conga Approvals: Search on Backup User Search page \"Apttus_Approval__BackupUserSearch\" only works with the First Name of the user.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Dear Product Team,\n\u00a0\nClient: Gartner Inc.\n\u00a0\nClient Requirement:\n\u00a0\n-> They require the search function to work with First Name, Last Name, and Special Characters.\n\u00a0\nCurrently, the search function only works with First Names and does not work with Last Names or Special Characters.\n\u00a0\nSteps:\n\u00a0\nNavigate to the Backup/Delegate Approvers tab.Click on \"New.\"Ensure the \"Is Delegate\" checkbox remains unchecked.Select the current user.Click on the magnifying glass icon next to Backup Approver.Attempt to search for a user by Last Name or Special Characters, which is currently not supported.\n\u00a0\nConcern: This limitation negatively impacts the user experience for those who rely on this feature daily to manage backup users.\n\u00a0\nPlease consider this enhancement for inclusion in a future major release.\n\u00a0\nBest Regards,\nHarshit Solanki",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Govind Dubey",
+        "content": "There must be some way to add other columns in the Backup User search:https://community.conga.com/s/ideadetail?id=087Ub00000003M5IAI"
+      }
+    ]
+  },
+  {
+    "title": "Conga Approvals: Allow users to add more columns to \"Apttus_Approval__BackupUserSearch\" VF page.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer: Gartner Inc.\n\u00a0\nRequest: They want to add more column values to \"Apttus_Approval__BackupUserSearch\" page.\n\u00a0\nRefer SS.\n\n\u00a0\nThey want to make the User Experience better where based on their custom fields as column they can pick the exact user at once.\n\u00a0\nSteps to open VF.\nGo to Backup/Delegate Approvers tab\nClick on New\nKeep the \"Is Delegate\" checkbox as FALSE\nProvide Username in current User.\nClick on Magnifying glass next to Backup Approver.\nThis will open this page.\n\u00a0\nPlease consider this enhancement as this will help customers to make their UI exp better.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Govind Dubey",
+        "content": "Even Search Doesn't work on any other field. It works only based on First Name. If i search from last name it doesn't give required result. There must be a way to configure search based on other fields as well.https://community.conga.com/s/ideadetail?id=087Ub00000003NhIAI"
+      }
+    ]
+  },
+  {
+    "title": "Need option to ensure Approval Reminders are only sent during business hours",
+    "author": "Jesse Hoffart",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When configuring Approval Reminders it would be beneficial if business hours could be set and if that schedule was then respected by the reminders. Else, reminders may be disruptive and could be missed entirely.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Swaroopa Patil",
+        "content": "Please implement this change as soon as possible as this is an urgent requirement from our customer."
+      }
+    ]
+  },
+  {
+    "title": "Configuration attribute to suppress Approval Request Preview Screen",
+    "author": "Barry Ben-Horowitz",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We should have a configurable option (checkbox in the approval system properties) to suppress / by-pass the approval request preview screen for Agreement Approvals",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approval Request should only be assigned to the list of possible approvers",
+    "author": "Akshay Vaibhav",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Current:\na) Approval request can be assigned to someone who is not part of the approval list.\nb) Once the approval is assigned to the person who is not part of the approver list, they are able to approve it.\nThe Reassign action allows the Approver to reassign to any other user/queue. When someone is part of Approver queue they can directly take the ownership of that approval request by clicking on \u2018Take Ownership\u2019 button.\n\u00a0\nRequired:\na) Approval request can't be assigned to someone who is not part of the list.\nb) If it is not assigned then this scenario will not occur.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Barry Ben-Horowitz",
+        "content": "This should be an configuration option - not a constraint."
+      }
+    ]
+  },
+  {
+    "title": "User shall be able to view the name of the person to whom the approval is assigned to in the \"assigned to\" tab",
+    "author": "Akshay Vaibhav",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Current:\nAfter taking ownership of an approval request, the name of the person who took the ownership is not displayed in the Approval flow. Only After approval, the approvers name is displayed.\nFor any approval request, when the \u2018Assigned to\u2019 is a Queue, and a member from the queue takes the ownership of the approval request, they will see the approval history getting updated with relevant comment about the ownership change, also this approval request would be visible in the My Approvals tab. However, here the assigned to will still remain as the queue itself.\n\u00a0\nRequired:\nUser shall be able to view the name of the person to whom the approval is \"assigned to\" instead of the Queue once the person has taken the ownership of the approval.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "To implement complex logical condition on Approval Rule Manage Entries in Depends On field",
+    "author": "Divya Dubey",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "One of our Customer Illumina has a requirement to implement complex logical condition on Approval Rule Manage Entries in Depends On field , implenting manage entry dependcy logic.\nI have verified that it allows us to put the sequence as comma separated list but did not allow to implement complex conditional logic.\n\u00a0\nKindly review it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approvals: Error messages needs to be simplified and remove unnecessary info",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When we are showing the error messages on the approvals screen on the submit for approval page, then the message contains stacktrace details containing the technical details. At the end of the technical message then there is a user understandable message. Please see attached image.\nIs it possible to give a simplified error message to the user and remove the unnecessary technical info which often confuses the users.\nFor custom validation error messages, we can use getDmlMessage( ) method. Can something similar be done for the OOTB error messages?",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Dott Buchanan",
+        "content": "I agree that the error messages are too complicated resulting in confusion with the end users. I would like to see the user understandable message moved to the beginning of the error message. I think we may still want to keep the technical details after that to provide to production support. perhaps bifurcate the messaging so that the technical details are preceded by something like: \"Give this information to your system admin:\""
+      }
+    ]
+  },
+  {
+    "title": "Approvals : Ability to skip the preview screen when submitting a quote for approval",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hi, currently when in a quote we submit for approval, it first shows a screen that shows preview of the approval request, and it is possible to go back to the cart from this screen. The second screen serves for actual submission of the approval request, and it is not possible to go back to the cart from this screen (cancel takes you out of the cart). This is the intended design of the approval screens I think.\n\u00a0\nAs of now there is no ootb way to merge the 2 screens, OR to skip the preview screen. Can we add a setting so that we can skip the preview screen? Currently users are complaining that they have to click on two screens even when have no additional information to see. Pls see images.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Barry Ben-Horowitz",
+        "content": "The Approval Request Preview screen should be an option available by an attribute in the Approval System Properties.  Many customers find the Preview screen to be confusing and shows all pending approvals which is not necessarily what they want to share with the requestor.  This would be a BIG benefit!"
+      },
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Swapnil,The submit for Approvals user interfaces are managed by the Conga Approvals team. Hence moving this to their bucket so that they can evaluate this ask and address it if it fits their vision.Balu"
+      }
+    ]
+  },
+  {
+    "title": "Conga Approvals - Attachment is not getting forwarded only in case of Adhoc approvals.",
+    "author": "Akshita Koul",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We have found behavior in the internal org that the attachment is not getting forwarded only in case of adhoc approvals. Since in the lower versions also the behavior is same, this seems to be the current product design/behavior.\n\u00a0\nWe have a request from our client that they want that attachment should be forwarded when we reassign the approval request. Please consider this and if you have any questions, please let us know.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto-capitalize entries for approvals advanced filter step entry criteria or disable case sensitivity",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Currently with criteria we expect the advanced filter criteria to be capitalized. Example: \"1 OR 2\" as opposed to \"1 or 2\". This impacts viewing the advanced filter on the approval steps themselves; if it is not capitalized then the advanced filter criteria is not shown on the approval step despite being applied. We see the incorrect values displayed in the screenshot (where it shows AND). This makes it harder to manage the rules themselves.\n\n\u00a0\nWe do imply that capitalization is needed from the documentation (https://documentation.conga.com/approvals/september-22/salesforce/creating-expressions-143900125.html#id-.CreatingExpressionsvWinter20-Tosetadvancedoptions). However this can be fixed by a stringToUpper call when saving the values, or by not coding for case sensitivity to begin with.",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Bill Dobler",
+        "content": "Users find the 'AND' custom value expression confusing when it should be correctly displayed as 'OR'. This enhancement would be a much better experience in the UI for the user.  Thanks"
+      }
+    ]
+  },
+  {
+    "title": "Have the Context User Approvalreply bypass the inactive user with same domain",
+    "author": "Rene Rodriguez",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Customer on Case 00858232 was requesting a potential enhancement where the context user can check against inactive/active users with the same email defined in duplicate users profiles.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Adhoc approvals on Salesforce (Feature parity with AIC approvals)",
+    "author": "Joseph Franklin",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Adhoc Approvals functionality in AIC is easily configurable and user friendly allowing users to make change to approvers/assignees in flight, while the same feature in SF requires initial config for every approval process where there could be adhoc approvers, something which is hard to determine in advance.\nCustomers have requested feature parity with AIC approvals.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Karan Nayee",
+        "content": "@Joseph Franklin would love to dig into this more and understand the differences here. Let's meet and chat about this."
+      }
+    ]
+  },
+  {
+    "title": "Approval Center -  Approvals remain in queue until process is complete",
+    "author": "Jesse Hoffart",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "If an approver approves a request in their queue, the request remains in queue until all proceeding levels have also approved or rejected and the process is complete. This results in a lot of clutter for impacted users (level 1 and 2 approvers especially), reducing the utility of the Approval Center. An option to either change this behavior would be appreciated.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Same approver should not approve twice if he/she part of multiple queues",
+    "author": "Mohit Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "If an approver is part of both L1 and L2 queues. If he approves the L1 request, the same person should not be allowed to approve the L2 request.\n(If Submitter is A and first level approval is B, if 2nd level approval is invoked, although A&B is part of Approval queue for the second level, they should not able to approve/reject it. same goes for subsequent levels.)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approval Submitter should not approve/reject the his/her own approval request",
+    "author": "Mohit Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When an approval is submitted and if the initiator is part of the approver queues (Level 1 or Level 2), he shouldn't be allowed to approve the request. Only other queue members should approve.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Re-order the sequence of Approval Steps on the Approvals Summary Page",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Currently, we don't have any way to change the sequence of steps to be displayed on the My Approvals page. We should be able to change the sequence such that the dependent step immediately follows after its controlling non-dependent steps. As of now, all the non-dependent steps are displayed first and that is followed by all the dependent steps.\n\u00a0\n\nIn the above example, the non-dependent steps(1,3,4) would be displayed first and then all the dependent steps(2,6,5).\n\u00a0\nCurrent view of My Approvals Summary page:\n\n\u00a0\n\u00a0\nHowever, as per the customer's use case, Step 2 should be right after Step 1 since it is dependent on Step 1 and this helps the end-user to determine the sequence of Approval Steps. Similarly, Step 5 should be right after Step 4 and Step 6 should be after Step 3.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Child records in approval center, similar to grid functionality",
+    "author": "Ryan Walls",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Customer would like to be able to add related lists/see child records in the approval center when expanding a visible record",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Karan Nayee",
+        "content": "Can you please give examples of the types of records and child records that you want to see in the approvals centre?"
+      }
+    ]
+  },
+  {
+    "title": "Product Configuration Object - Rollup Summary Fields are not supported in Search Filter (Approvals)",
+    "author": "Tushar Sonawane",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "As\u00a0of\u00a0right\u00a0now,\u00a0adding\u00a0Rollup\u00a0Summary\u00a0fields\u00a0to\u00a0the\u00a0Search\u00a0Filter\u00a0(Approvals)\u00a0for\u00a0the\u00a0Product\u00a0Configuration\u00a0Object\u00a0in\u00a0Turbo\u00a0mode\u00a0does\u00a0not\u00a0support\u00a0them. These\u00a0fields\u00a0function\u00a0properly\u00a0in\u00a0Classic\u00a0mode. In\u00a0order\u00a0to\u00a0resolve\u00a0business\u00a0cases\u00a0where\u00a0we\u00a0required\u00a0approval\u00a0based\u00a0on\u00a0Total\u00a0Amount\u00a0or\u00a0any\u00a0other\u00a0Cart\u00a0level\u00a0price,\u00a0I\u00a0believe\u00a0support\u00a0should\u00a0be\u00a0given\u00a0for\u00a0Turbo\u00a0as\u00a0well.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Remove the dependency of Marketing User feature license to upgrade the Approval Package via Push Upgrade portal.",
+    "author": "Harshit Solanki",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Team,\nI am creating this idea to remove the dependency of the Approval Package on the Marketing User feature license while upgrading the packages via the Push Upgrade process.\n\u00a0\nOne of the customers (Slalom Consulting (Partner)) is not having the marketing user feature license and due to this, their environments are always failing while upgrading their environments via Push Upgrade.\n\u00a0\nI know this is documented on \"https://documentation.conga.com/approvals/latest/salesforce/technical-requirements-213453782.html\" documentation but still if we can remove the dependency then that will be really good for them.\n\u00a0\nPlease consider this request.\n\u00a0\nRegards,\nHarshit Solanki",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Search Filter (Approvals) for Turbo",
+    "author": "Laura Martin",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Our customer Novartis is looking for a product patch to enable search filter for Turbo. This is supported in classic but not Turbo. Our Support team worked with the customer to find a solution but we need some further input on if this can be considered and if by when.\n\u00a0\nHere are the case comments from the customer:\nThere is one search filter which was working fine with Turbo but got recently modified and new fields got added from the Product Config object and since its not working with Turbo but perfectly working fine with Classic.\nRefer attachment for the Search Filter screen shot.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add the ability to create ad-hoc approvers during a partially approved step",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Currently this is deprecated functionality that was removed by the Dec '21 release of Approvals. Current behavior: if there are multiple approvers in a step and one of them approves we lose the ability to add an ad-hoc approval during the step.\n\u00a0\nBehavior prior to Dec '21: as long as one of the approvers in the step was in an assigned state we could add an ad-hoc approver based off of them.\n\u00a0\nThe use case would be for customers with approval steps that contain numerous approvers. One of the added entries may auto-approve. The old functionality was relied upon for adding additional ad-hoc approvers.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "User has modifyAll previlege to modify both Transaction and master data in IWA(Approvals)",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "The user is able to submit for approval but is also able to access/modify all the records under the below object which are not owned by him. This is the compliance issue raised by Philips.\n\u00a0\nOWD\nApproval Request\u00a0\u00a0\u00e0 Public Read/WriteApproval Request History \u00e0 Public Read/WriteApproval process Instance \u00e0 Can\u2019t change as it is controlled by Parent object(Approval Process which is set as Public read only)\n\u00a0\nPermission set\nApproval Request\u00a0\u00a0\u00e0 Create/Read/Write/DeleteApproval Request History \u00e0 Create/Read/Write/DeleteApproval process Instance \u00e0 Create/Read/Write/Delete\nThis causes a compliance issue and needs to be addressed.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Sejal Shetty",
+        "content": "Adding one more approval object to the list:Approval Process : Read (object level), Public read only (OWD)Currently Modify All is needed for Approval Process object to enable cloning of quotes where current user is not owner."
+      }
+    ]
+  },
+  {
+    "title": "Restrict the ability of any user to modify a cart after Approval",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "User is able to modify a cart after Approval in two ways\n\u00a0\nModify the URL and change the cart line items thereby bypassing Approvals.User opens multiple tabs and submits one cart for Approval. In parallel, user keeps modifying the cart in the second tab.\nThis has to be prevented.\n\u00a0\nMore information is present in https://conga.atlassian.net/browse/CPQ-67176",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Restrict the ability of any user to modify a cart after Approval",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "User is able to modify a cart after Approval in two ways\n\u00a0\nModify the URL and change the cart line items thereby bypassing Approvals.User opens multiple tabs and submits one cart for Approval. In parallel, user keeps modifying the cart in the second tab.\nThis has to be prevented.\n\u00a0\nMore information is present in https://conga.atlassian.net/browse/CPQ-67176",
+    "votes": "",
+    "comments": []
+  },
+  {
+    "title": "Restrict the ability of any user to modify a cart after Approval",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "User is able to modify a cart after Approval in two ways\n\u00a0\nModify the URL and change the cart line items thereby bypassing Approvals.User opens multiple tabs and submits one cart for Approval. In parallel, user keeps modifying the cart in the second tab.\nThis has to be prevented.\n\u00a0\nMore information is present in https://conga.atlassian.net/browse/CPQ-67176",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto Approval upon removal of the product",
+    "author": "Daria Deikova",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Removal of the product that is not related to the already added products in the cart and their approval steps should NOT impact those products auto-approval steps.\n\u00a0\nPrerequisite: On the quote there is an approval process with 3 steps:\n\u00a0\nStep 1: triggered when the product name = Ford\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\nStep 2: triggered when the product name = Nissan\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\nStep 3: triggered when the product name = Toyota\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\n\u00a0\nQuote has 3 cars: Ford,Nissan, Toyota in the cart and they were all approved.\n\u00a0\nWe reconfiguring the cart and removing the Toyota, no changes were done to Ford/Nissan lines.\n\u00a0\nCurrent behaviour: the removal of any product causes all previouly approved steps to be approved again. If now we would submit the quote for approval again the Ford and Nissan department has to review the quote and actually approve, even though thechnically the auto approval condition were met- the delta price didn`t change.\n\u00a0\nRequested behaviour: when the approval step is evaluated per line basis, actually please evaluate it per line and in the current scenario do not ask for the Ford and Nissan to re-appprve, because for them the auto approval should be triggered, since the removed Toyota product has nothing to do with Ford/Nissan.\n\u00a0\nThe addition of the new product doesn`t cause the existing steps to be re-approved, if it`s not related to those approval steps :\nAddition of the new product that is not related to the already added products in the cart and their approval steps should no impact those products approval steps. (This is the current behaviour of the system - therefore it makes sence for the removal to work the same way)\n\u00a0\nPrerequisite: On the quote there is an approval process with 3 steps:\nStep 1: triggered when the product name = Ford\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\nStep 2: triggered when the product name = Nissan\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\nStep 3: triggered when the product name = Toyota\nAuto approval criteria: Current Delta Price =Prior Delta price for this product\n\u00a0\nExample:\n1) We are selling customer 2 cars: Ford and Nissan. Total: there are 2 items in the cart.\n2) Each car is approved by different departments: Ford is getting approved by Ford, Nissan by Nissan.\n3) Cart was approved, then it was reconfigured and a new car Toyota was added to the cart, no changes were done to Ford/Nissan lines.\n\u00a0\nCurrent behaviour: the addition of the new product (Toyota) does not impact the previously approved steps, thereofore they will be auto-approved, and the toyota step will be triggered. This behaves as we would expect and we would also expect the opposite scenario to behave the same",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use local currency in approvals when multi-currency is enabled",
+    "author": "Ram Gopal T",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When we have multi-currency enabled, the currency values are converted to the corporate currency and then evaluated for approval. The local currency values are not directly taken into consideration.\n\u00a0\nWe would need the ability to use the local currency directly in approvals instead of converting it to corporate currency and then evaluating them for approvals.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Customer has submitted both Cart & Quote/Proposal for Approval and want to see all the Approval Requests on the same My Approvals page.",
+    "author": "Thribuvan B N",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Customer has submitted both Cart & Quote/Proposal for Approval and wants to see all the Approval Requests on the same My Approvals page.\n\u00a0\nWe would like to confirm that this is not possible to implement OOTB.\n\u00a0\n- We are having 2 different VF pages for My Approvals:\n1. Apttus_Approval__MyApprovals: This is the MyApprovals page that we can use with any object by passing the ID parameter. This page will be opened based on the record id that you are providing there. I couldn't see any way where we can pass multiple ids.\n2. Apttus_CQApprov__MyCartApprovalsLaunch: This is the MyCartApprovals page that is specially designed to show the Approval Requests generated on the Cart record by clicking a button on the Quote/Proposal record. This page cannot show any other Approval Requests than Cart Approval Requests.\n\u00a0\nhence, Customer needs the feature in the product",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Option to skip an Approval step (on amended agreement) that has been approved  on the original agreement",
+    "author": "Minhui Huang",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When an Agreement has an Approved Approval for an item, if that Agreement is Amended, the Conga customers should have the option to elect that upon subsequent Approval Request submission for the Amended Agreement, the prior approvals can be bypassed or auto-reapproved.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option to skip an Approval step (on amended agreement) that has been approved  on the original agreement",
+    "author": "Minhui Huang",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When an Agreement has an Approved Approval for an item, if that Agreement is Amended, the Conga customers should have the option to elect that upon subsequent Approval Request submission for the Amended Agreement, the prior approvals can be bypassed or auto-reapproved.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Quote number Field to the Conga OOTB Email Templates",
+    "author": "Abhishek Kamalia",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We have received a request from our Business users to add the \u2018Quote number\u2019 field to the standard Apttus cancellation notification. We have checked the Email Template - Apttus Quote Approval Notification (Cancellation) and under this VF template, the field \u2018Quote Number\u2019 is not included.\n\u00a0\nWe tried to add this field in the template, however, we are unable to add this field. Request you to please check and help us add this field to the template.\n\u00a0\n\ufeff",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add another picklist value for the field \"Email Sender Display Name\" under Approval System Properties",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "The customer has a use case where the users are approving the approvals through email. Now, when we approve the request via email the next approver will receive the email from the \"Context User\" email ID. Here, the context user is basically the user who has configured the Email Service. However, the Display Name doesn't contain the value of \"Context user\" so due to this, there is a mismatch observed in Name and Email ID.\n\u00a0\nCurrently, we can add \"Approver\", \"Submitter\" and \"Requester\" in the field \"Email Sender Display Name\". The customer wants that an additional value \"Context User Name\" should also be added so that whenever the approvals are accepted through email, the mismatch in the Name and Email ID can be prevented.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add Permission Sets to Admin Entries",
+    "author": "Jesse Hoffart",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "This request is for more control over access given via Admin Entries. Currently these entries are profile based, but the customer would like to be able to add permission sets to these, with the goal of further limiting the pool of employees who have access.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Kendra Elliott",
+        "content": "I talked with the customer and here are a few details she would like to add. \"The issue is that we need to be able to add a Permission Set ID or API name to a particular Admin entry (APTS_AdminProfiles).\u00a0The functionality that this Admin record allows only accepts Profile names as \"Values\", at least that is what we have been told.\u00a0Profiles are too widespread to extend this functionality to, which is why the request is to allow for the value inputs to be Permission Set based and the code to extend that access accordingly to users that have such permission set assigned.\u00a0This idea is not about\u00a0access the Admin object itself as it is known to be an administrative function.\""
+      },
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi,Admin entries are used by system to provide specific behaviour and the users are given readonly access to admin entries.Only Admin can create and update the entries so that application behaviour can be configured as per the need. Can you share the more details about the use case here so that we can review it."
+      }
+    ]
+  },
+  {
+    "title": "Ability to clone entire approval process",
+    "author": "Jai Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "GE Healthcare has a requirement to deep clone the approval process. They require a feature which allows them to clone the approval process, approval step, approval rule\u00a0with all other functionalities like Initial submission action, Final Approval action, Final Rejection Action etc.\n\u00a0\nAs they are onboarding the new regions, they have to create similar approvals based on regions, record type etc. Due to the absence of this feature they have to re-create the entire approval process which leads to increase in effort and chances of human error.\n\u00a0\nThis feature will help them set up and deploy approvals faster. This is critical to their deployment plans and have requested the availability of this feature before mid-June'23.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To re-assign approval request from a queue to different users (When Consolidation at process level is turned on)",
+    "author": "Kalpesh Valera",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Observation:\nThe users are not able to re-assign the approval requests taken(By the \u2018Take Ownership\u2019 functionality) from the queue to the different users. They do not have the capability now on the queue to assign each request to different users. If the Consolidated Approval is ON.\nSteps:\n1. Requestor submits the cart for approval\n2. Consider users have 3 Approval requests going to the same queue. (The assignee is the same queue for all)\n3. One of the queue members takes ownership, all the approval requests have the assignee as that queue member.\n4. Now, the queue member is not able to re-assign these requests individually to different users/approvers (As per the users, Earlier, they were able to do it)]\n5. Use case is approval requests need to approve by the different users as they have expertise on that product but it is not happening becasue consolidated approval is ON. This should be enable to reassign the user as there might be possible that different users from the queue needs to approve.\n\u00a0\nPlease let me know if you need any more details.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Individual email templates for different approval steps in same approval process",
+    "author": "Renish Bhimani (comm)",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We have a use case where we have multiple approvals on MSA that work independently of each other. We created multiple approval processes, however, the system was just triggering the first one based on the condition and not the second even if it was valid. Hence we merged them into one.\n\u00a0\nHowever, we need the ability to send a specific email notification to the user once Sales Ops approves and send another email notification to the user when Legal approves. This is to address a scenario where specific instructions are sent to the users based on the approval step.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow Backup Approvers to take ownership of approvals from the MyApprovals page",
+    "author": "Matt Penrod",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Currently, Backup Approvers are not able to take ownership of approvals from the MyApprovals page, and must take ownership from the Approval Request record. By allowing Backup Approvers the ability to take ownerhsip from the MyApprovals page, it makes the approval more accessible and convenient to users who rely on the MyApprovals page instead of the Approval Request record.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Customer need a way to ensure email notifications are sent and users know that there are pending approvals waiting on them",
+    "author": "Rohit Bavaliya",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Conga async approval process is using Queueable jobs for Preview & Submit Approvals - 'ApprovalEngineProcessQueueablePreview' & 'ApprovalEngineProcessQueueableSubmit'. For emails, it will trigger the Batch job - 'EmailSupportBatch'. Customer need a way to ensure email notifications are sent and users know that there are pending approvals waiting on them. The customer requested enhancement for this.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Async Approvals: Enhancements for better error handling in case of failures",
+    "author": "Vaibhav Kothari",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "1. If the async queueable job fails, an email is sent to the submitter with error message. However, this email has very technical information. Can this be converted to a customizable email template? 2. When the async API is submitted, it only returns a Boolean flag. There are series of jobs that execute as part of this API. If any one job fails in between, we do not have trace of the job ID and at which stage it failed. This makes it difficult to do error handling as the submitter has to wait for failure email only. Can the API store Job Ids for different jobs in some object that can be used for error handling by customers? 3. EmailBatchJob: Last job during async approvals processing is sending an email to the approvers. This is an apex batch job as per the current design. Since batch jobs count towards flex queue limit, there are chances of this job not executing during month end, quarter end or year end when volume is high. Can this job also be converted to queueable?",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add Final Cancel/Recall actions in Approval Process",
+    "author": "Raj Somani",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "We have 3 customizable things in the Approval Process: 1) Initial Submission Action 2) Approved Action 3) Rejected Action As per the client's requirement, they want to customize the status when Recall/Cancel action is being performed. Can we add that feature Approval Process in the near future as Salesforce does in its standard Approval Process? for example, we can set the status once the approver approves it or reject the approval request but we can not set the status when the approver Cancel/Recall the approval request",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need Notification or prompt when user is Submitting Asynchronous approvals",
+    "author": "Saurabh Pancholi",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "In an asynchronous mode, a batch job is submitted in the background to process a large number of records. The screen is available for you to work on other records. You will receive an email once all the records are submitted or processed.\n\nWe need to add a notification of prompt that the request is submitted for asynchronous approvals as customer is on the same screen where he clicked on approve if he refreshes the page then status gets updated.\n\nIt will improve customer experience.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow saving a Rule Entry condition with one click or show a warning message to the user to save it when the changes are done",
+    "author": "Vaibhav Kothari",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "As-Is: If you click Ok on the Approval Rule Entry Condition Edit screen, it won't actually save unless you also click Save on the Manage Entries screen.\n\nIf a user forgets to save the changes made on edit rule entry condition page, the changes will be gone.\n\n\nTo-Be: Can we have only one UI to edit rule entry conditions and save it? Or, if there is a message shown on the \"Manage Entries\" screen prompting user to save the changes made earlier?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Submit for Async Approvals with the flexibility to decide sync/async submission at transaction level",
+    "author": "Vaibhav Kothari",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Salesforce has hit governor limits for certain use cases while submitting for approvals using our synchronous approvals. Apex CPU timeout error is received for quotes with just 100 approval requests. They have Approval Process configured on \"Product Configuration\" object with child processes at \"Line Item\" level.\n\nWe have tested with May'22 approvals package and the limits are slightly better (close to 130+ approval requests generated). However, Salesforce would like to scale further and evaluated Conga Async Approvals.\n\n\nAs-Is: Conga provides async approvals via below two approaches:\n\n1. Custom Setting: Process Preview/Submit Asynchronously\n\nPros:\n\n- Customers can retain the existing OOB UI for preview and Submit with comments\n\n- No need to write any custom code to use async approvals\n\n\nCons:\n\n- Every approval in the org will go for async processing. This will increase the overall number of jobs in the queue. And for smaller quotes, async processing may also take more time than sync processing.\n\n\n2. Async API: Apttus_Approval.ApprovalsWebService.SubmitForApprovalsAsync(sObjectType, sObjectId)\n\nPros:\n\n- Customers will have flexibility to decide at run time (based on defined threshold) whether the approvals need to go to async process or not. This will involve custom code\n\nCons:\n\n- No Preview and Submit with Comments available\n\n- Custom code is required to consume the API\n\n\nAsk:\n\n1. Enabling async approvals by just having a switch at runtime is the most easiest and scalable solution that we are looking for. Instead of having custom setting at org level, can we have this type of parameter passed during runtime? We would like to retain our Preview and Submit with Comments UI.\n2. Async Approvals API to allow submit with comments\n\n\nNote: Salesforce is using custom cart and lands on OOB Preview approvals page from a custom UI.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Customize approval comment history to not include dates",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Allow customization of what enters approval comment history for timestamps, usernames, or roles. For the specific customer they find it extraneous to include the timestamps of each comment in the approval comment history.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Separate final Approver comments and Approval Comment History",
+    "author": "John Hammons",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Current behavior is that approval comment history is appended to the final approvers comment. For the customer they re-assign approvals often, and the approval comment history can get dangerously close to reaching the 32,000 character limit.\n\nIf there was a toggle to instead have the final approver comment only being the final comment this would be preferred for the customer. They've already added the approval comment history to the page layout, and it duplicates the information presented. They also want some users to only see the final approver's comment instead of the entire history.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Multiple Approvals processes on one Record",
+    "author": "Grant Glazer",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "How to have approvals fire twice in the process, one after request and another after redlines but before sending for signatures?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Bulk Submit Approvals via GRID",
+    "author": "Grant Glazer",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Customers want to use GRID to bulk submit for approvals via API",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approval (IWA) enhancements",
+    "author": "Balaji Krishnan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "In the May'22 and latest release (aug 22) release, IWA has made some enhancements were one could submit the approvals in async mode. This ensure that the approvals are handled in async mode. However one could not utilize the async approvals processing unless we go through the \"Preview page\"\n\nThe submitter of the request (OOTB functionality) needs to go to the \"Preview page\" which gives the ability to see all requests in one page and then click \"submit for approval\" that enables to process in sync or async mode. However if the number of items are large (more than 175 request) the page is not able to render properly and it fails.\n\nTalked with Approval PO and looks like there needs to be an enhancemnet for this and that's why I am logging this so that this get done in the next release.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Approval Enhancements - BSC",
+    "author": "Balaji Krishnan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "* When submitting the proposal, consolidate 'Submitting' and 'Commenting' steps into one step. Currently, when you click 'Submit' button it brings you to the 'Submission Comment' text box. (Please check the screenshot in the user story)\n\nIs it possible to have Submission Comment on top is possible, or other solution where we can avoid one more additional step. Is this customizable or should we have a new ticket into product ?\n\n\nOr Make it customizable so that this can be done either way OOTB.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Pervious Assigned approver name on the new approval request",
+    "author": "Mohammed Girniwala",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Once we complete the approval cycle by replacing the user in any of the approval stages of that approval cycle and perform the cycle back . Again submit for approval , it shows different user (as per configuration) for that approval stage where user was replaced with Status as Approved.\n\n\n-- I have checked this use case with the Product Engineering team and we got the same confirmation that this is the current design of the product. -- Auto-Reapproval works based only on the Re-Approval Criteria mentioned on the Approval Rule Entry and its prior, current, or specific values. It is not related to the history of who approved it or not. This is the current design. You can create an IDEA to get this reviewed by Product Management. That Idea will be evaluated and delivered in the future release if that will be approved. -- Till that time, the customer can have customization to achieve this. We already had a discussion around the same on the call with the customer last week.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Send approval escalation email only on Business days",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Use Case: When a Approval Request is created and the User does not approve the request then escalation email is sent after calculating the days escalated. (Attached Image)\n\nIt would be Approval escalation email should be sent only on weekdays (Business Hours)",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to configure Quote/Product Configuration fields on Approvals Preview page",
+    "author": "Swapnil Devlekar",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When an approver is submitting line items for approval and the customer needs the ability to configure some critical instructions to the submitter before submitting for approvals to the approver.\n\ne.g Business justification is needed with a specific set of questions on why they need exceptional approvals. Currently, there is no way to provide such instructions by configuring fields at a quote or product configuration level. We are able to configure such fields only on the line item level. But with each line sent for approvals, these instructions are repeated in the approvals preview page.\n\n\nWe need to ability to display fields on the approval preview page from the Quote / Product configuration object as well.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Attempt to use the Manage Entries - Horizontal Scroll Bar",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Approval Rule 'Manage Entry' page does not want to have the horizontal scroll bar which is hard for the customer to see the last column on the page (All the columns in single view).\n\n(Approval Rule->Related tab (Entries)-Click on Manage Entries)\n\nThis issue was not present in Salesforce Classic for 'Manage Entries' in Approval Rules. In Lightning, the scroll bar is not pinned to the entire page, instead requiring user to reach end of the page to see hidden information",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to update/customize approve/Reject page in Conga Approvals",
+    "author": "Chetan Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hi team,\n\nCurrently, in Conga Approvals, we don't have a way to add additional fields on the Approve/Reject page.\n\n\nIllumina customer is using CPQ Approvals and have approval on Quote/Proposal object and they would like to add key quote fields on Approve/Reject page necessary to provide more details to approver to make decision on approval without going back to context quote object record details page.\n\n\nThey are looking for way to add additional fields on approve/reject page just like we have for my approvals page where we can define display fields for each steps in the approval process.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to resend approver email on demand",
+    "author": "Chetan Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "In Conga Approvals, we have a way to set reminders to send email notification to approvers for pending approval requests but there is no way resend approval email on demand basis at individual request or approval process level. Illumina customer is looking for a way to resend Approval Emails to improve efficiency and reduce overall quoting time.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Backup or Delegate Approver should receive for the Approval requests that were transferred in-flight",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When a quote is submitted for Approval and delegate approver is assigned for that approval request in flight, Delegate approver is not receiving any email specifically for that approval request. It is difficult for the Delegate approver to track all the requests and address them.\n\n\nSo email notification should be sent when a approval request is transferred in-flight to a delegate approver for all the approval requests separately to approve over email.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "When Queue Email is added and 'Send email to members' is unchecked, customer wants the email to be triggered to the Queue Email Address",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "When Queue Email is added and 'Send email to members' is unchecked, customer wants the email to be triggered to the Queue Email Address.\n\n\n- Go to the quote\n\n- Submit the quote for approval using \"Preview & Submit Approval\" button\n\n- When submitted the Approval email should be triggered to Queue Email Address",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expectation is, whenever this limit gets hit while submitting approval with attachment, user should get a warning/error message on UI such that user gets aware about this limit and upload the document which is not hitting this limit.",
+    "author": "Dhaval Prajapati",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "While submitting the approvals with attachment, whenever user select/upload document more than 5 MB, end user does not get related approval email some time. It is happening because, here we are hitting SF email attachment limit, information regarding the same is given below:\n\n\nWe have a Salesforce limit on the size of attachments being sent on email for approval which is 25 MB total and per file 5 MB.\n\n\nPlease find below related Knowledge base article, Conga and Salesforce documentation:\n\n\nKB article - https://community.conga.com/s/article/Maximum-size-of-attachment-that-can-be-sent-for-approval\n\n\nConga Documentation - https://documentation.conga.com/approvals/summer-21/submitting-a-request-with-attachments-143896569.html\n\n\nSF documentation - https://help.salesforce.com/s/articleView?id=sf.email_my_email_2_sfdc_considerations.htm&type=5\n\n\nExpectation is, whenever this limit gets hit while submitting approval with attachment, user should get a warning/error message on UI such that user gets aware about this limit and upload the document which is not hitting this limit.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "UI message needs to be simpler for the Approver when an Approval request is cancelled",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Description: When an Approver tries to Approve an already recalled Approval request, he gets an error message as follows\n\nSteps to Reproduce :\n\n\n1. Create a new quote and configure a product.\n2. Offer a discount and submit for Approval.\n3. An email will be triggered requesting the Approver to Approve the request.\n4. Before any action is taken by the Approver, the submitter recalls the Approval request.\n5. The Approver now looks at the original request for Approval.\n6. The Approver replies to the Approval email with 'Approved' .\n\nActual error: An error occured while trying to deliver the attached email.\n\nYou may wish to report the following information to the owner of approvalreplyservice@g-2mbzmuk2xn5zb963oewmg2vgv7vrdkd5f9opfjm01dg03210ff.7g-h4wneak.cs200.apex.sandbox.salesforce.com.\n\nThe apex class Apttus_Approval.ApprovalEmailHandler failed due to: Apttus_Approval.OneOrMoreItemsFailedException: [ID: aHR7g000000GrBHGA0 - Escalation Price Threshold Approval]\n\nThis request has already been cancelled. No further action can be taken.\n\n\nExpected error: Please modify the information to include only the relevant information such as the error and the further actions.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Parallel Approvers Comments Difficult to Understand",
+    "author": "Ben Racine",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Parallel Approvers comments difficult to understand. When the proposal is with RVP-RSF for approval i.e. parallel approval, the final approval email contains comments from both which have the same label (RVP-RSF approval comments). From the text itself, it's not clear who added which comment",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Reporting on Approval Criteria and Assignee",
+    "author": "Jai Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "GEHC has a requirement that they need to report on Approval Criteria and Assignee for audit purpose.\n\nThe problem we are facing is that the condition in approval rules is stored in JSON format which cannot be directly used in reporting. The \"Description\" field, which also stores the condition, is limited to only 255 characters due to which it unable to store entire conditions with multiple rows.\n\nWe need approval criteria like step label, condition, assignee etc. in reportable format. Screenshot attached for reference.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Need to Group steps for the Consolidate Approvals and Consolidate Notifications",
+    "author": "Jay Patel",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Usecase:\n\n--> In the Approval Process, there are 5 steps for Quote Line items (discount>10%, 20% etc), then it should go for Approval.\n\n--> In the Same Approval Process, there are Other 5 steps, which checks if the Line-Item is added for Free, then it should go for Approval.\n\n\n--> For Both, the Approver is Same.\n\nFor now, there are these Two Checkboxes on the Approval Process:\n\n* Consolidate Approvals\n* Consolidate Notifications\n\n--> If we enable these, it would Consolidate ALL the Approval steps & Emails into one Email and the Approver user will receive just one Email for Approval/Rejection.\n\n\n--> If we disable this, User received ALL the Emails (for ALL the Quote Line Items) separately, which can be tiresome. (imagine user have 50 line-items, or 200...!)\n\n\n--> If we consolidate, the user Can Either Approve Or Reject all, but the User needs to Approves the Discount & Reject the Free line-items, Because for next Configuration, it will copy the previous lines as it is and just modify/remove the Free line item Only.\n\n\n--> Hence, There should be a Way by which we can Group the Stpes wfor which we can consolidate the Approval & Notification Email as well.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "User is not allowed to be deactivated if Back Up Admin User not defined under Approval System Properties",
+    "author": "Ankur Prasad",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "There has been a couple of instance where in customer is receiving the error - UNABLE TO LOCATE BACKUP ADMIN USER, when they try to deactivate any user.\n\nThis error surfaces even if customer has installed the Approval packages only and they do not have any approval process or other approval related configurations been set up.\n\nCan our product be enhanced to check if the user is not part of any approval process or backup approver or any approval requests , then allow them to deactivate the user? We have received couple of cases and customer is requesting us to include this check.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Modify All previlege and its impacts for approval related objects",
+    "author": "Kalyanakrishnan Mohan",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Permissions on Various Approval objects\n\nCurrent behavior: We require modifyAll privilege on the following objects according to the documentation (page 222)\n\n1. Approval_Request_History__c\n2. Approval_Request__c\n3. ApprovalProcessInstance__c\n\nIf these are not given, we are not able to Clone and submit a line for Approval.\n\nNote: Please confirm also whether modify All is needed on Approval Process object to support Clone with Approval status setting\n\nExpected Behavior: We should not have the modifyAll privilege on these objects.\n\nCustomer has escalated that having modifyAll permissions on these objects is not acceptable for them as each user in the system can view and modify records in the system.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Good to have the Flexibility to make the Attachments mandatory with the Submit With Attachment flow",
+    "author": "Ritesh Darji",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hi Team,\n\n\nAs per the current flow, we don't have any setup to make the attachment selection mandatory on the OOTB managed - PreviewSubmitApprovals page.\n\n\nSo if the user is clicking on the \"Submit With Attachment\" button on the OOTB managed - PreviewSubmitApprovals page, it's not mandatory to attach the document before submitting it for the Approvals.\n\n\nRight now in the system, if the user is submitting the Approvals without attachment after using Submit With Attachment button, the user will get a soft validation/warning message - 'You are submitting for approvals without attaching a document. Do you want to proceed?'.\n\n\nSo I believe we should have the flexibility for the customers to make it mandatory for the submitters to select the document/attachment before submitting it for approval. So we would need the hard error message on the screen if the submitter is not selecting any attachment after clicking on Submit With Attachment button.\n\n\nWe may use the Approvals Custom Config (custom setting) for the same where we can put a checkbox to mark the attachments mandatory. So the customer can decide to use this feature based on the Approvals Custom Config of the respective Context Object.\n\n\nThanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Good to have an ability to hide Submit button from the PreviewSubmitApprovals VF page",
+    "author": "Ritesh Darji",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Hello Team,\n\n\nWe have received the request from couple of customers who need ability to hide the \"Submit\" button on the Preview Submit Approvals OOTB VF Page.\n\n\nThey just want to keep \"Submit With Attachment\" button available on that page. So no one can select \"Submit\" button and everyone has to go with Submit With Attachment button.\n\n\nAs of today, we have the parameter 'hideSubmitWithAttachments' which we can pass while opening the Preview Submit Approvals Page.\n\n\nSo we may introduce one more parameter using which we can hide Submit button from the Preview Submit Approvals page.\n\n\nThanks!",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Separate approval comment box to be for each product needing an approval",
+    "author": "Kalpesh Valera",
+    "product": "Conga_Approvals_(fka_Apttus_Intelligent_Workflows_and_Approvals)",
+    "content": "Business need is to segregate the comments as per the products needing the approval. The separate approval comment box to be for each product needing an approval or the same box with segregated line items. We do not expect the approvers to access the shopping cart to see the comments. And these comments need to be part of the automatic email that is sent to the approver.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

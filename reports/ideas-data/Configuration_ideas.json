@@ -1,0 +1,592 @@
+[
+  {
+    "title": "Optimize query for Apttus_Config2__CustomMessage__c for User language other than English",
+    "author": "Sonia Yadav",
+    "product": "Configuration",
+    "content": "The users with non-English languages like French, German, etc. are getting error : System.LimitException: Apttus_Config2:Too many query rows: 50001 while configuring bundles.\nWe found that in the case of non-English language, there below query runs which retrieves all custom messages and eventually hits the governor limit.\n\u00a0\nSELECT Apttus_Config2__Message__c, Apttus_Config2__MessageTag__c, Apttus_Config2__Message_de__c FROM Apttus_Config2__CustomMessage__c\n\u00a0\nThis is not happening for users with language as English.\n\u00a0\nThe customer is not using translations.\n\u00a0\nCan we optimize this query to not run for users with non-English language as well?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Field Expression precedence over manual changes",
+    "author": "Rajesh Mishra",
+    "product": "Configuration",
+    "content": "Hi Team,\n\u00a0\nWe want to default second attribute i.e. \u2018Attribute2\u2019 based on the value in first attribute i.e. \u2018Attribute1\u2019. Moreover, if a user changes value in second attribute i.e. \u2018Attribute2\u2019 then it should allow the manual change. However, if the value in first attribute i.e. \u2018Attribute1\u2019 is changed then the second attribute should be defaulted again based on its value.\n\u00a0\nWe are able to achieve the same partially using field expression and keeping its field \u2018Ismodified\u2019 to true. But, if we change first attribute again after changing second attribute manually then field expression does not defaults the second attribute.\n\u00a0\nPAR in this case can default the value in second attribute but only once as PAR will not be executed once the attribute changes. Moreover, we can\u2019t have field expression and PAR written on the same attribute parallelly.\n\u00a0\nSo Idea is to have Field expression priority precede over manual intervention, moreover allow manual changes too on the target attribute if primary attribute remains the same.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Need \"Show\" as action type in Constraint Rule Action",
+    "author": "Jai Patel",
+    "product": "Configuration",
+    "content": "GEHC would like to have \"Show\" as one of the action types in Constraint Rule actions.\n\u00a0\nIn Service CPQ, we configure eligibility framework rules to hide the service offerings on the service catalog. \"Show\" action will be particularly helpful in the scenarios where the number of bundles to be hidden are far greater than those to be displayed.\n\u00a0\nExample: Upon selection of specific assets, GEHC needs to display 10 bundles and hide 500 bundles. As per the current functionality, they have to create a product group with 500 members and then use it in the constraint rule action with Action Type = Exclusion and Action Intent = Hide.\n\u00a0\nif \"Show\" action is available then we can avoid creating and maintaining product groups and directly mention the required bundles with \"Show\" action.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support Checkbox (Boolean) Data Types in Default Attribute Rules",
+    "author": "Nic James",
+    "product": "Configuration",
+    "content": "In Conga CPQ today, the Boolean data type is not supported for the Default attribute rule action on Attribute Rules. Only Number, Text, Picklist, and Multi-picklist data types are supported for defaulting a value.\n\u00a0\nWhile the Salesforce metadata field itself does support defaulting a checkbox to True/False, this is only helpful when a field is ALWAYS going to be True or False.\n\u00a0\nIt would be helpful if Attribute Rules could be used to default True/False similar to other Salesforce data types.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Custom field API name having subset of OOB field API name is not rendered correctly.",
+    "author": "Vahhab Mumtaz Lakhani",
+    "product": "Configuration",
+    "content": "Recently customer has reported an issue, where they are trying to create a checkbox type field with API name, IsFOCQuantity__c, but when this field is added on the cart, it is displayed as text field that only accepts numeric values not any alphabets, But if the API name of the field is changed to IsFOCQty__c, then on the cart page the filed is displayed as the Checkbox. Similarly we have observed a behavior in our internal orgs that if we try to create checkbox field with API name containing IsFOCQuantity1__c, then too the issue is occurring, but if we create a checkbox type field with API name containing IsFOCQu1antity__c then it comes as checkbox on the cart page.\nThis seems to be the product behavior. The system checks for \"Quantity\" in API name and if found, it renders it as a text field that only takes the numerical values similar to quantity input field.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Support required to hide/disable already selected options for a bundle in the Configuration page",
+    "author": "Sreenivasulu Sake",
+    "product": "Configuration",
+    "content": "As per the Email conversation we creating this Idea\nProcess :\u00a0\n1. As part of Quote process, Sales configures a bundle product (System) which consists of Instruments & Installation materials as options.\n2. Finalize the cart, Initiate agreement and create an order.\n3. As part of the Order review process, concerned user opens the order cart and modify(add/remove) Installation materials.\nRequirement :\u00a0\nIn the order review process, when user opens the Order cart, user should only be able to modify(add/remove) Installation materials and no action should be allowed on \u2018Instruments\u2019 and \u2018Consumables\u2019 selected as part of quote cart config.\nAs part of Quote Config User has selected Instrument 1, 2 and Material 1, 2\u00a0and Consumables 2, 4. In the Order cart he should not uncheck Instrument 1, 2 and no modification allowed on Consumables.\n\nSystem Variant(Main Bundle)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nInstruments\n\u00a0\nInstallation Materials\n\nConsumables\n\u00a0\nInstrument 1(Sub Bundle)\n\u00a0\nMaterial 1\n\nConsumable 1\n\u00a0\u00a0\nService\n\nMaterial 2\n\nConsumable 2\n\u00a0\u00a0\nWarranty\n\nMaterial 3\n\nConsumable 3\n\u00a0\u00a0\nReagent\n\nMaterial 4\n\nConsumable 4\n\u00a0\nInstrument 2(Sub Bundle)\n\u00a0\u00a0\u00a0\u00a0\u00a0\nService\n\u00a0\u00a0\u00a0\u00a0\nWarranty\n\u00a0\u00a0\u00a0\u00a0\nReagent\n\u00a0\u00a0\nApproach we tried :\u00a0\nMake the Instruments disable in the configuration page using constraint rules, However system does not consider already selected products for disabling.\nBased on above requirement, we request you to provide your inputs if you could think of any way that we can achieve this.\nNote : Instruments contains many attributes",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Should have API for modify Elastic Config",
+    "author": "Parth Pravinbhai Parmar",
+    "product": "Configuration",
+    "content": "Usecase:\n\u00a0\nwe were facing an issue with the elastic config. issue was, that a product object field was in the ignore list so the customer was not able to sync this field to turbo DB. due to this incorrect data, they were getting the wrong pricing in the cart.\n\u00a0\nIdea:\n\u00a0\ncurrently, we take the help of the cloud ops team to modify the ignore list. it would be better if we had some kind of APIs to modify the elastic config data without help of cloud ops.\n\u00a0\nThanks,\nParth",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Balu Jaidev Sreekumar",
+        "content": "Please share more information such as why is that field part of the ignore list so that we can see how to help the user problem here. At this point, we don't want to provide any APIs to modify elastic data because of how there is a high chance of major errors."
+      }
+    ]
+  },
+  {
+    "title": "Conga CPQ Validation - Attribute marked required via Product Attribute Rule should come under Out of Box Validate button when having blank value.",
+    "author": "Harshit Solanki",
+    "product": "Configuration",
+    "content": "Hello Product Tm,\n\u00a0\nCustomer: IQVIA\n\u00a0\nThey have a requirement where they are marking an attribute as required via product attribute rule.\n\u00a0\nTheir use-case is if the user keeps the value of the attribute value as blank and clicks on validate button the Out Of Box Validation should trigger and specify the field name having blank value.\n\u00a0\nAs per the current Product Behavior the Validation is only triggering on Finalize action and giving an general error that \"Configuration is Pending\"\n\u00a0\nError: \"Unable to finalize due to errors on items that require configuration. All items below that have the Error icon (red ! icon) in the Actions column require your selections. Please click on the Error icon (red ! icon) in the Actions column to select configurations and resolve the error.\"\n\u00a0\nRequest from the customer:\n-> They want the error to be specific.\n-> The error should trigger on Validate button using OOB flow.\n\u00a0\nPlease let me know if this is feasible or not.\n\u00a0\nIf yes please update the ticket.\n\u00a0\nRegards.\nHarshit Solanki",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Add support for using the \"contains\" and \"includes\" keyword in the Filter Criteria in the look-up field settings",
+    "author": "Swapnil Patel",
+    "product": "Configuration",
+    "content": "Need the ability of using the \"contains\" and \"includes\" keyword in the Filter Criteria in the look-up field settings to support scenarios where comparisons of Line Item object field vs a custom object field(multi-select picklist) is needed.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "SWIFT - Product Attribute Rule Not Working Properly While Allowing Multi-Select Picklist With A Self Reference Condition",
+    "author": "Maurice Hout",
+    "product": "Configuration",
+    "content": "Idea placed on behalf of customer\n\u00a0\nDescription:\nThe system is adding the same multi-picklist value (MVL) again (which is already selected) when we are having the Product Attribute Rule with Self-Reference condition.\nExpected Behavior:\nWhen the PAR (Product Attribute Rule) is running with a Self-Reference Condition & Action, the system/cart should not duplicate any multi-picklist value.\n\u00a0\nNote:\nAs Conga currently does not support having the same values in condition and action.\nAn Enhancement request is needed for that, this is why this Idea is created.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display a summary to the user indicating the list of changes to setup in case of favourites/cloned quotes",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "There are non-mandatory defaults setup via constraint rules in equipment offerings.\u00a0These rules are constraint rules with \u201cAuto-Include\u201d action intent and \u201cWarning\u201d as the action disposition. There are specific scenarios when the Conga configurator does not retain the user selections for these rules when using standard configurations, favorites and when cloning custom configurations during the quoting process. The configurator fires these defaults irrespective of the choices made by the user. This behavior is confusing our sales users because options that they are not expecting are getting added to the configuration on the quote. This results in a lot of re-work because they lose time in identifying these options and re-configuring them.\n\u00a0\n\u00a0\nWhen non-mandatory default rules don\u2019t exist at the time of bundle configuration and are created later we should ccontinue to fire the non-mandatory default rules (current behaviour) but display a summary to the user indicating the list of changes to setup since the bundle was last configured. This will help the user understand the changes and review the configuration.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Retain User selection for Auto-Include constraint rules For Cloned Quotes",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "There are non-mandatory defaults setup via constraint rules in customer offerings.\u00a0These rules are constraint rules with \u201cAuto-Include\u201d action intent and \u201cWarning\u201d as the action disposition. There are specific scenarios when the Conga configurator does not retain the user selections for these rules when using standard configurations, favorites and when cloning custom configurations during the quoting process. The configurator fires these defaults irrespective of the choices made by the user. This behavior is confusing our sales users because options that they are not expecting are getting added to the configuration on the quote. This results in a lot of re-work because they lose time in identifying these options and re-configuring them.\n\u00a0\n\u00a0\n\u00a0\nWe need the ability for the Conga configurator to do the following:\n\u00a0\n\u00a0\n\u00a0\nWhen non-mandatory default rules exist at the time of bundle configuration, retain the user\u2019s selections for non-mandatory defaults irrespective of configuring the bundle using standard configurations/ Favorites/ cloning custom configurations.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Error message should take users to the direct actions items",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "\u201cWhen a sales rep sees an error message on the Configuration page( including when they opened with CAAS URLs in iframe), clicking on the error message should take the sales rep directly to the areas within the page for which error was shown.\u201d",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea. We would also like to build this feature and have it on our long term roadmap as we update the existing UI experience"
+      }
+    ]
+  },
+  {
+    "title": "Apttus_CPQApi.CPQWebService.rebuildCategoryHierarchies API runs in Sync as well as in Async.  and it does not return anything in async mode .",
+    "author": "Saurabh Pancholi",
+    "product": "Configuration",
+    "content": "Customer is\u00a0using Apttus_CpqApi.BatchUpdateService.updateCategoryViews API, Customer need to call Apttus_CPQApi.CPQWebService.rebuildCategoryHierarchies as well .\n\u00a0\nThey want to understand, how do they get to know Apttus_CPQApi.CPQWebService.rebuildCategoryHierarchies API has been called and completed successfully and Apttus_CpqApi.BatchUpdateService.updateCategoryViews API can be called since Apttus_CPQApi.CPQWebService.rebuildCategoryHierarchies API runs in Sync as well as in Async.\nand it does not return anything in async mode .",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Ability to show where used for product options in a bundle?",
+    "author": "Swapnil Devlekar",
+    "product": "Configuration",
+    "content": "When a user is configuring a complex bundle with several options, it would be good to provide an option to see whether the option product is used in other bundle products as well. This will give the sales rep information and the opportunity to either exclude/include this option product from the current bundle configurations, thereby making the option selection meaningful.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Swapnil Devlekar",
+        "content": "What we need is a simple help text kind of a field/feature where an admin can add help text on option products specific to the bundle. This feature during bundle configuration gives the end user help information that can better assist them in providing bundle-specific context during option selection. Let's discuss this further if you have questions."
+      },
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the Idea.For this ask, is the request to check for an option in all bundles already added ot the cart or all bundles available to be selected in the catalog?\u00a0We currently have constraint rules that can help mitigate this, by using match in cart options for checking if an option is already inside the cart. This does require the option to already be selected in another bundle for it though."
+      }
+    ]
+  },
+  {
+    "title": "Expired PLI Price visible on Bundle Configuration Page",
+    "author": "Baptiste Courcier",
+    "product": "Configuration",
+    "content": "Our customer Lectra is experiencing the following:\nIn the Product Configuration Page when there are multiple PLIs of the same date, expired PLI price is visible on the Bundle Configuration Page.\nTS checked this issue and it is not happening if we set Quote.PricingDate field but as per their use-case it is not possible for them to set\u00a0Quote.PricingDate as they need it always as today's date.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Setting up custom options page on Flow settings does not work .",
+    "author": "Divya Dubey",
+    "product": "Configuration",
+    "content": "Setting up custom option page in flow Management for respective flow does not work.\nCustom has a requirement to use their custom VF option page for configuring options for respective bundle from the custom VF page.\nThe documenation mentions that for Attributes it could be set out of the box on the flow management.\n\u00a0\nCould this feature be made available for options page also?\nKindly expedite.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Exclusion Constraint rules not working properly for ABO in certain condition",
+    "author": "Gunjan Vazirani",
+    "product": "Configuration",
+    "content": "Bundle Structure: Bundle > Sub-Bundle > Option\n\u00a0\nRequirement, to exclude Option on selection of option when certain attribute is selected at Sub-Bundle Level\n\u00a0\nCurrently, for New Sales configuration, this use case works fine but during ABO operation, if that option is already in the asset and then if we perform Change Operation, the Constraint Rule will trigger once. Now if we uncheck and check the option again, the Constraint rule does not get trigger again.\n\u00a0\nFor reference: https://conga.atlassian.net/browse/CPQ-69102",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. We will look into adding this in our future roadmap and will let you know once it is planned"
+      }
+    ]
+  },
+  {
+    "title": "An option to reset attribute values on attribute page",
+    "author": "Sandip Kumar",
+    "product": "Configuration",
+    "content": "Hello Product team,\n\u00a0\nWe have a requirement in one of our customers to reset all attributes on the attribute page. At this moment, there is no such option available. To reset attributes, user has to manually click cross button or remove the values from the attribute controls. If number of attributes is high on the attribute page, then it is a time taking job. It would be nice to have a kind of button which should reset the attribute values. This button should be configurable. This should not be available by default. But by configuration, we can make it available. Also, by configuration we can decide what are the attributes need to be reset on button click.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "Thank you for the idea. We will look into the feasibility of your idea and decide where it can go in our long term roadmap"
+      }
+    ]
+  },
+  {
+    "title": "Attribute based pricing not working correctly when defer pricing is off",
+    "author": "Gunjan Vazirani",
+    "product": "Configuration",
+    "content": "Current behavior: If defer pricing is off, on configuring an option within a bundle which has attribute based pricing setup, when we change the value of an attribute when recalculating is still in progress, the pricing is not updated correctly even on clicking validate.\n\u00a0\nCustomer Expectation: There should be a button which does hard reprice so that pricing is done correctly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to manually override the Constraint rule selection",
+    "author": "Raj Somani",
+    "product": "Configuration",
+    "content": "Need to have the ability to manually override the Constraint rule selection\n\u00a0\nExample: One constraint rule is there where 'A' requires 'B' (Auto include)\nHere in Option Group 'X', option 'A' is defaulted and cant toggle between other options.\nNow system tries to auto-include B but exclude via other rules for option group Y. There is no option to deselect auto included radio option which got selected from Y.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to customize Field Expression message",
+    "author": "Sejal Shetty",
+    "product": "Configuration",
+    "content": "Currently there is no feature to add custom messages for Field expression same as Constraint Rule messages, it would help if user see more useful/user friendly custom message for Field expressions to figure out how to correct configuration instead of current formula based messages such as 'the quantity must be between 1 and 0.'\n\u00a0\nNeed capability similar to Constraint Rule messages for field expressions.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Disable Field (Custom) on Cart",
+    "author": "Hardik Shah",
+    "product": "Configuration",
+    "content": "Ability to disable/enable column in Cart depending upon condition matched at runtime. For Example - Use-Case : User cannot apply discount on Product-A, but can apply discount on Product-B.\nResult - Discount Column for Product-A should be hidden.\n\u00a0\nNeed capability similar to OOTB manual/group adjustment.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Expired PLI should not be visible on congiguration page.",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "When there is a product whose PLI has expired - users are still able to see the product on configuration page. This behaviour causes issues in case of new quotes. One way to handle this is using Pricing date on Quote, however, some customers do no use that field and in case of new quotes it does not makes sense to propulate the pricing date before actually prcing the cart.\n\u00a0\nThe expectation is that if pricing date is not populated system should hide expired PLIs from configuration page based on current date.",
+    "votes": "5 Votes",
+    "comments": []
+  },
+  {
+    "title": "Lookup on attribute values during configuration",
+    "author": "Gunjan Vazirani",
+    "product": "Configuration",
+    "content": "Current Scenario: When we configure the aproduct by selecting attributes which are drived by AVM, we have picklist to select attribute value.\n\u00a0\nCustomer's ask: To have a look up/search kind of feature where they can search attribute values rather than using a list of attribute values since the customer has a large number of atribute values.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Clear all the attributes of the AVM in one go",
+    "author": "Gunjan Vazirani",
+    "product": "Configuration",
+    "content": "Current Scenario: If we have 10 Attributes in an AVM and for eg: if the 5th Attribute selected by the user is incorrect. If the user clears it and clicks on the picklist of the attribute, all the values of that picklist come up rather than the filtered attribute values as per Attribute 1, Attribute 2, Attribute 3 and Attribute 4. Now to get filtered values, user has to clear the value of all the attributes and re-select everything.\n\u00a0\nCustomer's ask: If we have a feature where instead of clearing every attribute one by one we have a buttonto clear all the values of AVM in the onfiuration UI.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To handle all the language specific characters like french,  Korean, Japanese etc when we import an excel file back to Salesforce in AVM.",
+    "author": "Gunjan Vazirani",
+    "product": "Configuration",
+    "content": "Currently, if we go to AVM, click on edit, click on export CSV, the file is exported in CSV (Comma Delimited)(*.csv) format. If this AVM has any special characters and if we try to import this file with changes, the system is not handling the characters and showing a replacement character instead.\n\u00a0\nAs a work around, if we save this exported file in CSV UTF-8 (Comma Delimited)(*.csv) in excel, nd then make changes and import this file, it will handle french characters correctly.\n\u00a0\nNow, to solve this, is it possible to export the file itself in CSV UTF-8 (Comma Delimited)(*.csv) format instead of CSV (Comma Delimited)(*.csv) to eradicate the extra step customer is taking right now to handle these special characters?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "APIs for Service CPQ Constraint Rules",
+    "author": "Jai Patel",
+    "product": "Configuration",
+    "content": "The customer has requested for APIs for Service CPQ constraint rules so that they can use them in their custom flow to ensure that product is properly configured as per the business rules.\n\u00a0\nThe APIs should support constraint rule functionality as that on service catalog and on bundle configuration page. They should be able to use the API on their custom catalog page to hide service bundles (Match in Service Assets) and invoke the configuration rules (Match in Related Lines) even by bypassing the bundle configuration page in their custom flow.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Jai Patel",
+        "content": "USCAN Renewal Scenario:GEHC are requested for APIs for the Eligibility framework and Constraint Rules for their USCAN renewal flow. GE would like to use the APIs to create a renewal quote (from renewal opportunity) which has all the selected assets configured with the service bundles. This configuration will have all the constraint rules already triggered so that the user can directly finalize the quote without the need to go to the bundle configuration page.Below is the use case of how they would like to use the APIs. The flow will start from a renewal opportunity which will be created by system or end user.The asset data is stored in GE\u2019s custom object (Contract Line Items) and is not as per the Conga bundles and option structure. GE will convert it in the form of bundles and options (Asset Line Items) which will be then used further in the flow [GE custom logic]Smart Match Feature:User selects the assets they want to renewUsing the Eligibility Framework API, system will only display eligible service bundlesOnce the appropriate service bundle is selected, all the options within the service bundle will be auto-included, excluded etc. using the constraint rule APIUser will be directly taken to cart with a completely configured service bundle.As you can understand from above, the entire renewal scenario depends on these 2 APIs."
+      },
+      {
+        "commenter": "Jai Patel",
+        "content": "Product team is currently reviewing whether we can provide javascript for the Service CPQ constraint rules."
+      }
+    ]
+  },
+  {
+    "title": "Defaulting options of sub bundle does not happen if Sub bundle is added via API",
+    "author": "Pavan Kumar",
+    "product": "Configuration",
+    "content": "When we have nested Bundle structure, If Main bundle is added/selected through API or UI, If any of its options configured as default will be automatically selected by the system. However If Sub bundle is added through API, system does not consider to add any default options under it, but same scenario works if the selection of sub bundle is from UI.",
+    "votes": "6 Votes",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "This feature is complete and will be available in our October '23 release"
+      }
+    ]
+  },
+  {
+    "title": "Ability to define constraint rules based on only condition criteria for Service CPQ",
+    "author": "Jai Patel",
+    "product": "Configuration",
+    "content": "A customer has requested the ability to define constraint rule conditions based on Condition Criteria only. They are currently using product groups as scope, but they want to move away from them due to the below reasons:\nThey have\u00a0many product groups and a large number of product group members in each group. These groups are already hitting higher limits of that supported in constraint rules. They have to onboard more users which will result in bigger product groups. This will definitely impact constraint rule performance.Product groups are hindering their turbo implementation as it is impacting data sync.Product groups require too much maintenance.\n\u00a0\nThe customer plans to use only criteria in constraint rule condition and action. They want that such rules should support all the existing functionality of Service CPQ constraint rules and this enhancement should also be supported by the Service CPQ constraint rule APIs.",
+    "votes": "4 Votes",
+    "comments": []
+  },
+  {
+    "title": "Support to Add Multiple Recommended Products when Constraint Rule with Recommendation is Used.",
+    "author": "Hardik Shah",
+    "product": "Configuration",
+    "content": "Use-Case : When Sales-Reps adds Product, System should Recommended multiple Products.\nTo achieve above use-case, Constraint Rule with Recommendation Action is configured. To recommended Multiple Products, Product are clubbed as Product-Groups.\n\u00a0\nIssue : There are issue with Constraint Rule where it doesn\u2019t allow user to further select \u201cRecommended Product\u201d once they select anyone of those Products.\u00a0 List of Recommended products becomes empty.\n\u00a0\nAsk : Is there a way where Recommend Products are still shown in list, after user has chosen initial set of Products?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "CPQ Admin UI Needs to be more informative",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "When you are on CPQ Admin screen, the left panel has only product/option name. Some customers use codes in product names and it is hard to identify a product/option without details like description, family etc. When we hover over the name we do not see any information to identify the product. Please make it more informative. This works only in details tab not in other tabs.\n\u00a0\n\n\u00a0\nWorking 'Details' tab (expected behaviour)",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Jarkko Vainio",
+        "content": "I would go even further and say that in our company it's critical to see the product code. Product names are often long (=cut of in small screens) and very similar or even exactly the same. Need to see the code goes for every screen that has products."
+      },
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi ,We will consider this enhancement for our future Revenue Admin UI.Thanks,"
+      }
+    ]
+  },
+  {
+    "title": "Product Attribute rules should allow defaulting & setting required for Lookup type Attributes",
+    "author": "Swapnil Devlekar",
+    "product": "Configuration",
+    "content": "Today we are not able to default or set the required Attributes of type Lookup. There are many cases where we create lookup-type attributes and there is no functionality to default using product attribute rules. This is needed by Roche and also many customers.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Grey out \"Go to Pricing\" button until the option/attribute selections are either validated or synced on the configuration.",
+    "author": "Rene Rodriguez",
+    "product": "Configuration",
+    "content": "Allow for a timing sync to occur by greying out the go to pricing button until the option/attribute selections are validated/synced on the configuration.\n\u00a0\nTicket Reference: 00829555 - Technical Support\n\u00a0\nThe DML database is not getting enough time to validate the deletion of Applied Rule info id for particular products\n\u00a0\n\u00a0The cart needs more time to register the quick changes that are made in the quick option selections/removal and their associated Constraint rules.\n\u00a0\n\u00a0\nError Result - \"[executeConstraint]Could not Delete Entity - applied rule info id\"",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Configuration Pending icon appears for auto-included products",
+    "author": "Deep Joshi",
+    "product": "Configuration",
+    "content": "We have come across the below issue for the Pending Configuration error:\n\u00a0\nUse-case :\nThe user is adding a standalone product and it is further auto-including a Bundle product and for that auto-included bundle, it is showing a Pending Configuration error.\nWhen this issue is happening, the user needs to click on Configure icon and then need to visit the Options tabs to resolve the Pending Configuration error as Options are also not-included by CR.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Deep Clone Product Using CPQ Admin - Include (Custom) Child Objects",
+    "author": "Shahid Ali",
+    "product": "Configuration",
+    "content": "Currently in CPQ Admin we do not support cloning of any child objects. Customer has child objects related to product which also need to be cloned when they clone to product. Please provide an ability to deep clone from CPQ admin along with ability to choose and select child objects\n\u00a0\nCurrent functionality documentation:\nhttps://documentation.conga.com/cpq/september-22/salesforce/cloning-products-208508102.html",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Bhausaheb Patil",
+        "content": "Hi Shahid,Currently we allow users to select/deselect following items while cloning a product. Are you looking for any other child objects apart from these ?Product Details ,Categories,Attributes, Pricing, Options, Product Collateral, Product Group, Rules."
+      }
+    ]
+  },
+  {
+    "title": "Constraint Rule - Match in location",
+    "author": "Rohit Bavaliya",
+    "product": "Configuration",
+    "content": "Hello Team,\n\u00a0\nThis is customer new use case where customer wanted to apply a discount on the products based on the 'Match in location option'.\n\u00a0\nUse case:\nUser has two different bundles 'A' and 'B', In these bundles they have added the same option 'D'. User is configuring both bundles with this option. he set constraint rule which checks if both bundles are from the same location or not. If both bundles have the same location then it throws a validation message to override the base price to 0 for the option 'D'. However, both bundles are from different locations but still they can see this validation.\n\u00a0\nAnalysis:\nWe have discussed this use case with our engineering team. We got confirmation that this scenario is not supported, and constraint rules with match-in locations won't be helpful in satisfying this new use case that user is trying to implement it.\n\u00a0\nAlso, 'Match in location' is only supported for some of the 'inclusion use' cases. It's not fully supported, for exclusion or validation.\nHence, this current use case will not be fulfilled by CR. However, there is another solution is you can write a validation callback to achieve this scenario.\n\u00a0\n-- User has requested enhancement for this issue. Also, they requested to mention this limitation in the product documentation.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Document template under present tab should be sorted 'BY TYPE' of the document",
+    "author": "Shivangi Mishra",
+    "product": "Configuration",
+    "content": "Customer has a use case where customer want the document templates present under present page should be sorted as per the type of the document.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Attribute cascading not properly working in Sub-bundle Defaulting Scenario",
+    "author": "Kalpesh Valera",
+    "product": "Configuration",
+    "content": "The User has a sub-bundle scenario where sub bundles option is defaulted and has a shared attribute between the sub-bundle and sub-bundle option which does not remain in sync properly.\n\nUse-case:\n\nThe user has one bundle and a sub-bundle within it. When sub-bundle and its option have shared attributes which are made required through PAR. The user selects sub bundles to attribute however it is expected that it cascades to its option but it does not happen the first time. The user has made the sub bundles option's attribute as read-only so the user is not expected to put values.\n\nWe already have JIRA CPQ-55366 in a place were as per the engineering team has suggested that to wait some time till the cascading is completed. The reason behind this is (As per you mentioned) Whenever we select the option \"Custom Compliance Analytics Onboarding Services\" , we call the updateCartLineItems method. This inserts the Apttus_Config2__ProductAttributeValue__c object at the option and sub-option level. If the user selects the attribute before this call gets complete then the issue occurs.\n\nIf we change the code so that the attribute is cascaded before updateCartLineItems is called, then there will be a huge impact on the product and may result in lots of regression issues.\n\nThe user wants this to be considered as an enhancement for the future.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Option Selection Guidance during Bundle Configuration",
+    "author": "Bhaumik Mehta",
+    "product": "Configuration",
+    "content": "During the Bundle configuration, we see that based on some selection, system triggers a rule for the user to select some other option based on the constraint rule setup in the system.\n\nThe ask here is if system can show the asterisk at the Option Group or Option level based on the rule type, that would guide user to configure quickly instead of reading the whole message and then search for the option and select it. That would help from the usability point of view.\n\n\nAttached presentation has all the details required with screenshots.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Fields expression roll up value should be supported On Read Only Cart",
+    "author": "Shivangi Mishra",
+    "product": "Configuration",
+    "content": "Customer Use case - Customer has a scenario where they need to calculate the value of attribute with the help of field expression. However, system does not support the field expression value on read only cart, as those are calculated runtime, and in readonly mode, system will not execute those things.\n\n\nCurrent behavior - System does not support field expression value on read only cart, as those are calculated runtime, and in readonly mode.\n\n\nExpected behavior- Values calculated through field expression should be visible on read only cart.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Display Action Setting throws error when opened from Config Setting",
+    "author": "Deepak Chauhan",
+    "product": "Configuration",
+    "content": "Nokia has many cart views and so are the view records. When Opening Display Action setting from Config Setting, The system throws Maximum view state size limit (170KB) exceeded. Actual view state size for this page was 254.204KB\n\nThis stops Nokia team to update UI which is blocker for them to introduce any new development related to UI.\n\n\nPlease help enhance this area so that Nokia's request can be fulfilled.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "The Net Price should not be updated with $0 for the child product whose price is related to the parent when we are changing the location of the parent product. It should come as per the 'Related Adjustment Type' & 'Related Adjustment Amount'.",
+    "author": "Shivangi Mishra",
+    "product": "Configuration",
+    "content": "Customer Use-case:\n\n* The customer is using RelatedPriceListItem.\n* The user is configuring both the Products on the Cart. One is having ListPrice on the PLI and another is having RelatedPrice with the first PLI.\n* Now, the user is configuring both the Products on the Cart.\n* The user is changing the location on one of the LineItem such that both the LineItems will not have the same location.\n\n\nCurrent behavior of the system :\n\n\n* When we are configuring both the Products on the Cart, the system is calculating the Net Price of both the Products correctly.\n* But when the user is changing the location on one of the LineItem/Product, the system is marking the Net Price of Child Product as $0.\n\n\nExpected behavior :\n\n* The Net Price should not be updated with $0 for the child product whose price is related to the parent when we are changing the location of the parent product. It should come as per the 'Related Adjustment Type' & 'Related Adjustment Amount'.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Unnecessary Empty space in Configurator with hidden groups and in options",
+    "author": "Raj Poshiya",
+    "product": "Configuration",
+    "content": "When Option Group are hidden it leads to Empty Space which leads to bad user experience. There should be mechanism in the product to dynamically use space when something is hidden instead of showing blank space.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Zach Singh",
+        "content": "This is complete and will be available in the October '23 release"
+      }
+    ]
+  },
+  {
+    "title": "For Option group with Ishidden flag, auto-included Options are not visible in the right side of Itemized Options on bundle config page",
+    "author": "Mohammed Girniwala",
+    "product": "Configuration",
+    "content": "Hi Product Team, Customer has a reported below issue after upgrading their one of sandbox to Summer 20. When selecting attributes in a bundle that auto include products to the cart, they normally show up in the right sidebar (summer 17 version) of bundle config page. In the Summer 20 version, those products are no longer showing up in the right sidebar. Please refer the below working and Not working screen-shots for the same. Working - Non-working- Analysis in Customer Org: When user add a product named 'Cardio Black Pearl' and configure its attributes and other Options, few Options of 'Extras for Cardio' OptionGroup are auto-included as a part of inclusion rules. In Summer 20, those auto-included Options are not visible in right sidebar of bundle config page as shown in above screen-shot. But other options are visible. Observed that IsHidden flag of Extras for Cardio' OptionGroup is enabled that is why that OptionGroup is not visible on the cart but at the same time Options are not visible in the right-side bar. In Summer 17, customer has the same product setup. There also IsHidden flag of Extras for Cardio' OptionGroup is enabled and that OptionGroup is not visible on the cart but at the same time Options are visible in the right-side bar. Note: Customer needs to hide this option group Extras for Cardio to restrict manual selection of options under that Option group. Customer Non Working details: Sandbox 00D4C00000018Lj 12.1787.6 Summer 20 Q-00067566 Product : Cardio Black Pearl > Look for 'Extras for Cardio' option group in right side options Constraint rule : https://precor--dev.my.salesforce.com/a2zA0000000LiCl Customer Working details: 00DW0000008qPZH 10.1298.48 Summer 17 Patch 7 Q-00067598 Product : Cardio Black Pearl > Look for 'Extras for Cardio' option group in right side options Analysis in Internal Org : We have created same product structure as the customer is using in this org and able to reproduce non-working scenario this issue in Summer 20 12.1787. ===================================== Internal Non working details: 00D3t000002jnm5 12.1787 cpqmrajani080520203@cpq2.com @pttus123 Q-00000079 Product : Cable Bundle RD | OptionGroup : Care Pack Services is set to isHidden=True and Options are Not visible on config page right side section. Constraint Rule : https://na123.salesforce.com/a1J3t0000083PzK We have also verified working scenario in a org with CPQ 10.1468.15 Summer 2018 Patch 3 and found that this is working in this version, below are the details: Internal working details: 00D5A0000017UgM 10.1298.55 Summer 2017 Patch 8 cpqinternal31012019@cpq.com5 ePXSUGRh1 Q-00000064 Product : Cable Bundle RD | OptionGroup : Option Group2 is set to isHidden=True and Options are visible on config page right side section Constraint Rule : https://na85.salesforce.com/a1J1U000003fCSh Customer expectation: They expect to have the same working behavior in Summer 20 similar to Summer 17 version. Question: Was this a bug in old release like Summer 17? Is this a Bug in Summer 20? If yes then please consider this as bug request. Which is the correct behavior here, please confirm? Please connect with Mohammed Abbas Girniwala in case of any information required. We have created the JIRA - CPQ-46033 and it suggested by Chirag Vaghela and Zachary Singh to create the IDEA for this scenario.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Segregate Messages per Configuration specially when cart has multiple Instance of same Configurator",
+    "author": "Raj Poshiya",
+    "product": "Configuration",
+    "content": "To avoid confusion during the configuration when multiple instances of a same configuration have been added in the cart, Apttus should restrict the display of error messages during the configuration process to only the configured instance. Either Sequence number or clear notification which configurator this error/warning message belongs to should be there.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Deep clone to clone existing Constraint Rules and Product Attribute Rules",
+    "author": "Anubhav Jain",
+    "product": "Configuration",
+    "content": "At times, we end up creating Constraint Rules (CR) and Product Attribute Rules (PAR) which are only slightly different from each other. In these scenarios, if product provides Deep clone on CR and PAR that would save implementation time. All you need to do is to deep clone the CR or PAR and make necessary modification instead of creating it from scratch.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to control where to display constraint rules message (Cart/Catalog) and ability to display informational message in cart",
+    "author": "Chetan Patel",
+    "product": "Configuration",
+    "content": "Currently, there is no setting from admin to control where constraint rules messages should display on cart or catalog. Illumina our existing CPQ customer would like to have ability for admin user on which messages should display on catalog or which one should display on cart. Also currently for there are only 2 types of message display Warning and Error. Illumina would also like to add information type message as part of action disposition in constraint rules as in their requirement most of the message as for informational purpose only.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Capability to include line number in constraint rule message",
+    "author": "Saumil Deodhar",
+    "product": "Configuration",
+    "content": "Customer needs the capability to display line numbers when constraint rule messages are triggered on the cart.\n\n\nThis would be very useful for them while working in the scenario where there are many (30+) line items in the cart. For example, if a quantity must be greater than 10 for a product A and the product is available at Line number 40 then the constraint rule can display a message such as \"Error at Line 40: Quantity must be greater than 10 for Product A\"",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to Sort, filter and Search on sub-component page",
+    "author": "Jai Patel",
+    "product": "Configuration",
+    "content": "In GEHC, Japan is using subcomponent quoting extensively by going to the sub-component pop up and selecting subcomponents. (Screenshot attached for reference).\n\nWith the current design, users are facing a challenge to search and select specific subcomponents as sometimes there are 100s of subcomponent in a single bundle. So users have requested to be able to sort, filter and search on the columns.\n\nThis requirement is right now requested by Japan but is very much needed for all other regions.\n\n\nIf sort, filter and search cannot be given together at the same time then filtering should be considered as first priority and sorting and searching as second priority.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Tag unanswered selections in CPQ",
+    "author": "Matthew vanderHeijden",
+    "product": "Configuration",
+    "content": "In a complex bundle with many selections, it is very normal that the user can't make all the selections in one run. For example the user needs to contact the customer again with some additional questions to make the correct selection. It would be good to tag those selections that need to be revisited on a later time.\n\nA good analogy would be when you take a test and you don't know the answer. You typically can tag it, move on to the next question and revisit the tagged question later.\n\nThis functionality will add value to the user. CPQ will be easier to use and it will prevent incomplete configurations. It will also be a differentiator with our competitors. I don't think anybody has this functionality.\n\nI heard about this functionality in a discussion on a CPQ Opportunity with Shyft.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent Automatic Pricing on selecting Is Optional Flag",
+    "author": "Saumil Deodhar",
+    "product": "Configuration",
+    "content": "Customer desires a functionality where the system doesn't trigger pricing automatically, and the impact of selecting the optional checkbox is considered when the user hits recalculate button. Note: This enhancement is requested by Hitachi Energy Holdings Ltd (fka ABB PG Power Grids Ltd). I am unable to find the customer in \"Requested By\" Field",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Maintenance batch wiping off Config header criteria setup",
+    "author": "Kaitlin Smith Brendehl",
+    "product": "Configuration",
+    "content": "We started using Config Header Criteria Fields as part of implementing Turbo. We found that CPQ system in general wipes off Config Header Criteria Fields which admin runs maintenance jobs (mainly criteria maintenance but there can be others). Manual workaround provided to unblock but product bug still remains to be resolved. Corresponding Support Case: 00787149",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to Mask Characters in Text Attribute Field in CPQ Configuration",
+    "author": "SF Integration Service Account",
+    "product": "Configuration",
+    "content": "Client has a requirement to mask the characters in passcode attributes in bundles. Creating an attribute in product attribute value object of data type \u2013 Text(Encrypted) is not working in the Conga CPQ configuration page. i.e. if any user opens the quote, the passcode is visible even though it is stored as masked characters in salesforce. The Config page UI considers the attribute as a normal text attribute rather than Text(Encrypted).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Data Driven Modeling aka Catalog Driven Modeling",
+    "author": "Matthew vanderHeijden",
+    "product": "Configuration",
+    "content": "When a company wants to add a (new) product / option to an Option Group (which is used in a bundle), the CPQ admin needs to create the new option and needs to add it to the option group(s).\n\nIn most situations the Product is added by a Product Manager in a different system and Conga will pick up this product through some kind of integration and the CPQ admin adds the product to the applicable Option Group(s)\n\nIt would be a huge improvement if the Product Manager only has to add the Product / Option and that the bundle automatically will \"pick-up\" the Product / Option at run time based on a query on the Option Group level. The image below shows how this could look like. The query will filter on the product database based on attributes associated with the products.\n\nResults of DDM\n\n* No Model changes if part number is changed or if new items get added\n* Smaller Size of model \u2013 Only those Option Items that are needed based on selections\n\nBusiness Benefits:\n\n* Less Model maintenance\n* Lower Total Cost of Ownership (TCO)\n* Faster time to Market\n\nRules need to be generic:\n\n* You don't know which products will end up in the bundle\n\nData driven modeling / Catalog driven modeling is applicable in most situations, but especially for customers that frequently add new products and options.\n\n\nAttached is a document that includes a image that depicts Catalog Driven modeling",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Rule Tracer and Debugger in CPQ",
+    "author": "Matthew vanderHeijden",
+    "product": "Configuration",
+    "content": "In Conga CPQ it is almost impossible to figure out in a structured way which rules did execute in which sequence and what the result of the execution was or if a rule did not execute what the reason was it did not execute.\n\nToday it is a trial-and-error process to figure out if a certain rule did not execute.\n\nIt would be helpful for any CPQ administrator to have an easy-to-read tool that traces all the rules that were touched in for a specific configuration.\n\nIn this example you can see the duration of each rule execution and you can see the sequence in which the rules are executed and of course the result of the rule.\n\nThis request is applicable for every CPQ account\n\nAttached is a screenshot of how debugger could look like",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Combining Selection and Quanty in one rule",
+    "author": "Matthew vanderHeijden",
+    "product": "Configuration",
+    "content": "Today if you need to create a rule to select a certain option in a configuration model and if the quantity is greater than one, it requires two rules.\n\nFirst you need to create an inclusion constraint rule to get the Option selected\n\nSecond you need to go to the structure of the bundle and go to the correct Option is the Option Group\n\nThen you need to create the expression to calculate the correct quantity for selected Option.\n\nThese two rules should be combined in one rule, and it should be easier to do the quantity calculation. The quantity calculation should be similar as our price matrices. With a matrix you probably can handle 90% of all quantity calculations. For the other 10% (very complex quantity calculations) we still need the expression builder, but than in the constraint rule.\n\nPlease see the attached file, which includes some screenshots\n\n\nThis was requested by Fluence Bioengineering and is applicable for many accounts. This is a very common use case",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Using Matrix to select correct Product Option in CPQ",
+    "author": "Matthew vanderHeijden",
+    "product": "Configuration",
+    "content": "In many industries it frequently happens that you first need to make multiple selections before the system will select the correct part-number option. An example of this would be when the user needs to select an electrical cord length and the type of plug at the end of the cord. The manufacturer has Assembled products in inventory. So if there are 3 cord lengths and 4 plug types to select from, we have to create 12 separate constraint rules to select the correct cord assembly. If new selections are added, this becomes unmanageable.\n\nWe need to have something similar to select the correct part-number as we have in price rules, where we use a matrix with multiple dimensions to select the correct price.\n\nI have seen this requirement in many accounts. The last one was on the Fluence Bioengineering account.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Tables of Attributes",
+    "author": "SF Integration Service Account",
+    "product": "Configuration",
+    "content": "Ability to group attributes and present in table form. Imagine a scenario: Model >> SB (Sub-Model) >>>> Level (Attribute) >>>> Value (Attribute) users can enter multiple combinations of Level and Value at the moment, the only choices are 1. clone SB Sub-Model 2. define multiple PAVs for Level and Value combinations (Level1 Value1, Level2 Value 2... Level n Value n). this works only if a small number SUGGESTION > allow for a grouping of attributes (in this case Level and Value) and allow multiple instances of this (preferably in the form of a table). Current Attribute group could be used, but would need ability to duplicate/multiple-instantiate",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Improved Multi-instantiation",
+    "author": "SF Integration Service Account",
+    "product": "Configuration",
+    "content": "Currently, the only way to create multiple instances of a sub-bundle is to copy. You can also no delete a copy once it is added. I suggest there should be a way of adding (via manual entry or even a numeric rule) a number of instances (or reducing the number already set)\n\ne.g.\ncurrently\n\nModel\n>> SB # > SB #\n>> SB #\n\n======================\nrecommendation\nModel\n- Number of Instances [1]\n>> SB\n\n- Number of Instances [5]\n>> SB\n>> SB\n>> SB\n>> SB\n>> SB",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to split assets in a service cart based on granular and specific criteria",
+    "author": "Jai Patel",
+    "product": "Configuration",
+    "content": "As a user, I should be able to group assets and define specific split criteria so that I can price and quote the service bundles with specific asset associations. I should be able provide multiple groups and criteria together. The split criteria will be always be based on the fields that are defined in \"Config System Properties\" custom setting. The split should always happen on the original bundle. This split should be supported by the Split API. Please find attached spreadsheet containing examples of the various scenarios.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Enable Revalidation for the changes in the Attributes.",
+    "author": "Ronak Dhokai",
+    "product": "Configuration",
+    "content": "The System is Admin is adding Attributes to an existing Product. Now there are old quotes in the system which have been finalized with the same Product having no Attributes. So when we created a new Configuration on the top of Finalized configuration the Product will not show any Attributes as the data is cloned from the finalised configuration. For attribute to show up,\"Has Attribute\" should remain checked on the Line Item and this doesn't happen when you create a new configuration which gets data from the old finalized one. It would be great if \"revalidate\" also updates the changes we make in Product Attributes.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto Replacement of Product used in Constraint Rule Condition when using Replacement Action",
+    "author": "SF Integration Service Account",
+    "product": "Configuration",
+    "content": "Hello Team,\n\n\nWe would like to raise an idea for auto replacement of product used in Constraint Rule Condition when using Replacement Action\n\n\nCurrent Behavior: Whenever Action Intent is selected as Auto Include for CR action Replacement. Auto Include Action Intent will only add the replacement product to the Cart, and not actually replace the original product.\n\n\nExpected Behavior: Whenever Action Intent is selected as Auto Include for CR action Replacement. Auto Include Action Intent will swap the product used in CR condition along auto inclusion of the desired product.\n\n\nThanks",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Navigation via Itemized Options inside Child Bundle should be available",
+    "author": "Bhaumik Mehta",
+    "product": "Configuration",
+    "content": "When we configure any Bundle, Itemized options section on the configuration screen shows the list of Options and Option Groups. When user click on the Option Group in the Itemized Options section, it highlights and redirects to that option group when we are in the Parent bundle. But the same is not working in the child Bundle. Customer is asking for the same functionality in Child Bundle as well. This would be helpful for the customers if provided.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "SCPQ - Ability to fire rules based on both equipment bundle assets and option component assets",
+    "author": "Swapnil Bhandarkar",
+    "product": "Configuration",
+    "content": "Currently in Service CPQ functionality, we can either relate an equipment bundle asset with a service product, OR we can relate an equipment option component asset with the service product. As a result, when we associate the service product, the related line items are created only either for the bundle asset or the option component asset, but it cannot be created for both.\n\nFor Philips, the requirement is that some of options belonging to service bundle product can be selected only if a combination of a equipment bundle and equipment option is selected in the assets. Such a rule cannot be written currently in Apttus due to which their quoting requirements are not met.\n\nIs there some way possible to allow relating both equipment and options together with a service model?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to search attribute values by typing in the dropdown for single and multiselect picklist during configuration",
+    "author": "SF Integration Service Account",
+    "product": "Configuration",
+    "content": "It will be helpful for clients that are using attributes with large number of picklist values like the enterprise client account that we are part of. Client is asking for this typeahead feature as it makes it more user friendly for them and lesser time for configuration.\n\nNote: Many of the picklist have more than 100 attribute values in bundles. This leads to the user having to scroll through the list to get to the required one.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

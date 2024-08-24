@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Amend Order API Capability to be enhanced such that it works with custom statuses as well",
+    "author": "Swapnil Bhandarkar",
+    "product": "Conga_Order_Management",
+    "content": "We are using amend order API to create a amendment versions of an order, for Hitachi Energy. In the OOTB scenario, the API works on only 3 ootb statuses (Pending, Partially Fulfilled, and In Fulfillment). In Hitachi, we are currently using several custom statuses in the status picklist fields. We would like to utilize the api for creating order amendments, when order is in any of the custom status. This is not currently possible. Can we enhance the API so that it may work with a custom status also?",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hi Swapnil,Thanks for the idea.We aren't able to understand the use case here. Please set up some time with us so that we can understand the request better.There are reasons why the API works only for specific statuses. Unlike ERPs, there's no mapping of a custom status with an OOTB status, so you don't see this API working.We've plans to give this functionality in Platform but would like to understand if we can do the same in Salesforce. We need to understand what other custom statuses (and the corresponding phase of the order line lifecycles) are for Hitachi Energy.I am looking forward to hear from you on this topic,Praneeth Bhavi,PM for Manage & Fulfill."
+      }
+    ]
+  },
+  {
+    "title": "Order splitting needs to support price ramps!",
+    "author": "Kirk Wessman",
+    "product": "Conga_Order_Management",
+    "content": "Right now, if Order Management is set to split Orders by, say, Start Date, on a 3-Year subscription, this will work fine only if each of the three years is added as a separate product. On the other hand, if one uses price ramps to create year 2 and year 3 (as a lot of our clients do, and would seem to be best practice), the order splitting functionality will not recognize the differing start dates of each ramped year, and will result in only one (unsplit) order. Right now a client would have to use custom code to do this, which is harder to scale/support long-term, etc. Thanks so much!",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

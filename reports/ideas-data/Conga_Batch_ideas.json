@@ -1,0 +1,325 @@
+[
+  {
+    "title": "Set the 'Consolidate Word or PDF output in a single file' checkbox to false or unchecked by default",
+    "author": "Maybeleen Matammu",
+    "product": "Conga_Batch",
+    "content": "Request to implement an option to set the 'Consolidate Word or PDF output in a single file' checkbox to false or unchecked by default. Currently, the only way to do this is by removing the FP0 and DefaultPDF parameters. However, some customers require their documents to be generated as a PDF file.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea. We are deferring at this time as the desired document output can be achieved with existing parameters today."
+      }
+    ]
+  },
+  {
+    "title": "Enhanced Object Retrieval for Formula Builder in Orgs with Numerous Objects",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Batch",
+    "content": "To improve the efficiency of the Formula Builder, we propose an enhancement that optimizes object retrieval in organizations with a large number of Objects. Currently, the process fails due to Salesforce time limits when there are too many buttons, resulting in lengthy retrieval times. This enhancement will ensure that the Formula Builder can handle large volumes of Objects more effectively, reducing processing time and preventing timeouts, thus enhancing overall usability and performance.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved to future consideration"
+      }
+    ]
+  },
+  {
+    "title": "Include Quarterly Frequency for Conga Batch",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Batch",
+    "content": "The Schedule feature currently offers only daily, weekly, and monthly options. We would like the ability to schedule Conga Batches on a quarterly basis without resorting to intricate workflows.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for the idea. As Composer Web App takes shape on the Conga Revenue Lifecycle Cloud, we will be creating a new scheduler and will include additional frequencies that batch processes can be run."
+      }
+    ]
+  },
+  {
+    "title": "A way to include plus signs in hard coded emails.",
+    "author": "Austin Miller",
+    "product": "Conga_Batch",
+    "content": "When plus signs are used in a Conga Solution syntax, it is read as a space once it has been converted to a URL. When using parameters such as EmailCC, EmailAdditionalTo, and EmailBCC, you could run into issues if any of your email addresses include a plus sign.\n\u00a0\nLets say we have a field that holds CC recipients we would like to use with our Composer button. If any of these emails have a plus sign, they will not populate correctly as the plus sign will not exist when sending out the email. It would be nice to see a way around this.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea. I have moved to deferred at this time"
+      }
+    ]
+  },
+  {
+    "title": "Conga Batch/List View L",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Batch",
+    "content": "Salesforce sent this customer the following recommendation to implement within the conga composer + batch solution however the product does not work like this at this time. The customer was going to request an idea in this regard but we in TS have gone ahead to create and attach to the case archive for documentation purposes.\n\u00a0\nIn the solution, the same 50 MB PDF file gets created, but to create a Salesforce file from it, using code, you chop up the PDF into pieces and send each piece separately to Salesforce and then, again using code, re-assemble the pieces into a single PDF file.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Hello, thank you for your idea. We will be deferring at this time."
+      },
+      {
+        "commenter": "Sarah Husband",
+        "content": "The error Maximum size of request is 52428800 bytes was firing when the solution tried to attach a file to the record where the size of the file was larger than around 40MB.  Salesforce confirmed there was an intentional limit of how large a file you can create via the API.  They suggested to chop up the file into pieces, send each piece separately, store the pieces temporarily in Salesforce, and then re-assemble the pieces once each chunk is in Salesforce."
+      },
+      {
+        "commenter": "Atta Mmorosa",
+        "content": "Title: Correction - Conga Batch/List View Running into Error Maximum size of request is 52428800 bytesArticle from SF - Error 'Maximum size of request reached' when you import Attachment or Content (salesforce.com)"
+      }
+    ]
+  },
+  {
+    "title": "Ability for Composer API to retrieve private images (base64 strings)",
+    "author": "Colton Lederer",
+    "product": "Conga_Batch",
+    "content": "Images are a vital piece to the doc gen process and if Conga wants to continue being a leader in this space, we need creative methods to retrieve images. Images can be stored in SharePoint, external portals and other repositories that are not public. It's rare that customers are trying to merge in public images.\n\u00a0\nPlease allow Composer to accept base64 strings for images.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved to \"future consideration\"."
+      }
+    ]
+  },
+  {
+    "title": "picture switch in excel templates",
+    "author": "Dhanie Bermas",
+    "product": "Conga_Batch",
+    "content": "Customer is using an excel template and is wished to format a date field to dd/mm/yyyy which then needs to be merge as a PDF output. The picture switch functionality would be a lot easier and user friendly rather than doing the formatting in excel.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved it to \"future consideration\"."
+      }
+    ]
+  },
+  {
+    "title": "Ability for user to be notified upon Batch and/or Trigger failures",
+    "author": "Jeff Ercolani",
+    "product": "Conga_Batch",
+    "content": "Multiple customers of Batch and Trigger have found it frustrating that when there is a failure in a Trigger for a record or multiple records in a Batch, the only way to be aware of these failures is by periodically checking the Workflow Dashboard. These customers have all requested functionality that notifies an admin or other user, either with an email or in-Salesforce notification or whatever's easiest to implement, when an automation failure occurs and on which record(s).",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea, I have moved to \"future consideration\"."
+      },
+      {
+        "commenter": "Matt Beshany",
+        "content": "I would encourage an email for this use case. It can't be ignored that other services will email admins when errors occur (including Salesforce). So, this would be consistent across the ecosystem and scale to the platform solution as well. Thanks!"
+      }
+    ]
+  },
+  {
+    "title": "Option to create a summary page / cover page when using Batch",
+    "author": "Mark Turner",
+    "product": "Conga_Batch",
+    "content": "We have had a request to enable a feature that when creating consolidated Batches, it should be possible to create a summary page and / or cover page. The request is to also be able to use dynamic mergefields on the cover / summary page.\n\u00a0\n\"We just want to inquire about a way to prevent a cover page from repeating itself when mass generating documents and merging them in a single PDF using conga batch from the list view.\n\u00a0\nWe would like to know if there is any parameter or configuration that will help us prevent the cover page from repeating itself, so we can only showcase the cover page in the first page of the template and then have all the contracts generated without the cover page.\"",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea! I have moved to \"future consideration\"."
+      }
+    ]
+  },
+  {
+    "title": "Batch \"Start\" button is hidden outside of the DIV visible area",
+    "author": "Brandon Cole",
+    "product": "Conga_Batch",
+    "content": "My customre opened a TS case with suggestions to fix this issue.\n\u00a0\n\"Hello, this is just a suggestion for your UX/UI team that when we go to Batch->Launch manually, the Start button to actually launch the batch is hidden outside the visible range of the parent DIV due to the relative positioning. Screenshot attached, showing the button is not visible and is located outside the parent DIV.\n\u00a0\nSo every time we want to launch the batch manually, we have to go to Developer Tools of the browser, and set the \"top:218px\" for the element #launchtbr-1046 to OFF and the button appears!\n\u00a0\nSimple solution would be to expand the parent DIVs' height a little but, or write a standard CSS to use non-relative spacing but a bootstrap spacing.\n\u00a0\nNo response needed, please consider this case as a feature request or a feedback from your customer :)\" - \n\u00a0\nTS Case: 00865196 | Case | Salesforce\nScreenshot: https://apttus2.my.salesforce.com/sfc/p/1U000000Fqf5/a/Dm000000Y6co/ybHq1VfpDDLEloz6i0pHYBzrNopki4Y87Ghmd8Gnkds\ufeff",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea. I've moved to future consideration"
+      }
+    ]
+  },
+  {
+    "title": "Function/Button in Conga Trigger Dashboard to enable setting up a automated email when Conga Trigger failed",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Batch",
+    "content": "Details:\nOur clients are seeking to implement a feature that allows them to receive automated email notifications in the event of a Trigger failure.\n\u00a0\nBenefits:\n\u00a0\n1. Clients will receive timely notifications when a Trigger fails, ensuring swift awareness of any issues.\n2. This functionality will enhance productivity for our clients, as they will no longer need to manually visit the dashboard to check for errors.\n3. This feature is poised to significantly enhance the overall user experience, providing clients with greater control and proactive error management.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Thank you for your idea! I've moved to future consideration"
+      }
+    ]
+  },
+  {
+    "title": "New batch parameter",
+    "author": "Andy Quach",
+    "product": "Conga_Batch",
+    "content": "User would like to have a parameter that can consolidate all files and send one email out when a multiple records that are select share the same account",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Hello, this can be achieved with Salesforce logic and existing Composer/Batch functionality. Deferring this idea"
+      }
+    ]
+  },
+  {
+    "title": "Automatic Email Alert w/ Unsuccessful Conga Batch Merges",
+    "author": "Atta Mmorosa",
+    "product": "Conga_Batch",
+    "content": "Customers often ask for alerts for Conga Batch mergers that fail. The suggestion is to check the Conga Batch Dashboard to export any errors that are present. As well as setting up a troubleshooting hyperlink to validate the errors within the logs in the dash.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Hey Atta,Thanks for your idea. I've moved to \"future consideration\".Thanks,Kelly"
+      }
+    ]
+  },
+  {
+    "title": "Composer - Ability to track bounce back email from a custom field",
+    "author": "Emeryll Monique Emelo",
+    "product": "Conga_Batch",
+    "content": "Ability to track bounce back email from a custom field",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Hey Emeryll,Can you explain further what the desired feature is here? I've moved to future consideration.Thank you"
+      }
+    ]
+  },
+  {
+    "title": "More detailed API usage report for Conga products",
+    "author": "Austin Miller",
+    "product": "Conga_Batch",
+    "content": "It would be amazing to have better API usage report for only Conga products instead of using the Salesforce API Usage report for the last 7 days. We are currently able to cross reference the Salesforce Report with the Composer usage report to better understand Composer API usage but it would be better if we were able to see the API Usage for a single Composer Solution or when we run a Batch/Trigger.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Austin Miller",
+        "content": "Hey Kelly! My apologies for the extremely late response. Mainly looking for a way to report the Conga API usage for longer than 24 hours."
+      },
+      {
+        "commenter": "Kelly McCamley",
+        "content": "Hey Austin, are you specifically referring to how many Salesforce API calls within a 24 hour period from Conga solutions?Salesforce article I'm referring to:\u00a0https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm"
+      }
+    ]
+  },
+  {
+    "title": "Expanded Conga Batch Reporting",
+    "author": "Thomas Kirkland",
+    "product": "Conga_Batch",
+    "content": "The Conga Batch Dashboard should add functionality beyond Batch runs that have errors. Visibility should be provided into all transactions for reporting to stakeholders.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add monthly reporting option to Batch Dashboard",
+    "author": "Marija Mockute",
+    "product": "Conga_Batch",
+    "content": "Customer \"Regards\" would like to be able to report on monthly basis and not just daily using the Batch Dashboard. Currently they would need to contact us every month asking for a B/T report so they would like this to be automated and be able to access on their side.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Formula Builder in Conga Batch not working in Lightning Experience",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Batch",
+    "content": "We are getting an error: Invalid session or the session has expired. (Lock IPs may be enabled.) when we use Formula Builder in Conga Batch Lightning Experience. However, it is working fine in Classic version.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "EmailReplyToId parameter functionality for use with Conga Batch",
+    "author": "Matt Penrod",
+    "product": "Conga_Batch",
+    "content": "Customer wants to be able to specify who receives email responses, when sending emails in Conga Batch. The customer wants to be able to specify a specific email address that responses get sent to. It currently only sends to the token user's email. Customer can use the EmailFromId parameter for now, but it doesn't allow them to use a specific email address for responses to be sent to (it just uses an org wide address).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add \"Batch/Trigger needs to be enabled\" warning",
+    "author": "Ryan Walls",
+    "product": "Conga_Batch",
+    "content": "Customers can install and try to use Conga Batch and Conga Trigger with no indication that it needs to be enabled. When this happens and they create a case with TS, TS is unable to see whether B/T is enabled and needs to create a Support Request with Provisioning each time to find out if it's enabled.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Batch - Wanted to have default unchecked box to Consolidate Word or PDF output into a single file",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Batch",
+    "content": "The client wanted to an option to make the Consolidate Word or PDF output into a single file to be set as default unchecked.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Batch button for External Users in Community",
+    "author": "David Vernall",
+    "product": "Conga_Batch",
+    "content": "Customer would like a Batch button that works for External (as well as internal) users in the Community. Currently only working for internal users.\n\n\nCustomer is ITNAmerica - Sara Chieco and Alan Fried",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to use visualforce template with Conga Batch",
+    "author": "Hanah Bengson",
+    "product": "Conga_Batch",
+    "content": "Ability to use visualforce template with Conga Batch",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "To Increase the Batch Limit to more than 1,000 records",
+    "author": "Josie Panergo",
+    "product": "Conga_Batch",
+    "content": "The customer under case number 00800004 is requesting to increase the batch from 1,000 to 2,000 or more. Their requirement is pull in more than 1,000 records per transaction,",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Increase for number of records for Qmode=documents to 500",
+    "author": "SF Integration Service Account",
+    "product": "Conga_Batch",
+    "content": "Needs to have an increased limit due to the number of records that their batch needs to meet their demands.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow access to Batch Dasboard information for internal reporting",
+    "author": "Darren Plant",
+    "product": "Conga_Batch",
+    "content": "Customer would like to be able to access the data in the batch dashboard to generate their own internal reports. Case number 00791867",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add View Report custom button that shows on batch records in SF Classic to page layout in SF Lightning",
+    "author": "Taylor Hall",
+    "product": "Conga_Batch",
+    "content": "Customer request",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Batch's ability to save the Output File in the Conga Batch Record .",
+    "author": "Josie Panergo",
+    "product": "Conga_Batch",
+    "content": "One of our customers is requesting if its possible for us to add a Qmode or the ability to save the final document in the Batch record. Please see screenshot - https://www.screencast.com/t/ZqOzvFnkd\n\nCase #: 00788901",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Error message sent to customers when Batch scheduler is backed up or malfunctioning",
+    "author": "Michael Overman TS",
+    "product": "Conga_Batch",
+    "content": "Customer asked about getting error messages for when Batch scheduler goes down.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

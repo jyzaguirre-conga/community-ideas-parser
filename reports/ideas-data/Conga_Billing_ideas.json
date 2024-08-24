@@ -1,0 +1,265 @@
+[
+  {
+    "title": "Setting to control Auto Approval of Invoices /  Credit Memo on Invoice Creation Screen",
+    "author": "Tirthak Kothari",
+    "product": "Conga_Billing",
+    "content": "On the Invoice generation screen, we have a checkbox \"Auto Approve Invoice\" and \"Auto Approve Credit Memo\", which when selected will auto-approve the Invoice/Credit Memo. Here, the customer has a use-case where not only admins but the other users would also be doing an Invoice Run and as per their business use-case, the Credit Memos should never be auto-approved and should go through the Approval process. So, there should be a way which can control the visibility of the fields \"Auto Approve Invoice\" and \"Auto Approve Credit Memo\" on the Invoice Run Screen. This will help them hide the auto-approval checkbox and users won't be able to approve the Invoice/Credit Memo directly.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Use currency symbols based off of related quote/proposal currency instead of org settings.",
+    "author": "John Hammons",
+    "product": "Conga_Billing",
+    "content": "Presently when calling the out-of-the-box manageBillingPlanCmp we used org settings for currency. The component is used for creating new billing plans, and with the Net Unit Price it will always defer to the default currency for the org or user. This causes discrepancies when we have a quote/proposal in other currencies; the Net Unit Price will be appended by a dollar sign when it was calculated for Euros, Yen, Yuan, etc.\n\u00a0\nWe need a way to either remove the symbol from the managed package page, or hopefully customize it to instead refer to the currency of the related proposal. A custom setting entry in Billing System Properties would make the most sense to toggle or change this, or an admin entry to govern it.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "This is now being shipped with the patch, which will be released on 080824. Please refer to the patch release notes for more information."
+      },
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thanks, John, for your contribution.I created a story MAF-1663 to fix this discrepancy. You can track the progress of development through the story link.Keep contributing,Sincrely,Praneeth Bhavi,Product Manager for Manager & Fulfill."
+      }
+    ]
+  },
+  {
+    "title": "Checkboxes on Invoice Run to be True by Default",
+    "author": "Bhaumik Mehta",
+    "product": "Conga_Billing",
+    "content": "Some Customers who use Oracle or any other system as a Customer facing Invoice generation tool and use Conga Billing Solution to create Billing Schedule, Invoice and Credit Memos in Conga Billing. \nFor HV Billing, generally they used to Create \"Auto Approved\" and \"Split By Order\" invoices. Also they used to create Credit Memos also \"Auto Approved and Auto Apply\". \nHence HV Billing team is requesting if any setting to be made available so that all those checkboxes on the Invoice run can be marked as true by default during invoice run just to avoid user clicks and avoid errors from users. If they forget these checkboxes, they have to cancel the invoices and Credit memos and redo the Invoice run event. \nTheir 100% of the use cases needs it true. So is it possible to prioritized this enhancement request? From usability point of view this setting would be helpful so customers can use it based on their need.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto Approve and Auto Apply Credit Memo Checkboxes to be True",
+    "author": "Bhaumik Mehta",
+    "product": "Conga_Billing",
+    "content": "Some Customers who use Oracle or any other system as a Customer facing Invoice generation tool and use Conga Billing Solution to create Billing Schedule, Invoice and Credit Memos, generally they used to Create \"Auto Approved and Auto Apply\" credit memos in 90% of their use cases.\n\u00a0\nHitachi Vantara Billing Customer is using the same way and 100% of their Credit Memos they generally Auto Approve and Auto Apply.\n\u00a0\nCurrently those check boxes are False by default. They are looking for a global setting to be available so that they can make it default \"True\" and their users and avoid mistake.\n\u00a0\nCould you please prioritize this feature if possible?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Wallet Drawdown behaviour for usage Based",
+    "author": "Sreenivasulu Sake",
+    "product": "Conga_Billing",
+    "content": "We have observed the Conga wallet functionality for One-time, Recurring and Usage based Products by enabling the \u201cConsume Wallet During Invoicing?\u201d in Billing System properties\nOne-Time and Recurring\u00a0\u2013 The wallet balance is consumed from wallet asset immediately after invoice is generated and before Invoice is ApprovedUsage Based\u00a0\u2013 The wallet balance is consumed immediately after rating\nCan we have the Usage based Wallet drawdown created during the invoicing same as One-Time and Recurring?",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "This has been shipped with Jun'24 release. Please see the release notes for the details.Thank you very much for the idea.Regards,Praneeth Bhavi."
+      },
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thanks, Sreenivasulu, for your idea.This ask is under our active consideration. We'll let you know when we pick it up.Regards,Praneeth Bhavi."
+      }
+    ]
+  },
+  {
+    "title": "Billing Frequency changes without amendment process",
+    "author": "Sreenivasulu Sake",
+    "product": "Conga_Billing",
+    "content": "We have a use case where customer is charged with a Billing Frequency of Monthly for one year duration and after Invoicing for 3 months and customer requested to change the billing frequency to quarterly, to achieve this Conga system expects to go through entire amendment process by changing the billing frequency, in this case system creates negative billing schedules for the invoiced period and new billing schedules with new frequency for the whole period.\n\u00a0\nExpectation: System should not touch the invoiced billing schedules and adjust only the future(pending) billing schedules\n\u00a0\nHowever this can be achieved by changing the start date through amendment process\n\u00a0\nAs the change is expected on the billing frequency and no impact on the pricing, the expectation is to avoid the amendment without changing the start/end date on the lineitem\n\u00a0\nNote: This has been already communicated to the product team and hence creating this idea",
+    "votes": "5 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hi Sreenivasulu,As explained over email, our product doesn't touch the existing billing schedules that are already invoiced as long as the \"Start Date\" entered during an amendment doesn't touch the invoiced period.\u00a0As far as skipping the amendment process itself, we'll not be able to implement it for the following reasons.1 - This is our current data model in Salesforce. This field is on the cart so if this is edited, then it'll ask for repricing and this can't be skipped.2 - We may create a serious risk w.r.to collections for other customers. E.g., Say, if a persona like Billing Analyst directly changes the frequency from \"Monthly\" to \"Quarterly\" without an ABO/Order transaction, there's no easy way to track change for the managers hence it'll potentially skip the approvals. In the eyes of the audit, it can also go to an extent where the Billing Analyst might have acted in favor of customer by differing the payment that was supposed to come now, thus creating a SOX issue as well.That said - we are actively thinking about giving control to the admins to determine what billing fields must be included/skipped from pricing. This requires coordination with CPQ as they own the cart.Thanks for the idea,Praneeth Bhavi"
+      }
+    ]
+  },
+  {
+    "title": "Ability to create negative billing schedules from Billing Plan",
+    "author": "Sreenivasulu Sake",
+    "product": "Conga_Billing",
+    "content": "Use Case : We issue a milestone billing for an instrument using the percentages: 40% upon PO reception, 40% upon shipment and 20% upon go-live. The first installment is INVOCIED after the reception of the PO as planned (40%) but there is a problem with the customer cash flow, and we need to revise the % to resolve the situation. They propose 20% upon PO reception, 30% upon shipment and 50% upon go-live.\u00a0\u00a0\n\u00a0\nFor example we are creating a billing plan with milestones 40%(4000), 40%(4000), 20%(2000)\nInitially we are creating a Billing plan with 3 milestones 40%(4000), 40%(4000), 20%(2000) and the first installment(BS) is already Invoiced, later customer has requested to change the installemts to 20%, 30% and 50%, so here we are trying to create a -4000 installment and new installments with 20%(2000), 30%(3000) and 50%(5000) but the system is not considering the negative installment\n\u00a0\nInitial BSs\n\nBSs after amendment\n\ufeff\nit would be good if system supports to create negative billing schedules with the custom billing plan",
+    "votes": "7 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "We've already received this request via case #\u00a000850241, and we've already put this on our \"Priority\" list.Since this idea is a repetition of an existing case and product JIRA, I am marking this idea as \"Already Exists.\"If you've access, you can track the progress on the JIRA MAF-647. The current status is \"On Hold\" due to timelines and capacity.We don't have an ETA, but we'll try our best to accommodate it sooner.Thanks again,Praneeth BhaviConga Product Management."
+      }
+    ]
+  },
+  {
+    "title": "Localization for several Billing views",
+    "author": "Ahmad Khalifa",
+    "product": "Conga_Billing",
+    "content": "Some Billing views show dates and numbers in a single format, not following the user's locale setting.\nThese are mostly the views that are not pure lightning (they look like material design, not sure)\n\u00a0\nMore specifically:\nApply Payment -> Apply Payment to Invoice UI - DatesSplit Invoice -> Split UI from an Invoice - Dates and no Currency Code",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thanks, Ahmad for the idea.We'll verify the UI behavior for these fields in the EU region and touch base with you.Regards,Praneeth BhaviConga Product Management."
+      }
+    ]
+  },
+  {
+    "title": "Payment Terms with Three Offset Periods",
+    "author": "Ahmad Khalifa",
+    "product": "Conga_Billing",
+    "content": "Currently Conga Billing supports up to 2 offset periods (Start Type, Offset Type), but some customers/businesses operate with payment terms that have 3 offset periods in them.\nFor example:\nNet 30 Days, End of Month, 10th of Following MonthEnd of Month, 2 Months, End of Following Month\nThese terms would not be possible to implement and achieve the correct due dates/aging/dunning functionality.\nRequest here is to extend the Payment Terms functionality with an additional Offset that can be used to cover these use cases.",
+    "votes": "11 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thanks, Ahmad, for the idea.The product team noted the idea and will groom it in future releases. Please reach out to me separately for the actual release window.Regards,Praneeth BhaviConga Product Management."
+      }
+    ]
+  },
+  {
+    "title": "Ability to create billing schedules from Agreement",
+    "author": "Ram Gopal T",
+    "product": "Conga_Billing",
+    "content": "Hi Team,\nWe would need the ability to create Billing Schedules from the Agreement as we have in Quotes. By having this feature, we would be able to create and edit the Billing Plans from Agreements, so that the billing plans are updated correctly on the line items and get cascaded to the order lines and assets.\nThank you!",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thank you for submitting this idea. Appreciated.We've a feature where a salesrep can create a billing plan from any cart, including the agreement cart. We believe this should suffice the requirement hence we don't plan to enhance here.We understand that some customers may not use agreement-level cart, but we don't see any risk in extending the permissions to the Salesrep to the agreement-level cart. If Salesreps are permitted to create a billing plan at this stage in the business transaction, then they should be permitted to access the cart as well. The salesreps can open the cart, create a billing plan, re-price & finalize the cart without touching any other pricing fields. Once this process is established, it will be seamless.What we would appreciate is if the users experience any issues in creating the plan from the agreement cart. That will be a big value add to this functionality to the rest of the community.If there are any concerns with my explanation, please feel free to get in touch with us through the appropriate Conga channel and I'll be happy to discuss.Thank you again for your idea,Praneeth BhaviConga Product Management for \"Manage & Fulfill.\""
+      },
+      {
+        "commenter": "Ranjeet Mahajan",
+        "content": "@rgopal@conga.com IDEA heading is miss-leading. \"Ability to create billing schedules from Agreement\" it should be \"Ability to create billing plan from Agreement\""
+      },
+      {
+        "commenter": "Ram Gopal T",
+        "content": "1. Configure the quote cart.2. Create Billing Plan from Quote.3. Click on Create Agreement and AgreementLineItems from the quote.Issue - A new billing plan is created OOTB with the agreement. Billing plan which is created from Quote gets linked to the quote and its quote line items. It's further cascaded to agreement line items, order lines and asset lines."
+      }
+    ]
+  },
+  {
+    "title": "Multi currency management for Billing related records.",
+    "author": "Ram Gopal T",
+    "product": "Conga_Billing",
+    "content": "Currently, we have multi-currency management in Conga CPQ which allows the user to define the currency precision in the CPQ-related records. Whereas, we don't have that feature for Billing-related records. Currently, the precision field in the billing system properties will not be given precedence if we have multi-currency enabled at the org level. This causes a few decimals to be ignored while rounding off in the Invoice and this causes revenue loss to the customer. It would be helpful if we have the multi-currency feature for Billing-related records as we have in the CPQ setting.",
+    "votes": "13 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "This idea is now picked up for Oct'24 release. Stay tuned for the next update.The feature is being built based on what I mentioned to Tirthak & Marija on 7/22.Thanks for the idea again,Sincerely,Praneeth Bhavi,Product Manager for Manage & Fulfill."
+      },
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "As per Tirthak Kotari, the expectations are -\u00a0\n- The customer is using Salesforce's multi-currency setup.\n- Specifically, for Billing-related objects, we have a field \"Currency Decimal Places\" in the Billing System Properties.\n- And the customer expects that the decimal precision for the Billing related objects should be controlled from the above field and not from the SF currency setup.We've explained to Tirthak & Marija Mockute that meeting this requirement will NOT fully resolve the decimals gap and provided examples on the chat. The above requirement + example are captured in a story (MAF-1692) will be assigned to the engineering team for analysis shortly. The story link is shared with Tirthak Kothari.At this time, the story is not prioritized for development but will be picked up once the capacity opens up with the engg team.This idea will be updated to \"Planned\" once we tag it to a release."
+      },
+      {
+        "commenter": "Maurice Hout",
+        "content": "Same requirement for Equiniti"
+      }
+    ]
+  },
+  {
+    "title": "Consider the previous period of billing schedules with the Net Price or Custom Usage Rating Field(CPQ)",
+    "author": "Rene Rodriguez",
+    "product": "Conga_Billing",
+    "content": "Harmonic(Self-Service) has customization that leverages the previous billing schedule for Usage Rating into Renewal Quotes.\n\u00a0\nCurrently Our system only considers the most recently created quote/billing schedule through both Net Price and APTS Custom Field on the Asset Line Item\n\u00a0\nhttps://documentation.conga.com/billing/latest/usage-inputs-143196546.html",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hello Rene,I am reaching out again about this use case. It has been more than a year since my last reply, so I would appreciate it if you could contact us through Conga CSM/AE/AMS/PS or through any partner.In case we don't hear from you in the next few months, we'll assume that your issue has been resolved.\u00a0Thanks again,Praneeth BhaviConga Product Management."
+      },
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hello Rene,Thanks for posting the idea.I am trying to understand the idea better so please allow me to ask a question.1 - Where do you define the price for the given usage product? Is it List Price (only) or at the Price Matrix or at the \"Custom Usage Rating\" field?2 - Say, you'd a quote from 03/1/22 - 02/29/23 where the price determined is $10 for the given asset line item's usage input. When the quote is renewed for 03/01/23 - 02/29/24, are you saying that you wanted to update the \"Custom Usage Rating\" field with $12 and expect the billing engine to rate the usage inputs based on $12? If I haven't understood this correctly, please provide an example of your customization.Thanks & Regards,Praneeth BhaviConga Product Management."
+      }
+    ]
+  },
+  {
+    "title": "Disable the Auto-Approve & Auto Apply button on credit memo creation page",
+    "author": "Shivangi Mishra",
+    "product": "Conga_Billing",
+    "content": "We need to provide an option to user to disable the selection of Auto-Approve & Auto Apply button present on Credit Memo page. As, if user checks auto apply checkbox while creating credit memo. The credit memo is auto applied on invoice before going for approval. Use Case - user need to take approval before applying the credit memo, but in current system customer has an option to auto approve it before sending it to the approver. Expected behavior - There should be an option to disable the Auto-Approve & Auto Apply button present on Credit Memo page.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hello, thanks for the idea.There are two types of credit memos. 1. Credit memo created from the billing schedules with a negative amount (created for the refunds to-be-issued from the asset amendments/terminations.) 2. Credit memos created directly from the invoices (which we call \"Direct Credit Memos.\")For #1 - it's a common scenario where the credit memos like them needn't be approved since the ABO transaction may already have gone through the approval process or offline consent given by the customer.For #2 - As a product, we give these buttons as a feature and flexibility. However,\u00a0as a part of the implementation, we ask the customer to implement an approval process (IWA, or Salesforce, or Custom) for such credit memos. In such a case, the given OOTB buttons will be removed by the Salesforce admins from the page layouts of the end users. Overall, we expect the customers to use their judgment when enabling/disabling the page layouts (or giving permissions to the appropriate individuals.)Please connect with us if you are unsatisfied with the above explanation or have a strong case.\u00a0Thanks & Regards,Praneeth BhaviConga Product Management - Mange & Fulfill."
+      }
+    ]
+  },
+  {
+    "title": "JIRA #:BIL-3724 Custom field support on tax breakup object",
+    "author": "Pavan Kumar",
+    "product": "Conga_Billing",
+    "content": "* The system should be able to consider custom field updates at 'Invoice line item tax break-up object (Apttus_Billing__InvoiceLineItemTaxBreakup__c) We have use case where, Invoice line item tax is calculated using 'Tax call-back' and tax break-up record (InvoiceLineItemTaxBreakup ) is populated with relevant information. When we try to create this record by passing custom field data through OOTB Tax Break input, transaction ignores the custom field. Workaround is to either use DML statement or use trigger to forcefully passed the custom field input. This should be OOTB instead an additional customization need. For any further information required, please contact pavkumar@conga.com or rmahajan@conga.com",
+    "votes": "4 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hello PavanAs our engineering manager explained, this can't be implemented as the managed package won't have visibility to the custom fields in this callback.The status of this ticket has now been updated to \"will not implement.\" That said, we are certainly open to ideas and will try our best to ship them. Please keep contributing.Thanks,Praneeth"
+      }
+    ]
+  },
+  {
+    "title": "The \u2018Apply credit memo\u2019 should be handled through DB field status.",
+    "author": "Ranjeet Mahajan",
+    "product": "Conga_Billing",
+    "content": "Currently 'Auto Apply Credit to Invoice' is handled through custom VF page. There is no specific field (db level) if we need to apply the credit post customer specific Credit memo approval (IWA) acceptance.\n\nAnd also a UI level button provided at Credit Memo detail page to apply the CM an invoice manually by user.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to control Credit memo, and invoices",
+    "author": "Manthan Shah",
+    "product": "Conga_Billing",
+    "content": "Use case Customer goes into overrun Month 1 - $100 in overrun Month 2 - $300 in overrun During Month 3, overrun of $150 plus approval to cancel the Month 1 and Month 2 overrun Out of the box, Apttus will create a new billing schedule (100) (300) 150 For negative (250) What we want is 1 CM for 100 1 CM for 300 In terms of Conga OOB, customer is looking for ability to have credit memos tied to charges billed for specific term. For example, customer has billing based on usage, and Month 1 has usage equivalent to 100, Month 2 has 300. Now in Month 3, they want to add usage equivalent of 150 to Month 3, and want to cancel billed usage for Month 1 and 2. OOB system creates Billing schedule with Delta amount, while they want system to create 1 credit memo for Month 1, 1 for Month 2 and new invoice for Month 3. This request is from D&B. if needed, We can connect with customer over call together and get more details.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "The requirement is not clear from the description. Based on what I can recollect from the discussions in 2022, the request was \"Credit should lead to auto-creation of a negative sales order.\" This is something we won't be able to do as a product. Our standing is that - the cancellation of sales will trigger a credit on finance and not the other way around.If it's something else, we need to get more clarity on the ask."
+      }
+    ]
+  },
+  {
+    "title": "Functionality to create invoice line item manually",
+    "author": "Ankur Prasad",
+    "product": "Conga_Billing",
+    "content": "Customer: National Express LLC Use case: Ability to add invoice line item manually and generate the document and present to the customer. Customer does not want to go into the process of creating quote, assets, billing schedules etc. again. Hence they need to add the functionality of create a invoice line item manually. Now please check if this is possible to include this and what will be the dependencies on to have such functionality. For more information- please connect with me or Balasundaram Ganesan (bganesan@conga.com--PS team)",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Hello, thank you for the idea. We appreciate you taking your time out.We understand this business requirement hence updating the ticket status to \"Future Consideration.\"Thank you again for posting the idea."
+      }
+    ]
+  },
+  {
+    "title": "Apttus_Billing__ErrorMessage__c field data reaching max length when error received",
+    "author": "Karan Shetty",
+    "product": "Conga_Billing",
+    "content": "When Invoice is being generated, we do a custom tax callout to Avalara. But when Avalara sends back a response with error message in case of tax calculation failure, the whole process fails as the in some cases error message is long and the character limit on the Error message field on Apttus Invoice causes failure.\n\nerror message from Avalara :-\n\n\n\"GetTaxError: Tax calculation cannot be determined. Zip is not valid for the state.\n\n\nFor more information on this error, please refer to https://developer.avalara.com/avatax/common-errors\"\n\n\n\nOverall error message received from apex jobs :-\n\n\nError Message: Error Message: data value too large: The Tax callback (Unity_INT_TaxCallback) returned the following error: GetTaxError: Tax calculation cannot be determined. Zip is not valid for the state.\n\n\n\nFor more information on this error, please refer to https://developer.avalara.com/avatax/common-errors/ (max length=255)\n\n\nError Message: Error Message: data value too large: Update failed. First exception on row 0 with id a5P25000000Cz2XEAS; first error: STRING_TOO_LONG, Error Message: data value too large: The Tax callback (Unity_INT_TaxCallback) returned the following error: GetTaxError: Tax calculation cannot be determined. Zip is not valid for the state.For more information on this error, please refer to https://developer.avalara.com/avatax/common-errors/ (max length=255): [Apttus_Billing__ErrorMessage__c] (max length=255)\n\n\nCustomer impact :-\n\n\nAs multiple bulk invoices are generated, may be one of them could be failing with customer's custom tax calculations, but it wont show the error message on Conga end, and rest of the invoices in bulk also do fail in it.\n\nNeed the ability to capture entire error message received from other system.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "For one line item on quote, 'Amount' should be considered as a billing mathod in billing plan.",
+    "author": "Dhaval Prajapati",
+    "product": "Conga_Billing",
+    "content": "Current behaviour - 'Percentage' is considered as a billing mathod in billing plan by default which is logical for more than one line item. However, if we are only having one line item, then 'Amount' should be considered as a billing mathod in billing plan logicallty. Check JIRA#BIL-3592 (Related case#00781826) for more details.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thank you for the idea.The logic behind converting the amounts into percentages is not based on the number of lines but on the fact that the customer can open the cart again and make changes to the line amounts (e.g., additional discounts.) In such cases, the percentage value will help the billing engine compute the right amount when generating the billing schedule.We understand that this area has some optimization opportunities. But, the supporting arguments will be different from the use case mentioned here.Thank you again."
+      }
+    ]
+  },
+  {
+    "title": "'No Proration on Renewal' settings on Billing preference level",
+    "author": "Saurabh Pancholi",
+    "product": "Conga_Billing",
+    "content": "A Customer is having two practical use cases which are conflicting due to \"no proration on renewal\" being on billing system property. We have properties which are at global level and record level both. Can we have the same setup for this field. i.e. both on billing preference and billing system property. If we look at the bigger picture this would enhance overall product.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Praneeth Bhavi",
+        "content": "Thank you for the idea. Your idea has been accepted and is implemented. Please see the Feb'23 release notes on the same.Please continue to provide those ideas that can make our product better for the customers and the community.Thank you again,Praneeth Bhavi,Conga Product Management - Manage & Fulfill."
+      }
+    ]
+  }
+]

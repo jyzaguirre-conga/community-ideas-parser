@@ -1,0 +1,392 @@
+[
+  {
+    "title": "Mass cancel sent transactions",
+    "author": "Austin Miller",
+    "product": "Conga_Collaborate",
+    "content": "When there are multiple documents sitting in limbo and need to be canceled, it would be nice to have a feature that would collect all of these and then cancel them/update their status.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "I agree. This is a great use case. We will add to the backlog for a future enhancement."
+      }
+    ]
+  },
+  {
+    "title": "Tracking Changes like redlining",
+    "author": "Devannie Perkins",
+    "product": "Conga_Collaborate",
+    "content": "In need of a way to track changes or if there is a plan to add it in Conga when creating/ editing documents. Our documents can be over 50 pages and when going back and forth with a custome we need to be able to track the changes. We are not in the market to change from Collborate to CLM. A simple way to track changes in Collborate woudl be ideal.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "For Collaborate templates of the type \"contract\" there are redlining features enabled. These do not extend to \"proposal\" template types. At this time we will investigate the possiblity of porting that feature to the Proposal template type, but we will not be scheduling any feature enhancements to the redline capabilities in Collaborate outside of what already exists."
+      }
+    ]
+  },
+  {
+    "title": "Parallel Signing with Collaborate Integration with Conga Sign",
+    "author": "Johnny Checton",
+    "product": "Conga_Collaborate",
+    "content": "When sending a proposal for signature using a Conga Collaborate integration with Conga Sign, the only option to send invitations is 'serial routing' in which the invitation to sign is sent in order of signees listed. The option for \u2018parallel signing\u2019 in which all signers simultaneously receive and invitation would enhance the product integration and make it more useful across use cases. Parallel signing is already possible with DocuSign integration and the Collaborate E-Sign option, adding the feature to Conga Sign makes it more competitive.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Kevin Burke",
+        "content": "Is this still in your plans to enhance or not? We have upset customers about this and asking why it's taking so long."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Kevin, at this time there is no update for this enhancement request."
+      },
+      {
+        "commenter": "Kevin Burke",
+        "content": "Is there any progress or update on this enhancment request"
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Johnny, thank you for submitting this idea! We will take it on for future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Ability to rename reference pages in Collaborate",
+    "author": "Ramesh Somagattu",
+    "product": "Conga_Collaborate",
+    "content": "As a Collaborate Admin, I can add the pages from content library in my Templates. These gets added as reference pages and the title of the page in the template would be same as the title of the page in the content Library. I need the ability to rename the title in my template. The reference page has title in English. When I add the reference page in French template, I should be able to change the title accordingly. This request is for Siemens Europe.\nSince this feature is not available today, the code from the reference page is getting \"coped\" into individual templates. When something changes in the reference page, all the templates needs an update. This issue can be resolved if we reference the content but provide the ability to rename the title of the page.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Improve the loading speed of files within a document for better client engagement",
+    "author": "Vanessa Offredi",
+    "product": "Conga_Collaborate",
+    "content": "Loading speed is a crucial factor for client engagement, satisfaction and\u00a0ultimately higher conversion rates. The current speed to load and view a pdf file in a Conga Collaborate document is around 4 seconds. As stats suggest that sites are abandoned if the\u00a0page takes longer than 3 seconds to load it would be great if Conga could improve this time to 2 seconds max.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Vanessa, thank you for submitting an Idea.\nDepending on the size of your PDF file and the images in it, will depend on how fast the PDF loads within the Collaborate document.I have moved this Idea to 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Collaborate - mismatch between data shown in preview vs downloaded pdf",
+    "author": "Ramesh Somagattu",
+    "product": "Conga_Collaborate",
+    "content": "This idea is extension of Jira [COREAPPS-5375] Document errors when using a deleted logic group response - JIRA (atlassian.net)I created a proposal with Page 1 with Content P1 and Page2 which uses a logic group that returns a page.In my Logic group, default page is CP1 with content C1, If a condition is satisfied, the LG would return CP2 with content C2.Before publishing the doc, the downloaded doc showed Page 1 and \u00a0page2 with the right content based on the LG is satisfied or not.I published the doc. LG is satisfied and the recipient was able to see Page 1+ Page 2 with content C2.I deleted the LG, recipient \u00a0was still seeing Page 1+ Page 2 with content C2, if he doesn't refresh the page.If the recipient refreshes the proposal in the browser, 2nd page will show \u201cNo value\u201d but when he downloads it, pdf shows the content as it looked before the LG was deleted. There by there is mismatch between preview and the downloaded pdf.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Multiple Variable Drop Down in Collaborate",
+    "author": "Johnny Checton",
+    "product": "Conga_Collaborate",
+    "content": "On a Collaborate template, add an option-- when a variable is selected-- then trigger a drop down so end users can pick multiple variables.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Johnny, there is already a similar feature for this. You need to create a Metadata variable and a template. Once today, you can select that template within a document template or proposal and the user can select which value they want."
+      }
+    ]
+  },
+  {
+    "title": "Collaborate with Conga Sign - Email all Non-Signees at the same time and not in an order",
+    "author": "Austin Miller",
+    "product": "Conga_Collaborate",
+    "content": "Looking for a way to have all Non-Signees receive the view document email at the same time. At the moment, they are only emailed one at a time.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Austin, the Collaborators should get the document as soon as it is sent out, no matter if there are Signees.\u00a0 This is an issue we are aware of and it is in our backlog to be fixed."
+      },
+      {
+        "commenter": "Austin Miller",
+        "content": "Hello Amy! That's correct. From my understanding, all recipients receive in email in the order that was set in Collaborate and there is no way to have the Non-Signees received the email at the same time since they are not signing the document."
+      },
+      {
+        "commenter": "Amy Reams",
+        "content": "Hello Austin, thank you for submitting this idea! To clarify, is the ask to have all non-signees receive the view document email at the same time in a serial transaction?"
+      }
+    ]
+  },
+  {
+    "title": "I suggest removing all legacy references to any form of \u201ctinder\u201d in the new Conga Revenue Lifecycle Cloud.",
+    "author": "Tom Menke",
+    "product": "Conga_Collaborate",
+    "content": "Collaborate was developed by a company named Tinderbox. Due to the similarity in name with the Tinder dating app, they had to change their name to Octiv. Octiv was purchased by Conga and renamed Collaborate. Yesterday a customer received an email sent from Collaborate that displayed \u201c<https://mytinder.s3.amazo\u201d, which is a fragment of the URL contained in the HTML of the email that pulls in our company logo. For the same reason why Tinderbox had to change their name to Octiv, I believe spam filters, tech-savvy customers, and the occasional reference to a graphic file should not have any references to \u201ctinder\u201d.The screencap we received from the customer is attached.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Hi Tom, thank you for the Idea.\u00a0 I am moving this Idea to 'Future Consideration.'"
+      }
+    ]
+  },
+  {
+    "title": "Admin access to edit locked page in Collaborate",
+    "author": "Mark Turner",
+    "product": "Conga_Collaborate",
+    "content": "Is there a way the Admin could override/edit the Quote document when the Quote template page is locked? Ideally, I would expect that Conga Administrator should be able to add some formatting changes or add special terms for specific customers. So, we need to have Admin edit on the Quote.",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Admin access to edit locked page",
+    "author": "Sireesha Marella",
+    "product": "Conga_Collaborate",
+    "content": "Dear Conga experts,This is further to the 00838915. The suggested workaround to create copy of the template did not help. Hence I would like to submit a feature requestAttached screenshot Thanks",
+    "votes": "",
+    "comments": [
+      {
+        "commenter": "Lindsey Covington",
+        "content": "Thank you for your idea! I've moved to \"Future Consideration.\""
+      }
+    ]
+  },
+  {
+    "title": "More detailed error message",
+    "author": "Andy Quach",
+    "product": "Conga_Collaborate",
+    "content": "A customer would like to be notified if they can't view a proposal once it has been expired. currently for expired proposals the error message is you don't have permission to edit document for internal users and external users gets a not allowed icon on their user icon",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Link to Download/Signed PDF directly from a field in Salesforce Outgoing Data",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Collaborate",
+    "content": "(As an alternative to the Idea \"Preview Wet Signature document in Collaborate Public URL screen\") Salesforce integration \"Outgoing Data\" settings should have an option to map the link to the download/signed PDF to be placed in a field. The current signed PDF mapping is only to Files. The customer would like the PDF link to be mappable to a field because their users don't have access to Files / using the Public URL link causes confusion as they use Wet Signatures and the Public URL preview does not match the download/signed PDF (case 00836231)They'd like the option to have fields be able to link directly to the PDF to avoid this",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Preview Wet Signature document in Collaborate Public URL screen",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Collaborate",
+    "content": "When a signed document is uploaded via the \"Upload Wet Signature\" button (https://documentation.conga.com/collaborate/december-21/mark-a-document-as-accepted-by-uploading-a-signed-pdf-143889973.html), the Public URL previews the original Collaborate proposal. This can cause confusion to the end user, who expects the web document/preview from the Public URL to match the document from \"Download Signed PDF\".Customer is requesting that the Public URL display the signed document that was uploaded.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "All Templates are viewable but only a select few are editable",
+    "author": "Austin Miller",
+    "product": "Conga_Collaborate",
+    "content": "Currently you are able to make all templates viewable or editable. You can set Roles to change this and you can also use Workgroups to restrict overall access to specific templates. It would be awesome to control write access at the template level.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Sireesha Marella",
+        "content": "Is there a way the Admin could override/edit the Quote document when the Quote template page is locked? Ideally, I would expect that Conga Administrator should be able to add some formatting changes or add special terms for specific customers. So, we need to have Admin edit on the Quote"
+      }
+    ]
+  },
+  {
+    "title": "Prevent deleted People from accessing proposal from emailed document link",
+    "author": "Caitlin Neppl",
+    "product": "Conga_Collaborate",
+    "content": "When People/recipients are deleted from a Proposal after they'd previously accessed the document through an emailed link (\"View Document\"), the email link no longer uses their unique URL and instead redirects to a public URL. By submitting a first & last name, the person who had been deleted will be able to access the document.\n\u00a0\nThe customer is requesting that instead of redirecting to a public URL, the deactivated unique URL redirect to a message letting them know they no longer have access to the document. Our documentation states that deleted recipients' \"unique document URLs will be invalidated and they will no longer be able to view the document\". They have expressed that it used to work this way and have used this functionality as part of their workflow for multiple competing bidders.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for submitting this idea. We will also look into this as feature regression."
+      }
+    ]
+  },
+  {
+    "title": "Prevent Duplicate emails for Conga Collaborate",
+    "author": "Andy Quach",
+    "product": "Conga_Collaborate",
+    "content": "Prevent duplicate emails from being uploaded to Conga Collaborate. It tends to lead to invalid user error when trying to add people to document.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Collaborate - Allow images to become full sized in a template",
+    "author": "Mark Turner",
+    "product": "Conga_Collaborate",
+    "content": "We have had a use case where the user needs to make an image full sized on one page of a template and take up the entire page - at present, the margins block this from happening",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Collaborate - Excel JS macro support for adding bookmarks to a document",
+    "author": "Ryan Walls",
+    "product": "Conga_Collaborate",
+    "content": "Customer uses an Excel javascript macro to automatically create bookmarks in a PDF document. When adding that PDF to Collaborate and using it in a document, those bookmarks no longer work. Customer would like to see those bookmarks function appropriately, so that they don't have to manually add bookmarks to their documents",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Allow users to set the Row Type category to 'None'",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "Users can't select 'None' for the Row Type of a row in their table. When the users try to change the Row Type from 'Body' to 'None', there is no option for it. Users are having to switch the Row Type from 'Body' to 'Header' (and then change the previous 'Header' back to 'Header' again for the Row Type to be acknowledged as 'None'. We found that certain logic isn't being carried out when the Row Type is 'Body', and it would be useful to have 'None' as an option to choose from.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "\"Are you sure\" prompt when deleting user roles/groups in Conga Collaborate - or ability to restore",
+    "author": "Ryan Walls",
+    "product": "Conga_Collaborate",
+    "content": "Deleting user roles/groups cannot be undone in Conga Collaborate. It would be valuable to have an \"are you sure\" prompt when trying to delete or an \"undelete\" feature.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conga Collaborate  - Requiring the 'Save' function when editing permissions",
+    "author": "David Vernall",
+    "product": "Conga_Collaborate",
+    "content": "At the moment you can un/check a permission and the permission is immediately saved. This caused an issue for a customer and they didn't know which one was edited. Having that 'Save' button as the final confirmation would add a second layer of protection. Plus it feels like the natural process for this kind of activity.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Dynamic Collaborate Page Link into a Collaborate Page",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "The customer has pages that are in one of their templates that is used for a lot a of documents, sent to their customers. They would like to be able to add a dynamic link into a Collaborate page that will redirect to another Collaborate page.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Conditional WebMerge -  allow for Variables to be selected in Valid Response",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "When trying to create a conditional web merge, there's no lookup to select variables for the value in the 'Valid Response' field. When trying to type a variable into this field, the output displays the variable name as a String. I have a customer that would like to be able to use/select variables for the 'Valid Response' of a Condition.\n\n\nScreenshot: https://www.screencast.com/t/8mwvz1LTZ",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to sort templates based on whether it has been sent or not",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "I have a customer that is trying to bulk archive templates that haven't been sent out yet. There is no column in the table of Templates that allow for these templates to be searched for this way. There would need to be a column that specifies whether or not each template has been previously sent or not.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adding a Cloud Storage account to Collaborate",
+    "author": "Brad S",
+    "product": "Conga_Collaborate",
+    "content": "Molecular Devices would like to have Merlin added as a cloud storage partner for Collaborate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Migrate Collaborate themes",
+    "author": "Michael Overman TS",
+    "product": "Conga_Collaborate",
+    "content": "Customer requested the ability to migrate themes from one Collaborate instance to another (sandbox to production).",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Capability to lock a pdf for edits",
+    "author": "Ramesh Somagattu",
+    "product": "Conga_Collaborate",
+    "content": "Though the pdfs in general are not editable, the end users are using 3rd party tools to edit the downloaded pdf. Cusomer want a capability to make them read-only and should never be able to be edit them except through collaborate.\n\nIs converting them to PDF-A(?) when downloaded an option?",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add checkbox functionality to Collaborate documents",
+    "author": "Michael Overman TS",
+    "product": "Conga_Collaborate",
+    "content": "Collaborate doesn't currently support checkboxes. Customer would like to use Salesforce checkbox fields on Collab documents as well as allow customers to write back to salesforce with these fields.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Automatically hide the 'Next Step' panel so it doesn't show for end users",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "This is useful for customers that need to send documents using 100%zoom because the document is getting cutoff and customers can only see part of the page. If there was a setting that automatically remove the right handed panel (with 'Next Steps'), it would provide enough room for the end users to see the entire document at 100 percent zoom. The end users also wouldn't need to guess that they should click the 'Next Step' icon to toggle hide the panel.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Support non-English languages on the Online Contract Collaboration",
+    "author": "Minhui Huang",
+    "product": "Conga_Collaborate",
+    "content": "One of my customer has requested to be able to open documents that contain multiple languages on the Online Contract Collaboration. They believe this is a common use case. Thanks!",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Add the Number of Views to outgoing data",
+    "author": "Bryan Johnson",
+    "product": "Conga_Collaborate",
+    "content": "You can pick views in outgoing data but you must assign it a value.\n\nThe request is to be able to export the number of documents views via outgoing data.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Capability to pull the documents uploaded as part of signature.",
+    "author": "Ramesh Somagattu",
+    "product": "Conga_Collaborate",
+    "content": "In Collaborate, as part of the acceptence the customer can upload addition documents like purchase order. These documents can be accessed by going to 'View Full report\" and clicking \"Download Signer uploads\". These are only accesssable though Collaborate UI. Need a capability to\n\na) push these documents to salesforce after the acceptence\n\nb) Need an API to pull these documents.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Prevent email security systems from scanning document links",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "Email security system (Mimecast) is scanning links when users click on them. This is causing the Sender to receive 3 email notifications when the recipient clicks the link to open the document. This feature would help prevent all the additional emails that are being sent each time a recipient clicks the link.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Redirect signers to a specific page on a company website after a document has been signed.",
+    "author": "Matt Penrod",
+    "product": "Conga_Collaborate",
+    "content": "It would help the customer make sure that their end users (signers) find the correct information about their company and/or products. Benefits: Convenience/Expedience.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Adjust Page Number Placement in Footer section of PDF",
+    "author": "Bryan Johnson",
+    "product": "Conga_Collaborate",
+    "content": "In a Collaborate template you can have page numbers show in the footer of a PDF document. By default those page numbers appear a couple of lines above the bottom of the page.\n\nThe request is to have the ability to move move that line so it will appear at the very bottom of the page.\n\nThe customer also would like to have page number or the text footer display only in section header pages.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Landscape fit entire page",
+    "author": "Lindsey Covington",
+    "product": "Conga_Collaborate",
+    "content": "Consortium would like that when they upload landscape PDFs to fit the enter page in web view. See here https://www.screencast.com/t/eHMdLgvr8\nThis would help them keep on brand and have their documents work as well as the products they sell (that's what they said)",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Proposal Attachment Sort Order",
+    "author": "Michael Overman TS",
+    "product": "Conga_Collaborate",
+    "content": "From a customer: it would be nice to have a setting for the Attachment section on a Proposal to sort documents alphabetically. In processes where Octiv documents get pushed back into Salesforce automatically, it's currently unable to sort documents this way.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Error for secure PDFs",
+    "author": "Lindsey Covington",
+    "product": "Conga_Collaborate",
+    "content": "700Credit includes a lot of PDFs in their Collaborate documents and sometimes they run into issues where they upload a secure PDF. When this happens, the Collaborate document will not download to PDF.\nThey are asking for Collaborate to throw an error when they try to create a document with a secure PDF so they can create a document with an unsecure PDF.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Log emails via BCC feature on more objects",
+    "author": "Lindsey Covington",
+    "product": "Conga_Collaborate",
+    "content": "Consortium would like to be able to use the BCC feature on the Contracts object specifically to log emails on that object. https://documentation.conga.com/ccsfwin20ag/using-conga-collaborate/salesforce/salesforce-setting-up-bcc-email-for-opportunities",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]

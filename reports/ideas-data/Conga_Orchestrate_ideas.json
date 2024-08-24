@@ -1,0 +1,251 @@
+[
+  {
+    "title": "Ability to complete orchestrate approval steps from the Salesforce mobile app",
+    "author": "David Perez",
+    "product": "Conga_Orchestrate",
+    "content": "We have an Orchestrate definition that acts as an approval process. The process generates task records and assigns them to an approver.\n\u00a0\nWe have a specific record type for these tasks, and also a specific lightning record page where we added the \"ApprovalItem\" LWC for the users to approve or reject the task.\n\u00a0\nHowever, the \"ApprovalItem\" component is only supported in the Desktop version, so when trying to access from the Salesforce mobile app, the component simply doesn't show up.\n\u00a0\nBeing able to complete approvals from the app would be a huge improvement on the efficiency of the process.",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for submitting this idea. We will investigate. For the moment we will place this in future consideration so it will be visible in our backlog, and will update this idea if and when we pull in this work."
+      }
+    ]
+  },
+  {
+    "title": "Ability to use Lightning Email Template Folders in Orchestrate",
+    "author": "Nicole Broussard",
+    "product": "Conga_Orchestrate",
+    "content": "Currently, Conga Orchestrate required Lightning Email Templates to be saved in the Public Email Templates folder in order to be used. Please enhance so that Lightning Email Templates saved in any folder can be used. This works correctly in Classic and allows users to store and organize templates into folders versus being forced to dump everything into a Public Folder.\n\u00a0\nClassic Template option shows the folder dropdown first and then the template names are in the 2nd dropdown.\n\n\u00a0\nWhen selecting Lightning Email Templates as the folder in the first dropdown the 2nd dropdown will only shows templates saves in the public folder. The folder dropdown should include the Lightning folder structure.",
+    "votes": "3 Votes",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello Nicole - We will look to make this update in a future release."
+      },
+      {
+        "commenter": "Jean Hathhorn",
+        "content": "This REALLY needs to happen!"
+      }
+    ]
+  },
+  {
+    "title": "Step Edit in Lightning doesn't work",
+    "author": "Nicole Broussard",
+    "product": "Conga_Orchestrate",
+    "content": "When trying to edit a Definition Step from inside the Process Visual page in Lightning, it shows a \"refused to connect\" screen. If you click edit on a step from the visual, you're able to make changes, but after clicking Save, the same \"refused to connect\" screen shows up, and you have to exit out of the step frame and re-enter it to see the changes.\u00a0\n\u00a0\nThis functionality works in Classic, but there's a bug in Lightning that need to be resolved.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello Nicole. Apologies for the confusion. We will review and revert with a go forward decision."
+      },
+      {
+        "commenter": "Nicole Broussard",
+        "content": "I originally submitted this to Support as a Bug and they killed it...telling me to submit as an enhancement.  Please confirm you are addressing this issue as a bug and nothing further is needed from me.  Please let mw know how this progresses."
+      },
+      {
+        "commenter": "Brian Farr",
+        "content": "As this is a bug, we will manage it through our bug resolution process and not through the idea portal."
+      }
+    ]
+  },
+  {
+    "title": "Option to Send Email via Queue",
+    "author": "Namrata Kusmude",
+    "product": "Conga_Orchestrate",
+    "content": "For the Step Type 'Send Email', we would like the option to send the email via a queue. Currently we have to add all the people who could be in the queue to my email steps as individual emails and if those people change positions or we get new people in, instead of just updating the queue I have to go find all the emails steps and update the individuals on that step.",
+    "votes": "1 Vote",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Hello - Thank you for this suggestion. It is a good idea as related to ease of administration and we will consider this in the future."
+      },
+      {
+        "commenter": "Namrata Kusmude",
+        "content": "The above idea is requested by Fiduciary Counseling Inc."
+      }
+    ]
+  },
+  {
+    "title": "Add Completed By to Checklists Widget in Orch Business Process layout",
+    "author": "Alexandra Roberts",
+    "product": "Conga_Orchestrate",
+    "content": "This was requested by Jonathan Dash at Dash Investments. The widget currently has Step/Item Name, Step Status (includes timestamp) - Dash would like a column added to show who Completed the Step when Status = Completed -see attached screen shot",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Place some sort of validation in that determines if an Orchestrate trigger already exists on an object",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "Current State: For Managed Clause object we are able to configure this object multiple times as long as we use different configuration types, such as, one Process, one Step, or one Both\nIt will create three Triggers and cause duplicate/triple Managed Clause records on the process object\n\u00a0\nFuture State: The product will be able to determine if an Orchestrate trigger already exists on the object and will throw an error to stop more triggers from being deployed",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to customize the clause search result view",
+    "author": "Minhui Huang",
+    "product": "Conga_Orchestrate",
+    "content": "When creating record step for Managed Clause step in a Definition and completing the Managed Clause record information, the Clause Lookup result only shows the clause name and it does not show the Clause Type or any other info. As we have some Clauses that are duplicated in name so would be helpful to display some additional fields, or be able to customize the search view so we can properly pick the correct one.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "\"Checklists\" component should follow a particular sort order for \"Checklist View\" on \"Business Process\" Page",
+    "author": "Hardik Macwan",
+    "product": "Conga_Orchestrate",
+    "content": "The \"Checklists\" component on \"Business Process\" object record page does not follow any specific sort order and shows steps not in order of execution or completed date, but rather shows them in an order that to a business user would seem to be random.\n\u00a0\n\"Checklists\" Component should have the checklist item shown in a meaningful order and not in a random manner. Also, there should be an option to sort the checklist items when \"Step View\" toggle is turned on.\n\u00a0\nPlease go through attached video for details.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Orchestrate Error Handling: Task is completed even though the document generation step is failed.",
+    "author": "Minhui Huang",
+    "product": "Conga_Orchestrate",
+    "content": "Task is completed even though the document generation is failed. The child step that is associated with the stage (contains the doc generation step) is also kicked off. Ideally, the child step should not be generated if the document generation step is failed.\n\u00a0\nCase: 00850385",
+    "votes": "2 Votes",
+    "comments": [
+      {
+        "commenter": "Brian Farr",
+        "content": "Thank you for the idea. Is the document failing to be generated, or is it failing to be delivered to a next step integration (such as saving back to files or sending via email)? This is an idea worth our future consideration."
+      }
+    ]
+  },
+  {
+    "title": "Conga Orchestrate: To add a Parent step along with a Parent stage to a stage for building dependency.",
+    "author": "Divya Dubey",
+    "product": "Conga_Orchestrate",
+    "content": "As of now it is not possible that we could add a Parent step as well as Parent stage to the Step , it allows either one of them. This is causing a limitation that we could not skip a stage or step in between if that step.stage needs to retriggered separately.\n\u00a0\nPlease look into it.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Deactivate Validation Rule: \"task_cant_be_queue\" on all orgs",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "Hello,\n\u00a0\nWe currently have a validation rule labeled: \"task_cant_be_queue\", which looks to have been deprecated/removed from the managed package but not deactivated. We have to manually deactivate the validation rule.\nCurrent State: When customers try to assign task records to a queue on step record, they receive an error message: \"If Assignee Type is Queue then Object Type to create cannot be Task.\"\nFuture State: Customer will be able to assign task records to a queue without receiving the above mentioned error message.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Sort \"Select Record Type\" alphabetically",
+    "author": "Ayush Choudhary",
+    "product": "Conga_Orchestrate",
+    "content": "Case TS Case :- 00838707\n\u00a0\nDescription : In Orchestrate when creating a business process, Category and record type are dependent on each other, when I'm choosing a category value anything other then All the record type values are not sorted Alphabetically.\n\u00a0\nWe created three definitions in our internal org for three Record Types, Namely \"Alpha\", \"Beta\" and \"Theta\". These were displayed on the \"RTSelectBP\" Vf page under Record Types dropdown as sorted by create date, which is as expected.\n\u00a0\nCustomer wants to get it sorted alphabetically.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Task Records - Allow Querying of Archived Records",
+    "author": "Matt Penrod",
+    "product": "Conga_Orchestrate",
+    "content": "Customer is unable to query task records that are over 365 days old (due to Salesforce Limitation). This is causing an 'Attempt to de-reference a null object' error when loading pages/tabs that are utilizing the checklistComponent LWC. Can there be a workaround created for archived task records, so that they don't receive the error message when using the checklistComponent? Either by adding the ALL ROWS designation on the Query, or by filtering out archived records from the query?",
+    "votes": "3 Votes",
+    "comments": []
+  },
+  {
+    "title": "Zoom In & Zoom Out Actions on the Visual Button for Orchestrate",
+    "author": "Avinash D Lund",
+    "product": "Conga_Orchestrate",
+    "content": "Once we \"Zoom in\", the buttons are hidden and there is no possibility to Zoom Out, when viewing the Visual Flow on Orchestrate Definition.\n\u00a0\nWork Around Available - If you want to Zoom In beyond the screen resolution, the most ideal option would be to click on the 'Print' option. It would open the flow into a new tab wherein you could Zoom In or take a print in order to view steps. I will cover this in my Orchestrate Demo Recording.\nIf you Zoom in on the Visual page, as Naishadh mentioned below, this is the standard\u00a0Product UI\\Salesforce view and to view the button again you would have to use the\u00a0Ctrl+ Scroll out [using mouse wheel or the browser zoom] to see the zoom out button which is placed at top right corner of page.\n\u00a0\nCustomer Response - work-around solution works. But not very ideal. Imagine I am already at 75% zoom on the browser, on a compact laptop like the Lenovo X series. Then when I zoom in to see the steps, the buttons aren't visible. Now, as you mentioned, if I use the CTRL + scroll to zoom out, I see the buttons, but they would be so small that I would need a \"hand lens\" to identify the \"zoom Out\" or \"Reset Zoom\" buttons\u00a0\ud83d\ude0a\nSince, this seems to be a standard product feature, please cascade this feedback to the concerned team, when you have an opportunity.\n>> On the option of going to the print view, via the \"print button\". Yes, this is better, we can zoom in, but again, if the process is big enough, then to scroll the screen from right to left, we have the use the mouse pad on the laptop, not possible to drag using the mouse. The vertical scroll works with the mouse wheel.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Update Email Templates in Orchestrate",
+    "author": "Abhishek Kamalia",
+    "product": "Conga_Orchestrate",
+    "content": "Need to update the general email template that goes to users to include the Definition name and Step name with the ones currently shown. Below is the template we receive and while we wait for the ability to edit can you add the following to the standard emails going out and add the information after Process Object Subject:\n\n\nDefinition: [the name not ID]\n\n\nStep: [the name not ID]\n\n\n---------------- Current email template below:\n\n\nTo: User name\n\n\n\nUsername has assigned you the following new step:\n\n\n\nSubject: Contact:\n\n\nClient and Business Partner:\n\n\nProcess Object Name: BP-006908\n\n\nProcess Object Subject:\n\n\nStatus:\n\n\nDue Date:\n\n\nComments:\n\n\n\nFor more details, click the following link:\n\n\n-----------------------------------\n\n\nThanks.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Editable Email Templates in Orchestrate",
+    "author": "Abhishek Kamalia",
+    "product": "Conga_Orchestrate",
+    "content": "When there is a Step assignment to a queue in Orchestrate, the Automated emails are sent from the email template folder \"ProcessComposer\" however for Step Assignment to a user, the emails are sent from the Managed package which means they are hard coded.\n\nSo need the ability to change the Email template for the Automated emails in Orchestrate.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Ability to Add IF, THEN statements on the Definition record",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "We would also like to add to that the ability to do \"if, then\" statements. For example, if field 1 is populated ensure field 2 has a value. If (field 1 = \"specific drop down list value\", then field 2  \"null\") AND (field 5 = \"specific drop down list value\", then field 6  \"null\") .\n\nWe want to avoid creating validation rules if it can be done in the business process definition itself.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Auto-update delayed steps when the parent step under a business process is updated.",
+    "author": "John Hammons",
+    "product": "Conga_Orchestrate",
+    "content": "For the customer they are often updating steps per required business needs. This makes the delayed step outdated if it was previously queued. Steps in this environment are normally queued out for months at a time (with a current example being 6 months). What they would like is for the option of the delayed step (FSTR__Queued_Step__c) have it's field (FSTR__Step_Data__c) updated accordingly when the step itself (FSTR__PCE_Step__c) is updated. This could be an org wide toggle, or per-step basis.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Step Creation Condition equals True from Process Builder, Flows, APIs, Step should fire",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "We realize this is a Conga Orchestrate limitation, with that said, we receive a number of use cases where customers are trying to use Salesforce native process automation in conjunction with Conga Orchestrate and it is a limitation.\nHigh Level example: Checkbox on record, gets updated via Flow or API as true, on step creation condition the checkbox = true for the step record to fire, which currently does not work.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Remove Campaign Object Dependency",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "Not all customers have a need for the Marketing User feature license, which is tied to including the Campaign object within a Salesforce environment. It would be beneficial for the Campaign object dependency to be removed so more customers can purchase and utilize Conga Orchestrate without the restraints of purchasing the Marketing User feature license.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Process tasks do not show up in the Activity Stream or history of related objects",
+    "author": "Leah Migacz",
+    "product": "Conga_Orchestrate",
+    "content": "Process tasks showing up in the Activity Stream/History of related objects would assist to be able to better see BP related tasks for TD Ameritrade.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "All Children Steps Show Under Parent Step Regardless if They Are a Parent Step Themselves",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "Current State: Right now if a child step is a parent step within itself then it will stop the rest of the children steps from showing on the original parent step.\n\n\nFuture State: Please show all children steps on related to a parent step regardless if they are parent step themselves.",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Enhancement Request - Clone with child steps",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "Customer would like to be able to click a checkbox when cloning a step to clone all child steps at the same time instead of rebuilding them all.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Step Validation Rules - Add Custom Criteria Filter",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "It would be very helpful to have Custom Criteria Filter for Step Validation Rules. We have several cases where we want to ensure that (Field 1=option 1 OR Field 1=option 3) AND field 3=option 2 AND field 4=option 1. In the Custom criteria for Creation conditions I can do fairly complex criteria, ie (1 and 2) or (3 and 4), which doesn't appear to be possible with the way validation rules currently work.",
+    "votes": "1 Vote",
+    "comments": []
+  },
+  {
+    "title": "Send Email Step - For Email Recipients,  Add Queues",
+    "author": "Carrie Bellio",
+    "product": "Conga_Orchestrate",
+    "content": "We use queue extensively for our processes and would like to be able to use them for the email steps as well. Without using queues we need to add each individual user which means as we have people go in and out of the company we need to update quite a lot of steps.\n\nI looked to see if Account Teams would work but they don't make sense for our org.\n\n\nBusiness Impact: This is an enhancement request that only impacts our org when we have people leave/start at the company",
+    "votes": "2 Votes",
+    "comments": []
+  },
+  {
+    "title": "Mapping custom fields from business process object to another custom object",
+    "author": "Minhui Huang",
+    "product": "Conga_Orchestrate",
+    "content": "The customer wants to map some custom fields from the business process object to another custom object, they understand that they can use the update record step to update the field values, however, they're hoping to be able to map those custom fields in the edit field mapping section.",
+    "votes": "1 Vote",
+    "comments": []
+  }
+]
